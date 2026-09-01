@@ -361,9 +361,11 @@ v4 在项目定义的**机械、拓扑、软件功能和浏览器运行**范围�
 
 总墙钟跨度约 15 小时 15 分，包含扫描、额度等待和恢复时间，不等于纯计算时间。
 
-录屏：![v4-vedio-example](src/v4-preview.gif)
+录屏：
 
+![v4-vedio-example](src/v4-preview.gif)
 
+[查看原始 MP4](src/v4.mp4)
 
 ## 10. Codex v4 模型质量
 
