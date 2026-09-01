@@ -86,7 +86,7 @@ v1 证明 Codex 能从一条完整需求和空目录出发，生成结构完整�
 
 总墙钟时间约 68 分钟。
 
-录屏：<video src="src/v1-vedio.mp4" controls width="100%"></video>
+录屏：<video src="src/v1-preview.gif" controls width="100%"></video>
 
 ## 6. v2：第一次独立审查与定向整改
 
@@ -147,7 +147,7 @@ v1 证明 Codex 能从一条完整需求和空目录出发，生成结构完整�
 
 v2 提高了机械关系、内部结构可读性和渲染效率，并建立了能够拒绝错误版本的浏览器验收流程。它是第一轮系统性质量提升，不是重新生成的新网页。
 
-录屏：<video src="src/v2.mp4" controls width="100%"></video>
+录屏：<video src="src/v2-preview.gif" controls width="100%"></video>
 
 ## 7. v3：评分驱动的多代理循环改进
 
@@ -198,7 +198,7 @@ v3 是内部审查条件下的阶段最高版本，显著提高了机械可读�
 
 总墙钟时间约 9 小时 55 分；额度中断 2 次；人工流程恢复 2 次；用户提供机械答案 0 次。
 
-录屏：<video src="src/v3.mp4" controls width="100%"></video>
+录屏：<video src="src/v3-preview.gif" controls width="100%"></video>
 
 ## 8. v3 独立外部测评
 
@@ -346,7 +346,7 @@ v4 在项目定义的**机械、拓扑、软件功能和浏览器运行**范围�
 
 总墙钟跨度约 15 小时 15 分，包含扫描、额度等待和恢复时间，不等于纯计算时间。
 
-录屏：<video src="src/v4.mp4" controls width="100%"></video>
+录屏：<video src="src/v4-preview.gif" controls width="100%"></video>
 
 ## 10. Codex v4 模型质量
 
