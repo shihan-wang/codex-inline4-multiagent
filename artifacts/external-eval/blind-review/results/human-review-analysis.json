@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-31T02:52:01.912Z",
+  "inputPath": "D:\\ComputePicture\\codex-inline4-multiagent\\artifacts\\external-eval\\blind-review\\forms\\participant-records.csv",
+  "rawRecordCount": 0,
+  "validParticipantCount": 0,
+  "minimumRequiredParticipants": 8,
+  "exclusions": [],
+  "status": "pending",
+  "score": null
+}

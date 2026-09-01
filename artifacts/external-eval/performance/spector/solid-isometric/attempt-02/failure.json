@@ -1,0 +1,9 @@
+{
+  "scene": "solid-isometric",
+  "attempt": "attempt-02",
+  "status": "not-measured",
+  "startedAt": "2026-08-31T08:30:24.314Z",
+  "finishedAt": "2026-08-31T08:30:25.189Z",
+  "error": "Error: Spector initialization failed: {\"exportType\":\"undefined\"}\n    at main (file:///D:/ComputePicture/codex-inline4-multiagent/evaluation/spector/run-spector-response-injection.mjs:233:42)",
+  "note": "Real Spector/Edge failure evidence retained; no synthetic capture substituted."
+}

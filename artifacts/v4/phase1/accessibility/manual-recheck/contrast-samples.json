@@ -1,0 +1,191 @@
+{
+  "methodology": "Computed-color approximation including engine labels; axe incomplete nodes remain unproven and are not converted to passes.",
+  "desktop": [
+    {
+      "selector": ".engine-part-label span b",
+      "found": true,
+      "text": "气缸体",
+      "color": "rgb(215, 237, 244)",
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontSize": "10px",
+      "fontWeight": "700",
+      "ratio": 16.108339433016976
+    },
+    {
+      "selector": ".engine-part-label span small",
+      "found": true,
+      "text": "BLOCK",
+      "color": "rgb(110, 140, 150)",
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontSize": "7px",
+      "fontWeight": "400",
+      "ratio": 5.448388116442949
+    },
+    {
+      "selector": ".interaction-hint span",
+      "found": true,
+      "text": "左键旋转",
+      "color": "rgb(94, 107, 114)",
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontSize": "8px",
+      "fontWeight": "400",
+      "ratio": 3.5902964263527317
+    },
+    {
+      "selector": ".mode-control button.is-active",
+      "found": true,
+      "text": "实体",
+      "color": "rgb(240, 212, 159)",
+      "background": "rgba(217, 177, 111, 0.12)",
+      "backgroundImage": "none",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "ratio": 11.471903188380999
+    },
+    {
+      "selector": ".preset-row button.is-active",
+      "found": true,
+      "text": "<1> 轴测",
+      "color": "rgb(230, 202, 152)",
+      "background": "rgba(217, 177, 111, 0.1)",
+      "backgroundImage": "none",
+      "fontSize": "9px",
+      "fontWeight": "500",
+      "ratio": 10.552839301529936
+    },
+    {
+      "selector": ".mobile-panel-toggle",
+      "found": true,
+      "text": "☰ 控制",
+      "color": "rgb(232, 237, 241)",
+      "background": "rgba(255, 255, 255, 0.035)",
+      "backgroundImage": "none",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "ratio": 15.738264118633426
+    },
+    {
+      "selector": ".inspector dd",
+      "found": false
+    },
+    {
+      "selector": ".top-metric strong",
+      "found": true,
+      "text": "120",
+      "color": "rgb(220, 228, 231)",
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "ratio": 15.30658570579202
+    },
+    {
+      "selector": ".panel-title strong",
+      "found": true,
+      "text": "动力控制",
+      "color": "rgb(232, 237, 241)",
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontSize": "13px",
+      "fontWeight": "600",
+      "ratio": 16.735018317411534
+    }
+  ],
+  "narrow": [
+    {
+      "selector": ".engine-part-label span b",
+      "found": true,
+      "text": "气缸体",
+      "color": "rgb(215, 237, 244)",
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontSize": "10px",
+      "fontWeight": "700",
+      "ratio": 16.108339433016976
+    },
+    {
+      "selector": ".engine-part-label span small",
+      "found": true,
+      "text": "BLOCK",
+      "color": "rgb(110, 140, 150)",
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontSize": "7px",
+      "fontWeight": "400",
+      "ratio": 5.448388116442949
+    },
+    {
+      "selector": ".interaction-hint span",
+      "found": true,
+      "text": "左键旋转",
+      "color": "rgb(94, 107, 114)",
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontSize": "8px",
+      "fontWeight": "400",
+      "ratio": 3.5902964263527317
+    },
+    {
+      "selector": ".mode-control button.is-active",
+      "found": true,
+      "text": "实体",
+      "color": "rgb(240, 212, 159)",
+      "background": "rgba(217, 177, 111, 0.12)",
+      "backgroundImage": "none",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "ratio": 11.471903188380999
+    },
+    {
+      "selector": ".preset-row button.is-active",
+      "found": true,
+      "text": "<1> 轴测",
+      "color": "rgb(230, 202, 152)",
+      "background": "rgba(217, 177, 111, 0.1)",
+      "backgroundImage": "none",
+      "fontSize": "8px",
+      "fontWeight": "500",
+      "ratio": 10.552839301529936
+    },
+    {
+      "selector": ".mobile-panel-toggle",
+      "found": true,
+      "text": "☰ 控制",
+      "color": "rgb(184, 199, 205)",
+      "background": "rgba(8, 15, 19, 0.88)",
+      "backgroundImage": "none",
+      "fontSize": "10px",
+      "fontWeight": "500",
+      "ratio": 11.142215092701043
+    },
+    {
+      "selector": ".inspector dd",
+      "found": false
+    },
+    {
+      "selector": ".top-metric strong",
+      "found": true,
+      "text": "120",
+      "color": "rgb(220, 228, 231)",
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontSize": "11px",
+      "fontWeight": "600",
+      "ratio": 15.30658570579202
+    },
+    {
+      "selector": ".panel-title strong",
+      "found": true,
+      "text": "动力控制",
+      "color": "rgb(232, 237, 241)",
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontSize": "13px",
+      "fontWeight": "600",
+      "ratio": 16.735018317411534
+    }
+  ]
+}

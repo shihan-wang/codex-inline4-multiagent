@@ -1,0 +1,4 @@
+EXIT 1
+Puppeteer again emitted "Access denied" and timed out after 30000 ms waiting for the deterministic rAF freeze.
+The production URL itself independently returned HTTP 200, so this is classified as an evaluator/Puppeteer launch-path failure, not an application failure.
+No screenshot or state JSON was produced. Evidence is preserved; attempt-03 switches to the already proven raw CDP transport used by the V3 baseline.

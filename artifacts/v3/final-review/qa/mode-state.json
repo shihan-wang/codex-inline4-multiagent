@@ -1,0 +1,62 @@
+{
+  "testedAt": "2026-08-30T19:28:53.063Z",
+  "states": {
+    "solid": {
+      "active": [
+        "solid"
+      ],
+      "classes": [
+        {
+          "value": "solid",
+          "className": "ui-button is-active"
+        },
+        {
+          "value": "xray",
+          "className": "ui-button"
+        },
+        {
+          "value": "section",
+          "className": "ui-button"
+        }
+      ]
+    },
+    "xray": {
+      "active": [
+        "xray"
+      ],
+      "classes": [
+        {
+          "value": "solid",
+          "className": "ui-button"
+        },
+        {
+          "value": "xray",
+          "className": "ui-button is-active"
+        },
+        {
+          "value": "section",
+          "className": "ui-button"
+        }
+      ]
+    },
+    "section": {
+      "active": [
+        "section"
+      ],
+      "classes": [
+        {
+          "value": "solid",
+          "className": "ui-button"
+        },
+        {
+          "value": "xray",
+          "className": "ui-button"
+        },
+        {
+          "value": "section",
+          "className": "ui-button is-active"
+        }
+      ]
+    }
+  }
+}

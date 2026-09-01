@@ -1,0 +1,14 @@
+{
+  "token": "swiftshader-run-01",
+  "startedAtUtc": "2026-08-31T08:23:54.183Z",
+  "endedAtUtc": "2026-08-31T08:29:29.815Z",
+  "durationMs": 335632,
+  "command": "node run-webgl.mjs (swiftshader-run-01)",
+  "exitCode": 0,
+  "failure": null,
+  "gitHead": "38c00417812fa87ca76b520c17c978a14cbd8ad2",
+  "targetTagPeeled": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+  "url": "http://127.0.0.1:16310/",
+  "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+  "valid": true
+}

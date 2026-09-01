@@ -1,0 +1,4 @@
+# External-evaluation evidence is byte-addressed by SHA-256.
+artifacts/external-eval/** -text
+docs/EXTERNAL_EVALUATION_PROTOCOL.md -text
+docs/EXTERNAL_EVALUATION_REPORT.md -text

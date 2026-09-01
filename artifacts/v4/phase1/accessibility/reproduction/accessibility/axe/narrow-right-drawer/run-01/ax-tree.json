@@ -1,0 +1,8574 @@
+{
+  "nodes": [
+    {
+      "nodeId": "6235",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "RootWebArea"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 144
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Inline-4 Diesel · 四冲程机械剖析",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label",
+            "superseded": true
+          },
+          {
+            "type": "relatedElement",
+            "value": {
+              "type": "computedString",
+              "value": "Inline-4 Diesel · 四冲程机械剖析"
+            },
+            "nativeSource": "title"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "url",
+          "value": {
+            "type": "string",
+            "value": "http://127.0.0.1:16420/"
+          }
+        }
+      ],
+      "childIds": [
+        "6458"
+      ],
+      "backendDOMNodeId": 6235,
+      "frameId": "4DC96DE213F4C2FF4A1BC824E1CA8410"
+    },
+    {
+      "nodeId": "6458",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6235",
+      "childIds": [
+        "6468"
+      ],
+      "backendDOMNodeId": 6458
+    },
+    {
+      "nodeId": "6468",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6458",
+      "childIds": [
+        "6469"
+      ],
+      "backendDOMNodeId": 6468
+    },
+    {
+      "nodeId": "6469",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "main"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 118
+      },
+      "name": {
+        "type": "computedString",
+        "value": "直列四缸柴油机三维交互仿真",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "value": {
+              "type": "computedString",
+              "value": "直列四缸柴油机三维交互仿真"
+            },
+            "attribute": "aria-label",
+            "attributeValue": {
+              "type": "string",
+              "value": "直列四缸柴油机三维交互仿真"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6468",
+      "childIds": [
+        "6470",
+        "6488"
+      ],
+      "backendDOMNodeId": 6469
+    },
+    {
+      "nodeId": "6470",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "柴油机三维视图",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "value": {
+              "type": "computedString",
+              "value": "柴油机三维视图"
+            },
+            "attribute": "aria-label",
+            "attributeValue": {
+              "type": "string",
+              "value": "柴油机三维视图"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6469",
+      "childIds": [
+        "6471",
+        "6472"
+      ],
+      "backendDOMNodeId": 6470
+    },
+    {
+      "nodeId": "6488",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6469",
+      "childIds": [
+        "6489",
+        "6498",
+        "6542",
+        "6563",
+        "6586"
+      ],
+      "backendDOMNodeId": 6488
+    },
+    {
+      "nodeId": "6471",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "Canvas"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 10
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Interactive 3D inline-four diesel engine",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "value": {
+              "type": "computedString",
+              "value": "Interactive 3D inline-four diesel engine"
+            },
+            "attribute": "aria-label",
+            "attributeValue": {
+              "type": "string",
+              "value": "Interactive 3D inline-four diesel engine"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        }
+      ],
+      "parentId": "6470",
+      "childIds": [],
+      "backendDOMNodeId": 6471
+    },
+    {
+      "nodeId": "6472",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6470",
+      "childIds": [
+        "6473",
+        "6474",
+        "6475",
+        "6476",
+        "6479",
+        "6484",
+        "6485",
+        "6486",
+        "6487"
+      ],
+      "backendDOMNodeId": 6472
+    },
+    {
+      "nodeId": "6489",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "sectionheader"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 95
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6488",
+      "childIds": [
+        "6490",
+        "6491"
+      ],
+      "backendDOMNodeId": 6489
+    },
+    {
+      "nodeId": "6498",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6488",
+      "childIds": [
+        "6507",
+        "6514",
+        "6530",
+        "6534",
+        "6538"
+      ],
+      "backendDOMNodeId": 6498
+    },
+    {
+      "nodeId": "6507",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6498",
+      "childIds": [
+        "6508",
+        "6510"
+      ],
+      "backendDOMNodeId": 6507
+    },
+    {
+      "nodeId": "6508",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6507",
+      "childIds": [
+        "6244",
+        "6509"
+      ],
+      "backendDOMNodeId": 6508
+    },
+    {
+      "nodeId": "6244",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6508",
+      "childIds": [
+        "6391",
+        "6245"
+      ],
+      "backendDOMNodeId": 6244
+    },
+    {
+      "nodeId": "6391",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6244",
+      "childIds": [],
+      "backendDOMNodeId": 6391
+    },
+    {
+      "nodeId": "6245",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6244",
+      "childIds": [
+        "6392"
+      ],
+      "backendDOMNodeId": 6245
+    },
+    {
+      "nodeId": "6392",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6245",
+      "childIds": [],
+      "backendDOMNodeId": 6392
+    },
+    {
+      "nodeId": "6509",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6508",
+      "childIds": [
+        "6879"
+      ],
+      "backendDOMNodeId": 6509
+    },
+    {
+      "nodeId": "6879",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6509",
+      "childIds": [],
+      "backendDOMNodeId": 6879
+    },
+    {
+      "nodeId": "6510",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6507",
+      "childIds": [],
+      "backendDOMNodeId": 6510
+    },
+    {
+      "nodeId": "6514",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6498",
+      "childIds": [
+        "6515",
+        "6517"
+      ],
+      "backendDOMNodeId": 6514
+    },
+    {
+      "nodeId": "6515",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6514",
+      "childIds": [
+        "6246",
+        "6516"
+      ],
+      "backendDOMNodeId": 6515
+    },
+    {
+      "nodeId": "6246",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6515",
+      "childIds": [
+        "6394",
+        "6247"
+      ],
+      "backendDOMNodeId": 6246
+    },
+    {
+      "nodeId": "6394",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6246",
+      "childIds": [],
+      "backendDOMNodeId": 6394
+    },
+    {
+      "nodeId": "6247",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6246",
+      "childIds": [
+        "6395"
+      ],
+      "backendDOMNodeId": 6247
+    },
+    {
+      "nodeId": "6395",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6247",
+      "childIds": [],
+      "backendDOMNodeId": 6395
+    },
+    {
+      "nodeId": "6516",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6515",
+      "childIds": [
+        "6880"
+      ],
+      "backendDOMNodeId": 6516
+    },
+    {
+      "nodeId": "6880",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6516",
+      "childIds": [],
+      "backendDOMNodeId": 6880
+    },
+    {
+      "nodeId": "6517",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6514",
+      "childIds": [],
+      "backendDOMNodeId": 6517
+    },
+    {
+      "nodeId": "6530",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6498",
+      "childIds": [
+        "6531",
+        "6532",
+        "6533"
+      ],
+      "backendDOMNodeId": 6530
+    },
+    {
+      "nodeId": "6531",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6530",
+      "childIds": [],
+      "backendDOMNodeId": 6531
+    },
+    {
+      "nodeId": "6532",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6530",
+      "childIds": [
+        "6248",
+        "6249"
+      ],
+      "backendDOMNodeId": 6532
+    },
+    {
+      "nodeId": "6248",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6532",
+      "childIds": [
+        "6402"
+      ],
+      "backendDOMNodeId": 6248
+    },
+    {
+      "nodeId": "6402",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6248",
+      "childIds": [],
+      "backendDOMNodeId": 6402
+    },
+    {
+      "nodeId": "6249",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6532",
+      "childIds": [
+        "6403"
+      ],
+      "backendDOMNodeId": 6249
+    },
+    {
+      "nodeId": "6403",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6249",
+      "childIds": [],
+      "backendDOMNodeId": 6403
+    },
+    {
+      "nodeId": "6533",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6530",
+      "childIds": [],
+      "backendDOMNodeId": 6533
+    },
+    {
+      "nodeId": "6534",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6498",
+      "childIds": [
+        "6535",
+        "6536",
+        "6537"
+      ],
+      "backendDOMNodeId": 6534
+    },
+    {
+      "nodeId": "6535",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6534",
+      "childIds": [],
+      "backendDOMNodeId": 6535
+    },
+    {
+      "nodeId": "6536",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6534",
+      "childIds": [
+        "6250",
+        "6251"
+      ],
+      "backendDOMNodeId": 6536
+    },
+    {
+      "nodeId": "6250",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6536",
+      "childIds": [
+        "6404"
+      ],
+      "backendDOMNodeId": 6250
+    },
+    {
+      "nodeId": "6404",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6250",
+      "childIds": [],
+      "backendDOMNodeId": 6404
+    },
+    {
+      "nodeId": "6251",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6536",
+      "childIds": [
+        "6405"
+      ],
+      "backendDOMNodeId": 6251
+    },
+    {
+      "nodeId": "6405",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6251",
+      "childIds": [],
+      "backendDOMNodeId": 6405
+    },
+    {
+      "nodeId": "6537",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6534",
+      "childIds": [],
+      "backendDOMNodeId": 6537
+    },
+    {
+      "nodeId": "6538",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6498",
+      "childIds": [
+        "6539",
+        "6540",
+        "6541"
+      ],
+      "backendDOMNodeId": 6538
+    },
+    {
+      "nodeId": "6539",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6538",
+      "childIds": [],
+      "backendDOMNodeId": 6539
+    },
+    {
+      "nodeId": "6540",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6538",
+      "childIds": [
+        "6252",
+        "6253"
+      ],
+      "backendDOMNodeId": 6540
+    },
+    {
+      "nodeId": "6252",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6540",
+      "childIds": [
+        "6406"
+      ],
+      "backendDOMNodeId": 6252
+    },
+    {
+      "nodeId": "6406",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6252",
+      "childIds": [],
+      "backendDOMNodeId": 6406
+    },
+    {
+      "nodeId": "6253",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6540",
+      "childIds": [
+        "6407"
+      ],
+      "backendDOMNodeId": 6253
+    },
+    {
+      "nodeId": "6407",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6253",
+      "childIds": [],
+      "backendDOMNodeId": 6407
+    },
+    {
+      "nodeId": "6541",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notVisible",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6538",
+      "childIds": [],
+      "backendDOMNodeId": 6541
+    },
+    {
+      "nodeId": "6542",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "complementary"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 22
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6488",
+      "childIds": [
+        "6543",
+        "6546",
+        "6553",
+        "6554",
+        "6557",
+        "6562"
+      ],
+      "backendDOMNodeId": 6542
+    },
+    {
+      "nodeId": "6563",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "sectionfooter"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 86
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6488",
+      "childIds": [
+        "6564"
+      ],
+      "backendDOMNodeId": 6563
+    },
+    {
+      "nodeId": "6586",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "navigation"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 130
+      },
+      "name": {
+        "type": "computedString",
+        "value": "移动端面板控制",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "value": {
+              "type": "computedString",
+              "value": "移动端面板控制"
+            },
+            "attribute": "aria-label",
+            "attributeValue": {
+              "type": "string",
+              "value": "移动端面板控制"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6488",
+      "childIds": [
+        "6587",
+        "6588"
+      ],
+      "backendDOMNodeId": 6586
+    },
+    {
+      "nodeId": "6473",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6472",
+      "childIds": [
+        "6292",
+        "6293"
+      ],
+      "backendDOMNodeId": 6473
+    },
+    {
+      "nodeId": "6474",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6472",
+      "childIds": [
+        "6296",
+        "6297"
+      ],
+      "backendDOMNodeId": 6474
+    },
+    {
+      "nodeId": "6475",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6472",
+      "childIds": [
+        "6300",
+        "6301"
+      ],
+      "backendDOMNodeId": 6475
+    },
+    {
+      "nodeId": "6476",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6472",
+      "childIds": [
+        "6304",
+        "6305"
+      ],
+      "backendDOMNodeId": 6476
+    },
+    {
+      "nodeId": "6479",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6472",
+      "childIds": [
+        "6316",
+        "6317"
+      ],
+      "backendDOMNodeId": 6479
+    },
+    {
+      "nodeId": "6484",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6472",
+      "childIds": [
+        "6336",
+        "6337"
+      ],
+      "backendDOMNodeId": 6484
+    },
+    {
+      "nodeId": "6485",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6472",
+      "childIds": [
+        "6340",
+        "6341"
+      ],
+      "backendDOMNodeId": 6485
+    },
+    {
+      "nodeId": "6486",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6472",
+      "childIds": [
+        "6344",
+        "6345"
+      ],
+      "backendDOMNodeId": 6486
+    },
+    {
+      "nodeId": "6487",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6472",
+      "childIds": [
+        "6348",
+        "6349"
+      ],
+      "backendDOMNodeId": 6487
+    },
+    {
+      "nodeId": "6490",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6489",
+      "childIds": [
+        "6236",
+        "6241"
+      ],
+      "backendDOMNodeId": 6490
+    },
+    {
+      "nodeId": "6236",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6490",
+      "childIds": [
+        "6237",
+        "6238",
+        "6239",
+        "6240"
+      ],
+      "backendDOMNodeId": 6236
+    },
+    {
+      "nodeId": "6237",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6236",
+      "childIds": [],
+      "backendDOMNodeId": 6237
+    },
+    {
+      "nodeId": "6238",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6236",
+      "childIds": [],
+      "backendDOMNodeId": 6238
+    },
+    {
+      "nodeId": "6239",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6236",
+      "childIds": [],
+      "backendDOMNodeId": 6239
+    },
+    {
+      "nodeId": "6240",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6236",
+      "childIds": [],
+      "backendDOMNodeId": 6240
+    },
+    {
+      "nodeId": "6241",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6490",
+      "childIds": [
+        "6242",
+        "6243"
+      ],
+      "backendDOMNodeId": 6241
+    },
+    {
+      "nodeId": "6242",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "strong"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 160
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6241",
+      "childIds": [
+        "6382"
+      ],
+      "backendDOMNodeId": 6242
+    },
+    {
+      "nodeId": "6243",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6241",
+      "childIds": [
+        "6383"
+      ],
+      "backendDOMNodeId": 6243
+    },
+    {
+      "nodeId": "6491",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6489",
+      "childIds": [
+        "6495"
+      ],
+      "backendDOMNodeId": 6491
+    },
+    {
+      "nodeId": "6495",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6491",
+      "childIds": [
+        "6496",
+        "6497"
+      ],
+      "backendDOMNodeId": 6495
+    },
+    {
+      "nodeId": "6543",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6542",
+      "childIds": [
+        "6544",
+        "6545"
+      ],
+      "backendDOMNodeId": 6543
+    },
+    {
+      "nodeId": "6544",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "strong"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 160
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6543",
+      "childIds": [
+        "6408"
+      ],
+      "backendDOMNodeId": 6544
+    },
+    {
+      "nodeId": "6545",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6543",
+      "childIds": [
+        "6409"
+      ],
+      "backendDOMNodeId": 6545
+    },
+    {
+      "nodeId": "6409",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "LIVE TELEMETRY",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "LIVE TELEMETRY"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6545",
+      "childIds": [
+        "-1000005859"
+      ],
+      "backendDOMNodeId": 6409
+    },
+    {
+      "nodeId": "6546",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6542",
+      "childIds": [
+        "6547",
+        "6549",
+        "6551"
+      ],
+      "backendDOMNodeId": 6546
+    },
+    {
+      "nodeId": "6547",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6546",
+      "childIds": [
+        "6254",
+        "6548"
+      ],
+      "backendDOMNodeId": 6547
+    },
+    {
+      "nodeId": "6549",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6546",
+      "childIds": [
+        "6256",
+        "6550"
+      ],
+      "backendDOMNodeId": 6549
+    },
+    {
+      "nodeId": "6551",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6546",
+      "childIds": [
+        "6258",
+        "6552"
+      ],
+      "backendDOMNodeId": 6551
+    },
+    {
+      "nodeId": "6553",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6542",
+      "childIds": [],
+      "backendDOMNodeId": 6553
+    },
+    {
+      "nodeId": "6554",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6542",
+      "childIds": [
+        "6555",
+        "6556"
+      ],
+      "backendDOMNodeId": 6554
+    },
+    {
+      "nodeId": "6555",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "strong"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 160
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6554",
+      "childIds": [
+        "6419"
+      ],
+      "backendDOMNodeId": 6555
+    },
+    {
+      "nodeId": "6556",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6554",
+      "childIds": [
+        "6420"
+      ],
+      "backendDOMNodeId": 6556
+    },
+    {
+      "nodeId": "6420",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "CYLINDER CYCLE",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "CYLINDER CYCLE"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6556",
+      "childIds": [
+        "-1000005870"
+      ],
+      "backendDOMNodeId": 6420
+    },
+    {
+      "nodeId": "6557",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6542",
+      "childIds": [
+        "6558",
+        "6559",
+        "6560",
+        "6561"
+      ],
+      "backendDOMNodeId": 6557
+    },
+    {
+      "nodeId": "6558",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6557",
+      "childIds": [
+        "6260",
+        "6261",
+        "6264"
+      ],
+      "backendDOMNodeId": 6558
+    },
+    {
+      "nodeId": "6559",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6557",
+      "childIds": [
+        "6266",
+        "6267",
+        "6270"
+      ],
+      "backendDOMNodeId": 6559
+    },
+    {
+      "nodeId": "6560",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6557",
+      "childIds": [
+        "6272",
+        "6273",
+        "6276"
+      ],
+      "backendDOMNodeId": 6560
+    },
+    {
+      "nodeId": "6561",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6557",
+      "childIds": [
+        "6278",
+        "6279",
+        "6282"
+      ],
+      "backendDOMNodeId": 6561
+    },
+    {
+      "nodeId": "6562",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 211
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6542",
+      "childIds": [
+        "6284",
+        "6287"
+      ],
+      "backendDOMNodeId": 6562
+    },
+    {
+      "nodeId": "6564",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6563",
+      "childIds": [
+        "6565",
+        "6566",
+        "6567",
+        "6568",
+        "6569",
+        "6570",
+        "6571"
+      ],
+      "backendDOMNodeId": 6564
+    },
+    {
+      "nodeId": "6565",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "button"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 9
+      },
+      "name": {
+        "type": "computedString",
+        "value": "<1> 轴测",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "relatedElement",
+            "nativeSource": "label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "<1> 轴测"
+            }
+          },
+          {
+            "type": "attribute",
+            "value": {
+              "type": "computedString",
+              "value": "轴测 / Camera 1"
+            },
+            "attribute": "title",
+            "attributeValue": {
+              "type": "string",
+              "value": "轴测 / Camera 1"
+            },
+            "superseded": true
+          }
+        ]
+      },
+      "description": {
+        "type": "computedString",
+        "value": "轴测 / Camera 1"
+      },
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "false"
+          }
+        },
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        }
+      ],
+      "parentId": "6564",
+      "childIds": [
+        "6439"
+      ],
+      "backendDOMNodeId": 6565
+    },
+    {
+      "nodeId": "6566",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "button"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 9
+      },
+      "name": {
+        "type": "computedString",
+        "value": "<2> 前视",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "relatedElement",
+            "nativeSource": "label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "<2> 前视"
+            }
+          },
+          {
+            "type": "attribute",
+            "value": {
+              "type": "computedString",
+              "value": "前视 / Camera 2"
+            },
+            "attribute": "title",
+            "attributeValue": {
+              "type": "string",
+              "value": "前视 / Camera 2"
+            },
+            "superseded": true
+          }
+        ]
+      },
+      "description": {
+        "type": "computedString",
+        "value": "前视 / Camera 2"
+      },
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "false"
+          }
+        },
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        }
+      ],
+      "parentId": "6564",
+      "childIds": [
+        "6440"
+      ],
+      "backendDOMNodeId": 6566
+    },
+    {
+      "nodeId": "6567",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "button"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 9
+      },
+      "name": {
+        "type": "computedString",
+        "value": "<3> 侧视",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "relatedElement",
+            "nativeSource": "label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "<3> 侧视"
+            }
+          },
+          {
+            "type": "attribute",
+            "value": {
+              "type": "computedString",
+              "value": "侧视 / Camera 3"
+            },
+            "attribute": "title",
+            "attributeValue": {
+              "type": "string",
+              "value": "侧视 / Camera 3"
+            },
+            "superseded": true
+          }
+        ]
+      },
+      "description": {
+        "type": "computedString",
+        "value": "侧视 / Camera 3"
+      },
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "false"
+          }
+        },
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        }
+      ],
+      "parentId": "6564",
+      "childIds": [
+        "6441"
+      ],
+      "backendDOMNodeId": 6567
+    },
+    {
+      "nodeId": "6568",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "button"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 9
+      },
+      "name": {
+        "type": "computedString",
+        "value": "<4> 顶视",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "relatedElement",
+            "nativeSource": "label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "<4> 顶视"
+            }
+          },
+          {
+            "type": "attribute",
+            "value": {
+              "type": "computedString",
+              "value": "顶视 / Camera 4"
+            },
+            "attribute": "title",
+            "attributeValue": {
+              "type": "string",
+              "value": "顶视 / Camera 4"
+            },
+            "superseded": true
+          }
+        ]
+      },
+      "description": {
+        "type": "computedString",
+        "value": "顶视 / Camera 4"
+      },
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "false"
+          }
+        },
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        }
+      ],
+      "parentId": "6564",
+      "childIds": [
+        "6442"
+      ],
+      "backendDOMNodeId": 6568
+    },
+    {
+      "nodeId": "6569",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "button"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 9
+      },
+      "name": {
+        "type": "computedString",
+        "value": "<5> 曲柄连杆",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "relatedElement",
+            "nativeSource": "label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "<5> 曲柄连杆"
+            }
+          },
+          {
+            "type": "attribute",
+            "value": {
+              "type": "computedString",
+              "value": "曲柄连杆 / Camera 5"
+            },
+            "attribute": "title",
+            "attributeValue": {
+              "type": "string",
+              "value": "曲柄连杆 / Camera 5"
+            },
+            "superseded": true
+          }
+        ]
+      },
+      "description": {
+        "type": "computedString",
+        "value": "曲柄连杆 / Camera 5"
+      },
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "false"
+          }
+        },
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        }
+      ],
+      "parentId": "6564",
+      "childIds": [
+        "6443"
+      ],
+      "backendDOMNodeId": 6569
+    },
+    {
+      "nodeId": "6570",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "button"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 9
+      },
+      "name": {
+        "type": "computedString",
+        "value": "<6> 配气 / 燃烧",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "relatedElement",
+            "nativeSource": "label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "<6> 配气 / 燃烧"
+            }
+          },
+          {
+            "type": "attribute",
+            "value": {
+              "type": "computedString",
+              "value": "配气 / 燃烧 / Camera 6"
+            },
+            "attribute": "title",
+            "attributeValue": {
+              "type": "string",
+              "value": "配气 / 燃烧 / Camera 6"
+            },
+            "superseded": true
+          }
+        ]
+      },
+      "description": {
+        "type": "computedString",
+        "value": "配气 / 燃烧 / Camera 6"
+      },
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "false"
+          }
+        },
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        }
+      ],
+      "parentId": "6564",
+      "childIds": [
+        "6444"
+      ],
+      "backendDOMNodeId": 6570
+    },
+    {
+      "nodeId": "6571",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "button"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 9
+      },
+      "name": {
+        "type": "computedString",
+        "value": "↺ 复位视角",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "relatedElement",
+            "nativeSource": "label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "↺ 复位视角"
+            }
+          },
+          {
+            "type": "attribute",
+            "value": {
+              "type": "computedString",
+              "value": "Reset camera (R)"
+            },
+            "attribute": "title",
+            "attributeValue": {
+              "type": "string",
+              "value": "Reset camera (R)"
+            },
+            "superseded": true
+          }
+        ]
+      },
+      "description": {
+        "type": "computedString",
+        "value": "Reset camera (R)"
+      },
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "false"
+          }
+        },
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        }
+      ],
+      "parentId": "6564",
+      "childIds": [
+        "6445"
+      ],
+      "backendDOMNodeId": 6571
+    },
+    {
+      "nodeId": "6587",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "button"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 9
+      },
+      "name": {
+        "type": "computedString",
+        "value": "☰ 控制",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "relatedElement",
+            "nativeSource": "label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "☰ 控制"
+            }
+          },
+          {
+            "type": "attribute",
+            "value": {
+              "type": "computedString",
+              "value": "打开动力控制面板"
+            },
+            "attribute": "title",
+            "attributeValue": {
+              "type": "string",
+              "value": "打开动力控制面板"
+            },
+            "superseded": true
+          }
+        ]
+      },
+      "description": {
+        "type": "computedString",
+        "value": "打开动力控制面板"
+      },
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "false"
+          }
+        },
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "expanded",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": false
+          }
+        }
+      ],
+      "parentId": "6586",
+      "childIds": [
+        "6446"
+      ],
+      "backendDOMNodeId": 6587
+    },
+    {
+      "nodeId": "6588",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "button"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 9
+      },
+      "name": {
+        "type": "computedString",
+        "value": "工况 ◫",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "relatedElement",
+            "nativeSource": "label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "工况 ◫"
+            }
+          },
+          {
+            "type": "attribute",
+            "value": {
+              "type": "computedString",
+              "value": "打开实时工况面板"
+            },
+            "attribute": "title",
+            "attributeValue": {
+              "type": "string",
+              "value": "打开实时工况面板"
+            },
+            "superseded": true
+          }
+        ]
+      },
+      "description": {
+        "type": "computedString",
+        "value": "打开实时工况面板"
+      },
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "false"
+          }
+        },
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "expanded",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "controls",
+          "value": {
+            "type": "idrefList",
+            "value": "telemetry-panel",
+            "relatedNodes": [
+              {
+                "backendDOMNodeId": 6542,
+                "idref": "telemetry-panel"
+              }
+            ]
+          }
+        }
+      ],
+      "parentId": "6586",
+      "childIds": [
+        "6447"
+      ],
+      "backendDOMNodeId": 6588
+    },
+    {
+      "nodeId": "6292",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6473",
+      "childIds": [],
+      "backendDOMNodeId": 6292
+    },
+    {
+      "nodeId": "6293",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6473",
+      "childIds": [
+        "6352",
+        "6295"
+      ],
+      "backendDOMNodeId": 6293
+    },
+    {
+      "nodeId": "6352",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "气缸体",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "气缸体"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6293",
+      "childIds": [
+        "-1000005815"
+      ],
+      "backendDOMNodeId": 6352
+    },
+    {
+      "nodeId": "6295",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6293",
+      "childIds": [
+        "6353"
+      ],
+      "backendDOMNodeId": 6295
+    },
+    {
+      "nodeId": "6296",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6474",
+      "childIds": [],
+      "backendDOMNodeId": 6296
+    },
+    {
+      "nodeId": "6297",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6474",
+      "childIds": [
+        "6354",
+        "6299"
+      ],
+      "backendDOMNodeId": 6297
+    },
+    {
+      "nodeId": "6354",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "气缸盖",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "气缸盖"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6297",
+      "childIds": [
+        "-1000005817"
+      ],
+      "backendDOMNodeId": 6354
+    },
+    {
+      "nodeId": "6299",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6297",
+      "childIds": [
+        "6355"
+      ],
+      "backendDOMNodeId": 6299
+    },
+    {
+      "nodeId": "6300",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6475",
+      "childIds": [],
+      "backendDOMNodeId": 6300
+    },
+    {
+      "nodeId": "6301",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6475",
+      "childIds": [
+        "6356",
+        "6303"
+      ],
+      "backendDOMNodeId": 6301
+    },
+    {
+      "nodeId": "6356",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "油底壳",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "油底壳"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6301",
+      "childIds": [
+        "-1000005819"
+      ],
+      "backendDOMNodeId": 6356
+    },
+    {
+      "nodeId": "6303",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6301",
+      "childIds": [
+        "6357"
+      ],
+      "backendDOMNodeId": 6303
+    },
+    {
+      "nodeId": "6304",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6476",
+      "childIds": [],
+      "backendDOMNodeId": 6304
+    },
+    {
+      "nodeId": "6305",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6476",
+      "childIds": [
+        "6358",
+        "6307"
+      ],
+      "backendDOMNodeId": 6305
+    },
+    {
+      "nodeId": "6358",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "曲轴",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "曲轴"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6305",
+      "childIds": [
+        "-1000005821"
+      ],
+      "backendDOMNodeId": 6358
+    },
+    {
+      "nodeId": "6307",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6305",
+      "childIds": [
+        "6359"
+      ],
+      "backendDOMNodeId": 6307
+    },
+    {
+      "nodeId": "6316",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6479",
+      "childIds": [],
+      "backendDOMNodeId": 6316
+    },
+    {
+      "nodeId": "6317",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6479",
+      "childIds": [
+        "6364",
+        "6319"
+      ],
+      "backendDOMNodeId": 6317
+    },
+    {
+      "nodeId": "6364",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "凸轮轴",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "凸轮轴"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6317",
+      "childIds": [
+        "-1000005827"
+      ],
+      "backendDOMNodeId": 6364
+    },
+    {
+      "nodeId": "6319",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6317",
+      "childIds": [
+        "6365"
+      ],
+      "backendDOMNodeId": 6319
+    },
+    {
+      "nodeId": "6336",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6484",
+      "childIds": [],
+      "backendDOMNodeId": 6336
+    },
+    {
+      "nodeId": "6337",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6484",
+      "childIds": [
+        "6374",
+        "6339"
+      ],
+      "backendDOMNodeId": 6337
+    },
+    {
+      "nodeId": "6374",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "共轨",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "共轨"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6337",
+      "childIds": [
+        "-1000005837"
+      ],
+      "backendDOMNodeId": 6374
+    },
+    {
+      "nodeId": "6339",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6337",
+      "childIds": [
+        "6375"
+      ],
+      "backendDOMNodeId": 6339
+    },
+    {
+      "nodeId": "6340",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6485",
+      "childIds": [],
+      "backendDOMNodeId": 6340
+    },
+    {
+      "nodeId": "6341",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6485",
+      "childIds": [
+        "6376",
+        "6343"
+      ],
+      "backendDOMNodeId": 6341
+    },
+    {
+      "nodeId": "6376",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "涡轮增压器",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "涡轮增压器"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6341",
+      "childIds": [
+        "-1000005839"
+      ],
+      "backendDOMNodeId": 6376
+    },
+    {
+      "nodeId": "6343",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6341",
+      "childIds": [
+        "6377"
+      ],
+      "backendDOMNodeId": 6343
+    },
+    {
+      "nodeId": "6344",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6486",
+      "childIds": [],
+      "backendDOMNodeId": 6344
+    },
+    {
+      "nodeId": "6345",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6486",
+      "childIds": [
+        "6378",
+        "6347"
+      ],
+      "backendDOMNodeId": 6345
+    },
+    {
+      "nodeId": "6378",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "进气歧管",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "进气歧管"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6345",
+      "childIds": [
+        "-1000005841"
+      ],
+      "backendDOMNodeId": 6378
+    },
+    {
+      "nodeId": "6347",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6345",
+      "childIds": [
+        "6379"
+      ],
+      "backendDOMNodeId": 6347
+    },
+    {
+      "nodeId": "6348",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6487",
+      "childIds": [],
+      "backendDOMNodeId": 6348
+    },
+    {
+      "nodeId": "6349",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6487",
+      "childIds": [
+        "6380",
+        "6351"
+      ],
+      "backendDOMNodeId": 6349
+    },
+    {
+      "nodeId": "6380",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "排气歧管",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "排气歧管"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6349",
+      "childIds": [
+        "-1000005843"
+      ],
+      "backendDOMNodeId": 6380
+    },
+    {
+      "nodeId": "6351",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6349",
+      "childIds": [
+        "6381"
+      ],
+      "backendDOMNodeId": 6351
+    },
+    {
+      "nodeId": "6382",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "INLINE · 4D",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "INLINE · 4D"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6242",
+      "childIds": [
+        "-1000005845"
+      ],
+      "backendDOMNodeId": 6382
+    },
+    {
+      "nodeId": "6383",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "FOUR-STROKE DIESEL / 四冲程柴油机",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "FOUR-STROKE DIESEL / 四冲程柴油机"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6243",
+      "childIds": [
+        "-1000005846"
+      ],
+      "backendDOMNodeId": 6383
+    },
+    {
+      "nodeId": "6496",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6495",
+      "childIds": [
+        "6384"
+      ],
+      "backendDOMNodeId": 6496
+    },
+    {
+      "nodeId": "6497",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "strong"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 160
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6495",
+      "childIds": [
+        "6385"
+      ],
+      "backendDOMNodeId": 6497
+    },
+    {
+      "nodeId": "6408",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "实时工况",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "实时工况"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6544",
+      "childIds": [
+        "-1000005858"
+      ],
+      "backendDOMNodeId": 6408
+    },
+    {
+      "nodeId": "-1000005859",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "LIVE TELEMETRY"
+      },
+      "properties": [],
+      "parentId": "6409",
+      "childIds": []
+    },
+    {
+      "nodeId": "6254",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6547",
+      "childIds": [
+        "6255",
+        "6411"
+      ],
+      "backendDOMNodeId": 6254
+    },
+    {
+      "nodeId": "6255",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6254",
+      "childIds": [
+        "6410"
+      ],
+      "backendDOMNodeId": 6255
+    },
+    {
+      "nodeId": "6411",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "曲轴转角",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "曲轴转角"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6254",
+      "childIds": [
+        "-1000005861"
+      ],
+      "backendDOMNodeId": 6411
+    },
+    {
+      "nodeId": "6548",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "strong"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 160
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6547",
+      "childIds": [
+        "6881"
+      ],
+      "backendDOMNodeId": 6548
+    },
+    {
+      "nodeId": "6256",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6549",
+      "childIds": [
+        "6257",
+        "6414"
+      ],
+      "backendDOMNodeId": 6256
+    },
+    {
+      "nodeId": "6257",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6256",
+      "childIds": [
+        "6413"
+      ],
+      "backendDOMNodeId": 6257
+    },
+    {
+      "nodeId": "6414",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "冷却液",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "冷却液"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6256",
+      "childIds": [
+        "-1000005864"
+      ],
+      "backendDOMNodeId": 6414
+    },
+    {
+      "nodeId": "6550",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "strong"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 160
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6549",
+      "childIds": [
+        "6882"
+      ],
+      "backendDOMNodeId": 6550
+    },
+    {
+      "nodeId": "6258",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6551",
+      "childIds": [
+        "6259",
+        "6417"
+      ],
+      "backendDOMNodeId": 6258
+    },
+    {
+      "nodeId": "6259",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6258",
+      "childIds": [
+        "6416"
+      ],
+      "backendDOMNodeId": 6259
+    },
+    {
+      "nodeId": "6417",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "机油压力",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "机油压力"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6258",
+      "childIds": [
+        "-1000005867"
+      ],
+      "backendDOMNodeId": 6417
+    },
+    {
+      "nodeId": "6552",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "strong"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 160
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6551",
+      "childIds": [
+        "6883"
+      ],
+      "backendDOMNodeId": 6552
+    },
+    {
+      "nodeId": "6419",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "气缸循环",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "气缸循环"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6555",
+      "childIds": [
+        "-1000005869"
+      ],
+      "backendDOMNodeId": 6419
+    },
+    {
+      "nodeId": "-1000005870",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "CYLINDER CYCLE"
+      },
+      "properties": [],
+      "parentId": "6420",
+      "childIds": []
+    },
+    {
+      "nodeId": "6260",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6558",
+      "childIds": [
+        "6421"
+      ],
+      "backendDOMNodeId": 6260
+    },
+    {
+      "nodeId": "6421",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "1",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "1"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6260",
+      "childIds": [
+        "-1000005871"
+      ],
+      "backendDOMNodeId": 6421
+    },
+    {
+      "nodeId": "6261",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6558",
+      "childIds": [
+        "6262",
+        "6263"
+      ],
+      "backendDOMNodeId": 6261
+    },
+    {
+      "nodeId": "6262",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "strong"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 160
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6261",
+      "childIds": [
+        "6884"
+      ],
+      "backendDOMNodeId": 6262
+    },
+    {
+      "nodeId": "6263",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6261",
+      "childIds": [
+        "6423"
+      ],
+      "backendDOMNodeId": 6263
+    },
+    {
+      "nodeId": "6264",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6558",
+      "childIds": [
+        "6265"
+      ],
+      "backendDOMNodeId": 6264
+    },
+    {
+      "nodeId": "6265",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6264",
+      "childIds": [],
+      "backendDOMNodeId": 6265
+    },
+    {
+      "nodeId": "6266",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6559",
+      "childIds": [
+        "6424"
+      ],
+      "backendDOMNodeId": 6266
+    },
+    {
+      "nodeId": "6424",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "2",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "2"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6266",
+      "childIds": [
+        "-1000005874"
+      ],
+      "backendDOMNodeId": 6424
+    },
+    {
+      "nodeId": "6267",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6559",
+      "childIds": [
+        "6268",
+        "6269"
+      ],
+      "backendDOMNodeId": 6267
+    },
+    {
+      "nodeId": "6268",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "strong"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 160
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6267",
+      "childIds": [
+        "6885"
+      ],
+      "backendDOMNodeId": 6268
+    },
+    {
+      "nodeId": "6269",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6267",
+      "childIds": [
+        "6426"
+      ],
+      "backendDOMNodeId": 6269
+    },
+    {
+      "nodeId": "6270",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6559",
+      "childIds": [
+        "6271"
+      ],
+      "backendDOMNodeId": 6270
+    },
+    {
+      "nodeId": "6271",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6270",
+      "childIds": [],
+      "backendDOMNodeId": 6271
+    },
+    {
+      "nodeId": "6272",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6560",
+      "childIds": [
+        "6427"
+      ],
+      "backendDOMNodeId": 6272
+    },
+    {
+      "nodeId": "6427",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "3",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "3"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6272",
+      "childIds": [
+        "-1000005877"
+      ],
+      "backendDOMNodeId": 6427
+    },
+    {
+      "nodeId": "6273",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6560",
+      "childIds": [
+        "6274",
+        "6275"
+      ],
+      "backendDOMNodeId": 6273
+    },
+    {
+      "nodeId": "6274",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "strong"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 160
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6273",
+      "childIds": [
+        "6886"
+      ],
+      "backendDOMNodeId": 6274
+    },
+    {
+      "nodeId": "6275",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6273",
+      "childIds": [
+        "6429"
+      ],
+      "backendDOMNodeId": 6275
+    },
+    {
+      "nodeId": "6276",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6560",
+      "childIds": [
+        "6277"
+      ],
+      "backendDOMNodeId": 6276
+    },
+    {
+      "nodeId": "6277",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6276",
+      "childIds": [],
+      "backendDOMNodeId": 6277
+    },
+    {
+      "nodeId": "6278",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6561",
+      "childIds": [
+        "6430"
+      ],
+      "backendDOMNodeId": 6278
+    },
+    {
+      "nodeId": "6430",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "4",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "4"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6278",
+      "childIds": [
+        "-1000005880"
+      ],
+      "backendDOMNodeId": 6430
+    },
+    {
+      "nodeId": "6279",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6561",
+      "childIds": [
+        "6280",
+        "6281"
+      ],
+      "backendDOMNodeId": 6279
+    },
+    {
+      "nodeId": "6280",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "strong"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 160
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6279",
+      "childIds": [
+        "6887"
+      ],
+      "backendDOMNodeId": 6280
+    },
+    {
+      "nodeId": "6281",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6279",
+      "childIds": [
+        "6432"
+      ],
+      "backendDOMNodeId": 6281
+    },
+    {
+      "nodeId": "6282",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6561",
+      "childIds": [
+        "6283"
+      ],
+      "backendDOMNodeId": 6282
+    },
+    {
+      "nodeId": "6283",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6282",
+      "childIds": [],
+      "backendDOMNodeId": 6283
+    },
+    {
+      "nodeId": "6284",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6562",
+      "childIds": [
+        "6285",
+        "6286"
+      ],
+      "backendDOMNodeId": 6284
+    },
+    {
+      "nodeId": "6285",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6284",
+      "childIds": [
+        "6433"
+      ],
+      "backendDOMNodeId": 6285
+    },
+    {
+      "nodeId": "6433",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "PART INSPECTOR",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "PART INSPECTOR"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6285",
+      "childIds": [
+        "-1000005883"
+      ],
+      "backendDOMNodeId": 6433
+    },
+    {
+      "nodeId": "6286",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6284",
+      "childIds": [
+        "6434"
+      ],
+      "backendDOMNodeId": 6286
+    },
+    {
+      "nodeId": "6287",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6562",
+      "childIds": [
+        "6288",
+        "6289",
+        "6290"
+      ],
+      "backendDOMNodeId": 6287
+    },
+    {
+      "nodeId": "6288",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "6287",
+      "childIds": [
+        "6435"
+      ],
+      "backendDOMNodeId": 6288
+    },
+    {
+      "nodeId": "6435",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "⌖",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "⌖"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6288",
+      "childIds": [
+        "-1000005885"
+      ],
+      "backendDOMNodeId": 6435
+    },
+    {
+      "nodeId": "6289",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "strong"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 160
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6287",
+      "childIds": [
+        "6436"
+      ],
+      "backendDOMNodeId": 6289
+    },
+    {
+      "nodeId": "6290",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "paragraph"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 133
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6287",
+      "childIds": [
+        "6437",
+        "6291",
+        "6438"
+      ],
+      "backendDOMNodeId": 6290
+    },
+    {
+      "nodeId": "6439",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "<1> 轴测",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "<1> 轴测"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6565",
+      "childIds": [
+        "-1000005849"
+      ],
+      "backendDOMNodeId": 6439
+    },
+    {
+      "nodeId": "6440",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "<2> 前视",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "<2> 前视"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6566",
+      "childIds": [
+        "-1000005850"
+      ],
+      "backendDOMNodeId": 6440
+    },
+    {
+      "nodeId": "6441",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "<3> 侧视",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "<3> 侧视"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6567",
+      "childIds": [
+        "-1000005851"
+      ],
+      "backendDOMNodeId": 6441
+    },
+    {
+      "nodeId": "6442",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "<4> 顶视",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "<4> 顶视"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6568",
+      "childIds": [
+        "-1000005852"
+      ],
+      "backendDOMNodeId": 6442
+    },
+    {
+      "nodeId": "6443",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "<5> 曲柄连杆",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "<5> 曲柄连杆"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6569",
+      "childIds": [
+        "-1000005853"
+      ],
+      "backendDOMNodeId": 6443
+    },
+    {
+      "nodeId": "6444",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "<6> 配气 / 燃烧",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "<6> 配气 / 燃烧"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6570",
+      "childIds": [
+        "-1000005854"
+      ],
+      "backendDOMNodeId": 6444
+    },
+    {
+      "nodeId": "6445",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "↺ 复位视角",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "↺ 复位视角"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6571",
+      "childIds": [
+        "-1000005855"
+      ],
+      "backendDOMNodeId": 6445
+    },
+    {
+      "nodeId": "6446",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "☰ 控制",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "☰ 控制"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6587",
+      "childIds": [
+        "-1000005856"
+      ],
+      "backendDOMNodeId": 6446
+    },
+    {
+      "nodeId": "6447",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "工况 ◫",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "工况 ◫"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6588",
+      "childIds": [
+        "-1000005857"
+      ],
+      "backendDOMNodeId": 6447
+    },
+    {
+      "nodeId": "-1000005815",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "气缸体"
+      },
+      "properties": [],
+      "parentId": "6352",
+      "childIds": []
+    },
+    {
+      "nodeId": "6353",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "BLOCK",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "BLOCK"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6295",
+      "childIds": [
+        "-1000005816"
+      ],
+      "backendDOMNodeId": 6353
+    },
+    {
+      "nodeId": "-1000005817",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "气缸盖"
+      },
+      "properties": [],
+      "parentId": "6354",
+      "childIds": []
+    },
+    {
+      "nodeId": "6355",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "CYLINDER HEAD",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "CYLINDER HEAD"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6299",
+      "childIds": [
+        "-1000005818"
+      ],
+      "backendDOMNodeId": 6355
+    },
+    {
+      "nodeId": "-1000005819",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "油底壳"
+      },
+      "properties": [],
+      "parentId": "6356",
+      "childIds": []
+    },
+    {
+      "nodeId": "6357",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "OIL SUMP",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "OIL SUMP"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6303",
+      "childIds": [
+        "-1000005820"
+      ],
+      "backendDOMNodeId": 6357
+    },
+    {
+      "nodeId": "-1000005821",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "曲轴"
+      },
+      "properties": [],
+      "parentId": "6358",
+      "childIds": []
+    },
+    {
+      "nodeId": "6359",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "CRANKSHAFT",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "CRANKSHAFT"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6307",
+      "childIds": [
+        "-1000005822"
+      ],
+      "backendDOMNodeId": 6359
+    },
+    {
+      "nodeId": "-1000005827",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "凸轮轴"
+      },
+      "properties": [],
+      "parentId": "6364",
+      "childIds": []
+    },
+    {
+      "nodeId": "6365",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "CAMSHAFT",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "CAMSHAFT"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6319",
+      "childIds": [
+        "-1000005828"
+      ],
+      "backendDOMNodeId": 6365
+    },
+    {
+      "nodeId": "-1000005837",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "共轨"
+      },
+      "properties": [],
+      "parentId": "6374",
+      "childIds": []
+    },
+    {
+      "nodeId": "6375",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "COMMON RAIL",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "COMMON RAIL"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6339",
+      "childIds": [
+        "-1000005838"
+      ],
+      "backendDOMNodeId": 6375
+    },
+    {
+      "nodeId": "-1000005839",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "涡轮增压器"
+      },
+      "properties": [],
+      "parentId": "6376",
+      "childIds": []
+    },
+    {
+      "nodeId": "6377",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "TURBOCHARGER",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "TURBOCHARGER"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6343",
+      "childIds": [
+        "-1000005840"
+      ],
+      "backendDOMNodeId": 6377
+    },
+    {
+      "nodeId": "-1000005841",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "进气歧管"
+      },
+      "properties": [],
+      "parentId": "6378",
+      "childIds": []
+    },
+    {
+      "nodeId": "6379",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "INTAKE",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "INTAKE"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6347",
+      "childIds": [
+        "-1000005842"
+      ],
+      "backendDOMNodeId": 6379
+    },
+    {
+      "nodeId": "-1000005843",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "排气歧管"
+      },
+      "properties": [],
+      "parentId": "6380",
+      "childIds": []
+    },
+    {
+      "nodeId": "6381",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "EXHAUST",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "EXHAUST"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6351",
+      "childIds": [
+        "-1000005844"
+      ],
+      "backendDOMNodeId": 6381
+    },
+    {
+      "nodeId": "-1000005845",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "INLINE · 4D"
+      },
+      "properties": [],
+      "parentId": "6382",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005846",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "FOUR-STROKE DIESEL / 四冲程柴油机"
+      },
+      "properties": [],
+      "parentId": "6383",
+      "childIds": []
+    },
+    {
+      "nodeId": "6384",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "FIRING ORDER",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "FIRING ORDER"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6496",
+      "childIds": [
+        "-1000005847"
+      ],
+      "backendDOMNodeId": 6384
+    },
+    {
+      "nodeId": "6385",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "1 · 3 · 4 · 2",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "1 · 3 · 4 · 2"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6497",
+      "childIds": [
+        "-1000005848"
+      ],
+      "backendDOMNodeId": 6385
+    },
+    {
+      "nodeId": "-1000005858",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "实时工况"
+      },
+      "properties": [],
+      "parentId": "6408",
+      "childIds": []
+    },
+    {
+      "nodeId": "6410",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "CRANK",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "CRANK"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6255",
+      "childIds": [
+        "-1000005860"
+      ],
+      "backendDOMNodeId": 6410
+    },
+    {
+      "nodeId": "-1000005861",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "曲轴转角"
+      },
+      "properties": [],
+      "parentId": "6411",
+      "childIds": []
+    },
+    {
+      "nodeId": "6881",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "599.7°",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "599.7°"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6548",
+      "childIds": [
+        "-1000005967"
+      ],
+      "backendDOMNodeId": 6881
+    },
+    {
+      "nodeId": "6413",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "COOLANT",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "COOLANT"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6257",
+      "childIds": [
+        "-1000005863"
+      ],
+      "backendDOMNodeId": 6413
+    },
+    {
+      "nodeId": "-1000005864",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "冷却液"
+      },
+      "properties": [],
+      "parentId": "6414",
+      "childIds": []
+    },
+    {
+      "nodeId": "6882",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "88°C",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "88°C"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6550",
+      "childIds": [
+        "-1000005968"
+      ],
+      "backendDOMNodeId": 6882
+    },
+    {
+      "nodeId": "6416",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "OIL",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "OIL"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6259",
+      "childIds": [
+        "-1000005866"
+      ],
+      "backendDOMNodeId": 6416
+    },
+    {
+      "nodeId": "-1000005867",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "机油压力"
+      },
+      "properties": [],
+      "parentId": "6417",
+      "childIds": []
+    },
+    {
+      "nodeId": "6883",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "2.8 bar",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "2.8 bar"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6552",
+      "childIds": [
+        "-1000005969"
+      ],
+      "backendDOMNodeId": 6883
+    },
+    {
+      "nodeId": "-1000005869",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "气缸循环"
+      },
+      "properties": [],
+      "parentId": "6419",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005871",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "1"
+      },
+      "properties": [],
+      "parentId": "6421",
+      "childIds": []
+    },
+    {
+      "nodeId": "6884",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "压缩 · COMPRESSION",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "压缩 · COMPRESSION"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6262",
+      "childIds": [
+        "-1000005970"
+      ],
+      "backendDOMNodeId": 6884
+    },
+    {
+      "nodeId": "6423",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "CYLINDER 1",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "CYLINDER 1"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6263",
+      "childIds": [
+        "-1000005873"
+      ],
+      "backendDOMNodeId": 6423
+    },
+    {
+      "nodeId": "-1000005874",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "2"
+      },
+      "properties": [],
+      "parentId": "6424",
+      "childIds": []
+    },
+    {
+      "nodeId": "6885",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "做功 · POWER",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "做功 · POWER"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6268",
+      "childIds": [
+        "-1000005971"
+      ],
+      "backendDOMNodeId": 6885
+    },
+    {
+      "nodeId": "6426",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "CYLINDER 2",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "CYLINDER 2"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6269",
+      "childIds": [
+        "-1000005876"
+      ],
+      "backendDOMNodeId": 6426
+    },
+    {
+      "nodeId": "-1000005877",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "3"
+      },
+      "properties": [],
+      "parentId": "6427",
+      "childIds": []
+    },
+    {
+      "nodeId": "6886",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "进气 · INTAKE",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "进气 · INTAKE"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6274",
+      "childIds": [
+        "-1000005972"
+      ],
+      "backendDOMNodeId": 6886
+    },
+    {
+      "nodeId": "6429",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "CYLINDER 3",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "CYLINDER 3"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6275",
+      "childIds": [
+        "-1000005879"
+      ],
+      "backendDOMNodeId": 6429
+    },
+    {
+      "nodeId": "-1000005880",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "4"
+      },
+      "properties": [],
+      "parentId": "6430",
+      "childIds": []
+    },
+    {
+      "nodeId": "6887",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "排气 · EXHAUST",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "排气 · EXHAUST"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6280",
+      "childIds": [
+        "-1000005973"
+      ],
+      "backendDOMNodeId": 6887
+    },
+    {
+      "nodeId": "6432",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "CYLINDER 4",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "CYLINDER 4"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6281",
+      "childIds": [
+        "-1000005882"
+      ],
+      "backendDOMNodeId": 6432
+    },
+    {
+      "nodeId": "-1000005883",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "PART INSPECTOR"
+      },
+      "properties": [],
+      "parentId": "6433",
+      "childIds": []
+    },
+    {
+      "nodeId": "6434",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "零件信息",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "零件信息"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6286",
+      "childIds": [
+        "-1000005884"
+      ],
+      "backendDOMNodeId": 6434
+    },
+    {
+      "nodeId": "-1000005885",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "⌖"
+      },
+      "properties": [],
+      "parentId": "6435",
+      "childIds": []
+    },
+    {
+      "nodeId": "6436",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "选择一个零件",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "选择一个零件"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6289",
+      "childIds": [
+        "-1000005886"
+      ],
+      "backendDOMNodeId": 6436
+    },
+    {
+      "nodeId": "6437",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "将鼠标悬停或点击发动机组件",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "将鼠标悬停或点击发动机组件"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6290",
+      "childIds": [
+        "-1000005887"
+      ],
+      "backendDOMNodeId": 6437
+    },
+    {
+      "nodeId": "6291",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "LineBreak"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 109
+      },
+      "name": {
+        "type": "computedString",
+        "value": "\n",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "\n"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6290",
+      "childIds": [
+        "-1000005888"
+      ],
+      "backendDOMNodeId": 6291
+    },
+    {
+      "nodeId": "6438",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "查看材料、工艺与实时运动状态",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "查看材料、工艺与实时运动状态"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "6290",
+      "childIds": [
+        "-1000005889"
+      ],
+      "backendDOMNodeId": 6438
+    },
+    {
+      "nodeId": "-1000005849",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "<1> 轴测"
+      },
+      "properties": [],
+      "parentId": "6439",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005850",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "<2> 前视"
+      },
+      "properties": [],
+      "parentId": "6440",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005851",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "<3> 侧视"
+      },
+      "properties": [],
+      "parentId": "6441",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005852",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "<4> 顶视"
+      },
+      "properties": [],
+      "parentId": "6442",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005853",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "<5> 曲柄连杆"
+      },
+      "properties": [],
+      "parentId": "6443",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005854",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "<6> 配气 / 燃烧"
+      },
+      "properties": [],
+      "parentId": "6444",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005855",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "↺ 复位视角"
+      },
+      "properties": [],
+      "parentId": "6445",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005856",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "☰ 控制"
+      },
+      "properties": [],
+      "parentId": "6446",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005857",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "工况 ◫"
+      },
+      "properties": [],
+      "parentId": "6447",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005816",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "BLOCK"
+      },
+      "properties": [],
+      "parentId": "6353",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005818",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "CYLINDER HEAD"
+      },
+      "properties": [],
+      "parentId": "6355",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005820",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "OIL SUMP"
+      },
+      "properties": [],
+      "parentId": "6357",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005822",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "CRANKSHAFT"
+      },
+      "properties": [],
+      "parentId": "6359",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005828",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "CAMSHAFT"
+      },
+      "properties": [],
+      "parentId": "6365",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005838",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "COMMON RAIL"
+      },
+      "properties": [],
+      "parentId": "6375",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005840",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "TURBOCHARGER"
+      },
+      "properties": [],
+      "parentId": "6377",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005842",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "INTAKE"
+      },
+      "properties": [],
+      "parentId": "6379",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005844",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "EXHAUST"
+      },
+      "properties": [],
+      "parentId": "6381",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005847",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "FIRING ORDER"
+      },
+      "properties": [],
+      "parentId": "6384",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005848",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "1 · 3 · 4 · 2"
+      },
+      "properties": [],
+      "parentId": "6385",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005860",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "CRANK"
+      },
+      "properties": [],
+      "parentId": "6410",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005967",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "599.7°"
+      },
+      "properties": [],
+      "parentId": "6881",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005863",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "COOLANT"
+      },
+      "properties": [],
+      "parentId": "6413",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005968",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "88°C"
+      },
+      "properties": [],
+      "parentId": "6882",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005866",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "OIL"
+      },
+      "properties": [],
+      "parentId": "6416",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005969",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "2.8 bar"
+      },
+      "properties": [],
+      "parentId": "6883",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005970",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "压缩 · COMPRESSION"
+      },
+      "properties": [],
+      "parentId": "6884",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005873",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "CYLINDER 1"
+      },
+      "properties": [],
+      "parentId": "6423",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005971",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "做功 · POWER"
+      },
+      "properties": [],
+      "parentId": "6885",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005876",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "CYLINDER 2"
+      },
+      "properties": [],
+      "parentId": "6426",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005972",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "进气 · INTAKE"
+      },
+      "properties": [],
+      "parentId": "6886",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005879",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "CYLINDER 3"
+      },
+      "properties": [],
+      "parentId": "6429",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005973",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "排气 · EXHAUST"
+      },
+      "properties": [],
+      "parentId": "6887",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005882",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "CYLINDER 4"
+      },
+      "properties": [],
+      "parentId": "6432",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005884",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "零件信息"
+      },
+      "properties": [],
+      "parentId": "6434",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005886",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "选择一个零件"
+      },
+      "properties": [],
+      "parentId": "6436",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005887",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "将鼠标悬停或点击发动机组件"
+      },
+      "properties": [],
+      "parentId": "6437",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005888",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "\n"
+      },
+      "properties": [],
+      "parentId": "6291",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000005889",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "查看材料、工艺与实时运动状态"
+      },
+      "properties": [],
+      "parentId": "6438",
+      "childIds": []
+    }
+  ]
+}

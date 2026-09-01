@@ -1,0 +1,38 @@
+{
+  "reviewer": "v4_accessibility_audit",
+  "independentFromRound2Implementation": true,
+  "productSourceModifiedByReviewer": false,
+  "scope": "narrow Round-2 recheck; nine-state axe not rerun",
+  "actualMeasurements": {
+    "panelTitleContrast": {
+      "ratio": 6.272202544725927,
+      "threshold": 4.5,
+      "pass": true
+    },
+    "emptyInspectorInstructionContrast": {
+      "ratio": 6.3428023854558075,
+      "threshold": 4.5,
+      "pass": true
+    },
+    "runningPausedNameStateTitleConsistency": "pass",
+    "genericPistonKeyboardSelection": "pass",
+    "genericConnectingRodKeyboardSelection": "pass",
+    "multiInstance3dOutlineVisualCheck": "pass",
+    "selectorInspectorSynchronization": "pass",
+    "pageErrors": 0,
+    "consoleMessages": 0,
+    "failedRequests": 0,
+    "evaluatorExitCode": 0
+  },
+  "severityCounts": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0
+  },
+  "nvda": {
+    "status": "pending-real-human",
+    "simulated": false
+  },
+  "releaseRecommendation": "release-automated-agent-assisted-gate",
+  "fullWcag22AAConclusion": "not-determined"
+}

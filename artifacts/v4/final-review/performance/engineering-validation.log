@@ -1,0 +1,62 @@
+V4 independent final visual/performance/test review
+Reviewer: v4_visual_perf_baseline (Phase-1 baseline reviewer; not a V4 implementation agent)
+Date: 2026-09-01 Asia/Shanghai
+Product source policy: read-only; no src file edited by this review
+
+COMMAND: npm run typecheck
+EXIT: 0
+OUTPUT:
+> codex-inline4-multiagent@1.0.0 typecheck
+> tsc --noEmit
+
+COMMAND: npm test
+EXIT: 0
+OUTPUT:
+> codex-inline4-multiagent@1.0.0 test
+> vitest run
+Vitest 3.2.7
+tests/dashboard-accessibility.test.ts: 3 passed
+tests/kinematics.test.ts: 16 passed
+tests/effects.test.ts: 2 passed
+tests/scene-geometry.test.ts: 6 passed
+Test Files: 4 passed (4)
+Tests: 27 passed (27)
+Duration: 1.14 s
+
+COMMAND: npm run build
+EXIT: 0
+OUTPUT:
+> codex-inline4-multiagent@1.0.0 build
+> tsc --noEmit && vite build
+Vite 7.3.6; 21 modules transformed; built in 2.21 s
+dist/index.html: 0.91 kB, gzip 0.59 kB
+dist/assets/index-CpFNO-pr.css: 13.83 kB, gzip 3.91 kB
+dist/assets/index-CqA4jLYS.js: 614.18 kB, gzip 162.31 kB
+Non-blocking advisory retained: main chunk exceeds 500 kB.
+
+COMMAND: hardware positive browser acceptance on http://127.0.0.1:16442
+EXIT: 0
+RESULT: acceptance.passed=true; failures=0; Intel Arc D3D11 WebGL2; 3 modes, 6 cameras, 3 toggles, pause, pointer rotate/zoom/pan, five-field part inspection and 390x844 drawers passed; application/page/log errors=0.
+
+COMMAND: hardware negative browser fixture with BROWSER_NEGATIVE_FIXTURE=1
+EXIT: 1 (EXPECTED)
+RESULT: acceptance.passed=false; six injected failures detected: missing desktop canvas, narrow overflow, pause failure, key-5 semantic mismatch, orbit failure and synthetic page exception. A zero exit would have been a fixture failure.
+
+COMMAND: node artifacts/v4/final-review/performance/run-sustained-webgl.mjs hardware 16445 http://127.0.0.1:16442/
+EXIT: 0
+RESULT: renderer Intel Arc D3D11; 3600 frames / 30000.7 ms; 119.9972 FPS; p95 8.4 ms; 268.0003 draws/frame; application/page/log errors=0; context loss=0.
+
+COMMAND: node artifacts/v4/final-review/performance/run-sustained-webgl.mjs swiftshader 16446 http://127.0.0.1:16442/
+EXIT: 0
+RESULT: renderer SwiftShader; 600 frames / 52585.4 ms; 11.4100 FPS; p95 100.1 ms; 267.9417 draws/frame; application/page/log errors=0; context loss=0. Compatibility only; not averaged with hardware.
+
+FIXED VISUAL CAPTURE:
+Puppeteer attempt-01 and attempt-02 timed out in the evaluator launch path and are retained as failures. They produced no valid screenshots and do not count as application failures.
+Raw-CDP attempt-03 succeeded: 4/4 frames are 1280x720@1, paused, displayed crank 000.0 degrees, Intel Arc D3D11 WebGL2, application events=0.
+
+INTEGRITY:
+git diff --check: exit 0 (only Git CRLF conversion warnings)
+Git remotes: none
+v1-baseline -> 5518627ae0430add55b31cd8a4c3e8fb5ab02db3
+v2-baseline -> 12472172925ec3108d096f2402a48e3f7939931b
+v3-model-final -> 7e5ea916a115dcef1bf3ba467a31b78c6206c612

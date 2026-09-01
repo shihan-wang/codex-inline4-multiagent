@@ -1,0 +1,68 @@
+{
+  "probe": "V3 independent final mechanical probe",
+  "result": "passed",
+  "tests": 1,
+  "cycle": {
+    "firingOrder": [1, 3, 4, 2],
+    "boundaryGlobalDegrees": [0, 180, 360, 540],
+    "boundaryStrokesByCylinder1To4": [
+      ["power", "exhaust", "compression", "intake"],
+      ["exhaust", "intake", "power", "compression"],
+      ["intake", "compression", "exhaust", "power"],
+      ["compression", "power", "intake", "exhaust"]
+    ]
+  },
+  "cranktrain": {
+    "maxClosureErrorMm": 1.4210854715202004e-13,
+    "maxPairedPistonErrorMm": 1.1368683772161603e-13,
+    "tdcClearanceMm": 5.5
+  },
+  "valvetrain": {
+    "camshaftToCrankRatio": 0.5,
+    "declaredColdClearanceMm": 0.5,
+    "actualCamGapRangeMm": [0.4999989544573591, 0.573884137892744],
+    "maximumSpringFixedDriftMm": 0,
+    "maximumSpringMovingMismatchMm": 5.684341886080802e-14,
+    "closedValveFaceYmm": 269,
+    "headFaceYmm": 269
+  },
+  "drives": {
+    "visibleTimingSprocketTeeth": [18, 36, 36],
+    "timingChainPresent": true,
+    "accessoryBeltPresent": true,
+    "commandedWaterPumpToCrankRatio": 1.2380952380952381
+  },
+  "fuel": {
+    "probeAngleDeg": 5,
+    "idle": { "visible": true, "scaleX": 0.7704, "opacity": 0.3444 },
+    "fullLoad": { "visible": true, "scaleX": 1, "opacity": 0.82 },
+    "injectionAndHeatSeparatedAt45Deg": true
+  },
+  "flows": {
+    "openOilBranches": 4,
+    "openCoolantBranches": 4,
+    "openIntakePaths": 5,
+    "intakeProbeGlobalDeg": 450,
+    "intakePointOpacityByStartX": {
+      "trunk97": 0.53853125,
+      "cylinder1Minus150": 0.5275360754114871,
+      "cylinder2Minus50": 0.05,
+      "cylinder3Plus50": 0.05,
+      "cylinder4Plus150": 0.05
+    },
+    "exhaustProbeGlobalDeg": 270,
+    "exhaustInstanceScaleByCylinder": [
+      [3.0096685886383057, 5.919429302215576],
+      [0.0010000000474974513, 0.0010000000474974513],
+      [0.0010000000474974513, 0.0010000000474974513],
+      [0.0010000000474974513, 0.0010000000474974513]
+    ]
+  },
+  "turbo": {
+    "lowLoadSettledVisualRadPerSec": 23.242109386976608,
+    "highLoadFirstFrameVisualRadPerSec": 24.545266118495874,
+    "highLoadSettledVisualRadPerSec": 105.72562552397585,
+    "unloadFirstFrameVisualRadPerSec": 104.92127767901593,
+    "physicalRpmClaim": false
+  }
+}

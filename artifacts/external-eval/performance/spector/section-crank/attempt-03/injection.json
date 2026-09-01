@@ -1,0 +1,11 @@
+{
+  "events": [
+    {
+      "capturedAt": "2026-08-31T08:32:14.364Z",
+      "url": "http://127.0.0.1:16330/",
+      "status": "injected-before-production-module",
+      "sourceBytes": 911,
+      "responseBytes": 684937
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+COMMAND D:\Users\wangshihan\nodejs\node.exe D:\ComputePicture\codex-inline4-multiagent\evaluation\performance\node_modules\lighthouse\cli\index.js http://127.0.0.1:16310/ --only-categories=performance --output=json --output=html --output-path=D:\ComputePicture\codex-inline4-multiagent\artifacts\external-eval\performance\lighthouse\mobile\run-02\report --port=25002 --max-wait-for-load=45000
+EXIT 0 SIGNAL null
+--- STDOUT ---
+
+--- STDERR ---
+2026-08-31T03:18:56.264Z LH:ChromeLauncher Found existing Chrome already running using port 25002, using that.
+2026-08-31T03:18:56.919Z LH:status Connecting to browser
+2026-08-31T03:18:56.925Z LH:status Navigating to about:blank
+2026-08-31T03:18:56.937Z LH:status Benchmarking machine
+2026-08-31T03:18:57.947Z LH:status Host device pixel ratio
+2026-08-31T03:18:57.948Z LH:status Preparing target for navigation mode
+2026-08-31T03:18:57.965Z LH:status Cleaning origin data
+2026-08-31T03:18:57.966Z LH:status Cleaning browser cache
+2026-08-31T03:19:27.983Z LH:Driver:warn clearBrowserCaches timed out
+2026-08-31T03:19:27.991Z LH:status Preparing network conditions
+2026-08-31T03:19:33.030Z LH:status Navigating to http://127.0.0.1:16310/
+2026-08-31T03:19:38.705Z LH:status Getting artifact: DevtoolsLog
+2026-08-31T03:19:38.705Z LH:status Getting artifact: Trace
+2026-08-31T03:19:38.706Z LH:status Getting artifact: ConsoleMessages
+2026-08-31T03:19:38.706Z LH:status Getting artifact: CSSUsage
+2026-08-31T03:19:38.735Z LH:status Getting artifact: DOMStats
+2026-08-31T03:19:38.757Z LH:status Getting artifact: ImageElements
+2026-08-31T03:19:38.777Z LH:status Getting artifact: JsUsage
+2026-08-31T03:19:38.777Z LH:status Getting artifact: LinkElements
+2026-08-31T03:19:38.782Z LH:status Getting artifact: MetaElements
+2026-08-31T03:19:38.786Z LH:status Getting artifact: NetworkUserAgent
+2026-08-31T03:19:38.786Z LH:status Getting artifact: OptimizedImages
+2026-08-31T03:19:38.786Z LH:status Getting artifact: ResponseCompression
+2026-08-31T03:19:38.803Z LH:status Getting artifact: Scripts
+2026-08-31T03:19:38.803Z LH:status Getting artifact: SourceMaps
+2026-08-31T03:19:38.803Z LH:status Getting artifact: Stacks
+2026-08-31T03:19:38.803Z LH:status Collect stacks
+2026-08-31T03:19:38.834Z LH:status Getting artifact: Stylesheets
+2026-08-31T03:19:38.844Z LH:status Getting artifact: TraceElements
+2026-08-31T03:19:38.991Z LH:status Trace Engine total
+2026-08-31T03:19:38.994Z LH:status Trace Engine parse
+2026-08-31T03:19:38.998Z LH:status Trace Engine parse:handleEvent
+2026-08-31T03:19:39.451Z LH:status Trace Engine parse:Meta:finalize
+2026-08-31T03:19:39.452Z LH:status Trace Engine parse:AnimationFrames:finalize
+2026-08-31T03:19:39.458Z LH:status Trace Engine parse:Animations:finalize
+2026-08-31T03:19:39.474Z LH:status Trace Engine parse:Samples:finalize
+2026-08-31T03:19:39.489Z LH:status Trace Engine parse:AuctionWorklets:finalize
+2026-08-31T03:19:39.505Z LH:status Trace Engine parse:NetworkRequests:finalize
+2026-08-31T03:19:39.522Z LH:status Trace Engine parse:Renderer:finalize
+2026-08-31T03:19:39.564Z LH:status Trace Engine parse:Flows:finalize
+2026-08-31T03:19:39.580Z LH:status Trace Engine parse:AsyncJSCalls:finalize
+2026-08-31T03:19:39.586Z LH:status Trace Engine parse:DOMStats:finalize
+2026-08-31T03:19:39.599Z LH:status Trace Engine parse:UserTimings:finalize
+2026-08-31T03:19:39.618Z LH:status Trace Engine parse:ExtensionTraceData:finalize
+2026-08-31T03:19:39.633Z LH:status Trace Engine parse:LayerTree:finalize
+2026-08-31T03:19:39.650Z LH:status Trace Engine parse:Frames:finalize
+2026-08-31T03:19:39.677Z LH:status Trace Engine parse:GPU:finalize
+2026-08-31T03:19:39.693Z LH:status Trace Engine parse:ImagePainting:finalize
+2026-08-31T03:19:39.708Z LH:status Trace Engine parse:Initiators:finalize
+2026-08-31T03:19:39.726Z LH:status Trace Engine parse:Invalidations:finalize
+2026-08-31T03:19:39.739Z LH:status Trace Engine parse:PageLoadMetrics:finalize
+2026-08-31T03:19:39.741Z LH:status Trace Engine parse:LargestImagePaint:finalize
+2026-08-31T03:19:39.755Z LH:status Trace Engine parse:LargestTextPaint:finalize
+2026-08-31T03:19:39.772Z LH:status Trace Engine parse:Screenshots:finalize
+2026-08-31T03:19:39.792Z LH:status Trace Engine parse:LayoutShifts:finalize
+2026-08-31T03:19:39.804Z LH:status Trace Engine parse:Memory:finalize
+2026-08-31T03:19:39.817Z LH:status Trace Engine parse:PageFrames:finalize
+2026-08-31T03:19:39.833Z LH:status Trace Engine parse:Scripts:finalize
+2026-08-31T03:19:39.848Z LH:status Trace Engine parse:SelectorStats:finalize
+2026-08-31T03:19:39.863Z LH:status Trace Engine parse:UserInteractions:finalize
+2026-08-31T03:19:39.878Z LH:status Trace Engine parse:Workers:finalize
+2026-08-31T03:19:39.893Z LH:status Trace Engine parse:Warnings:finalize
+2026-08-31T03:19:39.910Z LH:status Trace Engine parse:clone
+2026-08-31T03:19:39.919Z LH:status Trace Engine insights
+2026-08-31T03:19:39.920Z LH:status Trace Engine insights:CLSCulprits
+2026-08-31T03:19:39.921Z LH:status Trace Engine insights:Cache
+2026-08-31T03:19:39.922Z LH:status Trace Engine insights:DOMSize
+2026-08-31T03:19:39.923Z LH:status Trace Engine insights:DocumentLatency
+2026-08-31T03:19:39.923Z LH:status Trace Engine insights:DuplicatedJavaScript
+2026-08-31T03:19:39.924Z LH:status Trace Engine insights:FontDisplay
+2026-08-31T03:19:39.925Z LH:status Trace Engine insights:ForcedReflow
+2026-08-31T03:19:39.925Z LH:status Trace Engine insights:INPBreakdown
+2026-08-31T03:19:39.925Z LH:status Trace Engine insights:ImageDelivery
+2026-08-31T03:19:39.926Z LH:status Trace Engine insights:LCPBreakdown
+2026-08-31T03:19:39.926Z LH:status Trace Engine insights:LCPDiscovery
+2026-08-31T03:19:39.926Z LH:status Trace Engine insights:LegacyJavaScript
+2026-08-31T03:19:39.926Z LH:status Trace Engine insights:ModernHTTP
+2026-08-31T03:19:39.927Z LH:status Trace Engine insights:NetworkDependencyTree
+2026-08-31T03:19:39.927Z LH:status Trace Engine insights:RenderBlocking
+2026-08-31T03:19:39.927Z LH:status Trace Engine insights:SlowCSSSelector
+2026-08-31T03:19:39.928Z LH:status Trace Engine insights:ThirdParties
+2026-08-31T03:19:39.932Z LH:status Trace Engine insights:Viewport
+2026-08-31T03:19:39.934Z LH:status Trace Engine insights:createLanternContext
+2026-08-31T03:19:39.985Z LH:status Trace Engine insights:CLSCulprits
+2026-08-31T03:19:39.986Z LH:status Trace Engine insights:Cache
+2026-08-31T03:19:39.986Z LH:status Trace Engine insights:DOMSize
+2026-08-31T03:19:39.987Z LH:status Trace Engine insights:DocumentLatency
+2026-08-31T03:19:39.987Z LH:status Trace Engine insights:DuplicatedJavaScript
+2026-08-31T03:19:39.987Z LH:status Trace Engine insights:FontDisplay
+2026-08-31T03:19:39.987Z LH:status Trace Engine insights:ForcedReflow
+2026-08-31T03:19:39.989Z LH:status Trace Engine insights:INPBreakdown
+2026-08-31T03:19:39.990Z LH:status Trace Engine insights:ImageDelivery
+2026-08-31T03:19:39.990Z LH:status Trace Engine insights:LCPBreakdown
+2026-08-31T03:19:39.990Z LH:status Trace Engine insights:LCPDiscovery
+2026-08-31T03:19:39.990Z LH:status Trace Engine insights:LegacyJavaScript
+2026-08-31T03:19:39.990Z LH:status Trace Engine insights:ModernHTTP
+2026-08-31T03:19:39.992Z LH:status Trace Engine insights:NetworkDependencyTree
+2026-08-31T03:19:39.994Z LH:status Trace Engine insights:RenderBlocking
+2026-08-31T03:19:39.994Z LH:status Trace Engine insights:SlowCSSSelector
+2026-08-31T03:19:39.995Z LH:status Trace Engine insights:ThirdParties
+2026-08-31T03:19:40.093Z LH:status Trace Engine insights:Viewport
+2026-08-31T03:19:40.255Z LH:status Getting artifact: ViewportDimensions
+2026-08-31T03:19:40.261Z LH:status Getting artifact: FullPageScreenshot
+2026-08-31T03:19:41.378Z LH:status Getting artifact: BFCacheFailures
+2026-08-31T03:19:44.824Z LH:status Analyzing and running audits...
+2026-08-31T03:19:44.837Z LH:status Auditing: Has a `<meta name="viewport">` tag with `width` or `initial-scale`
+2026-08-31T03:19:44.866Z LH:status Auditing: First Contentful Paint
+2026-08-31T03:19:44.975Z LH:status Auditing: Largest Contentful Paint
+2026-08-31T03:19:44.997Z LH:status Auditing: First Meaningful Paint
+2026-08-31T03:19:45.016Z LH:status Auditing: Speed Index
+2026-08-31T03:19:45.810Z LH:status Auditing: Screenshot Thumbnails
+2026-08-31T03:19:45.814Z LH:status Auditing: Final Screenshot
+2026-08-31T03:19:45.851Z LH:status Auditing: Total Blocking Time
+2026-08-31T03:19:45.903Z LH:status Auditing: Max Potential First Input Delay
+2026-08-31T03:19:45.928Z LH:status Auditing: Cumulative Layout Shift
+2026-08-31T03:19:45.941Z LH:status Auditing: Initial server response time was short
+2026-08-31T03:19:45.949Z LH:status Auditing: Time to Interactive
+2026-08-31T03:19:45.954Z LH:status Auditing: User Timing marks and measures
+2026-08-31T03:19:45.968Z LH:status Auditing: Avoid chaining critical requests
+2026-08-31T03:19:45.978Z LH:status Auditing: Avoid multiple page redirects
+2026-08-31T03:19:46.020Z LH:status Auditing: Minimizes main-thread work
+2026-08-31T03:19:46.178Z LH:status Auditing: JavaScript execution time
+2026-08-31T03:19:46.203Z LH:status Auditing: Preconnect to required origins
+2026-08-31T03:19:46.207Z LH:status Auditing: All text remains visible during webfont loads
+2026-08-31T03:19:46.211Z LH:status Auditing: Diagnostics
+2026-08-31T03:19:46.213Z LH:status Auditing: Network Requests
+2026-08-31T03:19:46.216Z LH:status Auditing: Network Round Trip Times
+2026-08-31T03:19:46.218Z LH:status Auditing: Server Backend Latencies
+2026-08-31T03:19:46.220Z LH:status Auditing: Tasks
+2026-08-31T03:19:46.221Z LH:status Auditing: Metrics
+2026-08-31T03:19:46.226Z LH:status Auditing: Resources Summary
+2026-08-31T03:19:46.229Z LH:status Auditing: Minimize third-party usage
+2026-08-31T03:19:46.239Z LH:status Auditing: Lazy load third-party resources with facades
+2026-08-31T03:19:46.246Z LH:status Auditing: Largest Contentful Paint element
+2026-08-31T03:19:46.248Z LH:status Auditing: Largest Contentful Paint image was not lazily loaded
+2026-08-31T03:19:46.250Z LH:status Auditing: Avoid large layout shifts
+2026-08-31T03:19:46.251Z LH:status Auditing: Avoid long main-thread tasks
+2026-08-31T03:19:46.257Z LH:status Auditing: Avoid non-composited animations
+2026-08-31T03:19:46.260Z LH:status Auditing: Image elements have explicit `width` and `height`
+2026-08-31T03:19:46.261Z LH:status Auditing: Preload Largest Contentful Paint image
+2026-08-31T03:19:46.273Z LH:status Auditing: Script Treemap Data
+2026-08-31T03:19:46.443Z LH:status Auditing: Uses efficient cache policy on static assets
+2026-08-31T03:19:46.445Z LH:status Auditing: Avoids enormous network payloads
+2026-08-31T03:19:46.449Z LH:status Auditing: Defer offscreen images
+2026-08-31T03:19:46.452Z LH:status Auditing: Eliminate render-blocking resources
+2026-08-31T03:19:46.456Z LH:status Auditing: Minify CSS
+2026-08-31T03:19:46.460Z LH:status Auditing: Minify JavaScript
+2026-08-31T03:19:46.498Z LH:status Auditing: Reduce unused CSS
+2026-08-31T03:19:46.501Z LH:status Auditing: Reduce unused JavaScript
+2026-08-31T03:19:46.505Z LH:status Auditing: Serve images in next-gen formats
+2026-08-31T03:19:46.508Z LH:status Auditing: Efficiently encode images
+2026-08-31T03:19:46.512Z LH:status Auditing: Enable text compression
+2026-08-31T03:19:46.516Z LH:status Auditing: Properly size images
+2026-08-31T03:19:46.522Z LH:status Auditing: Use video formats for animated content
+2026-08-31T03:19:46.526Z LH:status Auditing: Remove duplicate modules in JavaScript bundles
+2026-08-31T03:19:46.531Z LH:status Auditing: Avoid serving legacy JavaScript to modern browsers
+2026-08-31T03:19:46.707Z LH:status Auditing: Avoids an excessive DOM size
+2026-08-31T03:19:46.719Z LH:status Auditing: Avoids `document.write()`
+2026-08-31T03:19:46.724Z LH:status Auditing: Use HTTP/2
+2026-08-31T03:19:46.733Z LH:status Auditing: Uses passive listeners to improve scrolling performance
+2026-08-31T03:19:46.737Z LH:status Auditing: Page didn't prevent back/forward cache restoration
+2026-08-31T03:19:46.741Z LH:status Auditing: Use efficient cache lifetimes
+2026-08-31T03:19:46.748Z LH:status Auditing: Layout shift culprits
+2026-08-31T03:19:46.749Z LH:status Auditing: Document request latency
+2026-08-31T03:19:46.753Z LH:status Auditing: Optimize DOM size
+2026-08-31T03:19:46.758Z LH:status Auditing: Duplicated JavaScript
+2026-08-31T03:19:46.760Z LH:status Auditing: Font display
+2026-08-31T03:19:46.761Z LH:status Auditing: Forced reflow
+2026-08-31T03:19:46.766Z LH:status Auditing: Improve image delivery
+2026-08-31T03:19:46.775Z LH:status Auditing: INP breakdown
+2026-08-31T03:19:46.778Z LH:status Auditing: LCP breakdown
+2026-08-31T03:19:46.781Z LH:status Auditing: LCP request discovery
+2026-08-31T03:19:46.784Z LH:status Auditing: Legacy JavaScript
+2026-08-31T03:19:46.785Z LH:status Auditing: Modern HTTP
+2026-08-31T03:19:46.788Z LH:status Auditing: Network dependency tree
+2026-08-31T03:19:46.789Z LH:status Auditing: Render blocking requests
+2026-08-31T03:19:46.792Z LH:status Auditing: 3rd parties
+2026-08-31T03:19:46.889Z LH:status Auditing: Optimize viewport for mobile
+2026-08-31T03:19:46.891Z LH:status Generating results...
+2026-08-31T03:19:47.095Z LH:Printer json output written to D:\ComputePicture\codex-inline4-multiagent\artifacts\external-eval\performance\lighthouse\mobile\run-02\report.report.json
+2026-08-31T03:19:47.132Z LH:Printer html output written to D:\ComputePicture\codex-inline4-multiagent\artifacts\external-eval\performance\lighthouse\mobile\run-02\report.report.html
+2026-08-31T03:19:47.132Z LH:CLI Protip: Run lighthouse with `--view` to immediately open the HTML report in your browser
+

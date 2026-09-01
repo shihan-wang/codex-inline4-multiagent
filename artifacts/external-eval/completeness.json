@@ -1,0 +1,879 @@
+{
+  "schemaVersion": 1,
+  "generatedAtUtc": "2026-08-31T13:11:58.732Z",
+  "targetCommit": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+  "tagPeeled": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+  "sourceDiff": "",
+  "allAutomatableEvidenceComplete": true,
+  "humanRequired": {
+    "nvda": "pending",
+    "blindReview": "pending",
+    "simulated": false
+  },
+  "checks": [
+    {
+      "name": "lighthouse-desktop-5-cold-cache-runs",
+      "status": "complete",
+      "files": [
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/desktop/run-01/report.report.json",
+          "bytes": 423606
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/desktop/run-01/report.report.html",
+          "bytes": 549101
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/desktop/run-01/run-metadata.json",
+          "bytes": 1003
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/desktop/run-02/report.report.json",
+          "bytes": 424606
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/desktop/run-02/report.report.html",
+          "bytes": 537263
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/desktop/run-02/run-metadata.json",
+          "bytes": 1003
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/desktop/run-03/report.report.json",
+          "bytes": 424732
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/desktop/run-03/report.report.html",
+          "bytes": 549942
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/desktop/run-03/run-metadata.json",
+          "bytes": 1003
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/desktop/run-04/report.report.json",
+          "bytes": 417532
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/desktop/run-04/report.report.html",
+          "bytes": 533511
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/desktop/run-04/run-metadata.json",
+          "bytes": 1003
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/desktop/run-05/report.report.json",
+          "bytes": 425333
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/desktop/run-05/report.report.html",
+          "bytes": 550456
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/desktop/run-05/run-metadata.json",
+          "bytes": 1003
+        }
+      ],
+      "detail": {
+        "validRuns": 5,
+        "performanceScores": [
+          78,
+          77,
+          92,
+          82,
+          92
+        ]
+      }
+    },
+    {
+      "name": "lighthouse-mobile-5-cold-cache-runs",
+      "status": "complete",
+      "files": [
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/mobile/run-01/report.report.json",
+          "bytes": 331492
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/mobile/run-01/report.report.html",
+          "bytes": 452720
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/mobile/run-01/run-metadata.json",
+          "bytes": 991
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/mobile/run-02/report.report.json",
+          "bytes": 382440
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/mobile/run-02/report.report.html",
+          "bytes": 510280
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/mobile/run-02/run-metadata.json",
+          "bytes": 991
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/mobile/run-03/report.report.json",
+          "bytes": 382925
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/mobile/run-03/report.report.html",
+          "bytes": 498329
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/mobile/run-03/run-metadata.json",
+          "bytes": 991
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/mobile/run-04/report.report.json",
+          "bytes": 379920
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/mobile/run-04/report.report.html",
+          "bytes": 508716
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/mobile/run-04/run-metadata.json",
+          "bytes": 991
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/mobile/run-05/report.report.json",
+          "bytes": 356946
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/mobile/run-05/report.report.html",
+          "bytes": 486157
+        },
+        {
+          "path": "artifacts/external-eval/performance/lighthouse/mobile/run-05/run-metadata.json",
+          "bytes": 992
+        }
+      ],
+      "detail": {
+        "validRuns": 5,
+        "performanceScores": [
+          42,
+          87,
+          56.99999999999999,
+          76,
+          88
+        ]
+      }
+    },
+    {
+      "name": "web-vitals-and-scene-ready-desktop-5-runs",
+      "status": "complete",
+      "files": [
+        {
+          "path": "artifacts/external-eval/performance/web-vitals/desktop/run-01/raw-result.json",
+          "bytes": 33677
+        },
+        {
+          "path": "artifacts/external-eval/performance/web-vitals/desktop/run-01/run-metadata.json",
+          "bytes": 619
+        },
+        {
+          "path": "artifacts/external-eval/performance/web-vitals/desktop/run-02/raw-result.json",
+          "bytes": 34438
+        },
+        {
+          "path": "artifacts/external-eval/performance/web-vitals/desktop/run-02/run-metadata.json",
+          "bytes": 620
+        },
+        {
+          "path": "artifacts/external-eval/performance/web-vitals/desktop/run-03/raw-result.json",
+          "bytes": 34791
+        },
+        {
+          "path": "artifacts/external-eval/performance/web-vitals/desktop/run-03/run-metadata.json",
+          "bytes": 619
+        },
+        {
+          "path": "artifacts/external-eval/performance/web-vitals/desktop/run-04/raw-result.json",
+          "bytes": 36790
+        },
+        {
+          "path": "artifacts/external-eval/performance/web-vitals/desktop/run-04/run-metadata.json",
+          "bytes": 619
+        },
+        {
+          "path": "artifacts/external-eval/performance/web-vitals/desktop/run-05/raw-result.json",
+          "bytes": 34364
+        },
+        {
+          "path": "artifacts/external-eval/performance/web-vitals/desktop/run-05/run-metadata.json",
+          "bytes": 619
+        }
+      ],
+      "detail": {
+        "validRuns": 5,
+        "sceneReadyMs": [
+          996.0999999940395,
+          281.20000000298023,
+          156.70000000298023,
+          173.5,
+          1334.0999999940395
+        ],
+        "scriptedInteractions": 25
+      }
+    },
+    {
+      "name": "web-vitals-and-scene-ready-mobile-5-runs",
+      "status": "complete",
+      "files": [
+        {
+          "path": "artifacts/external-eval/performance/web-vitals/mobile/run-01/raw-result.json",
+          "bytes": 28383
+        },
+        {
+          "path": "artifacts/external-eval/performance/web-vitals/mobile/run-01/run-metadata.json",
+          "bytes": 617
+        },
+        {
+          "path": "artifacts/external-eval/performance/web-vitals/mobile/run-02/raw-result.json",
+          "bytes": 28380
+        },
+        {
+          "path": "artifacts/external-eval/performance/web-vitals/mobile/run-02/run-metadata.json",
+          "bytes": 616
+        },
+        {
+          "path": "artifacts/external-eval/performance/web-vitals/mobile/run-03/raw-result.json",
+          "bytes": 28735
+        },
+        {
+          "path": "artifacts/external-eval/performance/web-vitals/mobile/run-03/run-metadata.json",
+          "bytes": 616
+        },
+        {
+          "path": "artifacts/external-eval/performance/web-vitals/mobile/run-04/raw-result.json",
+          "bytes": 28898
+        },
+        {
+          "path": "artifacts/external-eval/performance/web-vitals/mobile/run-04/run-metadata.json",
+          "bytes": 617
+        },
+        {
+          "path": "artifacts/external-eval/performance/web-vitals/mobile/run-05/raw-result.json",
+          "bytes": 28838
+        },
+        {
+          "path": "artifacts/external-eval/performance/web-vitals/mobile/run-05/run-metadata.json",
+          "bytes": 616
+        }
+      ],
+      "detail": {
+        "validRuns": 5,
+        "sceneReadyMs": [
+          212.80000001192093,
+          382.79999999701977,
+          207.70000000298023,
+          431.90000000596046,
+          956.7999999970198
+        ],
+        "scriptedInteractions": 25
+      }
+    },
+    {
+      "name": "sustained-webgl-intel-arc-3-runs",
+      "status": "complete",
+      "files": [
+        {
+          "path": "artifacts/external-eval/performance/webgl/intel-arc/run-01/raw-result.json",
+          "bytes": 5348
+        },
+        {
+          "path": "artifacts/external-eval/performance/webgl/intel-arc/run-01/run-metadata.json",
+          "bytes": 515
+        },
+        {
+          "path": "artifacts/external-eval/performance/webgl/intel-arc/run-01/heap.heapsnapshot",
+          "bytes": 15416353
+        },
+        {
+          "path": "artifacts/external-eval/performance/webgl/intel-arc/run-01/post-sample.png",
+          "bytes": 456545
+        },
+        {
+          "path": "artifacts/external-eval/performance/webgl/intel-arc/run-02/raw-result.json",
+          "bytes": 5357
+        },
+        {
+          "path": "artifacts/external-eval/performance/webgl/intel-arc/run-02/run-metadata.json",
+          "bytes": 515
+        },
+        {
+          "path": "artifacts/external-eval/performance/webgl/intel-arc/run-02/heap.heapsnapshot",
+          "bytes": 15422812
+        },
+        {
+          "path": "artifacts/external-eval/performance/webgl/intel-arc/run-02/post-sample.png",
+          "bytes": 456414
+        },
+        {
+          "path": "artifacts/external-eval/performance/webgl/intel-arc/run-03/raw-result.json",
+          "bytes": 5352
+        },
+        {
+          "path": "artifacts/external-eval/performance/webgl/intel-arc/run-03/run-metadata.json",
+          "bytes": 515
+        },
+        {
+          "path": "artifacts/external-eval/performance/webgl/intel-arc/run-03/heap.heapsnapshot",
+          "bytes": 15419056
+        },
+        {
+          "path": "artifacts/external-eval/performance/webgl/intel-arc/run-03/post-sample.png",
+          "bytes": 456092
+        }
+      ],
+      "detail": {
+        "validRuns": 3,
+        "results": [
+          {
+            "run": 1,
+            "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+            "frames": 3601,
+            "fps": 120.0305326208936,
+            "p95Ms": 8.400000000001455
+          },
+          {
+            "run": 2,
+            "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+            "frames": 3601,
+            "fps": 120.02333138909859,
+            "p95Ms": 8.400000000001455
+          },
+          {
+            "run": 3,
+            "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+            "frames": 3602,
+            "fps": 120.03465742472252,
+            "p95Ms": 8.400000000001455
+          }
+        ],
+        "mixedAverageComputed": false
+      }
+    },
+    {
+      "name": "sustained-webgl-swiftshader-3-runs",
+      "status": "complete",
+      "files": [
+        {
+          "path": "artifacts/external-eval/performance/webgl/swiftshader/run-01/raw-result.json",
+          "bytes": 5616
+        },
+        {
+          "path": "artifacts/external-eval/performance/webgl/swiftshader/run-01/run-metadata.json",
+          "bytes": 527
+        },
+        {
+          "path": "artifacts/external-eval/performance/webgl/swiftshader/run-01/heap.heapsnapshot",
+          "bytes": 15397590
+        },
+        {
+          "path": "artifacts/external-eval/performance/webgl/swiftshader/run-01/post-sample.png",
+          "bytes": 450328
+        },
+        {
+          "path": "artifacts/external-eval/performance/webgl/swiftshader/run-02/raw-result.json",
+          "bytes": 5242
+        },
+        {
+          "path": "artifacts/external-eval/performance/webgl/swiftshader/run-02/run-metadata.json",
+          "bytes": 527
+        },
+        {
+          "path": "artifacts/external-eval/performance/webgl/swiftshader/run-02/heap.heapsnapshot",
+          "bytes": 15295658
+        },
+        {
+          "path": "artifacts/external-eval/performance/webgl/swiftshader/run-02/post-sample.png",
+          "bytes": 449795
+        },
+        {
+          "path": "artifacts/external-eval/performance/webgl/swiftshader/run-03/raw-result.json",
+          "bytes": 5246
+        },
+        {
+          "path": "artifacts/external-eval/performance/webgl/swiftshader/run-03/run-metadata.json",
+          "bytes": 527
+        },
+        {
+          "path": "artifacts/external-eval/performance/webgl/swiftshader/run-03/heap.heapsnapshot",
+          "bytes": 15280096
+        },
+        {
+          "path": "artifacts/external-eval/performance/webgl/swiftshader/run-03/post-sample.png",
+          "bytes": 450219
+        }
+      ],
+      "detail": {
+        "validRuns": 3,
+        "results": [
+          {
+            "run": 1,
+            "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+            "frames": 600,
+            "fps": 1.8540016927035285,
+            "p95Ms": 916.6999999999971
+          },
+          {
+            "run": 2,
+            "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+            "frames": 600,
+            "fps": 2.5568744766396905,
+            "p95Ms": 716.6999999999825
+          },
+          {
+            "run": 3,
+            "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+            "frames": 600,
+            "fps": 2.369829230105734,
+            "p95Ms": 700.1000000000058
+          }
+        ],
+        "mixedAverageComputed": false
+      }
+    },
+    {
+      "name": "spector-3-scenes-and-failed-attempts-retained",
+      "status": "complete",
+      "files": [
+        {
+          "path": "artifacts/external-eval/performance/spector/session-04-summary.json",
+          "bytes": 21946
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/solid-isometric/attempt-04/capture.json",
+          "bytes": 101402774
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/solid-isometric/attempt-04/capture-summary.json",
+          "bytes": 5110
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/solid-isometric/attempt-04/representative.png",
+          "bytes": 456718
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/solid-isometric/attempt-04/state.json",
+          "bytes": 641
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/solid-isometric/attempt-04/spector-status.json",
+          "bytes": 66
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/solid-isometric/attempt-04/environment.json",
+          "bytes": 3522
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/solid-isometric/attempt-04/injection.json",
+          "bytes": 446
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/solid-isometric/attempt-04/console.json",
+          "bytes": 837
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/solid-isometric/attempt-04/run.log",
+          "bytes": 649
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/section-crank/attempt-04/capture.json",
+          "bytes": 100541712
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/section-crank/attempt-04/capture-summary.json",
+          "bytes": 5112
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/section-crank/attempt-04/representative.png",
+          "bytes": 488822
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/section-crank/attempt-04/state.json",
+          "bytes": 639
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/section-crank/attempt-04/spector-status.json",
+          "bytes": 66
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/section-crank/attempt-04/environment.json",
+          "bytes": 3520
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/section-crank/attempt-04/injection.json",
+          "bytes": 446
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/section-crank/attempt-04/console.json",
+          "bytes": 839
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/section-crank/attempt-04/run.log",
+          "bytes": 645
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/xray-valvetrain/attempt-04/capture.json",
+          "bytes": 88897654
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/xray-valvetrain/attempt-04/capture-summary.json",
+          "bytes": 5111
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/xray-valvetrain/attempt-04/representative.png",
+          "bytes": 554837
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/xray-valvetrain/attempt-04/state.json",
+          "bytes": 641
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/xray-valvetrain/attempt-04/spector-status.json",
+          "bytes": 65
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/xray-valvetrain/attempt-04/environment.json",
+          "bytes": 3522
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/xray-valvetrain/attempt-04/injection.json",
+          "bytes": 446
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/xray-valvetrain/attempt-04/console.json",
+          "bytes": 837
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/xray-valvetrain/attempt-04/run.log",
+          "bytes": 648
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/session-01-summary.json",
+          "bytes": 2943
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/session-02-summary.json",
+          "bytes": 2985
+        },
+        {
+          "path": "artifacts/external-eval/performance/spector/session-03-summary.json",
+          "bytes": 3000
+        }
+      ],
+      "detail": {
+        "status": "complete",
+        "scenes": [
+          "solid-isometric",
+          "section-crank",
+          "xray-valvetrain"
+        ]
+      }
+    },
+    {
+      "name": "axe-9-required-states",
+      "status": "complete",
+      "files": [
+        {
+          "path": "artifacts/external-eval/accessibility/axe/desktop-solid/run-02/axe-result.json",
+          "bytes": 372360
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/desktop-solid/run-02/ax-tree.json",
+          "bytes": 237804
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/desktop-solid/run-02/screenshot.png",
+          "bytes": 457913
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/desktop-solid/run-02/state-metadata.json",
+          "bytes": 6389
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/desktop-xray/run-02/axe-result.json",
+          "bytes": 372304
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/desktop-xray/run-02/ax-tree.json",
+          "bytes": 239369
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/desktop-xray/run-02/screenshot.png",
+          "bytes": 523491
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/desktop-xray/run-02/state-metadata.json",
+          "bytes": 6387
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/desktop-section/run-02/axe-result.json",
+          "bytes": 372364
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/desktop-section/run-02/ax-tree.json",
+          "bytes": 239369
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/desktop-section/run-02/screenshot.png",
+          "bytes": 466087
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/desktop-section/run-02/state-metadata.json",
+          "bytes": 6393
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/desktop-selected/run-02/axe-result.json",
+          "bytes": 395945
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/desktop-selected/run-02/ax-tree.json",
+          "bytes": 260526
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/desktop-selected/run-02/screenshot.png",
+          "bytes": 476452
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/desktop-selected/run-02/state-metadata.json",
+          "bytes": 6411
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/desktop-paused/run-02/axe-result.json",
+          "bytes": 371515
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/desktop-paused/run-02/ax-tree.json",
+          "bytes": 239360
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/desktop-paused/run-02/screenshot.png",
+          "bytes": 452664
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/desktop-paused/run-02/state-metadata.json",
+          "bytes": 6379
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/desktop-exploded/run-02/axe-result.json",
+          "bytes": 372324
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/desktop-exploded/run-02/ax-tree.json",
+          "bytes": 239368
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/desktop-exploded/run-02/screenshot.png",
+          "bytes": 472193
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/desktop-exploded/run-02/state-metadata.json",
+          "bytes": 6391
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/narrow-initial/run-02/axe-result.json",
+          "bytes": 223369
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/narrow-initial/run-02/ax-tree.json",
+          "bytes": 112648
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/narrow-initial/run-02/screenshot.png",
+          "bytes": 224047
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/narrow-initial/run-02/state-metadata.json",
+          "bytes": 4083
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/narrow-left-drawer/run-02/axe-result.json",
+          "bytes": 292902
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/narrow-left-drawer/run-02/ax-tree.json",
+          "bytes": 156838
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/narrow-left-drawer/run-02/screenshot.png",
+          "bytes": 191406
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/narrow-left-drawer/run-02/state-metadata.json",
+          "bytes": 7114
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/narrow-right-drawer/run-02/axe-result.json",
+          "bytes": 299446
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/narrow-right-drawer/run-02/ax-tree.json",
+          "bytes": 177063
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/narrow-right-drawer/run-02/screenshot.png",
+          "bytes": 212175
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/axe/narrow-right-drawer/run-02/state-metadata.json",
+          "bytes": 4087
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/accessibility-run-02-summary.json",
+          "bytes": 35010
+        },
+        {
+          "path": "artifacts/external-eval/accessibility/b-scorecard.json",
+          "bytes": 7273
+        }
+      ],
+      "detail": {
+        "validStates": 9,
+        "stateNames": [
+          "desktop-solid",
+          "desktop-xray",
+          "desktop-section",
+          "desktop-selected",
+          "desktop-paused",
+          "desktop-exploded",
+          "narrow-initial",
+          "narrow-left-drawer",
+          "narrow-right-drawer"
+        ],
+        "nvda": "pending-real-operator"
+      }
+    },
+    {
+      "name": "semantic-glb-blender-trimesh",
+      "status": "complete",
+      "files": [
+        {
+          "path": "artifacts/external-eval/geometry/export/semantic-engine.glb",
+          "bytes": 3236920
+        },
+        {
+          "path": "artifacts/external-eval/geometry/export/semantic-engine.manifest.json",
+          "bytes": 407179
+        },
+        {
+          "path": "artifacts/external-eval/geometry/blender/results.json",
+          "bytes": 410939
+        },
+        {
+          "path": "artifacts/external-eval/geometry/trimesh/results.json",
+          "bytes": 411210
+        },
+        {
+          "path": "artifacts/external-eval/geometry/c-scorecard.json",
+          "bytes": 7064
+        }
+      ],
+      "detail": {
+        "blenderVersion": "5.2.1 LTS",
+        "trimeshVersion": "4.8.3",
+        "nodesEach": 474,
+        "closedWatertightEach": 413
+      }
+    },
+    {
+      "name": "mechanics-0-to-720-and-collision",
+      "status": "complete",
+      "files": [
+        {
+          "path": "artifacts/external-eval/mechanics/assembly-scan.json",
+          "bytes": 2387995
+        },
+        {
+          "path": "artifacts/external-eval/mechanics/collision-scan.json",
+          "bytes": 481327
+        }
+      ],
+      "detail": {
+        "samples": 721,
+        "firingOrderErrors": 0,
+        "strokeErrors": 0,
+        "collisionAngles": 721
+      }
+    },
+    {
+      "name": "anonymous-v2-v3-human-review-kit",
+      "status": "complete",
+      "files": [
+        {
+          "path": "artifacts/external-eval/blind-review/generation-summary.json",
+          "bytes": 381
+        },
+        {
+          "path": "artifacts/external-eval/blind-review/admin/randomization-key.json",
+          "bytes": 5348
+        },
+        {
+          "path": "artifacts/external-eval/blind-review/forms/BLIND_REVIEW_FORM.md",
+          "bytes": 1690
+        },
+        {
+          "path": "artifacts/external-eval/blind-review/forms/participant-records.csv",
+          "bytes": 537
+        },
+        {
+          "path": "artifacts/external-eval/blind-review/materials/PARTICIPANT_GUIDE.md",
+          "bytes": 1757
+        },
+        {
+          "path": "artifacts/external-eval/blind-review/materials/participant-assignments.csv",
+          "bytes": 290
+        },
+        {
+          "path": "artifacts/external-eval/blind-review/results/human-review-analysis.json",
+          "bytes": 353
+        }
+      ],
+      "detail": {
+        "status": "pending",
+        "validParticipants": 0,
+        "minimumRequired": 8,
+        "simulated": false
+      }
+    },
+    {
+      "name": "engineering-validation",
+      "status": "complete",
+      "files": [
+        {
+          "path": "artifacts/external-eval/validation/run-01/summary.json",
+          "bytes": 1959
+        },
+        {
+          "path": "artifacts/external-eval/validation/run-02/summary.json",
+          "bytes": 2127
+        },
+        {
+          "path": "artifacts/external-eval/validation/run-02/typecheck.log",
+          "bytes": 255
+        },
+        {
+          "path": "artifacts/external-eval/validation/run-02/unit-tests.log",
+          "bytes": 619
+        },
+        {
+          "path": "artifacts/external-eval/validation/run-02/production-build.log",
+          "bytes": 942
+        }
+      ],
+      "detail": {
+        "failedEvaluatorAttemptRetained": true,
+        "effectiveRun": "run-02",
+        "allPassed": true
+      }
+    }
+  ],
+  "failures": [],
+  "reportSha256BeforeFinalization": "4e3adf0ca80ada2975e5974c27f9888bdbaff9f5ff58c976491e1555ea547472"
+}

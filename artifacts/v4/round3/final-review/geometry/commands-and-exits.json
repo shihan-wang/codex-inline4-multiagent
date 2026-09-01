@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "v4_round3_geometry_reviewer",
+  "commands": [
+    {
+      "id": "trimesh-topology",
+      "command": "python evaluation/geometry/trimesh_check.py artifacts/v4/round3/geometry/semantic-export/semantic-engine.glb artifacts/v4/round3/geometry/semantic-export/semantic-engine.manifest.json artifacts/v4/round3/final-review/geometry/trimesh-results.json",
+      "exitCode": 0,
+      "evidence": ["trimesh-results.json"]
+    },
+    {
+      "id": "blender-topology",
+      "command": "C:\\Users\\wangshihan\\AppData\\Local\\Temp\\blender-5.2.1-portable\\blender-5.2.1-windows-x64\\blender.exe --background --factory-startup --python evaluation/geometry/blender_check.py -- artifacts/v4/round3/geometry/semantic-export/semantic-engine.glb artifacts/v4/round3/geometry/semantic-export/semantic-engine.manifest.json artifacts/v4/round3/final-review/geometry/blender-results.json",
+      "exitCode": 0,
+      "evidence": ["blender-results.json"]
+    },
+    {
+      "id": "blender-721-surface-scan",
+      "command": "C:\\Users\\wangshihan\\AppData\\Local\\Temp\\blender-5.2.1-portable\\blender-5.2.1-windows-x64\\blender.exe --background --factory-startup --python evaluation/v4/v4_check.py -- --input evaluation/v4/fixtures/v4-round3-input.json --output artifacts/v4/round3/final-review/geometry/v4-surface-report.json",
+      "exitCode": 0,
+      "evidence": ["v4-surface-report.json"]
+    },
+    {
+      "id": "production-preview",
+      "command": "npm run preview -- --host 127.0.0.1 --port 16531 --strictPort",
+      "exitCode": 0,
+      "evidence": ["browser/round3-fixed-angle-page.json"]
+    },
+    {
+      "id": "fixed-angle-page-capture",
+      "command": "node artifacts/v4/round3/final-review/geometry/capture-fixed-page.mjs",
+      "exitCode": 0,
+      "evidence": [
+        "browser/round3-crank-section-1280x720.png",
+        "browser/round3-valvetrain-xray-1280x720.png",
+        "browser/round3-fixed-angle-page.json"
+      ]
+    }
+  ],
+  "excludedAsAlreadyValid": [
+    "Round-1 and Round-2 Trimesh, Blender, collision and browser evidence",
+    "Round-3 dry-run.json created before this review"
+  ]
+}

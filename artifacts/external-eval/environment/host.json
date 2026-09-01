@@ -1,0 +1,25 @@
+{
+  "collectedAt": "2026-08-31T02:56:42.091Z",
+  "targetCommit": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+  "targetTagPeeled": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+  "protocolCommit": "38c00417812fa87ca76b520c17c978a14cbd8ad2",
+  "currentHead": "38c00417812fa87ca76b520c17c978a14cbd8ad2",
+  "branch": "external-evaluation",
+  "sourceDiffFromTarget": "",
+  "platform": {
+    "type": "Windows_NT",
+    "release": "10.0.26200",
+    "version": "Windows 11 Home China",
+    "arch": "x64"
+  },
+  "cpu": {
+    "model": "Intel(R) Core(TM) Ultra 9 185H",
+    "logicalProcessors": 22
+  },
+  "totalMemoryBytes": 33945935872,
+  "node": "v24.14.0",
+  "npm": "11.9.0",
+  "git": "git version 2.50.0.windows.1",
+  "edge": "152.0.4191.53",
+  "gpuEvidencePolicy": "Exact renderer strings are recorded by each WebGL browser run; host CIM/PnP inventory is unavailable in this sandbox."
+}

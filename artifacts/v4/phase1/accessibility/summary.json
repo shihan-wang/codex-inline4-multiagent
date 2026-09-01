@@ -1,0 +1,69 @@
+{
+  "audit": "V4 phase-1 read-only accessibility audit",
+  "status": "remediation-required",
+  "releaseRecommendation": false,
+  "target": {
+    "tag": "v3-model-final",
+    "commit": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+    "evaluationHead": "eccde839811d6991b9583f3c4fd6c08918ec64c1",
+    "srcDiffFromTarget": "empty"
+  },
+  "environment": {
+    "baseUrl": "http://127.0.0.1:16420/",
+    "edgeFileVersion": "152.0.4191.53",
+    "node": "v24.14.0",
+    "axeCore": "4.10.3",
+    "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics, Direct3D11)",
+    "webgl": "WebGL2 hardware"
+  },
+  "axe": {
+    "statesValid": 9,
+    "statesInvalid": 0,
+    "criticalRuleKinds": 0,
+    "seriousRuleKinds": 1,
+    "violationRuleIds": [
+      "landmark-unique",
+      "scrollable-region-focusable"
+    ],
+    "seriousRuleIds": [
+      "scrollable-region-focusable"
+    ],
+    "colorContrastIncompleteRange": [30, 100],
+    "otherIncompleteRuleIds": [
+      "aria-prohibited-attr"
+    ]
+  },
+  "confirmed": {
+    "keyboardPartInspectorReachable": false,
+    "focusablePartControls": 0,
+    "focusIndicatorClearlyVisible": false,
+    "textResize200BlockingOverlap": true,
+    "modesExposeSelectedState": false,
+    "camerasExposeSelectedState": false,
+    "nativeTogglesExposeCheckedState": true,
+    "mobileDrawersExposeExpandedState": true,
+    "selectedInspectorScrollRegionFocusable": false,
+    "interactionHintContrastApprox": 3.5902964263527317,
+    "viewportAriaRoleSupported": false,
+    "desktopLandmarksUniquelyNamed": false,
+    "documentHorizontalOverflowAt320CssPx": false
+  },
+  "findings": [
+    { "id": "V4-A11Y-01", "severity": "P1", "title": "Part inspector core task is not keyboard reachable", "cost": "medium-high", "benefit": "very-high", "release": "reject" },
+    { "id": "V4-A11Y-02", "severity": "P1", "title": "200 percent text resize creates blocking overlap", "cost": "medium", "benefit": "very-high", "release": "reject" },
+    { "id": "V4-A11Y-03", "severity": "P1", "title": "View mode and camera selected states are visual only", "cost": "low", "benefit": "high", "release": "reject" },
+    { "id": "V4-A11Y-04", "severity": "P1", "title": "Keyboard focus indicator is not reliably visible", "cost": "low", "benefit": "high", "release": "reject" },
+    { "id": "V4-A11Y-05", "severity": "P1", "title": "Selected inspector scroll region lacks keyboard focus", "cost": "low", "benefit": "high", "release": "reject" },
+    { "id": "V4-A11Y-06", "severity": "P2", "title": "Interaction hint contrast is approximately 3.59 to 1 and axe contrast remains incomplete", "cost": "low", "benefit": "medium", "release": "conditional-reject" },
+    { "id": "V4-A11Y-07", "severity": "P2", "title": "Viewport aria-label is placed on a div without a valid role", "cost": "low", "benefit": "medium", "release": "conditional-reject" },
+    { "id": "V4-A11Y-08", "severity": "P2", "title": "Desktop complementary landmarks do not have unique names", "cost": "low", "benefit": "medium", "release": "conditional-reject" }
+  ],
+  "separation": {
+    "automated": "axe raw JSON, AX tree, DOM state and screenshots for nine states",
+    "agentAssisted": "trusted CDP keyboard flows, computed-style sampling, screenshot inspection and resize/reflow probes",
+    "realHumanNvda": "pending",
+    "wcag22AaConclusion": "not-established"
+  },
+  "quotaInterrupted": false,
+  "sourceModifiedByAudit": false
+}

@@ -1,0 +1,42 @@
+{
+  "commands": [
+    {
+      "purpose": "serve fixed production build",
+      "command": "npm run preview -- --host 127.0.0.1 --port 16420",
+      "ready": true,
+      "finalExitCode": 1,
+      "expectedStop": true,
+      "note": "The preview server was deliberately stopped with Ctrl-C after all evidence was written; this exit code is not an application failure."
+    },
+    {
+      "purpose": "nine-state axe, DOM, AX-tree, resize and screenshot reproduction",
+      "command": "node in-memory output adapter over evaluation/accessibility/run-accessibility.mjs",
+      "exitCode": 0,
+      "note": "The adapter changed only base URL, CDP port and artifact root at runtime so existing external-eval evidence could not be overwritten; evaluator logic was unchanged."
+    },
+    {
+      "purpose": "trusted keyboard, focus and computed-style recheck",
+      "command": "node in-memory output adapter over evaluation/accessibility/run-manual-recheck.mjs",
+      "exitCode": 0,
+      "note": "The adapter changed only base URL, CDP port and artifact paths at runtime."
+    },
+    {
+      "purpose": "source immutability check",
+      "command": "git diff --exit-code v3-model-final -- src",
+      "exitCode": 0,
+      "stdout": ""
+    },
+    {
+      "purpose": "Edge executable version",
+      "command": "read msedge.exe FileVersionInfo",
+      "exitCode": 0,
+      "result": "152.0.4191.53"
+    }
+  ],
+  "toolVersions": {
+    "node": "v24.14.0",
+    "axeCore": "4.10.3",
+    "edge": "152.0.4191.53",
+    "os": "Microsoft Windows NT 10.0.26200.0"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "runId": "run-02",
+  "utcStartedAt": "2026-08-31T03:00:47.823Z",
+  "utcFinishedAt": "2026-08-31T03:02:16.623Z",
+  "localTimeZone": "Asia/Shanghai",
+  "command": "node evaluation/accessibility/run-accessibility.mjs",
+  "exitCode": 0,
+  "projectRoot": "D:\\ComputePicture\\codex-inline4-multiagent",
+  "baseUrl": "http://127.0.0.1:16320",
+  "gitHead": {
+    "command": [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "exitCode": 0,
+    "stdout": "38c00417812fa87ca76b520c17c978a14cbd8ad2",
+    "stderr": ""
+  },
+  "fixedTag": {
+    "command": [
+      "git",
+      "rev-parse",
+      "v3-model-final^{}"
+    ],
+    "exitCode": 0,
+    "stdout": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+    "stderr": ""
+  },
+  "srcDiffStart": {
+    "command": [
+      "git",
+      "diff",
+      "--exit-code",
+      "v3-model-final",
+      "--",
+      "src"
+    ],
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "srcDiffEnd": {
+    "command": [
+      "git",
+      "diff",
+      "--exit-code",
+      "v3-model-final",
+      "--",
+      "src"
+    ],
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "os": {
+    "platform": "win32",
+    "release": "10.0.26200",
+    "arch": "x64",
+    "version": "Windows 11 Home China"
+  },
+  "cpu": "Intel(R) Core(TM) Ultra 9 185H",
+  "node": "v24.14.0",
+  "axeCore": "4.10.3",
+  "edgeVersion": {
+    "command": [
+      "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+      "--version"
+    ],
+    "exitCode": 21,
+    "stdout": "",
+    "stderr": "[34224:42948:0831/110047.787:ERROR:chrome\\browser\\process_singleton_win.cc:933] Lock file can not be created! Error code: 5\r\n[34224:42948:0831/110047.787:ERROR:chrome\\app\\chrome_main_delegate.cc:689] Failed to create a ProcessSingleton for your profile directory. This means that running multiple instances would start multiple browser processes rather than opening a new window in the existing process. Aborting now to avoid profile corruption."
+  },
+  "browserStderrSummary": "[2756:30296:0831/110048.283:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:544] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set usagestats; result: 5\r\n[2756:30296:0831/110048.283:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:587] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set urlstats; result: 5\r\n[2756:43728:0831/110048.369:ERROR:chrome\\browser\\extensions\\external_registry_loader_win.cc:206] File C:/Users/27186/AppData/Roaming/ksobrowserex/edge/ngbkcglbmlglgldjfcnhaijeecaccgfi/kingsoft_extension_edge.crx for key Software\\Microsoft\\Edge\\Extensions\\ngbkcglbmlglgldjfcnhaijeecaccgfi does not exist or is not readable.\r\n\r\nDevTools listening on ws://127.0.0.1:16321/devtools/browser/92e76186-9215-47bb-91d2-eaeb21e7dc21\r\n[2756:20096:0831/110048.474:ERROR:chrome\\browser\\ui\\edge_window_tab_manager\\api\\wtm_interface_impl.cc:461] Failed to open registry key\r\n[2756:39352:0831/110048.481:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:544] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set usagestats; result: 5\r\n[2756:42064:0831/110048.553:ERROR:chrome\\browser\\importer\\edge_china_browsers\\edge_qqbrowser_importer_utils_win.cc:165] QQBrowser user data path not found.\r\n[2756:20096:0831/110049.845:ERROR:chrome\\browser\\task_manager\\providers\\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a \"Renderer\" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/40528867.\r\n[2756:40408:0831/110104.575:ERROR:services\\device\\public\\cpp\\geolocation\\system_geolocation_source_win.cc:259] Failed to get location access status: 参数错误。 (0x80070057)\r\n",
+  "stateViewports": {
+    "desktop-solid": {
+      "width": 1280,
+      "height": 720
+    },
+    "desktop-xray": {
+      "width": 1280,
+      "height": 720
+    },
+    "desktop-section": {
+      "width": 1280,
+      "height": 720
+    },
+    "desktop-selected": {
+      "width": 1280,
+      "height": 720
+    },
+    "desktop-paused": {
+      "width": 1280,
+      "height": 720
+    },
+    "desktop-exploded": {
+      "width": 1280,
+      "height": 720
+    },
+    "narrow-initial": {
+      "width": 390,
+      "height": 844
+    },
+    "narrow-left-drawer": {
+      "width": 390,
+      "height": 844
+    },
+    "narrow-right-drawer": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+}

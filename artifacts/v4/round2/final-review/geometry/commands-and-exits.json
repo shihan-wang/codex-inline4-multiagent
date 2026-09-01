@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "commands": [
+    {
+      "id": "dry-run",
+      "command": "python evaluation/v4/v4_check.py --input evaluation/v4/fixtures/v4-round2-input.json --output artifacts/v4/round2/final-review/geometry/dry-run.json --dry-run",
+      "exitCode": 0,
+      "evidence": ["dry-run.json", "dry-run.log"]
+    },
+    {
+      "id": "trimesh-topology",
+      "command": "python evaluation/geometry/trimesh_check.py artifacts/v4/round2/geometry/semantic-export/semantic-engine.glb artifacts/v4/round2/geometry/semantic-export/semantic-engine.manifest.json artifacts/v4/round2/final-review/geometry/trimesh-results.json",
+      "exitCode": 0,
+      "evidence": ["trimesh-results.json", "trimesh-run.log"]
+    },
+    {
+      "id": "blender-topology",
+      "command": "C:\\Users\\wangshihan\\AppData\\Local\\Temp\\blender-5.2.1-portable\\blender-5.2.1-windows-x64\\blender.exe --background --factory-startup --python evaluation/geometry/blender_check.py -- artifacts/v4/round2/geometry/semantic-export/semantic-engine.glb artifacts/v4/round2/geometry/semantic-export/semantic-engine.manifest.json artifacts/v4/round2/final-review/geometry/blender-results.json",
+      "exitCode": 0,
+      "evidence": ["blender-results.json", "blender-topology-run.log"]
+    },
+    {
+      "id": "blender-721-surface-scan",
+      "command": "C:\\Users\\wangshihan\\AppData\\Local\\Temp\\blender-5.2.1-portable\\blender-5.2.1-windows-x64\\blender.exe --background --factory-startup --python evaluation/v4/v4_check.py -- --input evaluation/v4/fixtures/v4-round2-input.json --output artifacts/v4/round2/final-review/geometry/v4-surface-report.json",
+      "exitCode": 2,
+      "exitMeaning": "Complete report produced; acceptance failed because non-whitelisted triangle intersections remained.",
+      "evidence": ["v4-surface-report.json", "v4-surface-run.log"]
+    },
+    {
+      "id": "production-preview",
+      "command": "npm run preview -- --host 127.0.0.1 --port 16511 --strictPort",
+      "exitCode": 0,
+      "evidence": ["browser/round2-fixed-angle-page.json"]
+    },
+    {
+      "id": "fixed-view-capture",
+      "command": "node artifacts/v4/round2/final-review/geometry/capture-fixed-page.mjs",
+      "exitCode": 0,
+      "evidence": ["browser/round2-crank-section-1280x720.png", "browser/round2-valvetrain-xray-1280x720.png", "browser/round2-fixed-angle-page.json"]
+    }
+  ]
+}

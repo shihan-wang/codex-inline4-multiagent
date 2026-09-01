@@ -1,0 +1,17 @@
+{
+  "events": [
+    {
+      "capturedAt": "2026-08-31T08:35:55.602Z",
+      "url": "http://127.0.0.1:16330/",
+      "status": "injected-before-production-module",
+      "sourceBytes": 911,
+      "responseBytes": 2081
+    },
+    {
+      "capturedAt": "2026-08-31T08:35:55.697Z",
+      "url": "http://127.0.0.1:16330/__external-eval-spector.bundle.js",
+      "status": "original-spector-bundle-fulfilled",
+      "responseBytes": 682744
+    }
+  ]
+}

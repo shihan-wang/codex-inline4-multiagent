@@ -1,0 +1,20 @@
+2026-08-31T13:48:44.587Z start run-01; base=http://127.0.0.1:16420; HEAD=eccde839811d6991b9583f3c4fd6c08918ec64c1; fixed=7e5ea916a115dcef1bf3ba467a31b78c6206c612
+2026-08-31T13:48:45.364Z state desktop-solid: navigate 1280x720
+2026-08-31T13:48:47.753Z state desktop-solid: 1 rules, 1 nodes
+2026-08-31T13:48:47.755Z state desktop-xray: navigate 1280x720
+2026-08-31T13:48:49.351Z state desktop-xray: 1 rules, 1 nodes
+2026-08-31T13:48:49.354Z state desktop-section: navigate 1280x720
+2026-08-31T13:48:50.973Z state desktop-section: 1 rules, 1 nodes
+2026-08-31T13:48:50.976Z state desktop-selected: navigate 1280x720
+2026-08-31T13:48:52.818Z state desktop-selected: 2 rules, 2 nodes
+2026-08-31T13:48:52.821Z state desktop-paused: navigate 1280x720
+2026-08-31T13:48:54.434Z state desktop-paused: 1 rules, 1 nodes
+2026-08-31T13:48:54.436Z state desktop-exploded: navigate 1280x720
+2026-08-31T13:48:55.988Z state desktop-exploded: 1 rules, 1 nodes
+2026-08-31T13:48:55.990Z state narrow-initial: navigate 390x844
+2026-08-31T13:48:57.434Z state narrow-initial: 0 rules, 0 nodes
+2026-08-31T13:48:57.436Z state narrow-left-drawer: navigate 390x844
+2026-08-31T13:48:58.914Z state narrow-left-drawer: 0 rules, 0 nodes
+2026-08-31T13:48:58.917Z state narrow-right-drawer: navigate 390x844
+2026-08-31T13:49:00.418Z state narrow-right-drawer: 0 rules, 0 nodes
+2026-08-31T13:51:03.230Z finished run-01; exit=0; valid=9; invalid=0; critical=0; serious=1

@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "token": "intel-arc-run-02",
+    "startedAtUtc": "2026-08-31T08:21:48.124Z",
+    "endedAtUtc": "2026-08-31T08:22:50.848Z",
+    "durationMs": 62724,
+    "command": "node run-webgl.mjs (intel-arc-run-02)",
+    "exitCode": 0,
+    "failure": null,
+    "gitHead": "38c00417812fa87ca76b520c17c978a14cbd8ad2",
+    "targetTagPeeled": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+    "url": "http://127.0.0.1:16310/",
+    "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "valid": true
+  },
+  "result": {
+    "token": "intel-arc-run-02",
+    "gpuMode": "hardware",
+    "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "viewport": "1280x720",
+    "warmupMs": 5000,
+    "minimumFrames": 600,
+    "minimumDurationMs": 30000,
+    "sample": {
+      "frames": 3601,
+      "durationMs": 30002.499999988082,
+      "averageFps": 120.02333138909859,
+      "p50FrameMs": 8.300000000001091,
+      "p95FrameMs": 8.400000000001455,
+      "p99FrameMs": 8.5,
+      "maxFrameMs": 8.799999999999272,
+      "drawCalls": {
+        "drawArrays": 158444,
+        "drawElements": 738204,
+        "drawArraysInstanced": 10803,
+        "drawElementsInstanced": 54015,
+        "contextLost": 0,
+        "contextRestored": 0
+      },
+      "drawCallsPerFrame": 266.9997222993613
+    },
+    "heapBefore": {
+      "usedSize": 12492200,
+      "totalSize": 18874368,
+      "embedderHeapUsedSize": 14432768,
+      "backingStorageSize": 3192596
+    },
+    "heapAfter": {
+      "usedSize": 9957448,
+      "totalSize": 23855104,
+      "embedderHeapUsedSize": 8338664,
+      "backingStorageSize": 3191419
+    },
+    "performanceMetrics": {
+      "Timestamp": 119895.11919,
+      "AudioHandlers": 0,
+      "AudioWorkletProcessors": 0,
+      "Documents": 1,
+      "Frames": 1,
+      "JSEventListeners": 34,
+      "LayoutObjects": 1197,
+      "MediaKeySessions": 0,
+      "MediaKeys": 0,
+      "Nodes": 1222,
+      "Resources": 0,
+      "ContextLifecycleStateObservers": 4,
+      "V8PerContextDatas": 1,
+      "WorkerGlobalScopes": 0,
+      "UACSSResources": 0,
+      "RTCPeerConnections": 0,
+      "ResourceFetchers": 1,
+      "AdSubframes": 0,
+      "DetachedScriptStates": 0,
+      "ArrayBufferContents": 963,
+      "LayoutCount": 4195,
+      "RecalcStyleCount": 5063,
+      "LayoutDuration": 0.754073,
+      "RecalcStyleDuration": 0.739639,
+      "DevToolsCommandDuration": 0.284822,
+      "ScriptDuration": 12.22569,
+      "V8CompileDuration": 0,
+      "TaskDuration": 16.787215,
+      "TaskOtherDuration": 2.782991,
+      "ThreadTime": 14.796005,
+      "ProcessTime": 20.577337,
+      "JSHeapUsedSize": 10261320,
+      "JSHeapTotalSize": 23855104,
+      "FirstMeaningfulPaint": 119860.065446,
+      "DomContentLoaded": 119859.213084,
+      "NavigationStart": 119859.045045
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageExceptions": [],
+      "logEntries": [],
+      "browserStderr": "[38844:14748:0831/162148.553:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:544] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set usagestats; result: 5\r\n[38844:14748:0831/162148.553:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:587] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set urlstats; result: 5\r\n[38844:33612:0831/162148.675:ERROR:chrome\\browser\\extensions\\external_registry_loader_win.cc:206] File C:/Users/27186/AppData/Roaming/ksobrowserex/edge/ngbkcglbmlglgldjfcnhaijeecaccgfi/kingsoft_extension_edge.crx for key Software\\Microsoft\\Edge\\Extensions\\ngbkcglbmlglgldjfcnhaijeecaccgfi does not exist or is not readable.\r\n\r\nDevTools listening on ws://127.0.0.1:27002/devtools/browser/98537a97-e642-45b0-a08a-31eb1f215a28\r\n[38844:45464:0831/162148.884:ERROR:chrome\\browser\\ui\\edge_window_tab_manager\\api\\wtm_interface_impl.cc:461] Failed to open registry key\r\n[38844:21164:0831/162148.979:ERROR:chrome\\browser\\importer\\edge_china_browsers\\edge_qqbrowser_importer_utils_win.cc:165] QQBrowser user data path not found.\r\n[38844:45464:0831/162149.882:ERROR:chrome\\browser\\task_manager\\providers\\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a \"Renderer\" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/40528867.\r\n[38844:20928:0831/162151.105:ERROR:services\\device\\public\\cpp\\geolocation\\system_geolocation_source_win.cc:259] Failed to get location access status: 参数错误。 (0x80070057)\r\n[38844:14748:0831/162151.661:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:544] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set usagestats; result: 5\r\n[38844:32168:0831/162203.676:ERROR:chrome\\browser\\edge_aadc\\user_age_utils_win.cc:163] couldn't get user2.\r\n[38844:32168:0831/162203.676:ERROR:chrome\\browser\\edge_aadc\\user_age_utils_win.cc:310] couldn't get windows user age group.\r\n[38844:32168:0831/162203.676:ERROR:chrome\\browser\\edge_aadc\\user_age_utils_win.cc:156] callback wasn't called.\r\n"
+    }
+  }
+}

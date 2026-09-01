@@ -1,0 +1,280 @@
+{
+  "modeResults": {
+    "solid": {
+      "active": [
+        "solid"
+      ],
+      "focused": null,
+      "classes": {
+        "solid": "ui-button is-active",
+        "xray": "ui-button",
+        "section": "ui-button"
+      }
+    },
+    "xray": {
+      "active": [
+        "xray"
+      ],
+      "focused": null,
+      "classes": {
+        "solid": "ui-button",
+        "xray": "ui-button is-active",
+        "section": "ui-button"
+      }
+    },
+    "section": {
+      "active": [
+        "section"
+      ],
+      "focused": null,
+      "classes": {
+        "solid": "ui-button",
+        "xray": "ui-button",
+        "section": "ui-button is-active"
+      }
+    }
+  },
+  "cameraResults": {
+    "isometric": {
+      "dom": {
+        "activePreset": [
+          "isometric"
+        ],
+        "activeMode": [
+          "section"
+        ],
+        "visibleLabels": [
+          "气缸体 / BLOCK",
+          "气缸盖 / CYLINDER HEAD",
+          "油底壳 / OIL SUMP",
+          "曲轴 / CRANKSHAFT",
+          "凸轮轴 / CAMSHAFT",
+          "共轨 / COMMON RAIL",
+          "涡轮增压器 / TURBOCHARGER",
+          "进气歧管 / INTAKE",
+          "排气歧管 / EXHAUST"
+        ]
+      },
+      "screenshotHash": "0077c76acda824a3b0f5620bbbc5c179a97a4fc5acbc6bf66890fb42efd640a5"
+    },
+    "front": {
+      "dom": {
+        "activePreset": [
+          "front"
+        ],
+        "activeMode": [
+          "section"
+        ],
+        "visibleLabels": [
+          "气缸体 / BLOCK",
+          "气缸盖 / CYLINDER HEAD",
+          "油底壳 / OIL SUMP",
+          "曲轴 / CRANKSHAFT",
+          "涡轮增压器 / TURBOCHARGER",
+          "进气歧管 / INTAKE",
+          "排气歧管 / EXHAUST"
+        ]
+      },
+      "screenshotHash": "a5fc5e1702a6e3fa42953df435c04767da6a1e149511a118e530a234fd219f85"
+    },
+    "side": {
+      "dom": {
+        "activePreset": [
+          "side"
+        ],
+        "activeMode": [
+          "section"
+        ],
+        "visibleLabels": [
+          "气缸体 / BLOCK",
+          "气缸盖 / CYLINDER HEAD",
+          "油底壳 / OIL SUMP",
+          "曲轴 / CRANKSHAFT",
+          "涡轮增压器 / TURBOCHARGER",
+          "进气歧管 / INTAKE",
+          "排气歧管 / EXHAUST"
+        ]
+      },
+      "screenshotHash": "de5e5d98036135e8cc87a7d11778c4a052a939ea697eb5a601a59c2b53617a7c"
+    },
+    "top": {
+      "dom": {
+        "activePreset": [
+          "top"
+        ],
+        "activeMode": [
+          "section"
+        ],
+        "visibleLabels": [
+          "凸轮轴 / CAMSHAFT",
+          "喷油器 / INJECTOR",
+          "共轨 / COMMON RAIL"
+        ]
+      },
+      "screenshotHash": "cc00821f49c3b5bb27a46cb4cbb262147e8050fc11e63b1251f3342f3e31eca2"
+    },
+    "crank": {
+      "dom": {
+        "activePreset": [
+          "crank"
+        ],
+        "activeMode": [
+          "section"
+        ],
+        "visibleLabels": [
+          "曲轴 / CRANKSHAFT",
+          "活塞 / PISTON",
+          "连杆 / CONNECTING ROD"
+        ]
+      },
+      "screenshotHash": "7a69a9f668f8ac69b91257a3f4172ae5cfd67b206d7d6f331f3e3f79e9d49b32"
+    },
+    "combustion": {
+      "dom": {
+        "activePreset": [
+          "combustion"
+        ],
+        "activeMode": [
+          "xray"
+        ],
+        "visibleLabels": [
+          "凸轮轴 / CAMSHAFT",
+          "进气门 / INTAKE VALVE",
+          "排气门 / EXHAUST VALVE",
+          "喷油器 / INJECTOR",
+          "燃烧室 / COMBUSTION CHAMBER"
+        ]
+      },
+      "screenshotHash": "9633a30c32f8937acd7c39a3ca28efbdde205b7563ea387c67b0b06605584838"
+    }
+  },
+  "resetState": {
+    "activePreset": [
+      "front"
+    ],
+    "activeMode": [
+      "solid"
+    ]
+  },
+  "resetHash": "c51bb70b333132e5230e7b4b9ea9935109b456fe372f19c614159702386877fd",
+  "keyboardResults": {
+    "1": {
+      "activePreset": [
+        "front"
+      ],
+      "activeMode": [
+        "solid"
+      ],
+      "visibleLabels": [
+        "气缸体 / BLOCK",
+        "气缸盖 / CYLINDER HEAD",
+        "油底壳 / OIL SUMP",
+        "曲轴 / CRANKSHAFT",
+        "凸轮轴 / CAMSHAFT",
+        "共轨 / COMMON RAIL",
+        "涡轮增压器 / TURBOCHARGER",
+        "进气歧管 / INTAKE",
+        "排气歧管 / EXHAUST"
+      ]
+    },
+    "5": {
+      "activePreset": [
+        "front"
+      ],
+      "activeMode": [
+        "solid"
+      ],
+      "visibleLabels": [
+        "曲轴 / CRANKSHAFT",
+        "活塞 / PISTON",
+        "连杆 / CONNECTING ROD"
+      ]
+    },
+    "6": {
+      "activePreset": [
+        "front"
+      ],
+      "activeMode": [
+        "solid"
+      ],
+      "visibleLabels": [
+        "凸轮轴 / CAMSHAFT",
+        "进气门 / INTAKE VALVE",
+        "排气门 / EXHAUST VALVE",
+        "喷油器 / INJECTOR",
+        "燃烧室 / COMBUSTION CHAMBER"
+      ]
+    },
+    "r": {
+      "activePreset": [
+        "front"
+      ],
+      "activeMode": [
+        "solid"
+      ],
+      "visibleLabels": [
+        "气缸体 / BLOCK",
+        "气缸盖 / CYLINDER HEAD",
+        "油底壳 / OIL SUMP",
+        "曲轴 / CRANKSHAFT",
+        "凸轮轴 / CAMSHAFT",
+        "共轨 / COMMON RAIL",
+        "涡轮增压器 / TURBOCHARGER",
+        "进气歧管 / INTAKE",
+        "排气歧管 / EXHAUST"
+      ]
+    }
+  },
+  "pause": {
+    "pauseStart": "599°",
+    "pauseA": "420°",
+    "pauseB": "420°",
+    "pauseLabel": "ENGINE PAUSED",
+    "resumed": "240°",
+    "held": true,
+    "resumedChanged": true
+  },
+  "operatingExtremes": [
+    {
+      "labels": [
+        "600 rpm",
+        "0%"
+      ],
+      "gauges": [
+        "000°",
+        "87°C",
+        "2.1 bar"
+      ]
+    },
+    {
+      "labels": [
+        "2600 rpm",
+        "100%"
+      ],
+      "gauges": [
+        "100°",
+        "87°C",
+        "2.8 bar"
+      ]
+    }
+  ],
+  "labelToggle": {
+    "before": {
+      "checked": true,
+      "hidden": false
+    },
+    "after": {
+      "checked": false,
+      "hidden": true
+    },
+    "restored": {
+      "checked": true,
+      "hidden": false
+    }
+  },
+  "diagnostics": {
+    "console": [],
+    "exceptions": [],
+    "logs": []
+  }
+}

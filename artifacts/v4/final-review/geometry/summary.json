@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "review": "V4 independent final geometry and mechanical review",
+  "targetCommitAtExport": "eccde839811d6991b9583f3c4fd6c08918ec64c1",
+  "sourceModifiedByReviewer": false,
+  "releaseRecommendation": "no-go",
+  "reason": "Three P1 families of non-whitelisted exported triangle-surface intersection remain.",
+  "severitySummary": {
+    "P0": 0,
+    "P1": 3,
+    "P2": 1,
+    "P3": 0
+  },
+  "integrity": {
+    "allRegisteredInputHashesMatch": true,
+    "frozenWhitelistSha256": "0eb5ab7d6e298b5227102550c124326c114aad791eab9d65479fb833a6b5fce2",
+    "runtimeWhitelistExtensionsAccepted": false,
+    "surfaceReportSha256": "71dab393da8d61869beef822aa410f1f90b01a6000913687f857536bfd8aeeb2",
+    "surfaceReportPass": false,
+    "surfaceReportExitCode": 2,
+    "surfaceStatus": "completed",
+    "topologyStatus": "completed"
+  },
+  "tools": {
+    "trimesh": "4.8.3",
+    "blender": "5.2.1 LTS build 9e2066aef7ef",
+    "blenderExecutable": "C:\\Users\\wangshihan\\AppData\\Local\\Temp\\blender-5.2.1-portable\\blender-5.2.1-windows-x64\\blender.exe",
+    "surfaceMethod": "Blender BVHTree.overlap on complete exported triangles per semantic node"
+  },
+  "coverage": {
+    "crankshaft": "44/44",
+    "timingSprocket": "19/19",
+    "timingChain": "1/1",
+    "accessoryBelt": "1/1",
+    "accessoryPulley": "1/1",
+    "camLobe": "16/16",
+    "piston": "32/32",
+    "connectingRod": "20/20",
+    "cylinderLiner": "4/4",
+    "primaryUnrelatedShells": "65/65"
+  },
+  "topology": {
+    "trimesh": {
+      "triangleNodes": "497/497",
+      "closedWatertightNodes": "436/436",
+      "closedWatertightTriangles": "72864/72864",
+      "degenerateTriangles": 0,
+      "duplicateFaces": 0,
+      "windingErrorEdges": 0,
+      "invalidGeometricNormals": 0,
+      "inwardClosedNodes": 0,
+      "positionDuplicateVertices": 55230,
+      "rawVertices": 109362,
+      "positionDuplicateRatio": 0.5050200252372854
+    },
+    "blender": {
+      "triangleNodes": "497/497",
+      "closedWatertightNodes": "436/436",
+      "closedWatertightTriangles": "72864/72864",
+      "degenerateTriangles": 0,
+      "duplicateFaces": 0,
+      "windingErrorEdges": 0,
+      "invalidGeometricNormals": 0,
+      "inwardClosedNodes": 0,
+      "positionDuplicateVertices": 55202,
+      "rawVertices": 109334,
+      "positionDuplicateRatio": 0.5048932628459583
+    },
+    "camLobes": {
+      "nodes": 16,
+      "windingErrorEdgesV3Baseline": 2304,
+      "windingErrorEdgesV4": 0,
+      "watertightV4": "16/16"
+    }
+  },
+  "scan": {
+    "rangeDegrees": [0, 720],
+    "stepDegrees": 1,
+    "samples": 721,
+    "proxyDepthComputed": false,
+    "pairFamilies": [
+      {
+        "id": "crank-subcomponents-vs-unrelated-shells",
+        "movingNodes": 44,
+        "nodeTargetAngleChecks": 2062060,
+        "intersectionPairAngles": 1748,
+        "intersectingNodeTargetPairs": 16
+      },
+      {
+        "id": "piston-subcomponents-vs-unrelated-shells",
+        "movingNodes": 32,
+        "nodeTargetAngleChecks": 1499680,
+        "intersectionPairAngles": 426,
+        "intersectingNodeTargetPairs": 8
+      },
+      {
+        "id": "rod-subcomponents-vs-unrelated-shells",
+        "movingNodes": 20,
+        "nodeTargetAngleChecks": 937300,
+        "intersectionPairAngles": 0,
+        "intersectingNodeTargetPairs": 0
+      },
+      {
+        "id": "rod-subcomponents-vs-liners",
+        "movingNodes": 20,
+        "nodeTargetAngleChecks": 57680,
+        "intersectionPairAngles": 0,
+        "intersectingNodeTargetPairs": 0
+      },
+      {
+        "id": "timing-chain-vs-unrelated-shells",
+        "movingNodes": 1,
+        "nodeTargetAngleChecks": 46865,
+        "intersectionPairAngles": 0,
+        "intersectingNodeTargetPairs": 0
+      },
+      {
+        "id": "accessory-belt-vs-unrelated-shells",
+        "movingNodes": 1,
+        "nodeTargetAngleChecks": 46865,
+        "intersectionPairAngles": 0,
+        "intersectingNodeTargetPairs": 0
+      }
+    ]
+  },
+  "findings": [
+    {
+      "id": "V4-FINAL-GEO-01",
+      "severity": "P1",
+      "pair": "eight crank web/counterweight nodes vs four lower liner register nodes",
+      "classification": 4,
+      "classificationText": "confirmed exported triangle-surface intersection",
+      "movers": ["crankshaft__012", "crankshaft__013", "crankshaft__015", "crankshaft__016", "crankshaft__018", "crankshaft__019", "crankshaft__021", "crankshaft__022"],
+      "pairAngleCountPerMoverTarget": 168,
+      "totalPairAngles": 1344,
+      "peakOverlapTrianglePairs": 70,
+      "physicalPenetrationDepth": "not computed",
+      "acceptance": "All eight registered mover/target pairs have zero intersection angles over 0..720 degrees without whitelist changes."
+    },
+    {
+      "id": "V4-FINAL-GEO-02",
+      "severity": "P1",
+      "pair": "eight crank web/counterweight nodes vs oil-pan body",
+      "classification": 4,
+      "classificationText": "confirmed exported triangle-surface intersection",
+      "outerThrowPairAngles": 51,
+      "innerThrowPairAngles": 50,
+      "totalPairAngles": 404,
+      "peakOverlapTrianglePairsRange": [18, 20],
+      "physicalPenetrationDepth": "not computed",
+      "acceptance": "All eight registered mover/oil-pan pairs have zero intersection angles over 0..720 degrees without whitelist changes."
+    },
+    {
+      "id": "V4-FINAL-GEO-03",
+      "severity": "P1",
+      "pair": "four piston crowns and four bowl inserts vs monolithic cylinder-head casting",
+      "classification": 4,
+      "classificationText": "confirmed exported triangle-surface intersection",
+      "crownPairAngles": {"cylinders1And4": 67, "cylinders2And3": 66},
+      "bowlPairAngles": 40,
+      "totalPairAngles": 426,
+      "peakOverlapTrianglePairsRange": [64, 82],
+      "analyticCause": "Nominal headFaceY is 269 mm, but roundedBoxGeometry bevel expands the actual bottom to about 261 mm; TDC crown is 263.5 mm.",
+      "physicalPenetrationDepth": "surface crossing measured; nominal-axis overlap at TDC is about 2.5 mm for crown, not a full 3D MTV",
+      "acceptance": "All eight registered piston/head pairs have zero intersection angles while explicit piston-head and valve-piston clearances remain positive."
+    },
+    {
+      "id": "V4-FINAL-GEO-04",
+      "severity": "P2",
+      "pair": "position-duplicate vertex efficiency",
+      "classification": 3,
+      "classificationText": "position-only metric cannot distinguish safe redundancy from normal/UV/material seams",
+      "acceptance": "Only full-attribute-identical vertices may be reindexed; topology and matched rendering must not regress."
+    }
+  ],
+  "resolvedOrPassed": [
+    "cam winding: 2304 to 0",
+    "rod vs liner surface intersections: 0",
+    "rod vs unrelated-shell surface intersections: 0",
+    "timing chain vs unrelated-shell surface intersections: 0",
+    "accessory belt vs unrelated-shell surface intersections: 0",
+    "all semantic coverage gates pass"
+  ],
+  "browserReview": {
+    "renderer": "ANGLE Intel Arc Graphics Direct3D11",
+    "viewport": "1280x720",
+    "consoleErrors": 0,
+    "pageErrors": 0,
+    "screenshots": [
+      "browser/fixed-angle-crank-section-1280x720.png",
+      "browser/fixed-angle-valvetrain-xray-1280x720.png"
+    ],
+    "judgment": "Production model is visually legible, but fixed-view appearance cannot overturn triangle-surface collision evidence."
+  },
+  "releaseGate": {
+    "unexplainedTrueMotionChainCollisions": true,
+    "passes": false,
+    "nextAction": "Remediate the three P1 families from complete swept envelopes and actual exported boundaries, re-export, and rerun topology plus the frozen 721-sample scan without extending the whitelist."
+  }
+}

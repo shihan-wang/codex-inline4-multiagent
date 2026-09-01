@@ -1,0 +1,196 @@
+{
+  "schema": "inline4-v4-final-fixed-visual-v1",
+  "capturedAtUtc": "2026-08-31T23:17:14.851Z",
+  "baseUrl": "http://127.0.0.1:16442/",
+  "methodology": {
+    "viewport": "1280x720@1",
+    "syntheticRafHz": 60,
+    "freezeFrame": 361,
+    "expectedDisplayedCrankAngle": "000.0°",
+    "matchingV3Evidence": "artifacts/v4/phase1/visual-performance/fixed-v3/",
+    "boundary": "Evaluator-only timestamp control; product source unmodified."
+  },
+  "results": [
+    {
+      "name": "solid-isometric",
+      "mode": "solid",
+      "preset": "isometric",
+      "state": {
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "devicePixelRatio": 1
+        },
+        "canvas": {
+          "width": 1280,
+          "height": 720,
+          "clientWidth": 1280,
+          "clientHeight": 720
+        },
+        "raf": {
+          "frame": 362,
+          "freezeAt": 361,
+          "frozen": true,
+          "syntheticTimeMs": 6016.666666666667
+        },
+        "activeMode": "solid",
+        "activePreset": "isometric",
+        "crankText": "000.0°",
+        "runText": "ENGINE PAUSED",
+        "toggles": [
+          {
+            "id": "toggle-labels",
+            "checked": true
+          },
+          {
+            "id": "toggle-flows",
+            "checked": true
+          },
+          {
+            "id": "toggle-explode",
+            "checked": false
+          }
+        ],
+        "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "contextType": "webgl2"
+      }
+    },
+    {
+      "name": "section-crank",
+      "mode": "section",
+      "preset": "crank",
+      "state": {
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "devicePixelRatio": 1
+        },
+        "canvas": {
+          "width": 1280,
+          "height": 720,
+          "clientWidth": 1280,
+          "clientHeight": 720
+        },
+        "raf": {
+          "frame": 362,
+          "freezeAt": 361,
+          "frozen": true,
+          "syntheticTimeMs": 6016.666666666667
+        },
+        "activeMode": "section",
+        "activePreset": "crank",
+        "crankText": "000.0°",
+        "runText": "ENGINE PAUSED",
+        "toggles": [
+          {
+            "id": "toggle-labels",
+            "checked": true
+          },
+          {
+            "id": "toggle-flows",
+            "checked": true
+          },
+          {
+            "id": "toggle-explode",
+            "checked": false
+          }
+        ],
+        "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "contextType": "webgl2"
+      }
+    },
+    {
+      "name": "xray-combustion",
+      "mode": "xray",
+      "preset": "combustion",
+      "state": {
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "devicePixelRatio": 1
+        },
+        "canvas": {
+          "width": 1280,
+          "height": 720,
+          "clientWidth": 1280,
+          "clientHeight": 720
+        },
+        "raf": {
+          "frame": 362,
+          "freezeAt": 361,
+          "frozen": true,
+          "syntheticTimeMs": 6016.666666666667
+        },
+        "activeMode": "xray",
+        "activePreset": "combustion",
+        "crankText": "000.0°",
+        "runText": "ENGINE PAUSED",
+        "toggles": [
+          {
+            "id": "toggle-labels",
+            "checked": true
+          },
+          {
+            "id": "toggle-flows",
+            "checked": true
+          },
+          {
+            "id": "toggle-explode",
+            "checked": false
+          }
+        ],
+        "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "contextType": "webgl2"
+      }
+    },
+    {
+      "name": "solid-isometric-exploded",
+      "mode": "solid",
+      "preset": "isometric",
+      "explode": true,
+      "state": {
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "devicePixelRatio": 1
+        },
+        "canvas": {
+          "width": 1280,
+          "height": 720,
+          "clientWidth": 1280,
+          "clientHeight": 720
+        },
+        "raf": {
+          "frame": 362,
+          "freezeAt": 361,
+          "frozen": true,
+          "syntheticTimeMs": 6016.666666666667
+        },
+        "activeMode": "solid",
+        "activePreset": "isometric",
+        "crankText": "000.0°",
+        "runText": "ENGINE PAUSED",
+        "toggles": [
+          {
+            "id": "toggle-labels",
+            "checked": true
+          },
+          {
+            "id": "toggle-flows",
+            "checked": true
+          },
+          {
+            "id": "toggle-explode",
+            "checked": true
+          }
+        ],
+        "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "contextType": "webgl2"
+      }
+    }
+  ],
+  "diagnostics": {
+    "events": [],
+    "browserStderr": "[36876:39616:0901/071658.292:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:544] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set usagestats; result: 5\r\n[36876:39616:0901/071658.292:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:587] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set urlstats; result: 5\r\n[36876:39036:0901/071658.388:ERROR:chrome\\browser\\extensions\\external_registry_loader_win.cc:206] File C:/Users/27186/AppData/Roaming/ksobrowserex/edge/ngbkcglbmlglgldjfcnhaijeecaccgfi/kingsoft_extension_edge.crx for key Software\\Microsoft\\Edge\\Extensions\\ngbkcglbmlglgldjfcnhaijeecaccgfi does not exist or is not readable.\r\n\r\nDevTools listening on ws://127.0.0.1:16447/devtools/browser/3f5312e8-8e50-4bf1-958c-4039618fcaf4\r\n[36876:11576:0901/071658.551:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:544] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set usagestats; result: 5\r\n[36876:46772:0901/071658.551:ERROR:chrome\\browser\\ui\\edge_window_tab_manager\\api\\wtm_interface_impl.cc:461] Failed to open registry key\r\n[36876:46244:0901/071658.615:ERROR:chrome\\browser\\importer\\edge_china_browsers\\edge_qqbrowser_importer_utils_win.cc:165] QQBrowser user data path not found.\r\n[36876:40468:0901/071703.309:ERROR:services\\device\\public\\cpp\\geolocation\\system_geolocation_source_win.cc:259] Failed to get location access status: 参数错误。 (0x80070057)\r\n[36876:19864:0901/071703.999:ERROR:chrome\\browser\\edge_aadc\\user_age_utils_win.cc:163] couldn't get user2.\r\n[36876:19864:0901/071703.999:ERROR:chrome\\browser\\edge_aadc\\user_age_utils_win.cc:310] couldn't get windows user age group.\r\n[36876:19864:0901/071703.999:ERROR:chrome\\browser\\edge_aadc\\user_age_utils_win.cc:156] callback wasn't called.\r\n"
+  }
+}

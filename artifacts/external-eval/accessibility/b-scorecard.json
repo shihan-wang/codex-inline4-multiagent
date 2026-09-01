@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "workflow": "B",
+  "title": "axe-core and WCAG 2.2 AA",
+  "protocol": "docs/EXTERNAL_EVALUATION_PROTOCOL.md#4",
+  "fixedTarget": {
+    "tag": "v3-model-final",
+    "peeledCommit": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+    "evaluatorHead": "38c00417812fa87ca76b520c17c978a14cbd8ad2",
+    "srcDiffStartExitCode": 0,
+    "srcDiffEndExitCode": 0
+  },
+  "validity": {
+    "scoredRun": "run-02",
+    "scoredRunExitCode": 0,
+    "statesComplete": 9,
+    "statesRequired": 9,
+    "failedRunsRetained": [
+      {
+        "run": "run-01",
+        "status": "invalid",
+        "exitCode": 1,
+        "reason": "Evaluator cleanup EBUSY on locked Edge CrashpadMetrics-active.pma after evidence capture"
+      }
+    ],
+    "manualRecheckUsed": "recheck-02",
+    "manualRecheckExitCode": 0,
+    "note": "recheck-02 trusted keyboard events supersede early injection false negatives in the full-run keyboard helper"
+  },
+  "environment": {
+    "url": "http://127.0.0.1:16320/",
+    "axeCore": "4.10.3",
+    "node": "v24.14.0",
+    "browser": "Microsoft Edge; exact version unavailable because the standalone --version probe hit ProcessSingleton lock",
+    "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics, Direct3D11)",
+    "hardwareWebGL": true
+  },
+  "axe": {
+    "criticalRuleTypes": 0,
+    "seriousRuleTypes": 1,
+    "seriousRuleIds": [
+      "scrollable-region-focusable"
+    ],
+    "otherViolationRuleIds": [
+      "landmark-unique"
+    ],
+    "states": [
+      {"state":"desktop-solid","viewport":"1280x720","critical":0,"serious":0,"moderate":1,"colorContrastIncomplete":91,"ariaProhibitedAttrIncomplete":1},
+      {"state":"desktop-xray","viewport":"1280x720","critical":0,"serious":0,"moderate":1,"colorContrastIncomplete":91,"ariaProhibitedAttrIncomplete":1},
+      {"state":"desktop-section","viewport":"1280x720","critical":0,"serious":0,"moderate":1,"colorContrastIncomplete":91,"ariaProhibitedAttrIncomplete":1},
+      {"state":"desktop-selected","viewport":"1280x720","critical":0,"serious":1,"moderate":1,"colorContrastIncomplete":100,"ariaProhibitedAttrIncomplete":1},
+      {"state":"desktop-paused","viewport":"1280x720","critical":0,"serious":0,"moderate":1,"colorContrastIncomplete":90,"ariaProhibitedAttrIncomplete":1},
+      {"state":"desktop-exploded","viewport":"1280x720","critical":0,"serious":0,"moderate":1,"colorContrastIncomplete":91,"ariaProhibitedAttrIncomplete":1},
+      {"state":"narrow-initial","viewport":"390x844","critical":0,"serious":0,"moderate":0,"colorContrastIncomplete":30,"ariaProhibitedAttrIncomplete":1},
+      {"state":"narrow-left-drawer","viewport":"390x844","critical":0,"serious":0,"moderate":0,"colorContrastIncomplete":52,"ariaProhibitedAttrIncomplete":1},
+      {"state":"narrow-right-drawer","viewport":"390x844","critical":0,"serious":0,"moderate":0,"colorContrastIncomplete":60,"ariaProhibitedAttrIncomplete":1}
+    ],
+    "colorContrastViolations": 0,
+    "colorContrastPasses": 0,
+    "colorContrastInterpretation": "unresolved; zero violations is not a pass because every state has incomplete nodes"
+  },
+  "scores": {
+    "axeCriticalSerious": {"earned":4,"possible":6,"status":"complete"},
+    "namesRolesStates": {"earned":0,"possible":3,"status":"complete","reason":"core observation modes do not expose selected state programmatically"},
+    "contrast": {"earned":0,"possible":2,"status":"complete","reason":"focus indicator is unclear, hint text sample is 3.59:1, and axe contrast is unresolved"},
+    "keyboardFocus": {"earned":0,"possible":3,"status":"complete","reason":"keyboard cannot complete the core part-inspector task; focus indicator is nearly invisible"},
+    "resizeReflow": {"earned":0,"possible":3,"status":"complete","reason":"200% text resize causes core telemetry and camera text overlap"},
+    "nvda": {"earned":null,"possible":3,"status":"pending","reason":"no real NVDA operator; not simulated"},
+    "measuredSubtotal": {"earned":4,"possible":17},
+    "workflowBFinal": {"earned":null,"possible":20,"status":"incomplete"}
+  },
+  "browserAssistedFindings": {
+    "namedInteractiveControlsMissing": 0,
+    "nativeRolesObserved": true,
+    "checkboxStateSynchronized": true,
+    "drawerExpandedStateSynchronized": true,
+    "pauseActionNameSynchronized": true,
+    "modeSelectedStateProgrammatic": false,
+    "cameraSelectedStateProgrammatic": false,
+    "keyboardTasksPassing": [
+      "pause",
+      "three view modes",
+      "six camera presets",
+      "reset",
+      "three toggles",
+      "left drawer",
+      "right drawer"
+    ],
+    "keyboardTasksFailing": [
+      "part inspector"
+    ],
+    "focusTrapObserved": false,
+    "focusIndicatorClear": false,
+    "textResize200CoreOverlap": true,
+    "documentHorizontalOverflowAt320": false,
+    "drawersReachableAt320": true,
+    "computedContrastHintRatio": 3.5902964263527317,
+    "contrastMethodLimitation": "DOM computed-style solid-ancestor approximation; gradients and WebGL backgrounds remain unresolved"
+  },
+  "nvda": {
+    "status": "pending",
+    "realOperatorPresent": false,
+    "simulated": false,
+    "testedItems": []
+  },
+  "issues": [
+    {"id":"A11Y-01","severity":"P1","wcag":["2.1.1"],"summary":"Part inspector is not keyboard reachable"},
+    {"id":"A11Y-02","severity":"P1","wcag":["1.4.4","1.4.10"],"summary":"200% text resize causes core content overlap"},
+    {"id":"A11Y-03","severity":"P1","wcag":["4.1.2"],"summary":"Core view mode selected state is visual-only"},
+    {"id":"A11Y-04","severity":"P1","wcag":["2.4.7","2.4.11"],"summary":"Keyboard focus indicator is nearly invisible on dark UI"},
+    {"id":"A11Y-05","severity":"P1","wcag":["2.1.1","2.1.3"],"summary":"Selected-part telemetry panel becomes scrollable but is not focusable"},
+    {"id":"A11Y-06","severity":"P2","wcag":["1.4.3"],"summary":"Hint text is about 3.59:1 and automated contrast remains unresolved"},
+    {"id":"A11Y-07","severity":"P2","wcag":["4.1.2"],"summary":"Scene viewport aria-label is on a div without a supported explicit role"},
+    {"id":"A11Y-08","severity":"P3","wcag":["1.3.1"],"summary":"Desktop complementary landmarks do not have unique names"}
+  ],
+  "claims": {
+    "wcag22AAConformant": false,
+    "wcag22AAConformanceEvaluatedCompletely": false,
+    "axeZeroViolations": false,
+    "nvdaComplete": false,
+    "workflowBScorePublished": false,
+    "external100ScorePublished": false,
+    "measuredScoresRescaled": false
+  },
+  "evidence": {
+    "report": "artifacts/external-eval/accessibility/B-WCAG22-AA-AUDIT.md",
+    "runSummary": "artifacts/external-eval/accessibility/accessibility-run-02-summary.json",
+    "runEnvironment": "artifacts/external-eval/environment/accessibility-run-02.json",
+    "failedRunEnvironment": "artifacts/external-eval/environment/accessibility-run-01.json",
+    "axePattern": "artifacts/external-eval/accessibility/axe/<state>/run-02/",
+    "keyboardFinal": "artifacts/external-eval/accessibility/manual/recheck-02/keyboard-focus.json",
+    "focusScreenshot": "artifacts/external-eval/accessibility/manual/recheck-02/keyboard-tab-focus-xray.png",
+    "contrastSamples": "artifacts/external-eval/accessibility/manual/recheck-02/contrast-samples.json",
+    "resizeReflow": "artifacts/external-eval/accessibility/manual/run-02/resize-reflow.json"
+  }
+}

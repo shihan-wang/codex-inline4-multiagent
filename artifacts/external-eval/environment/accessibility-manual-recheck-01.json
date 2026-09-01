@@ -1,0 +1,52 @@
+{
+  "status": "valid",
+  "startedAt": "2026-08-31T03:09:22.916Z",
+  "finishedAt": "2026-08-31T03:12:54.495Z",
+  "exitCode": 0,
+  "command": "node evaluation/accessibility/run-manual-recheck.mjs",
+  "baseUrl": "http://127.0.0.1:16320",
+  "viewport": [
+    "1280x720",
+    "390x844"
+  ],
+  "gitHead": {
+    "command": [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "exitCode": 0,
+    "stdout": "38c00417812fa87ca76b520c17c978a14cbd8ad2",
+    "stderr": ""
+  },
+  "fixedTag": {
+    "command": [
+      "git",
+      "rev-parse",
+      "v3-model-final^{}"
+    ],
+    "exitCode": 0,
+    "stdout": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+    "stderr": ""
+  },
+  "srcDiffEnd": {
+    "command": [
+      "git",
+      "diff",
+      "--exit-code",
+      "v3-model-final",
+      "--",
+      "src"
+    ],
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "os": {
+    "platform": "win32",
+    "release": "10.0.26200",
+    "arch": "x64"
+  },
+  "cpu": "Intel(R) Core(TM) Ultra 9 185H",
+  "browserStderrSummary": "[34836:43732:0831/110923.508:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:544] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set usagestats; result: 5\r\n[34836:43732:0831/110923.508:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:587] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set urlstats; result: 5\r\n[34836:14916:0831/110923.599:ERROR:chrome\\browser\\extensions\\external_registry_loader_win.cc:206] File C:/Users/27186/AppData/Roaming/ksobrowserex/edge/ngbkcglbmlglgldjfcnhaijeecaccgfi/kingsoft_extension_edge.crx for key Software\\Microsoft\\Edge\\Extensions\\ngbkcglbmlglgldjfcnhaijeecaccgfi does not exist or is not readable.\r\n\r\nDevTools listening on ws://127.0.0.1:16322/devtools/browser/51596bdd-8740-4665-93ad-ced808f02929\r\n[34836:41152:0831/110923.724:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:544] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set usagestats; result: 5\r\n[34836:43144:0831/110923.724:ERROR:chrome\\browser\\ui\\edge_window_tab_manager\\api\\wtm_interface_impl.cc:461] Failed to open registry key\r\n[34836:14916:0831/110923.785:ERROR:chrome\\browser\\importer\\edge_china_browsers\\edge_qqbrowser_importer_utils_win.cc:165] QQBrowser user data path not found.\r\n[34836:43144:0831/110925.249:ERROR:chrome\\browser\\task_manager\\providers\\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a \"Renderer\" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/40528867.\r\n"
+}

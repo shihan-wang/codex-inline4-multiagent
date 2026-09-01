@@ -1,0 +1,468 @@
+{
+  "testedAt": "2026-09-01T04:39:23.795Z",
+  "baseUrl": "http://127.0.0.1:16541/",
+  "requestedGpuMode": "hardware",
+  "desktop": {
+    "viewport": "1280x720",
+    "url": "http://127.0.0.1:16541/",
+    "title": "Inline-4 Diesel · 四冲程机械剖析",
+    "bodyTextLength": 1144,
+    "canvas": {
+      "width": 1280,
+      "height": 720,
+      "clientWidth": 1280,
+      "clientHeight": 720
+    },
+    "webgl": {
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+    },
+    "controls": {
+      "total": 18,
+      "buttons": 13,
+      "ranges": 2,
+      "checkboxes": 3
+    },
+    "layout": {
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 72,
+        "right": 1280,
+        "bottom": 72,
+        "clipped": false
+      },
+      "leftPanel": {
+        "x": 16,
+        "y": 82,
+        "width": 248,
+        "height": 568,
+        "right": 264,
+        "bottom": 650,
+        "clipped": false
+      },
+      "rightPanel": {
+        "x": 988,
+        "y": 82,
+        "width": 276,
+        "height": 568,
+        "right": 1264,
+        "bottom": 650,
+        "clipped": false
+      },
+      "dock": {
+        "x": 377.296875,
+        "y": 665,
+        "width": 525.40625,
+        "height": 46,
+        "right": 902.703125,
+        "bottom": 711,
+        "clipped": false
+      },
+      "dashboard": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "right": 1280,
+        "bottom": 720,
+        "clipped": false
+      },
+      "horizontalOverflow": false,
+      "verticalOverflow": false,
+      "visiblePanelWidth": 524
+    },
+    "responsive": {
+      "mobileToggles": [
+        {
+          "text": "☰ 控制",
+          "displayed": true,
+          "expanded": "false"
+        },
+        {
+          "text": "工况 ◫",
+          "displayed": true,
+          "expanded": "false"
+        }
+      ],
+      "visiblePresetCount": 6
+    },
+    "values": [
+      "599.7°",
+      "88°C",
+      "2.5 bar"
+    ],
+    "strokes": [
+      "压缩 · COMPRESSION",
+      "做功 · POWER",
+      "进气 · INTAKE",
+      "排气 · EXHAUST"
+    ],
+    "runningLabel": "ENGINE RUNNING"
+  },
+  "narrow": {
+    "viewport": "390x844",
+    "url": "http://127.0.0.1:16541/",
+    "title": "Inline-4 Diesel · 四冲程机械剖析",
+    "bodyTextLength": 259,
+    "canvas": {
+      "width": 390,
+      "height": 844,
+      "clientWidth": 390,
+      "clientHeight": 844
+    },
+    "webgl": {
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+    },
+    "controls": {
+      "total": 18,
+      "buttons": 13,
+      "ranges": 2,
+      "checkboxes": 3
+    },
+    "layout": {
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 74,
+        "right": 390,
+        "bottom": 74,
+        "clipped": false
+      },
+      "leftPanel": {
+        "x": -320,
+        "y": 126,
+        "width": 310,
+        "height": 640,
+        "right": -10,
+        "bottom": 766,
+        "clipped": true
+      },
+      "rightPanel": {
+        "x": 400,
+        "y": 126,
+        "width": 310,
+        "height": 640,
+        "right": 710,
+        "bottom": 766,
+        "clipped": true
+      },
+      "dock": {
+        "x": 8,
+        "y": 790,
+        "width": 374,
+        "height": 46,
+        "right": 382,
+        "bottom": 836,
+        "clipped": false
+      },
+      "dashboard": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "right": 390,
+        "bottom": 844,
+        "clipped": false
+      },
+      "horizontalOverflow": false,
+      "verticalOverflow": false,
+      "visiblePanelWidth": 0
+    },
+    "responsive": {
+      "mobileToggles": [
+        {
+          "text": "☰ 控制",
+          "displayed": true,
+          "expanded": "false"
+        },
+        {
+          "text": "工况 ◫",
+          "displayed": true,
+          "expanded": "false"
+        }
+      ],
+      "visiblePresetCount": 6
+    },
+    "values": [
+      "119.5°",
+      "88°C",
+      "2.4 bar"
+    ],
+    "strokes": [
+      "做功 · POWER",
+      "排气 · EXHAUST",
+      "压缩 · COMPRESSION",
+      "进气 · INTAKE"
+    ],
+    "runningLabel": "ENGINE RUNNING"
+  },
+  "frameTiming": {
+    "durationMs": 1003.1999999880791,
+    "frames": 120,
+    "averageFps": 119.99999999999999,
+    "p95FrameMs": 8.400000000000091,
+    "maxFrameMs": 8.5,
+    "drawCalls": {
+      "drawArrays": 4840,
+      "drawElements": 24806,
+      "drawArraysInstanced": 605,
+      "drawElementsInstanced": 2299
+    },
+    "drawCallsPerFrame": 271.25
+  },
+  "interactions": {
+    "pause": {
+      "beforePause": "599.7°",
+      "crank": "179.9°",
+      "label": "ENGINE PAUSED",
+      "title": "运行 / Run (Space)",
+      "pausedAgain": "179.9°",
+      "held": true
+    },
+    "sliders": [
+      "1800 rpm",
+      "75%"
+    ],
+    "modes": {
+      "solid": {
+        "found": true,
+        "active": true
+      },
+      "xray": {
+        "found": true,
+        "active": true
+      },
+      "section": {
+        "found": true,
+        "active": true
+      }
+    },
+    "cameras": [
+      {
+        "value": "isometric",
+        "active": true
+      },
+      {
+        "value": "front",
+        "active": true
+      },
+      {
+        "value": "side",
+        "active": true
+      },
+      {
+        "value": "top",
+        "active": true
+      },
+      {
+        "value": "crank",
+        "active": true
+      },
+      {
+        "value": "combustion",
+        "active": true
+      }
+    ],
+    "semanticCameraStates": {
+      "resetButton": {
+        "presets": [
+          "isometric"
+        ],
+        "modes": [
+          "solid"
+        ]
+      },
+      "key5": {
+        "presets": [
+          "crank"
+        ],
+        "modes": [
+          "section"
+        ]
+      },
+      "key6": {
+        "presets": [
+          "combustion"
+        ],
+        "modes": [
+          "xray"
+        ]
+      },
+      "keyR": {
+        "presets": [
+          "isometric"
+        ],
+        "modes": [
+          "solid"
+        ]
+      }
+    },
+    "toggles": [
+      {
+        "id": "toggle-labels",
+        "before": true,
+        "after": false
+      },
+      {
+        "id": "toggle-flows",
+        "before": true,
+        "after": false
+      },
+      {
+        "id": "toggle-explode",
+        "before": false,
+        "after": true
+      }
+    ]
+  },
+  "narrowInteractions": {
+    "initial": {
+      "visiblePanelWidth": 0,
+      "visiblePresetCount": 6,
+      "left": {
+        "x": -320,
+        "right": -10,
+        "width": 310,
+        "visibleWidth": 0,
+        "transform": "matrix(1, 0, 0, 1, -328, 0)",
+        "visibility": "hidden",
+        "opacity": "0"
+      },
+      "right": {
+        "x": 400,
+        "right": 710,
+        "width": 310,
+        "visibleWidth": 0,
+        "transform": "matrix(1, 0, 0, 1, 328, 0)",
+        "visibility": "hidden",
+        "opacity": "0"
+      },
+      "rootClass": "dashboard",
+      "expanded": [
+        "false",
+        "false"
+      ]
+    },
+    "leftOpen": {
+      "visiblePanelWidth": 310,
+      "visiblePresetCount": 6,
+      "left": {
+        "x": 8,
+        "right": 318,
+        "width": 310,
+        "visibleWidth": 310,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      "right": {
+        "x": 400,
+        "right": 710,
+        "width": 310,
+        "visibleWidth": 0,
+        "transform": "matrix(1, 0, 0, 1, 328, 0)",
+        "visibility": "hidden",
+        "opacity": "0"
+      },
+      "rootClass": "dashboard is-left-open",
+      "expanded": [
+        "true",
+        "false"
+      ]
+    },
+    "rightOpen": {
+      "visiblePanelWidth": 310,
+      "visiblePresetCount": 6,
+      "left": {
+        "x": -320,
+        "right": -10,
+        "width": 310,
+        "visibleWidth": 0,
+        "transform": "matrix(1, 0, 0, 1, -328, 0)",
+        "visibility": "hidden",
+        "opacity": "0"
+      },
+      "right": {
+        "x": 72,
+        "right": 382,
+        "width": 310,
+        "visibleWidth": 310,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      "rootClass": "dashboard is-right-open",
+      "expanded": [
+        "false",
+        "true"
+      ]
+    },
+    "final": {
+      "visiblePanelWidth": 0,
+      "visiblePresetCount": 6,
+      "left": {
+        "x": -320,
+        "right": -10,
+        "width": 310,
+        "visibleWidth": 0,
+        "transform": "matrix(1, 0, 0, 1, -328, 0)",
+        "visibility": "hidden",
+        "opacity": "0"
+      },
+      "right": {
+        "x": 400,
+        "right": 710,
+        "width": 310,
+        "visibleWidth": 0,
+        "transform": "matrix(1, 0, 0, 1, 328, 0)",
+        "visibility": "hidden",
+        "opacity": "0"
+      },
+      "rootClass": "dashboard",
+      "expanded": [
+        "false",
+        "false"
+      ]
+    }
+  },
+  "pointerInteractions": {
+    "rotateChanged": true,
+    "zoomChanged": true,
+    "panChanged": true,
+    "selection": {
+      "title": "排气歧管",
+      "english": "Exhaust manifold",
+      "fields": 5
+    }
+  },
+  "diagnostics": {
+    "consoleMessages": [],
+    "pageExceptions": [],
+    "logEntries": [],
+    "browserStderr": [
+      "[45808:45288:0901/123853.721:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:544] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set usagestats; result: 5\r\n",
+      "[45808:45288:0901/123853.722:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:587] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set urlstats; result: 5\r\n",
+      "[45808:42440:0901/123853.818:ERROR:chrome\\browser\\extensions\\external_registry_loader_win.cc:206] File C:/Users/27186/AppData/Roaming/ksobrowserex/edge/ngbkcglbmlglgldjfcnhaijeecaccgfi/kingsoft_extension_edge.crx for key Software\\Microsoft\\Edge\\Extensions\\ngbkcglbmlglgldjfcnhaijeecaccgfi does not exist or is not readable.\r\n",
+      "[45808:40420:0901/123853.968:ERROR:chrome\\browser\\ui\\edge_window_tab_manager\\api\\wtm_interface_impl.cc:461] Failed to open registry key\r\n",
+      "[45808:42440:0901/123854.045:ERROR:chrome\\browser\\importer\\edge_china_browsers\\edge_qqbrowser_importer_utils_win.cc:165] QQBrowser user data path not found.\r\n",
+      "[45808:20656:0901/123858.632:ERROR:services\\device\\public\\cpp\\geolocation\\system_geolocation_source_win.cc:259] Failed to get location access status: 参数错误。 (0x80070057)\r\n",
+      "[45808:26876:0901/123858.669:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:544] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set usagestats; result: 5\r\n",
+      "[45808:34828:0901/123859.272:ERROR:chrome\\browser\\edge_aadc\\user_age_utils_win.cc:163] couldn't get user2.\r\n[45808:34828:0901/123859.272:ERROR:chrome\\browser\\edge_aadc\\user_age_utils_win.cc:310] couldn't get windows user age group.\r\n[45808:34828:0901/123859.272:ERROR:chrome\\browser\\edge_aadc\\user_age_utils_win.cc:156] callback wasn't called.\r\n"
+    ]
+  },
+  "performanceMetrics": {
+    "Documents": 1,
+    "Nodes": 3041,
+    "LayoutCount": 109,
+    "RecalcStyleCount": 1040,
+    "JSHeapUsedSize": 13532256
+  },
+  "acceptance": {
+    "passed": true,
+    "failures": []
+  }
+}

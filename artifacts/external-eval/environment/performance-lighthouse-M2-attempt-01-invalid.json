@@ -1,0 +1,18 @@
+{
+  "token": "M2",
+  "kind": "mobile",
+  "sequencePosition": 3,
+  "startedAtUtc": "2026-08-31T03:13:31.231Z",
+  "endedAtUtc": "2026-08-31T03:14:21.128Z",
+  "durationMs": 49897,
+  "command": "D:\\Users\\wangshihan\\nodejs\\node.exe D:\\ComputePicture\\codex-inline4-multiagent\\evaluation\\performance\\node_modules\\lighthouse\\cli\\index.js http://127.0.0.1:16310/ --only-categories=performance --output=json --output=html --output-path=D:\\ComputePicture\\codex-inline4-multiagent\\artifacts\\external-eval\\performance\\lighthouse\\mobile\\run-02\\report --chrome-flags=--headless=new --no-sandbox --no-first-run --no-default-browser-check --disable-background-networking --disable-component-update --disable-sync --disable-gpu-sandbox --disable-dev-shm-usage --disable-gpu-shader-disk-cache --disable-features=SkiaGraphite --user-data-dir=C:\\Users\\WANGSH~1\\AppData\\Local\\Temp\\inline4-lh-M2-mcyhnu --max-wait-for-load=45000",
+  "exitCode": 1,
+  "signal": null,
+  "gitHead": "38c00417812fa87ca76b520c17c978a14cbd8ad2",
+  "targetTagPeeled": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+  "url": "http://127.0.0.1:16310/",
+  "viewport": "Lighthouse default mobile preset",
+  "coldCache": true,
+  "freshProfile": true,
+  "renderer": "not exposed per Lighthouse run; separately measured by WebGL workflow"
+}

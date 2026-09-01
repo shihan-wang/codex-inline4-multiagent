@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><title>Acceptance negative fixture</title></head>
+<body>
+  <div class="dashboard">
+    <header class="topbar"></header><aside class="panel-left"></aside><aside class="panel-right"></aside><footer class="bottom-dock"></footer>
+    <button class="play-button">Ⅱ</button><div class="run-copy"><strong>ENGINE RUNNING</strong></div>
+    <div class="gauge"><strong>000°</strong></div>
+    <label class="control-label"><strong>1200 rpm</strong></label><input type="range" value="1200">
+    <label class="control-label"><strong>42%</strong></label><input type="range" value="42">
+    <div class="mode-control">
+      <button class="is-active" data-value="solid">实体</button><button class="is-active" data-value="xray">X-RAY</button><button class="is-active" data-value="section">剖切</button>
+    </div>
+    <div class="preset-row">
+      <button class="is-active" data-value="isometric">1</button><button class="is-active" data-value="front">2</button><button class="is-active" data-value="side">3</button>
+      <button class="is-active" data-value="top">4</button><button class="is-active" data-value="crank">5</button><button class="is-active" data-value="combustion">6</button>
+    </div>
+    <label class="toggle-row"><input id="toggle-labels" type="checkbox" checked></label>
+    <label class="toggle-row"><input id="toggle-flows" type="checkbox" checked></label>
+    <label class="toggle-row"><input id="toggle-explode" type="checkbox"></label>
+    <section class="inspector"></section>
+  </div>
+  <canvas width="1280" height="720"></canvas>
+  <script>
+    const play = document.querySelector('.play-button');
+    play.addEventListener('click', () => {
+      const copy = document.querySelector('.run-copy strong');
+      copy.textContent = copy.textContent === 'ENGINE PAUSED' ? 'ENGINE RUNNING' : 'ENGINE PAUSED';
+    });
+  </script>
+</body>
+</html>

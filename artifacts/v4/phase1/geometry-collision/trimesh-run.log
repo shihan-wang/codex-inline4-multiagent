@@ -1,0 +1,22 @@
+{
+  "output": "artifacts\\v4\\phase1\\geometry-collision\\trimesh\\results.json",
+  "summary": {
+    "triangleNodesExpected": 474,
+    "triangleNodesInspected": 474,
+    "missingSemanticNodes": [],
+    "closedNodes": 413,
+    "closedWatertightNodes": 413,
+    "closedWatertightPercent": 100.0,
+    "closedTriangles": 62968,
+    "closedWatertightTriangles": 62968,
+    "closedTriangleWeightedWatertightPercent": 100.0,
+    "totalDegenerateTriangles": 0,
+    "totalDuplicateFaces": 0,
+    "totalDuplicateVertices": 51546,
+    "totalRawVertices": 100712,
+    "duplicateVertexRatio": 0.5118158709984908,
+    "totalWindingErrorEdges": 2304,
+    "totalInvalidGeometricNormals": 0,
+    "inwardClosedNodes": 0
+  }
+}

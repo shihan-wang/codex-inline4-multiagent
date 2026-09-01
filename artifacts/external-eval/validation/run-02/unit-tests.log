@@ -1,0 +1,27 @@
+command: cmd.exe /d /s /c npm test
+startedAtUtc: 2026-08-31T13:08:09.761Z
+finishedAtUtc: 2026-08-31T13:08:17.002Z
+durationMs: 7241
+exitCode: 0
+signal: 
+
+--- stdout ---
+
+> codex-inline4-multiagent@1.0.0 test
+> vitest run
+
+
+ RUN  v3.2.7 D:/ComputePicture/codex-inline4-multiagent
+
+ ✓ tests/kinematics.test.ts (16 tests) 6ms
+ ✓ tests/effects.test.ts (2 tests) 41ms
+ ✓ tests/scene-geometry.test.ts (4 tests) 126ms
+
+ Test Files  3 passed (3)
+      Tests  22 passed (22)
+   Start at  21:08:14
+   Duration  2.54s (transform 187ms, setup 0ms, collect 1.64s, tests 173ms, environment 1ms, prepare 2.41s)
+
+
+--- stderr ---
+

@@ -1,0 +1,6 @@
+EXIT 1
+Captured at 2026-09-01 Asia/Shanghai during independent final review.
+The Vite preview process on port 16442 was no longer listening before this attempt navigated.
+Puppeteer reported "Access denied" and timed out after 30000 ms waiting for evaluator-only __V4_FIXED_RAF__.frozen.
+No screenshot or state JSON was produced, and no product source was modified.
+This failed evidence is preserved; attempt-02 uses a newly started preview and a new output directory.

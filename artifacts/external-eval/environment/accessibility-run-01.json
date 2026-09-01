@@ -1,0 +1,16 @@
+{
+  "runId": "run-01",
+  "status": "invalid",
+  "validityReason": "Evaluator cleanup exception after the nine axe scans and scripted manual checks: Windows kept CrashpadMetrics-active.pma locked and recursive temporary-profile removal raised EBUSY.",
+  "exclusionRule": "Protocol section 7 permits evaluator-script exceptions to be marked invalid. Evidence is retained and the rerun uses a new run number.",
+  "startedAtUtc": "2026-08-31T02:58:15.226Z",
+  "exitCode": 1,
+  "command": "node evaluation/accessibility/run-accessibility.mjs",
+  "gitHead": "38c00417812fa87ca76b520c17c978a14cbd8ad2",
+  "fixedTagPeeled": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+  "baseUrl": "http://127.0.0.1:16320",
+  "tool": "axe-core 4.10.3",
+  "rawEvidenceRetained": true,
+  "statesWithSavedAxeEvidence": 9,
+  "note": "This metadata records the failed execution without overwriting its raw state directories. It is not used as the scored valid run."
+}

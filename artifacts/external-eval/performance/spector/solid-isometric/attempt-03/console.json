@@ -1,0 +1,82 @@
+{
+  "all": [
+    {
+      "source": "exception",
+      "capturedAt": "2026-08-31T08:31:44.204Z",
+      "exceptionDetails": {
+        "exceptionId": 1,
+        "text": "Uncaught",
+        "lineNumber": 93,
+        "columnNumber": 46376,
+        "scriptId": "3",
+        "url": "http://127.0.0.1:16330/",
+        "exception": {
+          "type": "object",
+          "subtype": "error",
+          "className": "SyntaxError",
+          "description": "SyntaxError: Invalid or unexpected token",
+          "objectId": "-8214115706194913052.2.1",
+          "preview": {
+            "type": "object",
+            "subtype": "error",
+            "description": "SyntaxError: Invalid or unexpected token",
+            "overflow": false,
+            "properties": [
+              {
+                "name": "stack",
+                "type": "string",
+                "value": "SyntaxError: Invalid or unexpected token"
+              },
+              {
+                "name": "message",
+                "type": "string",
+                "value": "Invalid or unexpected token"
+              }
+            ]
+          }
+        },
+        "executionContextId": 2
+      }
+    }
+  ],
+  "applicationProblems": [
+    {
+      "source": "exception",
+      "capturedAt": "2026-08-31T08:31:44.204Z",
+      "exceptionDetails": {
+        "exceptionId": 1,
+        "text": "Uncaught",
+        "lineNumber": 93,
+        "columnNumber": 46376,
+        "scriptId": "3",
+        "url": "http://127.0.0.1:16330/",
+        "exception": {
+          "type": "object",
+          "subtype": "error",
+          "className": "SyntaxError",
+          "description": "SyntaxError: Invalid or unexpected token",
+          "objectId": "-8214115706194913052.2.1",
+          "preview": {
+            "type": "object",
+            "subtype": "error",
+            "description": "SyntaxError: Invalid or unexpected token",
+            "overflow": false,
+            "properties": [
+              {
+                "name": "stack",
+                "type": "string",
+                "value": "SyntaxError: Invalid or unexpected token"
+              },
+              {
+                "name": "message",
+                "type": "string",
+                "value": "Invalid or unexpected token"
+              }
+            ]
+          }
+        },
+        "executionContextId": 2
+      }
+    }
+  ]
+}

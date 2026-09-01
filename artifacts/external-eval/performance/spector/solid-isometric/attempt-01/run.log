@@ -1,0 +1,4 @@
+[2026-08-31T08:23:47.392Z] scene=solid-isometric attempt=attempt-01
+[2026-08-31T08:23:47.392Z] target=http://127.0.0.1:16330/ mode=solid preset=isometric
+[2026-08-31T08:24:17.639Z] FAILURE Error: Timed out waiting for production canvas and Spector initialization
+    at main (file:///D:/ComputePicture/codex-inline4-multiagent/evaluation/spector/run-spector.mjs:265:28)

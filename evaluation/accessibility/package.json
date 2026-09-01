@@ -1,0 +1,11 @@
+{
+  "name": "inline4-external-accessibility-evaluation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "evaluate": "node run-accessibility.mjs"
+  },
+  "dependencies": {
+    "axe-core": "4.10.3"
+  }
+}

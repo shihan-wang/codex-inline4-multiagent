@@ -1,0 +1,30 @@
+{
+  "all": [
+    {
+      "source": "log",
+      "capturedAt": "2026-08-31T08:36:13.886Z",
+      "entry": {
+        "source": "network",
+        "level": "error",
+        "text": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+        "timestamp": 1788165373885.22,
+        "url": "https://fonts.googleapis.com/css?family=Montserrat:300,400",
+        "networkRequestId": "37340.24"
+      }
+    }
+  ],
+  "applicationProblems": [
+    {
+      "source": "log",
+      "capturedAt": "2026-08-31T08:36:13.886Z",
+      "entry": {
+        "source": "network",
+        "level": "error",
+        "text": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+        "timestamp": 1788165373885.22,
+        "url": "https://fonts.googleapis.com/css?family=Montserrat:300,400",
+        "networkRequestId": "37340.24"
+      }
+    }
+  ]
+}

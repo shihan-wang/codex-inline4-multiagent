@@ -1,0 +1,164 @@
+{
+  "schema": "inline4-v3-final-independent-qa-v1",
+  "reviewTarget": {
+    "baseCommit": "12472172925ec3108d096f2402a48e3f7939931b",
+    "baseTag": "v2-baseline",
+    "state": "uncommitted V3 working tree reviewed before final integration commit"
+  },
+  "comparison": {
+    "v2QaScore": 82,
+    "v3QaScore": 92,
+    "delta": 10
+  },
+  "scoringStandard": {
+    "total": 100,
+    "categories": {
+      "mechanical": 25,
+      "geometry": 25,
+      "visual": 20,
+      "interaction": 10,
+      "performance": 10,
+      "testEvidence": 10
+    }
+  },
+  "score": {
+    "total": 92,
+    "mechanical": {
+      "score": 23,
+      "maximum": 25,
+      "confidence": 0.88,
+      "evidence": [
+        "22/22 formal tests passed, including kinematics, flow effects and four scene-geometry tests",
+        "Browser telemetry preserved four distinct strokes and 1-3-4-2 firing-order presentation while paused and running",
+        "V3 source and review evidence add a 2:1 timing drive, closed flat-tappet cam/valve envelope, load-responsive injection and cylinder-specific flow paths"
+      ],
+      "deductions": [
+        "Browser acceptance does not numerically sample visible cam, tappet and valve displacement through the entire 720-degree cycle",
+        "Combustion and fluids remain intentionally illustrative rather than thermodynamic/CFD simulation"
+      ]
+    },
+    "geometry": {
+      "score": 23,
+      "maximum": 25,
+      "confidence": 0.96,
+      "evidence": [
+        "Independent inventory: 339 objects, 247 meshes, 18 InstancedMesh batches rendering 245 instances, 74,338 triangles and 34 pickable roots",
+        "Unique geometry fell from 349 to 251 and geometry buffers from 3.11 MB to 2.56 MB without reducing pickable-system coverage",
+        "Hardware screenshots show the cranktrain, valvetrain, manifolds, turbo, fuel rail, flywheel and accessory drive as source-generated geometry"
+      ],
+      "deductions": [
+        "Section observation still uses open clipping boundaries rather than explicit cap/hatch geometry",
+        "251 unique geometries and 54 materials remain moderately complex for 247 mesh nodes"
+      ]
+    },
+    "visual": {
+      "score": 18,
+      "maximum": 20,
+      "confidence": 0.97,
+      "evidence": [
+        "Independently inspected same-size solid, X-Ray, section, exploded, flow, selected-part and six-camera hardware captures",
+        "Desktop lighting, material separation, labels and composition are clear; cranktrain and valvetrain presets expose their intended mechanisms",
+        "390x844 starts with the model unobscured and opens only one readable 310 px drawer at a time"
+      ],
+      "deductions": [
+        "Uncapped section boundaries are visually abrupt and lack conventional section hatching",
+        "The X-Ray crankcase remains visually dense in overlapping mechanism and fluid regions"
+      ]
+    },
+    "interaction": {
+      "score": 10,
+      "maximum": 10,
+      "confidence": 0.99,
+      "evidence": [
+        "Pause telemetry held exactly; RPM reached 1800 and load 75 percent",
+        "All three modes, six camera presets, reset, keyboard 5/6/R semantic coupling, labels, flows and exploded view changed state",
+        "Orbit, zoom, pan and mesh selection passed; the selected exhaust manifold exposed bilingual metadata and five detail fields",
+        "Narrow drawers are initially hidden, mutually exclusive, ARIA-synchronized and leave all six presets in the scrollable rail"
+      ],
+      "deductions": []
+    },
+    "performance": {
+      "score": 9,
+      "maximum": 10,
+      "confidence": 0.95,
+      "evidence": [
+        "Intel Arc D3D11: 120.00 FPS cap, p95 8.4 ms, max 8.5 ms, 269.23 draw calls/frame",
+        "SwiftShader Vulkan: 11.48 FPS, p95 100.1 ms, max 116.6 ms, 269.23 draw calls/frame; treated only as a software-rendering lower path",
+        "Draw calls fell 28.6 percent from V2 hardware 377.11; objects fell 24.0 percent and geometry bytes fell 17.7 percent"
+      ],
+      "deductions": [
+        "The 608.48 kB minified / 160.64 kB gzip JS chunk still triggers Vite's 500 kB advisory",
+        "Acceptance records one post-interaction heap snapshot rather than a repeated leak/stability series"
+      ]
+    },
+    "testEvidence": {
+      "score": 9,
+      "maximum": 10,
+      "confidence": 0.99,
+      "evidence": [
+        "Typecheck, 22 formal tests and production build passed; vitest.config limits formal discovery to tests/**/*.test.ts and excludes artifacts",
+        "Positive browser acceptance passed independently on Intel Arc D3D11 and SwiftShader with no application console error, page exception or WebGL loss",
+        "The negative fixture injected six independent failures, reported all six and exited with code 1",
+        "Semantic assertions cover reset and keyboard state, narrow drawers, all modes/cameras, orbit/zoom/pan and a real mesh pick"
+      ],
+      "deductions": [
+        "No automated perceptual screenshot comparison validates section caps, flow visibility or exploded displacement",
+        "Narrow acceptance checks DOM availability but does not swipe the preset rail and activate camera 6/reset at 390 px",
+        "No enforced regression budgets for draw calls, bundle bytes or repeated heap growth"
+      ]
+    }
+  },
+  "performance": {
+    "hardwareIntelArcD3D11": {
+      "averageFps": 120,
+      "p95FrameMs": 8.4,
+      "maxFrameMs": 8.5,
+      "drawCallsPerFrame": 269.23333333333335,
+      "jsHeapUsedBytes": 17432748,
+      "nodes": 2887,
+      "layoutCount": 106,
+      "recalcStyleCount": 1033
+    },
+    "swiftshaderVulkan": {
+      "averageFps": 11.483473367911346,
+      "p95FrameMs": 100.1,
+      "maxFrameMs": 116.6,
+      "drawCallsPerFrame": 269.23333333333335,
+      "jsHeapUsedBytes": 6824556,
+      "nodes": 840,
+      "layoutCount": 38,
+      "recalcStyleCount": 57,
+      "interpretation": "software renderer only; not representative of ordinary-PC GPU frame rate"
+    }
+  },
+  "severityCounts": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 2,
+    "P3": 2
+  },
+  "p2Adjudication": [
+    {
+      "id": "V2-QA-03",
+      "decision": "resolved",
+      "evidence": "positive report asserts exact resetButton/key5/key6/keyR preset and mode arrays; negative key5 mutation fails"
+    },
+    {
+      "id": "V2-QA-04",
+      "decision": "open-nonblocking",
+      "evidence": "section capture remains clipped without explicit cap/hatch surfaces"
+    },
+    {
+      "id": "V2-QA-05",
+      "decision": "resolved",
+      "evidence": "18 InstancedMesh batches/245 instances and 269.23 draws/frame versus 377.11 in V2"
+    }
+  ],
+  "releaseDecision": {
+    "recommend": true,
+    "p0": 0,
+    "p1": 0,
+    "obviousHighYieldLowCostItemExists": false,
+    "condition": "project lead should create the final V3 commit and verify the committed tree is clean"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "schema": "inline4-v4-visual-performance-baseline-v1",
+  "generatedAtUtc": "2026-08-31T14:04:23.0548618Z",
+  "auditAgent": "v4_visual_perf_baseline",
+  "scope": "V4 phase-1 read-only visual and performance regression baseline",
+  "fixedModelCommit": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+  "externalEvaluationCommit": "eccde839811d6991b9583f3c4fd6c08918ec64c1",
+  "branchAtAudit": "v4-remediation",
+  "sourceIntegrity": {
+    "diffFromV3ModelCommit": [],
+    "workingTreeSourceDiff": [],
+    "sourceModifiedByAudit": false
+  },
+  "environment": {
+    "operatingSystem": "Windows 10 Home China 25H2 build 26200.9168 x64",
+    "processor": "Intel(R) Core(TM) Ultra 9 185H",
+    "browser": "Microsoft Edge 152.0.4191.53",
+    "node": "24.14.0",
+    "npm": "11.9.0",
+    "vite": "7.3.6",
+    "lighthouse": "12.8.2",
+    "webVitals": "5.3.0",
+    "spectorjs": "0.9.30",
+    "fixedSnapshotRenderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "fixedSnapshotContext": "webgl2",
+    "serverUrl": "http://127.0.0.1:16430/",
+    "serverPort": 16430,
+    "debugTransport": "Edge auto-assigned ephemeral DevTools endpoint"
+  },
+  "reusedExternalEvidence": {
+    "lighthouse": {
+      "desktopColdCacheRuns": 5,
+      "mobileColdCacheRuns": 5,
+      "invalidAttemptsPreserved": 4,
+      "desktopPerformance": { "min": 77, "median": 82, "max": 92 },
+      "mobilePerformance": { "min": 42, "median": 76, "max": 88 },
+      "desktopLcpMs": { "min": 470.3, "median": 631.5, "max": 853 },
+      "mobileLcpMs": { "min": 3062.3, "median": 3458, "max": 5968.5 },
+      "desktopCls": { "min": 0.000031, "median": 0.000031, "max": 0.000085 },
+      "mobileCls": { "min": 0, "median": 0, "max": 0 },
+      "desktopTbtMs": { "min": 228, "median": 395, "max": 534 },
+      "mobileTbtMs": { "min": 0, "median": 0, "max": 2860 },
+      "boundary": "TBT is not INP. No Lighthouse value is reported as field INP."
+    },
+    "webVitalsAndSceneReady": {
+      "desktopRuns": 5,
+      "mobileRuns": 5,
+      "desktopSceneReadyMs": { "min": 156.7, "median": 281.2, "max": 1334.1 },
+      "mobileSceneReadyMs": { "min": 207.7, "median": 382.8, "max": 956.8 },
+      "combinedScriptedEventTimingP75Ms": 32,
+      "combinedEventToNextPaintP75Ms": 20.4,
+      "boundary": "Scripted laboratory interactions; not field INP p75."
+    },
+    "sustainedWebgl": {
+      "intelArc": {
+        "runs": 3,
+        "fps": { "min": 120.02, "median": 120.03, "max": 120.03 },
+        "p95FrameMs": { "min": 8.4, "median": 8.4, "max": 8.4 },
+        "drawCallsPerFrame": { "min": 266.9997, "median": 266.9997, "max": 267.0003 },
+        "applicationErrors": 0,
+        "contextLosses": 0
+      },
+      "swiftShader": {
+        "runs": 3,
+        "fps": { "min": 1.854, "median": 2.37, "max": 2.557 },
+        "p95FrameMs": { "min": 700.1, "median": 716.7, "max": 916.7 },
+        "drawCallsPerFrame": { "min": 266.5633, "median": 266.79, "max": 267.5533 },
+        "applicationErrors": 0,
+        "contextLosses": 0,
+        "boundary": "Software-rendering compatibility path only; never averaged with Intel Arc."
+      }
+    },
+    "singleFrameSpector": {
+      "boundary": "Representative single-frame GPU commands; never treated as sustained frame time.",
+      "renderer": "Intel Arc D3D11 / WebGL2",
+      "states": [
+        { "name": "solid-isometric", "commands": 1418, "drawCommands": 268, "captureBytes": 101402774 },
+        { "name": "section-crank", "commands": 1446, "drawCommands": 267, "captureBytes": 100541712 },
+        { "name": "xray-valvetrain", "commands": 1590, "drawCommands": 265, "captureBytes": 88897654 }
+      ]
+    }
+  },
+  "newLightweightConfirmation": {
+    "deterministicScreenshots": {
+      "count": 9,
+      "viewport": "1280x720@1",
+      "state": "paused at displayed 000.0 degrees crank angle",
+      "instrumentation": "Evaluator-only deterministic requestAnimationFrame timestamps; production source unchanged.",
+      "cameraPresetsConfirmed": 6,
+      "viewModesConfirmed": 3,
+      "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "applicationConsoleEvents": 0
+    },
+    "browserAcceptance": {
+      "passed": true,
+      "viewportDesktop": "1280x720",
+      "viewportNarrow": "390x844",
+      "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "context": "WebGL 2.0",
+      "frames": 120,
+      "averageFps": 120,
+      "p95FrameMs": 8.4,
+      "maxFrameMs": 8.5,
+      "drawCallsPerFrame": 269.225,
+      "jsHeapUsedBytes": 10064656,
+      "applicationConsoleErrors": 0,
+      "pageExceptions": 0,
+      "cameraPresetsActivated": 6,
+      "viewModesActivated": 3,
+      "togglesActivated": 3,
+      "partInspectorMetadataFields": 5,
+      "narrowOverflow": false
+    },
+    "flowsOnOffStaticSsim": 0.993911
+  },
+  "v4NoRegressionGates": {
+    "visualFunctional": [
+      "At 1280x720, all three modes and all six presets remain reachable and produce the expected active state.",
+      "The 0-degree paused solid-isometric, section-crank, and xray-combustion frames retain legible differentiated subsystems and labels.",
+      "Explode, labels, flows, pause, pointer camera manipulation and five-field part inspection remain functional.",
+      "Desktop and 390x844 layouts have no document-level horizontal or vertical overflow; both narrow drawers remain usable.",
+      "Application console errors, uncaught page exceptions and WebGL context loss remain zero."
+    ],
+    "intelArcSustained": {
+      "minimumAverageFps": 110,
+      "maximumP95FrameMs": 10,
+      "maximumDrawCallsPerFrame": 282,
+      "maximumContextLosses": 0,
+      "maximumApplicationErrors": 0
+    },
+    "swiftShaderCompatibility": {
+      "minimumAverageFps": 1.85,
+      "maximumP95FrameMs": 916.7,
+      "maximumContextLosses": 0,
+      "maximumApplicationErrors": 0,
+      "interpretation": "Compatibility floor, not an ordinary-computer frame-rate target."
+    },
+    "singleFrameSpectorIfTriggered": {
+      "solidIsometricMaximumDrawCommands": 282,
+      "sectionCrankMaximumDrawCommands": 281,
+      "xrayValvetrainMaximumDrawCommands": 279,
+      "solidIsometricMaximumCommands": 1489,
+      "sectionCrankMaximumCommands": 1518,
+      "xrayValvetrainMaximumCommands": 1670,
+      "toleranceRationale": "Five-percent ceiling over the measured V3 frame; rerun only if pipeline, material count or draw-call structure changes materially."
+    },
+    "startupIfTriggered": {
+      "desktopLighthouseMedianMinimum": 80,
+      "mobileLighthouseMedianMinimum": 74,
+      "desktopSceneReadyMedianMaximumMs": 350,
+      "mobileSceneReadyMedianMaximumMs": 450,
+      "method": "Same 5+5 cold-cache protocol; a single Lighthouse run cannot replace the median."
+    }
+  },
+  "limitations": [
+    "The deterministic screenshot harness controls rAF timestamps only for evaluation and is not product code.",
+    "The light browser acceptance sample is a smoke confirmation, not a replacement for the external 30-second sustained runs.",
+    "Visual judgments are expert-agent review, not a real-user blind study.",
+    "No NVDA or human participant result is inferred."
+  ]
+}

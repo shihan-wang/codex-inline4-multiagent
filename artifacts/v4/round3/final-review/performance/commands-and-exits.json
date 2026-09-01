@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "v4_round3_perf_reviewer",
+  "tools": {
+    "node": "24.14.0",
+    "npm": "11.9.0",
+    "vite": "7.3.6",
+    "edge": "152.0.4191.53"
+  },
+  "commands": [
+    {
+      "id": "initial-isolated-build",
+      "command": "npx vite build --outDir artifacts/v4/round3/final-review/performance/production-dist --emptyOutDir",
+      "exitCode": null,
+      "status": "outer command did not yield a valid exit after output creation; two invocation-owned Node processes were stopped",
+      "canonical": false
+    },
+    {
+      "id": "verified-isolated-production-build",
+      "command": "node node_modules/vite/bin/vite.js build --outDir artifacts/v4/round3/final-review/performance/production-dist-verified --emptyOutDir",
+      "exitCode": 0,
+      "canonical": true
+    },
+    {
+      "id": "production-preview",
+      "command": "node node_modules/vite/bin/vite.js preview --host 127.0.0.1 --port 16541 --strictPort --outDir artifacts/v4/round3/final-review/performance/production-dist-verified",
+      "exitCode": null,
+      "status": "ready; intentionally terminated after all reviewer commands; PID 22012 no longer running"
+    },
+    {
+      "id": "intel-sustained-once",
+      "command": "node artifacts/v4/round3/final-review/performance/run-sustained-round3.mjs hardware 19541 http://127.0.0.1:16541/ artifacts/v4/round3/final-review/performance/sustained-intel",
+      "exitCode": 0,
+      "runs": 1
+    },
+    {
+      "id": "swiftshader-sustained-once",
+      "command": "node artifacts/v4/round3/final-review/performance/run-sustained-round3.mjs swiftshader 19542 http://127.0.0.1:16541/ artifacts/v4/round3/final-review/performance/sustained-swiftshader",
+      "exitCode": 0,
+      "runs": 1
+    },
+    {
+      "id": "positive-browser-acceptance-once",
+      "command": "BROWSER_GPU_MODE=hardware EDGE_DEBUG_PORT=19543 node scripts/browser-acceptance.mjs http://127.0.0.1:16541/ artifacts/v4/round3/final-review/performance/browser-positive-intel",
+      "exitCode": 0,
+      "runs": 1
+    },
+    {
+      "id": "fixed-visual-and-keyboard-selection",
+      "command": "node artifacts/v4/round3/final-review/performance/capture-fixed-round3.mjs http://127.0.0.1:16541/ 19544 artifacts/v4/round3/final-review/performance/fixed-visual",
+      "exitCode": 0,
+      "runs": 1
+    }
+  ],
+  "explicitlyNotRun": [
+    "Spector.js",
+    "Lighthouse",
+    "Blender",
+    "Trimesh",
+    "721-angle collision scan",
+    "old sustained WebGL evidence",
+    "old browser evidence",
+    "negative fault fixture"
+  ]
+}

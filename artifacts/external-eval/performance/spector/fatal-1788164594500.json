@@ -1,0 +1,6 @@
+{
+  "status": "not-measured",
+  "capturedAt": "2026-08-31T08:23:14.499Z",
+  "error": "Error: ENOENT: no such file or directory, mkdir 'D:\\ComputePicture\\codex-inline4-multiagent\\artifacts\\external-eval\\performance\\spector\\solid-isometric\\attempt-01'\n    at async mkdir (node:internal/fs/promises:856:10)\n    at async nextAttemptDirectory (file:///D:/ComputePicture/codex-inline4-multiagent/evaluation/spector/run-spector.mjs:178:7)\n    at async main (file:///D:/ComputePicture/codex-inline4-multiagent/evaluation/spector/run-spector.mjs:254:38)",
+  "note": "Evaluator failed before completing the scene loop; no synthetic result substituted."
+}

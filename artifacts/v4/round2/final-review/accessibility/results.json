@@ -1,0 +1,104 @@
+{
+  "startedAt": "2026-08-31T23:54:38.256Z",
+  "finishedAt": "2026-08-31T23:54:47.873Z",
+  "exitCode": 0,
+  "baseUrl": "http://127.0.0.1:16444/",
+  "contrast": [
+    {
+      "selector": ".panel-title span",
+      "text": "POWERTRAIN",
+      "fontSize": "8px",
+      "color": "rgb(135, 147, 155)",
+      "effectiveBackground": {
+        "r": 8,
+        "g": 11,
+        "b": 14,
+        "a": 1
+      },
+      "ratio": 6.272202544725927,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "selector": ".inspector-empty p",
+      "text": "将鼠标悬停或点击发动机组件查看材料、工艺与实时运动状态",
+      "fontSize": "8px",
+      "color": "rgb(135, 147, 155)",
+      "effectiveBackground": {
+        "r": 6.5600000000000005,
+        "g": 9.020000000000001,
+        "b": 11.48,
+        "a": 1
+      },
+      "ratio": 6.3428023854558075,
+      "threshold": 4.5,
+      "pass": true
+    }
+  ],
+  "runningState": {
+    "playFocused": true,
+    "before": {
+      "focused": true,
+      "pressed": "true",
+      "state": "running",
+      "label": "发动机运行",
+      "title": "暂停 / Pause (Space)",
+      "visibleCopy": "ENGINE RUNNING发动机运行中"
+    },
+    "paused": {
+      "focused": true,
+      "pressed": "false",
+      "state": "paused",
+      "label": "发动机暂停",
+      "title": "运行 / Run (Space)",
+      "visibleCopy": "ENGINE PAUSED发动机已暂停"
+    },
+    "restored": {
+      "focused": true,
+      "pressed": "true",
+      "state": "running",
+      "label": "发动机运行",
+      "title": "暂停 / Pause (Space)",
+      "visibleCopy": "ENGINE RUNNING发动机运行中"
+    }
+  },
+  "genericSelection": {
+    "selectorFocused": true,
+    "piston": {
+      "selectFocused": true,
+      "selectValue": "piston",
+      "selectedOption": "活塞与活塞环 · Piston & rings",
+      "inspectorHasPart": true,
+      "inspectorName": "活塞与活塞环",
+      "inspectorEnglishName": "Piston & rings",
+      "inspectorState": "1200 rpm · crank 239°"
+    },
+    "connectingRod": {
+      "selectFocused": true,
+      "selectValue": "connecting-rod",
+      "selectedOption": "连杆 · Connecting rod",
+      "inspectorHasPart": true,
+      "inspectorName": "连杆",
+      "inspectorEnglishName": "Connecting rod",
+      "inspectorState": "1200 rpm · crank 239°"
+    },
+    "screenshotState": {
+      "mode": "section",
+      "camera": "crank",
+      "running": "paused",
+      "canvas": {
+        "width": 1280,
+        "height": 720
+      }
+    }
+  },
+  "runtime": {
+    "pageErrors": [],
+    "consoleMessages": [],
+    "failedRequests": []
+  },
+  "nvda": {
+    "status": "pending-real-human",
+    "simulated": false
+  }
+}

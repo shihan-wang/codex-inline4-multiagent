@@ -1,0 +1,72 @@
+{
+  "reviewer": "v4_accessibility_audit",
+  "independentFromImplementation": true,
+  "productSourceModifiedByReviewer": false,
+  "servedUrl": "http://127.0.0.1:16441/",
+  "environment": {
+    "edge": "152.0.4191.53",
+    "node": "v24.14.0",
+    "desktopViewport": "1280x720",
+    "narrowViewport": "390x844"
+  },
+  "axe": {
+    "states": 9,
+    "validStates": 9,
+    "invalidStates": 0,
+    "violations": 0,
+    "allStatesHaveIncompleteColorContrast": true,
+    "incompleteContrastNodeRange": [30, 99],
+    "preservedRunExitCode": 1,
+    "preservedRunExitReason": "late evaluator navigation readiness timeout after valid state capture",
+    "wcagConclusionFromAxe": false
+  },
+  "supplementalRun": {
+    "exitCode": 0,
+    "pageErrors": 0,
+    "pageConsoleMessages": 0
+  },
+  "checks": {
+    "semanticPartSelectorKeyboard": "pass",
+    "pointerToSelectorReverseSync": "pass",
+    "visibleKeyboardFocus": "pass",
+    "textResize200NoBlockingOverlap": "pass",
+    "narrow390x844ReflowAndDrawers": "pass",
+    "modeCameraPressedState": "pass",
+    "pausePressedState": "pass",
+    "pauseAccessibleNameConsistency": "fail",
+    "scrollPanelFocusableAndKeyboardScrollable": "pass",
+    "viewportRoleAndName": "pass",
+    "landmarkUniqueNames": "pass",
+    "sampledTextContrast": "fail",
+    "nvda": "pending-real-human"
+  },
+  "findings": [
+    {
+      "id": "A11Y-V4-FR-01",
+      "severity": "P1",
+      "title": "Normal-sized instructional/subtitle text below 4.5:1",
+      "evidence": {
+        ".inspector-empty p": 3.07480426684402,
+        ".panel-title span": 4.10124342449324
+      },
+      "releaseBlocking": true
+    },
+    {
+      "id": "A11Y-V4-FR-02",
+      "severity": "P2",
+      "title": "Pause aria-label remains engine-running while paused",
+      "releaseBlocking": false
+    }
+  ],
+  "severityCounts": {
+    "P0": 0,
+    "P1": 1,
+    "P2": 1
+  },
+  "recommendation": "hold-pending-targeted-remediation-and-independent-recheck",
+  "fullWcag22AAConclusion": "not-determined",
+  "humanPending": [
+    "NVDA screen-reader operation",
+    "real-user usability/blind review"
+  ]
+}

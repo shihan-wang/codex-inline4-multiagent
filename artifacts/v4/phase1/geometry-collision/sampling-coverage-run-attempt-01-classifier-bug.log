@@ -1,0 +1,29 @@
+{
+  "semanticCrankshaftNodes": 44,
+  "coveredSemanticNodes": 18,
+  "uncoveredSemanticNodes": 26,
+  "selectedSamples": 48,
+  "ambiguousSamples": 0,
+  "roleCoverage": {
+    "main-journal-or-cheek": {
+      "nodes": 41,
+      "coveredNodes": 15,
+      "sampleAssignments": 40
+    },
+    "nose": {
+      "nodes": 1,
+      "coveredNodes": 1,
+      "sampleAssignments": 2
+    },
+    "damper": {
+      "nodes": 1,
+      "coveredNodes": 1,
+      "sampleAssignments": 5
+    },
+    "accessory-crank-pulley": {
+      "nodes": 1,
+      "coveredNodes": 1,
+      "sampleAssignments": 1
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "token": "D2",
+  "kind": "desktop",
+  "sequencePosition": 4,
+  "startedAtUtc": "2026-08-31T03:20:15.695Z",
+  "endedAtUtc": "2026-08-31T03:21:22.541Z",
+  "durationMs": 66846,
+  "command": "D:\\Users\\wangshihan\\nodejs\\node.exe D:\\ComputePicture\\codex-inline4-multiagent\\evaluation\\performance\\node_modules\\lighthouse\\cli\\index.js http://127.0.0.1:16310/ --only-categories=performance --output=json --output=html --output-path=D:\\ComputePicture\\codex-inline4-multiagent\\artifacts\\external-eval\\performance\\lighthouse\\desktop\\run-02\\report --port=25003 --max-wait-for-load=45000 --preset=desktop",
+  "exitCode": 0,
+  "signal": null,
+  "gitHead": "38c00417812fa87ca76b520c17c978a14cbd8ad2",
+  "targetTagPeeled": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+  "url": "http://127.0.0.1:16310/",
+  "viewport": "Lighthouse desktop preset",
+  "coldCache": true,
+  "freshProfile": true,
+  "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+}

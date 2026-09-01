@@ -1,0 +1,1081 @@
+{
+  "metadata": {
+    "token": "D2",
+    "configuration": {
+      "name": "desktop",
+      "width": 1280,
+      "height": 720,
+      "mobile": false
+    },
+    "startedAtUtc": "2026-08-31T08:09:57.966Z",
+    "endedAtUtc": "2026-08-31T08:11:54.907Z",
+    "durationMs": 116941,
+    "exitCode": 0,
+    "failure": null,
+    "command": "node run-web-vitals.mjs (D2)",
+    "gitHead": "38c00417812fa87ca76b520c17c978a14cbd8ad2",
+    "targetTagPeeled": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+    "url": "http://127.0.0.1:16310/",
+    "freshProfile": true,
+    "metricNote": "INP/Event Timing are scripted laboratory interactions, not field p75; Lighthouse TBT is not used"
+  },
+  "result": {
+    "token": "D2",
+    "configuration": {
+      "name": "desktop",
+      "width": 1280,
+      "height": 720,
+      "mobile": false
+    },
+    "sceneReadyMs": 281.20000000298023,
+    "pageState": {
+      "metrics": {
+        "LCP": {
+          "name": "LCP",
+          "value": 1220,
+          "rating": "good",
+          "delta": 1220,
+          "id": "v5-1788163799269-3094858498232",
+          "navigationType": "navigate"
+        },
+        "CLS": {
+          "name": "CLS",
+          "value": 0.000044557571411132814,
+          "rating": "good",
+          "delta": 0.000044557571411132814,
+          "id": "v5-1788163800500-8073636669305",
+          "navigationType": "navigate"
+        },
+        "INP": {
+          "name": "INP",
+          "value": 552,
+          "rating": "poor",
+          "delta": 440,
+          "id": "v5-1788163799269-7073649320163",
+          "navigationType": "navigate"
+        }
+      },
+      "eventEntries": [
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 2132.1000000089407,
+          "duration": 32,
+          "processingStart": 2135.9000000059605,
+          "processingEnd": 2135.9000000059605,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerenter",
+          "entryType": "event",
+          "startTime": 2132.1000000089407,
+          "duration": 32,
+          "processingStart": 2135.9000000059605,
+          "processingEnd": 2135.9000000059605,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerenter",
+          "entryType": "event",
+          "startTime": 2132.1000000089407,
+          "duration": 32,
+          "processingStart": 2135.9000000059605,
+          "processingEnd": 2135.9000000059605,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerenter",
+          "entryType": "event",
+          "startTime": 2132.1000000089407,
+          "duration": 32,
+          "processingStart": 2135.9000000059605,
+          "processingEnd": 2135.9000000059605,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerenter",
+          "entryType": "event",
+          "startTime": 2132.1000000089407,
+          "duration": 32,
+          "processingStart": 2135.9000000059605,
+          "processingEnd": 2135.9000000059605,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerenter",
+          "entryType": "event",
+          "startTime": 2132.1000000089407,
+          "duration": 32,
+          "processingStart": 2135.9000000059605,
+          "processingEnd": 2135.9000000059605,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerenter",
+          "entryType": "event",
+          "startTime": 2132.1000000089407,
+          "duration": 32,
+          "processingStart": 2135.9000000059605,
+          "processingEnd": 2135.9000000059605,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerenter",
+          "entryType": "event",
+          "startTime": 2132.1000000089407,
+          "duration": 32,
+          "processingStart": 2135.9000000059605,
+          "processingEnd": 2135.9000000059605,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerenter",
+          "entryType": "event",
+          "startTime": 2132.1000000089407,
+          "duration": 32,
+          "processingStart": 2135.9000000059605,
+          "processingEnd": 2135.9000000059605,
+          "interactionId": 0
+        },
+        {
+          "name": "mouseover",
+          "entryType": "event",
+          "startTime": 2132.1000000089407,
+          "duration": 32,
+          "processingStart": 2135.9000000059605,
+          "processingEnd": 2135.9000000059605,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 2138.4000000059605,
+          "duration": 32,
+          "processingStart": 2140.9000000059605,
+          "processingEnd": 2140.9000000059605,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerdown",
+          "entryType": "event",
+          "startTime": 2138.4000000059605,
+          "duration": 32,
+          "processingStart": 2140.9000000059605,
+          "processingEnd": 2140.9000000059605,
+          "interactionId": 2869
+        },
+        {
+          "name": "mousedown",
+          "entryType": "event",
+          "startTime": 2138.4000000059605,
+          "duration": 32,
+          "processingStart": 2140.9000000059605,
+          "processingEnd": 2140.9000000059605,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerup",
+          "entryType": "event",
+          "startTime": 2142.2999999970198,
+          "duration": 24,
+          "processingStart": 2142.5,
+          "processingEnd": 2142.6000000089407,
+          "interactionId": 2869
+        },
+        {
+          "name": "mouseup",
+          "entryType": "event",
+          "startTime": 2142.2999999970198,
+          "duration": 24,
+          "processingStart": 2142.6000000089407,
+          "processingEnd": 2142.7000000029802,
+          "interactionId": 0
+        },
+        {
+          "name": "click",
+          "entryType": "event",
+          "startTime": 2142.2999999970198,
+          "duration": 24,
+          "processingStart": 2142.7000000029802,
+          "processingEnd": 2143.2999999970198,
+          "interactionId": 2869
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 2142.2999999970198,
+          "duration": 24,
+          "processingStart": 2143.2999999970198,
+          "processingEnd": 2143.2999999970198,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 2227.2000000029802,
+          "duration": 24,
+          "processingStart": 2227.4000000059605,
+          "processingEnd": 2227.4000000059605,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 2310.5,
+          "duration": 24,
+          "processingStart": 2310.6000000089407,
+          "processingEnd": 2310.6000000089407,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 2410.9000000059605,
+          "duration": 24,
+          "processingStart": 2411.2000000029802,
+          "processingEnd": 2411.2000000029802,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 2485.5,
+          "duration": 24,
+          "processingStart": 2485.6000000089407,
+          "processingEnd": 2485.6000000089407,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerout",
+          "entryType": "event",
+          "startTime": 2510.5,
+          "duration": 120,
+          "processingStart": 2519.6000000089407,
+          "processingEnd": 2519.6000000089407,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerleave",
+          "entryType": "event",
+          "startTime": 2510.5,
+          "duration": 120,
+          "processingStart": 2519.6000000089407,
+          "processingEnd": 2519.6000000089407,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerleave",
+          "entryType": "event",
+          "startTime": 2510.5,
+          "duration": 120,
+          "processingStart": 2519.6000000089407,
+          "processingEnd": 2519.6000000089407,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 2510.5,
+          "duration": 120,
+          "processingStart": 2519.6000000089407,
+          "processingEnd": 2519.6000000089407,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerenter",
+          "entryType": "event",
+          "startTime": 2510.5,
+          "duration": 120,
+          "processingStart": 2519.6000000089407,
+          "processingEnd": 2519.6000000089407,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerenter",
+          "entryType": "event",
+          "startTime": 2510.5,
+          "duration": 120,
+          "processingStart": 2519.6000000089407,
+          "processingEnd": 2519.6000000089407,
+          "interactionId": 0
+        },
+        {
+          "name": "mouseout",
+          "entryType": "event",
+          "startTime": 2510.5,
+          "duration": 120,
+          "processingStart": 2519.6000000089407,
+          "processingEnd": 2519.6000000089407,
+          "interactionId": 0
+        },
+        {
+          "name": "mouseover",
+          "entryType": "event",
+          "startTime": 2510.5,
+          "duration": 120,
+          "processingStart": 2519.6000000089407,
+          "processingEnd": 2519.6000000089407,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerdown",
+          "entryType": "event",
+          "startTime": 2520.7000000029802,
+          "duration": 112,
+          "processingStart": 2522.9000000059605,
+          "processingEnd": 2522.9000000059605,
+          "interactionId": 2876
+        },
+        {
+          "name": "mousedown",
+          "entryType": "event",
+          "startTime": 2520.7000000029802,
+          "duration": 112,
+          "processingStart": 2522.9000000059605,
+          "processingEnd": 2522.9000000059605,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerup",
+          "entryType": "event",
+          "startTime": 2524.5,
+          "duration": 112,
+          "processingStart": 2524.7000000029802,
+          "processingEnd": 2524.7999999970198,
+          "interactionId": 2876
+        },
+        {
+          "name": "mouseup",
+          "entryType": "event",
+          "startTime": 2524.5,
+          "duration": 112,
+          "processingStart": 2524.7999999970198,
+          "processingEnd": 2524.7999999970198,
+          "interactionId": 0
+        },
+        {
+          "name": "click",
+          "entryType": "event",
+          "startTime": 2524.5,
+          "duration": 112,
+          "processingStart": 2524.7999999970198,
+          "processingEnd": 2525.1000000089407,
+          "interactionId": 2876
+        },
+        {
+          "name": "pointerout",
+          "entryType": "event",
+          "startTime": 2885.1000000089407,
+          "duration": 24,
+          "processingStart": 2885.7999999970198,
+          "processingEnd": 2885.7999999970198,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerleave",
+          "entryType": "event",
+          "startTime": 2885.1000000089407,
+          "duration": 24,
+          "processingStart": 2885.7999999970198,
+          "processingEnd": 2885.7999999970198,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 2885.1000000089407,
+          "duration": 24,
+          "processingStart": 2885.7999999970198,
+          "processingEnd": 2885.7999999970198,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerenter",
+          "entryType": "event",
+          "startTime": 2885.1000000089407,
+          "duration": 24,
+          "processingStart": 2885.7999999970198,
+          "processingEnd": 2885.7999999970198,
+          "interactionId": 0
+        },
+        {
+          "name": "mouseout",
+          "entryType": "event",
+          "startTime": 2885.1000000089407,
+          "duration": 24,
+          "processingStart": 2885.7999999970198,
+          "processingEnd": 2885.7999999970198,
+          "interactionId": 0
+        },
+        {
+          "name": "mouseover",
+          "entryType": "event",
+          "startTime": 2885.1000000089407,
+          "duration": 24,
+          "processingStart": 2885.7999999970198,
+          "processingEnd": 2885.7999999970198,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerdown",
+          "entryType": "event",
+          "startTime": 2889.7000000029802,
+          "duration": 552,
+          "processingStart": 2890.2999999970198,
+          "processingEnd": 2890.4000000059605,
+          "interactionId": 2883
+        },
+        {
+          "name": "mousedown",
+          "entryType": "event",
+          "startTime": 2889.7000000029802,
+          "duration": 552,
+          "processingStart": 2890.4000000059605,
+          "processingEnd": 2890.4000000059605,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerup",
+          "entryType": "event",
+          "startTime": 2892.2000000029802,
+          "duration": 552,
+          "processingStart": 2892.4000000059605,
+          "processingEnd": 2892.5,
+          "interactionId": 2883
+        },
+        {
+          "name": "mouseup",
+          "entryType": "event",
+          "startTime": 2892.2000000029802,
+          "duration": 552,
+          "processingStart": 2892.5,
+          "processingEnd": 2892.5,
+          "interactionId": 0
+        },
+        {
+          "name": "click",
+          "entryType": "event",
+          "startTime": 2892.2000000029802,
+          "duration": 552,
+          "processingStart": 2892.5,
+          "processingEnd": 2892.5,
+          "interactionId": 2883
+        },
+        {
+          "name": "pointerout",
+          "entryType": "event",
+          "startTime": 3442.2999999970198,
+          "duration": 16,
+          "processingStart": 3444.2000000029802,
+          "processingEnd": 3444.2000000029802,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerleave",
+          "entryType": "event",
+          "startTime": 3442.2999999970198,
+          "duration": 16,
+          "processingStart": 3444.2000000029802,
+          "processingEnd": 3444.2000000029802,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerleave",
+          "entryType": "event",
+          "startTime": 3442.2999999970198,
+          "duration": 16,
+          "processingStart": 3444.2000000029802,
+          "processingEnd": 3444.2000000029802,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerleave",
+          "entryType": "event",
+          "startTime": 3442.2999999970198,
+          "duration": 16,
+          "processingStart": 3444.2000000029802,
+          "processingEnd": 3444.2000000029802,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 3442.2999999970198,
+          "duration": 16,
+          "processingStart": 3444.2000000029802,
+          "processingEnd": 3444.2000000029802,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerenter",
+          "entryType": "event",
+          "startTime": 3442.2999999970198,
+          "duration": 16,
+          "processingStart": 3444.2000000029802,
+          "processingEnd": 3444.2000000029802,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerenter",
+          "entryType": "event",
+          "startTime": 3442.2999999970198,
+          "duration": 16,
+          "processingStart": 3444.2000000029802,
+          "processingEnd": 3444.2000000029802,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerenter",
+          "entryType": "event",
+          "startTime": 3442.2999999970198,
+          "duration": 16,
+          "processingStart": 3444.2000000029802,
+          "processingEnd": 3444.2000000029802,
+          "interactionId": 0
+        },
+        {
+          "name": "mouseout",
+          "entryType": "event",
+          "startTime": 3442.2999999970198,
+          "duration": 16,
+          "processingStart": 3444.2000000029802,
+          "processingEnd": 3444.2000000029802,
+          "interactionId": 0
+        },
+        {
+          "name": "mouseover",
+          "entryType": "event",
+          "startTime": 3442.2999999970198,
+          "duration": 16,
+          "processingStart": 3444.2000000029802,
+          "processingEnd": 3444.2000000029802,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerdown",
+          "entryType": "event",
+          "startTime": 3449.2999999970198,
+          "duration": 16,
+          "processingStart": 3449.6000000089407,
+          "processingEnd": 3449.7000000029802,
+          "interactionId": 2890
+        },
+        {
+          "name": "mousedown",
+          "entryType": "event",
+          "startTime": 3449.2999999970198,
+          "duration": 16,
+          "processingStart": 3449.7000000029802,
+          "processingEnd": 3449.7000000029802,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerup",
+          "entryType": "event",
+          "startTime": 3451.6000000089407,
+          "duration": 16,
+          "processingStart": 3451.7000000029802,
+          "processingEnd": 3451.7999999970198,
+          "interactionId": 2890
+        },
+        {
+          "name": "mouseup",
+          "entryType": "event",
+          "startTime": 3451.6000000089407,
+          "duration": 16,
+          "processingStart": 3451.7999999970198,
+          "processingEnd": 3451.7999999970198,
+          "interactionId": 0
+        },
+        {
+          "name": "click",
+          "entryType": "event",
+          "startTime": 3451.6000000089407,
+          "duration": 16,
+          "processingStart": 3451.7999999970198,
+          "processingEnd": 3452.2999999970198,
+          "interactionId": 2890
+        },
+        {
+          "name": "pointerout",
+          "entryType": "event",
+          "startTime": 3809.2999999970198,
+          "duration": 16,
+          "processingStart": 3811,
+          "processingEnd": 3811,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerleave",
+          "entryType": "event",
+          "startTime": 3809.2999999970198,
+          "duration": 16,
+          "processingStart": 3811,
+          "processingEnd": 3811,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerleave",
+          "entryType": "event",
+          "startTime": 3809.2999999970198,
+          "duration": 16,
+          "processingStart": 3811,
+          "processingEnd": 3811,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerleave",
+          "entryType": "event",
+          "startTime": 3809.2999999970198,
+          "duration": 16,
+          "processingStart": 3811,
+          "processingEnd": 3811,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 3809.2999999970198,
+          "duration": 16,
+          "processingStart": 3811,
+          "processingEnd": 3811,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerenter",
+          "entryType": "event",
+          "startTime": 3809.2999999970198,
+          "duration": 16,
+          "processingStart": 3811,
+          "processingEnd": 3811,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerenter",
+          "entryType": "event",
+          "startTime": 3809.2999999970198,
+          "duration": 16,
+          "processingStart": 3811,
+          "processingEnd": 3811,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerenter",
+          "entryType": "event",
+          "startTime": 3809.2999999970198,
+          "duration": 16,
+          "processingStart": 3811,
+          "processingEnd": 3811,
+          "interactionId": 0
+        },
+        {
+          "name": "mouseout",
+          "entryType": "event",
+          "startTime": 3809.2999999970198,
+          "duration": 16,
+          "processingStart": 3811,
+          "processingEnd": 3811,
+          "interactionId": 0
+        },
+        {
+          "name": "mouseover",
+          "entryType": "event",
+          "startTime": 3809.2999999970198,
+          "duration": 16,
+          "processingStart": 3811,
+          "processingEnd": 3811,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerdown",
+          "entryType": "event",
+          "startTime": 3814.5,
+          "duration": 32,
+          "processingStart": 3815.1000000089407,
+          "processingEnd": 3815.1000000089407,
+          "interactionId": 2897
+        },
+        {
+          "name": "mousedown",
+          "entryType": "event",
+          "startTime": 3814.5,
+          "duration": 32,
+          "processingStart": 3815.1000000089407,
+          "processingEnd": 3815.1000000089407,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerup",
+          "entryType": "event",
+          "startTime": 3817.6000000089407,
+          "duration": 24,
+          "processingStart": 3817.9000000059605,
+          "processingEnd": 3817.9000000059605,
+          "interactionId": 2897
+        },
+        {
+          "name": "mouseup",
+          "entryType": "event",
+          "startTime": 3817.6000000089407,
+          "duration": 24,
+          "processingStart": 3817.9000000059605,
+          "processingEnd": 3817.9000000059605,
+          "interactionId": 0
+        },
+        {
+          "name": "click",
+          "entryType": "event",
+          "startTime": 3817.6000000089407,
+          "duration": 24,
+          "processingStart": 3817.9000000059605,
+          "processingEnd": 3818,
+          "interactionId": 2897
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 3817.6000000089407,
+          "duration": 24,
+          "processingStart": 3818,
+          "processingEnd": 3818,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 3860.4000000059605,
+          "duration": 16,
+          "processingStart": 3860.5,
+          "processingEnd": 3860.5,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 3943.7999999970198,
+          "duration": 16,
+          "processingStart": 3943.9000000059605,
+          "processingEnd": 3943.9000000059605,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 4027.1000000089407,
+          "duration": 16,
+          "processingStart": 4027.2999999970198,
+          "processingEnd": 4027.2999999970198,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 4110.5,
+          "duration": 16,
+          "processingStart": 4110.600000008941,
+          "processingEnd": 4110.600000008941,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 4193.79999999702,
+          "duration": 16,
+          "processingStart": 4193.79999999702,
+          "processingEnd": 4193.79999999702,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 4277.100000008941,
+          "duration": 16,
+          "processingStart": 4277.100000008941,
+          "processingEnd": 4277.20000000298,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 4360.4000000059605,
+          "duration": 16,
+          "processingStart": 4360.600000008941,
+          "processingEnd": 4360.600000008941,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 4443.79999999702,
+          "duration": 16,
+          "processingStart": 4443.79999999702,
+          "processingEnd": 4443.79999999702,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 4527,
+          "duration": 16,
+          "processingStart": 4527.20000000298,
+          "processingEnd": 4527.20000000298,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 4610.29999999702,
+          "duration": 16,
+          "processingStart": 4610.5,
+          "processingEnd": 4610.5,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 4693.79999999702,
+          "duration": 16,
+          "processingStart": 4693.79999999702,
+          "processingEnd": 4693.9000000059605,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 4777.100000008941,
+          "duration": 16,
+          "processingStart": 4777.20000000298,
+          "processingEnd": 4777.20000000298,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 4860.4000000059605,
+          "duration": 16,
+          "processingStart": 4860.5,
+          "processingEnd": 4860.5,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 4943.70000000298,
+          "duration": 16,
+          "processingStart": 4943.79999999702,
+          "processingEnd": 4943.9000000059605,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 5027.100000008941,
+          "duration": 16,
+          "processingStart": 5027.29999999702,
+          "processingEnd": 5027.29999999702,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 5110.4000000059605,
+          "duration": 16,
+          "processingStart": 5110.5,
+          "processingEnd": 5110.600000008941,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 5193.70000000298,
+          "duration": 16,
+          "processingStart": 5193.9000000059605,
+          "processingEnd": 5193.9000000059605,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 5277,
+          "duration": 16,
+          "processingStart": 5277.29999999702,
+          "processingEnd": 5277.29999999702,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 5360.4000000059605,
+          "duration": 16,
+          "processingStart": 5360.4000000059605,
+          "processingEnd": 5360.5,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 5443.70000000298,
+          "duration": 16,
+          "processingStart": 5443.9000000059605,
+          "processingEnd": 5443.9000000059605,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 5527.20000000298,
+          "duration": 16,
+          "processingStart": 5527.29999999702,
+          "processingEnd": 5527.29999999702,
+          "interactionId": 0
+        },
+        {
+          "name": "pointerover",
+          "entryType": "event",
+          "startTime": 5610.4000000059605,
+          "duration": 16,
+          "processingStart": 5610.600000008941,
+          "processingEnd": 5610.600000008941,
+          "interactionId": 0
+        }
+      ],
+      "eventToNextPaint": [
+        {
+          "type": "click",
+          "selector": "ui-button play-button",
+          "value": 13.800000011920929
+        },
+        {
+          "type": "click",
+          "selector": "ui-button is-active",
+          "value": 106
+        },
+        {
+          "type": "click",
+          "selector": "ui-button is-active",
+          "value": 550.0999999940395
+        },
+        {
+          "type": "click",
+          "selector": "ui-button is-active",
+          "value": 13
+        },
+        {
+          "type": "click",
+          "selector": "ui-button play-button is-active",
+          "value": 11.699999988079071
+        }
+      ],
+      "sceneReadyMs": 281.20000000298023,
+      "sceneReadyChecks": {
+        "canvasSize": true,
+        "webgl2": true,
+        "pauseOperable": true,
+        "crankChangedAcrossFrames": true,
+        "modesInitialized": true
+      },
+      "navigation": {
+        "name": "http://127.0.0.1:16310/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 279,
+        "navigationId": 1738,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 3,
+        "domainLookupStart": 3,
+        "domainLookupEnd": 3,
+        "connectStart": 3,
+        "secureConnectionStart": 0,
+        "connectEnd": 3,
+        "requestStart": 5.200000002980232,
+        "responseStart": 8,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 8,
+        "responseEnd": 9.900000005960464,
+        "transferSize": 1211,
+        "encodedBodySize": 911,
+        "decodedBodySize": 911,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 21.200000002980232,
+        "domContentLoadedEventStart": 278.1000000089407,
+        "domContentLoadedEventEnd": 278.1000000089407,
+        "domComplete": 279,
+        "loadEventStart": 279,
+        "loadEventEnd": 279,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {}
+      },
+      "lcpEntries": []
+    },
+    "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "performanceMetrics": {
+      "Timestamp": 119154.680908,
+      "AudioHandlers": 0,
+      "AudioWorkletProcessors": 0,
+      "Documents": 1,
+      "Frames": 1,
+      "JSEventListeners": 50,
+      "LayoutObjects": 494,
+      "MediaKeySessions": 0,
+      "MediaKeys": 0,
+      "Nodes": 490,
+      "Resources": 0,
+      "ContextLifecycleStateObservers": 10,
+      "V8PerContextDatas": 1,
+      "WorkerGlobalScopes": 0,
+      "UACSSResources": 0,
+      "RTCPeerConnections": 0,
+      "ResourceFetchers": 1,
+      "AdSubframes": 0,
+      "DetachedScriptStates": 1,
+      "ArrayBufferContents": 963,
+      "LayoutCount": 460,
+      "RecalcStyleCount": 570,
+      "LayoutDuration": 0.154955,
+      "RecalcStyleDuration": 0.076661,
+      "DevToolsCommandDuration": 0.003058,
+      "ScriptDuration": 2.632794,
+      "V8CompileDuration": 0,
+      "TaskDuration": 3.466183,
+      "TaskOtherDuration": 0.598715,
+      "ThreadTime": 1.947048,
+      "ProcessTime": 3.027796,
+      "JSHeapUsedSize": 13227624,
+      "JSHeapTotalSize": 25165824,
+      "FirstMeaningfulPaint": 119150.195905,
+      "DomContentLoaded": 119149.255363,
+      "NavigationStart": 119148.97732
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageExceptions": [],
+      "logEntries": [
+        {
+          "level": "warning",
+          "source": "javascript",
+          "text": "Deprecated API for given entry type."
+        }
+      ],
+      "browserStderr": "[42944:19016:0831/160958.499:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:544] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set usagestats; result: 5\r\n[42944:19016:0831/160958.499:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:587] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set urlstats; result: 5\r\n\r\nDevTools listening on ws://127.0.0.1:26004/devtools/browser/fc2df21d-83d1-4463-bde0-69a45e6d0b88\r\n[42944:14760:0831/160958.620:ERROR:chrome\\browser\\extensions\\external_registry_loader_win.cc:206] File C:/Users/27186/AppData/Roaming/ksobrowserex/edge/ngbkcglbmlglgldjfcnhaijeecaccgfi/kingsoft_extension_edge.crx for key Software\\Microsoft\\Edge\\Extensions\\ngbkcglbmlglgldjfcnhaijeecaccgfi does not exist or is not readable.\r\n[42944:35924:0831/160958.725:ERROR:chrome\\browser\\ui\\edge_window_tab_manager\\api\\wtm_interface_impl.cc:461] Failed to open registry key\r\n[42944:19016:0831/160958.805:ERROR:chrome\\browser\\importer\\edge_china_browsers\\edge_qqbrowser_importer_utils_win.cc:165] QQBrowser user data path not found.\r\n[42944:35924:0831/161000.144:ERROR:chrome\\browser\\task_manager\\providers\\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a \"Renderer\" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/40528867.\r\n[42944:21072:0831/161002.496:ERROR:services\\device\\public\\cpp\\geolocation\\system_geolocation_source_win.cc:259] Failed to get location access status: 参数错误。 (0x80070057)\r\n[42944:19016:0831/161002.674:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:544] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set usagestats; result: 5\r\n"
+    }
+  }
+}

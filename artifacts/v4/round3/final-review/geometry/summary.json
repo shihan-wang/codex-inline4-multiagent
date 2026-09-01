@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "v4_round3_geometry_reviewer",
+  "independentOfImplementation": true,
+  "result": "GO",
+  "p0": 0,
+  "p1": 0,
+  "p2": 1,
+  "surfaceScan": {
+    "pass": true,
+    "rangeDegrees": [0, 720],
+    "stepDegrees": 1,
+    "samples": 721,
+    "registeredPairs": 7,
+    "trianglePairAngleChecks": 5483926,
+    "surfaceIntersectionPairAngles": 0,
+    "crankshaftCoverage": "44/44",
+    "timingSprocketCoverage": "19/19",
+    "frozenWhitelistSha256": "0eb5ab7d6e298b5227102550c124326c114aad791eab9d65479fb833a6b5fce2"
+  },
+  "topology": {
+    "triangleNodes": "507/507",
+    "expectedClosedWatertight": "446/446",
+    "degenerateTriangles": 0,
+    "duplicateFaces": 0,
+    "windingErrorEdges": 0,
+    "invalidGeometricNormals": 0,
+    "inwardClosedNodes": 0,
+    "camNodes": "16/16 watertight; 0 winding errors"
+  },
+  "productionPage": {
+    "renderer": "ANGLE Intel Arc D3D11",
+    "viewport": "1280x720",
+    "pausedCrankAngleDegrees": 598.3,
+    "consoleErrors": 0,
+    "pageErrors": 0
+  },
+  "nonBlocking": [
+    "Position-only duplicate-vertex ratio remains about 50.37%; it mixes required normal/UV/material seams with exact duplicates and is not evidence for blind welding."
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "audit": {
+    "name": "V3 phase 1 independent procedural geometry and visual audit",
+    "language": "zh-CN",
+    "scope": "read-only visual, geometry, interaction, performance evidence and test-evidence audit",
+    "auditedCommit": "12472172925ec3108d096f2402a48e3f7939931b",
+    "v1BaselineTagResolvedAtAudit": "f18862a0d48059cd11b69c1916c5572a3704eb5b",
+    "sourceModified": false,
+    "expensiveSamplingRepeatedDuringRecovery": false
+  },
+  "environment": {
+    "browser": "Microsoft Edge",
+    "baseUrl": "http://127.0.0.1:15312",
+    "desktopViewport": "1280x720",
+    "heroViewport": "1600x1000",
+    "narrowViewport": "390x844",
+    "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "rendererClass": "software",
+    "hardwareGpuMeasured": false,
+    "hardwareGpuCaveat": "SwiftShader FPS must not be represented as ordinary hardware GPU performance."
+  },
+  "build": {
+    "typecheckPassed": true,
+    "productionBuildPassed": true,
+    "mainJsKb": 595.54,
+    "mainJsGzipKb": 157.21,
+    "cssKb": 10.19,
+    "cssGzipKb": 3.05,
+    "chunkWarningOver500Kb": true
+  },
+  "browserAcceptance": {
+    "passed": true,
+    "failures": [],
+    "consoleMessages": 0,
+    "pageExceptions": 0,
+    "logEntries": 0,
+    "pauseHeld": true,
+    "slidersVerified": ["1800 rpm", "75%"],
+    "modesVerified": ["solid", "xray", "section"],
+    "camerasVerified": ["isometric", "front", "side", "top", "crank", "combustion"],
+    "pointerInteractions": {
+      "rotateChanged": true,
+      "zoomChanged": true,
+      "panChanged": true,
+      "selectedPart": "Exhaust manifold",
+      "inspectorFieldCount": 5
+    },
+    "explodeEvidence": {
+      "toggleStateVerified": true,
+      "dedicatedScreenshotAvailable": false
+    }
+  },
+  "performance": {
+    "rendererClass": "software",
+    "averageFps": 12.521913348359629,
+    "p95FrameMs": 91.7,
+    "maxFrameMs": 108.3,
+    "drawCallsPerFrame": 377.0416666666667,
+    "drawArraysInstanced": 0,
+    "drawElementsInstanced": 0,
+    "domNodes": 744,
+    "jsHeapUsedBytes": 12242324
+  },
+  "tests": {
+    "runPassed": true,
+    "discoveredTests": 20,
+    "officialTestsUnderTestsDirectory": 17,
+    "artifactTestsAccidentallyDiscovered": 3,
+    "pollutingFile": "artifacts/v3/phase1/mechanics/mechanical-audit.test.ts"
+  },
+  "scores": {
+    "mechanical": {
+      "score": 20.0,
+      "max": 25,
+      "confidence": 0.78,
+      "evidence": [
+        "cameras/camera-crank-1280x720.png",
+        "cameras/camera-combustion-1280x720.png",
+        "cameras/camera-front-1280x720.png",
+        "src/scene/assembly.ts:560-595"
+      ]
+    },
+    "geometry": {
+      "score": 18.0,
+      "max": 25,
+      "confidence": 0.91,
+      "evidence": [
+        "browser/desktop-solid.png",
+        "browser/desktop-section.png",
+        "cameras/camera-side-1280x720.png",
+        "src/scene/assembly.ts:89-152"
+      ]
+    },
+    "visual": {
+      "score": 14.0,
+      "max": 20,
+      "confidence": 0.92,
+      "evidence": [
+        "cameras/hero-1600x1000.png",
+        "cameras/camera-front-1280x720.png",
+        "flows/flows-on-xray.png",
+        "flows/flows-off-xray.png"
+      ]
+    },
+    "interaction": {
+      "score": 7.5,
+      "max": 10,
+      "confidence": 0.96,
+      "evidence": [
+        "browser/acceptance-report.json",
+        "browser/narrow-390x844.png",
+        "selected/selection-1280x720.png"
+      ]
+    },
+    "performance": {
+      "score": 6.5,
+      "max": 10,
+      "confidence": 0.82,
+      "evidence": [
+        "browser/acceptance-report.json",
+        "runtime/dist/assets/index-Cs4Vhrp2.js"
+      ]
+    },
+    "testEvidence": {
+      "score": 8.0,
+      "max": 10,
+      "confidence": 0.94,
+      "evidence": [
+        "browser/acceptance-report.json",
+        "browser/desktop-solid.png",
+        "browser/desktop-xray.png",
+        "browser/desktop-section.png"
+      ]
+    },
+    "total": 74.0,
+    "max": 100,
+    "overallConfidence": 0.9
+  },
+  "issueSummary": {
+    "P0": 0,
+    "P1": 2,
+    "P2": 8,
+    "P3": 1
+  },
+  "issues": [
+    {
+      "id": "V3-VIS-01",
+      "severity": "P1",
+      "title": "Narrow layout hides almost the entire model and removes key camera presets",
+      "evidence": ["browser/narrow-390x844.png", "browser/acceptance-report.json", "src/style.css:149-153"],
+      "qualityImpact": "At 390px the two 184px panels consume 368px, leaving the 3D view practically unusable; key presets are hidden.",
+      "expectedGain": "high",
+      "implementationCost": "medium",
+      "risk": "medium: responsive state and touch gestures can conflict with canvas controls",
+      "acceptance": "At 390x844 the model remains clearly visible with about 50% usable width, both panels can be opened and closed, all six presets remain reachable, and no overflow or touch conflict occurs."
+    },
+    {
+      "id": "V3-VIS-02",
+      "severity": "P1",
+      "title": "Flow toggle is barely perceptible in X-Ray",
+      "evidence": ["flows/flows-on-xray.png", "flows/flows-off-xray.png", "src/scene/assembly.ts:618-665"],
+      "qualityImpact": "Lubrication, coolant and intake paths cannot be followed reliably and the toggle appears ineffective.",
+      "expectedGain": "high",
+      "implementationCost": "medium",
+      "risk": "medium: emissive overlays and depth changes can flatten the X-Ray view or add draw calls",
+      "acceptance": "All three path families are continuously traceable with clear direction in X-Ray and section views, on/off screenshots differ perceptually, the legend matches, and performance stays within budget."
+    },
+    {
+      "id": "V3-VIS-03",
+      "severity": "P2",
+      "title": "Front fan and water pump lack a continuous crank-driven accessory path",
+      "evidence": ["cameras/camera-front-1280x720.png", "src/scene/assembly.ts:560-595"],
+      "qualityImpact": "The front accessories look disconnected or floating and do not explain their mechanical drive relationship.",
+      "expectedGain": "high",
+      "implementationCost": "medium",
+      "risk": "low-medium: belt intersections and incorrect rotation ratios",
+      "acceptance": "A continuous non-intersecting belt connects crank, water-pump and fan pulleys; any animated directions and ratios are mechanically consistent."
+    },
+    {
+      "id": "V3-VIS-04",
+      "severity": "P2",
+      "title": "Block and head remain dominated by rounded-box masses",
+      "evidence": ["cameras/camera-side-1280x720.png", "src/scene/assembly.ts:92", "src/scene/assembly.ts:122"],
+      "qualityImpact": "Detailed internals contrast with a comparatively generic cast exterior, limiting the quality ceiling.",
+      "expectedGain": "medium-high",
+      "implementationCost": "medium-high",
+      "risk": "medium: extra intersections, clipping fragments and draw calls",
+      "acceptance": "Side and isometric views show mechanically explained bearing bosses, flanges, fastener lands and casting reliefs without obscuring internals or exceeding the performance budget."
+    },
+    {
+      "id": "V3-VIS-05",
+      "severity": "P2",
+      "title": "Top camera crops major systems and lacks UI-safe framing",
+      "evidence": ["cameras/camera-top-1280x720.png", "src/scene/constants.ts:39-42"],
+      "qualityImpact": "The preset fails to provide a complete top-layout overview of intake, exhaust, turbo and fan.",
+      "expectedGain": "high relative to cost",
+      "implementationCost": "small",
+      "risk": "low: possible excess whitespace on other aspect ratios",
+      "acceptance": "After transition the engine bounds fit between panels with 8-10% margin and no major intake, exhaust, turbo or fan cropping at both 1280x720 and 1600x1000."
+    },
+    {
+      "id": "V3-VIS-06",
+      "severity": "P2",
+      "title": "Selection feedback uses a large empty-space AABB and inspector content is easy to miss",
+      "evidence": ["selected/selection-1280x720.png", "src/scene/assembly.ts:808-830", "src/style.css:39", "src/style.css:100-116"],
+      "qualityImpact": "The highlight feels like a debug box and the live state sits below an invisible-scroll panel.",
+      "expectedGain": "medium-high",
+      "implementationCost": "small-medium",
+      "risk": "medium: mesh outline solutions can conflict with transparency and clipping",
+      "acceptance": "Five representative parts receive geometry-conforming feedback without spanning empty volumes, and all five inspector sections are visible or have an obvious scroll/more affordance at 1280x720."
+    },
+    {
+      "id": "V3-VIS-07",
+      "severity": "P2",
+      "title": "Section view lacks cut caps or hatch materials",
+      "evidence": ["browser/desktop-section.png", "cameras/camera-crank-1280x720.png"],
+      "qualityImpact": "Clipped shells read as hollow and ancillary fragments weaken engineering-section credibility.",
+      "expectedGain": "high",
+      "implementationCost": "high",
+      "risk": "high: stencil, transparency, shadow and draw-call complexity",
+      "acceptance": "Cut block, head and pan faces have consistent cap or hatch treatment, no floating clipping fragments remain, the four-cylinder motion chain stays visible, and performance is remeasured."
+    },
+    {
+      "id": "V3-VIS-08",
+      "severity": "P2",
+      "title": "Dark accessories and crank details merge with the background",
+      "evidence": ["cameras/camera-front-1280x720.png", "cameras/camera-crank-1280x720.png", "browser/desktop-solid.png"],
+      "qualityImpact": "Existing geometry is harder to identify and material hierarchy collapses in shadowed regions.",
+      "expectedGain": "medium-high",
+      "implementationCost": "small-medium",
+      "risk": "medium: losing the dark industrial look or overexposing polished metal",
+      "acceptance": "Grayscale captures preserve clear silhouettes for fan, pulley, sump and crank counterweights in all three modes while flywheel and turbo highlights remain controlled."
+    },
+    {
+      "id": "V3-VIS-09",
+      "severity": "P2",
+      "title": "High draw-call count with no instanced draws leaves limited low-end headroom",
+      "evidence": ["browser/acceptance-report.json"],
+      "qualityImpact": "SwiftShader averages only 12.52 fps and 377.04 calls/frame suggests risk on integrated GPUs or high-resolution displays.",
+      "expectedGain": "medium-high",
+      "implementationCost": "medium-high",
+      "risk": "medium: instancing complicates picking, highlighting and mode-specific material state",
+      "acceptance": "Solid view is at or below 220 calls/frame, hardware GPU results identify GPU and resolution and reach at least 45 fps at 1080p, SwiftShader remains separately reported, and picking/modes still pass."
+    },
+    {
+      "id": "V3-VIS-10",
+      "severity": "P2",
+      "title": "Tests verify control state more than visible quality and artifact tests pollute discovery",
+      "evidence": ["browser/acceptance-report.json", "artifacts/v3/phase1/mechanics/mechanical-audit.test.ts"],
+      "qualityImpact": "A visually cropped or unreadable result can still pass, and reported test count changes with audit artifacts.",
+      "expectedGain": "medium",
+      "implementationCost": "small-medium",
+      "risk": "low-medium: pixel assertions can vary across GPUs",
+      "acceptance": "Vitest discovery is scoped to tests/**/*.test.ts; test count is stable with artifact tests present; browser assertions cover settled model bounds, narrow usable canvas, visible flow difference and a dedicated exploded screenshot."
+    },
+    {
+      "id": "V3-VIS-11",
+      "severity": "P3",
+      "title": "Labels cluster around turbo/exhaust and can outlive clipped geometry",
+      "evidence": ["browser/desktop-solid.png", "cameras/camera-isometric-1280x720.png", "browser/desktop-section.png"],
+      "qualityImpact": "Localized clutter and section-mode semantic mismatch reduce teaching focus without blocking use.",
+      "expectedGain": "medium-low",
+      "implementationCost": "medium",
+      "risk": "medium: automatic collision avoidance can jitter",
+      "acceptance": "At all six settled presets labels do not overlap, leaders avoid core parts, clipped parts lose their labels, and minor camera motion does not cause visible jitter."
+    }
+  ],
+  "rankedCandidates": [
+    {"rank": 1, "issueId": "V3-VIS-05", "reason": "highest visible gain per unit cost"},
+    {"rank": 2, "issueId": "V3-VIS-08", "reason": "small lighting/material changes benefit several views"},
+    {"rank": 3, "issueId": "V3-VIS-06", "reason": "removes debug-like selection feedback at modest cost"},
+    {"rank": 4, "issueId": "V3-VIS-01", "reason": "very high usability gain with medium responsive-layout cost"},
+    {"rank": 5, "issueId": "V3-VIS-02", "reason": "very high teaching gain with moderate rendering risk"},
+    {"rank": 6, "issueId": "V3-VIS-03", "reason": "clear mechanical credibility improvement with bounded geometry scope"},
+    {"rank": 7, "issueId": "V3-VIS-10", "reason": "low-cost protection against future visual regressions"},
+    {"rank": 8, "issueId": "V3-VIS-09", "reason": "performance upside is substantial but integration risk is higher"},
+    {"rank": 9, "issueId": "V3-VIS-04", "reason": "quality-ceiling improvement with broad geometry impact"},
+    {"rank": 10, "issueId": "V3-VIS-07", "reason": "large section-view gain but highest implementation risk"},
+    {"rank": 11, "issueId": "V3-VIS-11", "reason": "polish item after structural and readability issues"}
+  ],
+  "highYieldJudgement": {
+    "obviousHighYieldLowCostIssuesRemain": true,
+    "lowCostCandidates": ["V3-VIS-05", "V3-VIS-08", "V3-VIS-06"],
+    "highYieldMediumCostCandidates": ["V3-VIS-01", "V3-VIS-02", "V3-VIS-03"],
+    "notLowCost": ["V3-VIS-07", "V3-VIS-04", "V3-VIS-09"],
+    "recommendation": "Do not close V3 visual quality yet; implement the top-camera, dark-hierarchy and selection-feedback quick wins, then choose one or two bounded medium-cost items before independent revalidation."
+  }
+}

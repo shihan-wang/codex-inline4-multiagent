@@ -1,0 +1,7 @@
+[2026-08-31T08:36:13.704Z] scene=xray-valvetrain attempt=attempt-04
+[2026-08-31T08:36:13.704Z] target=http://127.0.0.1:16330/ mode=xray preset=combustion
+[2026-08-31T08:36:13.704Z] injection=response rewrite immediately before production module
+[2026-08-31T08:36:18.489Z] state verified context=webgl2 renderer=ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)
+[2026-08-31T08:36:18.725Z] representative screenshot saved
+[2026-08-31T08:36:18.735Z] Spector capture requested {"canvasFound":true,"status":"capturing"}
+[2026-08-31T08:36:30.968Z] original Spector capture saved bytes=88897654 commands=1590 draws=265

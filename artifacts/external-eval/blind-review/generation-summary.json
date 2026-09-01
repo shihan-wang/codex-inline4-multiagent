@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-08-31T02:54:01.717Z",
+  "seed": 20260831,
+  "participantMaterialsExposeVersion": false,
+  "modelCodes": [
+    "MODEL-K",
+    "MODEL-R"
+  ],
+  "plannedParticipants": 12,
+  "imageSize": "1280x720",
+  "views": [
+    "isometric",
+    "front",
+    "side",
+    "top",
+    "crank",
+    "combustion"
+  ],
+  "realHumanRecords": 0,
+  "blindReviewStatus": "pending"
+}

@@ -1,0 +1,7 @@
+[2026-08-31T08:35:31.530Z] scene=solid-isometric attempt=attempt-04
+[2026-08-31T08:35:31.530Z] target=http://127.0.0.1:16330/ mode=solid preset=isometric
+[2026-08-31T08:35:31.530Z] injection=response rewrite immediately before production module
+[2026-08-31T08:35:42.429Z] state verified context=webgl2 renderer=ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)
+[2026-08-31T08:35:42.794Z] representative screenshot saved
+[2026-08-31T08:35:42.803Z] Spector capture requested {"canvasFound":true,"status":"capturing"}
+[2026-08-31T08:35:55.461Z] original Spector capture saved bytes=101402774 commands=1418 draws=268

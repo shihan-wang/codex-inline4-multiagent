@@ -1,0 +1,20 @@
+{
+  "token": "M5",
+  "configuration": {
+    "name": "mobile",
+    "width": 390,
+    "height": 844,
+    "mobile": true
+  },
+  "startedAtUtc": "2026-08-31T08:17:15.501Z",
+  "endedAtUtc": "2026-08-31T08:17:25.520Z",
+  "durationMs": 10019,
+  "exitCode": 0,
+  "failure": null,
+  "command": "node run-web-vitals.mjs (M5)",
+  "gitHead": "38c00417812fa87ca76b520c17c978a14cbd8ad2",
+  "targetTagPeeled": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+  "url": "http://127.0.0.1:16310/",
+  "freshProfile": true,
+  "metricNote": "INP/Event Timing are scripted laboratory interactions, not field p75; Lighthouse TBT is not used"
+}

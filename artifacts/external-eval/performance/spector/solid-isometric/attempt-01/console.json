@@ -1,0 +1,298 @@
+{
+  "all": [
+    {
+      "source": "exception",
+      "capturedAt": "2026-08-31T08:23:47.519Z",
+      "exceptionDetails": {
+        "exceptionId": 1,
+        "text": "Uncaught",
+        "lineNumber": 0,
+        "columnNumber": 74933,
+        "scriptId": "3",
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "ace.define.t.importCssString",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 0,
+              "columnNumber": 74933
+            },
+            {
+              "functionName": "",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 0,
+              "columnNumber": 359072
+            },
+            {
+              "functionName": "o",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 0,
+              "columnNumber": 60949
+            },
+            {
+              "functionName": "i",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 0,
+              "columnNumber": 60235
+            },
+            {
+              "functionName": "",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 0,
+              "columnNumber": 60973
+            },
+            {
+              "functionName": "",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 0,
+              "columnNumber": 428713
+            },
+            {
+              "functionName": "o",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 0,
+              "columnNumber": 60949
+            },
+            {
+              "functionName": "i",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 0,
+              "columnNumber": 60374
+            },
+            {
+              "functionName": "r",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 0,
+              "columnNumber": 60478
+            },
+            {
+              "functionName": "819",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 0,
+              "columnNumber": 429829
+            },
+            {
+              "functionName": "n",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 81,
+              "columnNumber": 56844
+            },
+            {
+              "functionName": "",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 81,
+              "columnNumber": 57430
+            },
+            {
+              "functionName": "",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 81,
+              "columnNumber": 57472
+            },
+            {
+              "functionName": "",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 0,
+              "columnNumber": 200
+            },
+            {
+              "functionName": "",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 0,
+              "columnNumber": 204
+            }
+          ]
+        },
+        "exception": {
+          "type": "object",
+          "subtype": "error",
+          "className": "TypeError",
+          "description": "TypeError: Cannot read properties of null (reading 'insertBefore')\n    at ace.define.t.importCssString (<anonymous>:1:74934)\n    at <anonymous>:1:359073\n    at o (<anonymous>:1:60950)\n    at i (<anonymous>:1:60236)\n    at <anonymous>:1:60974\n    at <anonymous>:1:428714\n    at o (<anonymous>:1:60950)\n    at i (<anonymous>:1:60375)\n    at Object.r [as require] (<anonymous>:1:60479)\n    at 819 (<anonymous>:1:429830)",
+          "objectId": "8818888912802914472.2.1",
+          "preview": {
+            "type": "object",
+            "subtype": "error",
+            "description": "TypeError: Cannot read properties of null (reading 'insertBefore')\n    at ace.define.t.importCssString (<anonymous>:1:74934)\n    at <anonymous>:1:359073\n    at o (<anonymous>:1:60950)\n    at i (<anonymous>:1:60236)\n    at <anonymous>:1:60974\n    at <anonymous>:1:428714\n    at o (<anonymous>:1:60950)\n    at i (<anonymous>:1:60375)\n    at Object.r [as require] (<anonymous>:1:60479)\n    at 819 (<anonymous>:1:429830)",
+            "overflow": false,
+            "properties": [
+              {
+                "name": "stack",
+                "type": "string",
+                "value": "TypeError: Cannot read properties of null (reading…ymous>:1:60479)\n    at 819 (<anonymous>:1:429830)"
+              },
+              {
+                "name": "message",
+                "type": "string",
+                "value": "Cannot read properties of null (reading 'insertBefore')"
+              }
+            ]
+          }
+        },
+        "executionContextId": 2
+      }
+    }
+  ],
+  "applicationProblems": [
+    {
+      "source": "exception",
+      "capturedAt": "2026-08-31T08:23:47.519Z",
+      "exceptionDetails": {
+        "exceptionId": 1,
+        "text": "Uncaught",
+        "lineNumber": 0,
+        "columnNumber": 74933,
+        "scriptId": "3",
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "ace.define.t.importCssString",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 0,
+              "columnNumber": 74933
+            },
+            {
+              "functionName": "",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 0,
+              "columnNumber": 359072
+            },
+            {
+              "functionName": "o",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 0,
+              "columnNumber": 60949
+            },
+            {
+              "functionName": "i",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 0,
+              "columnNumber": 60235
+            },
+            {
+              "functionName": "",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 0,
+              "columnNumber": 60973
+            },
+            {
+              "functionName": "",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 0,
+              "columnNumber": 428713
+            },
+            {
+              "functionName": "o",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 0,
+              "columnNumber": 60949
+            },
+            {
+              "functionName": "i",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 0,
+              "columnNumber": 60374
+            },
+            {
+              "functionName": "r",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 0,
+              "columnNumber": 60478
+            },
+            {
+              "functionName": "819",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 0,
+              "columnNumber": 429829
+            },
+            {
+              "functionName": "n",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 81,
+              "columnNumber": 56844
+            },
+            {
+              "functionName": "",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 81,
+              "columnNumber": 57430
+            },
+            {
+              "functionName": "",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 81,
+              "columnNumber": 57472
+            },
+            {
+              "functionName": "",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 0,
+              "columnNumber": 200
+            },
+            {
+              "functionName": "",
+              "scriptId": "3",
+              "url": "",
+              "lineNumber": 0,
+              "columnNumber": 204
+            }
+          ]
+        },
+        "exception": {
+          "type": "object",
+          "subtype": "error",
+          "className": "TypeError",
+          "description": "TypeError: Cannot read properties of null (reading 'insertBefore')\n    at ace.define.t.importCssString (<anonymous>:1:74934)\n    at <anonymous>:1:359073\n    at o (<anonymous>:1:60950)\n    at i (<anonymous>:1:60236)\n    at <anonymous>:1:60974\n    at <anonymous>:1:428714\n    at o (<anonymous>:1:60950)\n    at i (<anonymous>:1:60375)\n    at Object.r [as require] (<anonymous>:1:60479)\n    at 819 (<anonymous>:1:429830)",
+          "objectId": "8818888912802914472.2.1",
+          "preview": {
+            "type": "object",
+            "subtype": "error",
+            "description": "TypeError: Cannot read properties of null (reading 'insertBefore')\n    at ace.define.t.importCssString (<anonymous>:1:74934)\n    at <anonymous>:1:359073\n    at o (<anonymous>:1:60950)\n    at i (<anonymous>:1:60236)\n    at <anonymous>:1:60974\n    at <anonymous>:1:428714\n    at o (<anonymous>:1:60950)\n    at i (<anonymous>:1:60375)\n    at Object.r [as require] (<anonymous>:1:60479)\n    at 819 (<anonymous>:1:429830)",
+            "overflow": false,
+            "properties": [
+              {
+                "name": "stack",
+                "type": "string",
+                "value": "TypeError: Cannot read properties of null (reading…ymous>:1:60479)\n    at 819 (<anonymous>:1:429830)"
+              },
+              {
+                "name": "message",
+                "type": "string",
+                "value": "Cannot read properties of null (reading 'insertBefore')"
+              }
+            ]
+          }
+        },
+        "executionContextId": 2
+      }
+    }
+  ]
+}

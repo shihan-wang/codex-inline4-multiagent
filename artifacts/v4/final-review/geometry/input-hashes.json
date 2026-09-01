@@ -1,0 +1,22 @@
+[
+  {
+    "Path": "D:\\ComputePicture\\codex-inline4-multiagent\\evaluation\\v4\\fixtures\\v4-round1-input.json",
+    "Hash": "0C31D8A45C573B29F439E425172107257A6B7D28CD53F8FD8CF1D2B149697186"
+  },
+  {
+    "Path": "D:\\ComputePicture\\codex-inline4-multiagent\\artifacts\\v4\\round1\\geometry\\semantic-export\\semantic-engine.glb",
+    "Hash": "1DAE7D0D2BB557B4BC04C8F09D895B1A7A9CE29BCDD77889F4425B9A96F85100"
+  },
+  {
+    "Path": "D:\\ComputePicture\\codex-inline4-multiagent\\artifacts\\v4\\round1\\geometry\\semantic-export\\semantic-engine.manifest.json",
+    "Hash": "3C0DDBAE24EB86B5F3BB15D1ECD87F0819313BBA8FF6D8A03F2D316EBCC209E7"
+  },
+  {
+    "Path": "D:\\ComputePicture\\codex-inline4-multiagent\\artifacts\\v4\\round1\\geometry\\snapshots\\assembly-scan.json",
+    "Hash": "B8EC4CAC0342119CCD95A81FE623D324CF289A80980BA82E756F75D40B40DE72"
+  },
+  {
+    "Path": "D:\\ComputePicture\\codex-inline4-multiagent\\evaluation\\config\\collision-whitelist.json",
+    "Hash": "0EB5AB7D6E298B5227102550C124326C114AAD791EAB9D65479FB833A6B5FCE2"
+  }
+]

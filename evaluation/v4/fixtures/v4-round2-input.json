@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "description": "V4 round-2 registry fixed after geometry export and before topology/collision results; expands crank-versus-liner coverage without changing the whitelist.",
+  "glb": "../../../artifacts/v4/round2/geometry/semantic-export/semantic-engine.glb",
+  "manifest": "../../../artifacts/v4/round2/geometry/semantic-export/semantic-engine.manifest.json",
+  "snapshots": "../../../artifacts/v4/round1/geometry/snapshots/assembly-scan.json",
+  "whitelist": "../../config/collision-whitelist.json",
+  "expectedWhitelistSha256": "0eb5ab7d6e298b5227102550c124326c114aad791eab9d65479fb833a6b5fce2",
+  "proxyEvidence": "../../../artifacts/external-eval/mechanics/collision-scan.json",
+  "topologyBaseline": "../../../artifacts/v4/phase1/geometry-collision/blender/results.json",
+  "roleRules": {
+    "crankshaft": [
+      {"originalPartId": "crankshaft", "category": "dynamic-mechanism"}
+    ],
+    "timing-sprocket": [
+      {"originalPartId": "crankshaft", "sourcePathRegex": "/Group\\[18\\]/"}
+    ],
+    "timing-chain": [
+      {"sourcePathRegex": "(?i)timing chain"}
+    ],
+    "accessory-belt": [
+      {"sourcePathRegex": "(?i)accessory belt"}
+    ],
+    "accessory-pulley": [
+      {"semanticName": "dynamic-mechanism__crankshaft__025"}
+    ],
+    "cam-lobe": [
+      {"sourcePathRegex": "(?i)(intake|exhaust) direct-acting cam lobes"}
+    ],
+    "piston": [
+      {"originalPartIdRegex": "^piston-[1-4]$", "category": "dynamic-mechanism"}
+    ],
+    "connecting-rod": [
+      {"originalPartIdRegex": "^connecting-rod-[1-4]$", "category": "dynamic-mechanism"}
+    ],
+    "cylinder-liner": [
+      {"originalPartId": "engine-block", "sourcePathRegex": "(?i)honed open liner"}
+    ],
+    "primary-unrelated-shells": [
+      {"originalPartId": "engine-block", "sourcePathContains": "open crankcase side walls"},
+      {"originalPartId": "engine-block", "sourcePathContains": "upper water-jacket end walls"},
+      {"originalPartId": "engine-block", "sourcePathContains": "four-bore machined deck members"},
+      {"originalPartId": "engine-block", "sourcePathContains": "cast exterior main-bearing ribs"},
+      {"originalPartId": "engine-block", "sourcePathRegex": "/engine-block\\[0\\]/Mesh\\[5\\]$"},
+      {"originalPartId": "engine-block", "sourcePathContains": "four lower liner registers"},
+      {"originalPartId": "cylinder-head", "category": "structural-solid"},
+      {"originalPartId": "oil-pan", "category": "structural-solid"}
+    ]
+  },
+  "requiredCoverage": {
+    "crankshaft": 44,
+    "timing-sprocket": 19,
+    "timing-chain": 1,
+    "accessory-belt": 1,
+    "accessory-pulley": 1,
+    "cam-lobe": 16,
+    "piston": 32,
+    "connecting-rod": 20,
+    "cylinder-liner": 4,
+    "primary-unrelated-shells": 75
+  },
+  "surfaceIntersectionPairs": [
+    {
+      "id": "crank-subcomponents-vs-unrelated-shells",
+      "movingRole": "crankshaft",
+      "targetRole": "primary-unrelated-shells",
+      "motion": "crank-x",
+      "coverageRoles": ["crankshaft", "timing-sprocket", "accessory-pulley"]
+    },
+    {
+      "id": "crank-subcomponents-vs-liners",
+      "movingRole": "crankshaft",
+      "targetRole": "cylinder-liner",
+      "motion": "crank-x",
+      "coverageRoles": ["crankshaft"]
+    },
+    {
+      "id": "piston-subcomponents-vs-unrelated-shells",
+      "movingRole": "piston",
+      "targetRole": "primary-unrelated-shells",
+      "motion": "piston-by-part-id"
+    },
+    {
+      "id": "rod-subcomponents-vs-unrelated-shells",
+      "movingRole": "connecting-rod",
+      "targetRole": "primary-unrelated-shells",
+      "motion": "rod-by-part-id"
+    },
+    {
+      "id": "rod-subcomponents-vs-liners",
+      "movingRole": "connecting-rod",
+      "targetRole": "cylinder-liner",
+      "motion": "rod-by-part-id"
+    },
+    {
+      "id": "timing-chain-vs-unrelated-shells",
+      "movingRole": "timing-chain",
+      "targetRole": "primary-unrelated-shells",
+      "motion": "static"
+    },
+    {
+      "id": "accessory-belt-vs-unrelated-shells",
+      "movingRole": "accessory-belt",
+      "targetRole": "primary-unrelated-shells",
+      "motion": "static"
+    }
+  ]
+}

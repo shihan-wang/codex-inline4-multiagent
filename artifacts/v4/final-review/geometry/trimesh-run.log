@@ -1,0 +1,22 @@
+{
+  "output": "artifacts\\v4\\final-review\\geometry\\trimesh-results.json",
+  "summary": {
+    "triangleNodesExpected": 497,
+    "triangleNodesInspected": 497,
+    "missingSemanticNodes": [],
+    "closedNodes": 436,
+    "closedWatertightNodes": 436,
+    "closedWatertightPercent": 100.0,
+    "closedTriangles": 72864,
+    "closedWatertightTriangles": 72864,
+    "closedTriangleWeightedWatertightPercent": 100.0,
+    "totalDegenerateTriangles": 0,
+    "totalDuplicateFaces": 0,
+    "totalDuplicateVertices": 55230,
+    "totalRawVertices": 109362,
+    "duplicateVertexRatio": 0.5050200252372854,
+    "totalWindingErrorEdges": 0,
+    "totalInvalidGeometricNormals": 0,
+    "inwardClosedNodes": 0
+  }
+}

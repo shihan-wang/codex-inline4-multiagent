@@ -1,0 +1,18 @@
+{
+  "token": "D1",
+  "kind": "desktop",
+  "sequencePosition": 1,
+  "startedAtUtc": "2026-08-31T03:11:16.546Z",
+  "endedAtUtc": "2026-08-31T03:12:37.458Z",
+  "durationMs": 80912,
+  "command": "D:\\Users\\wangshihan\\nodejs\\node.exe D:\\ComputePicture\\codex-inline4-multiagent\\evaluation\\performance\\node_modules\\lighthouse\\cli\\index.js http://127.0.0.1:16310/ --only-categories=performance --output=json --output=html --output-path=D:\\ComputePicture\\codex-inline4-multiagent\\artifacts\\external-eval\\performance\\lighthouse\\desktop\\run-01\\report --chrome-flags=--headless=new --no-sandbox --no-first-run --no-default-browser-check --disable-background-networking --disable-component-update --disable-sync --disable-gpu-sandbox --disable-dev-shm-usage --disable-gpu-shader-disk-cache --disable-features=SkiaGraphite --user-data-dir=C:\\Users\\WANGSH~1\\AppData\\Local\\Temp\\inline4-lh-D1-YuV2VL --max-wait-for-load=45000 --preset=desktop",
+  "exitCode": 1,
+  "signal": null,
+  "gitHead": "38c00417812fa87ca76b520c17c978a14cbd8ad2",
+  "targetTagPeeled": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+  "url": "http://127.0.0.1:16310/",
+  "viewport": "Lighthouse desktop preset",
+  "coldCache": true,
+  "freshProfile": true,
+  "renderer": "not exposed per Lighthouse run; separately measured by WebGL workflow"
+}

@@ -1,0 +1,481 @@
+{
+  "startedAt": "2026-08-31T13:52:58.924Z",
+  "finishedAt": "2026-08-31T13:53:11.522Z",
+  "tests": [
+    {
+      "name": "pause",
+      "selector": ".play-button",
+      "key": " ",
+      "focused": true,
+      "before": "暂停 / Pause (Space)",
+      "after": "运行 / Run (Space)",
+      "changed": true
+    },
+    {
+      "name": "mode-solid",
+      "selector": ".mode-control button[data-value=\"solid\"]",
+      "key": "Enter",
+      "focused": true,
+      "before": true,
+      "after": true,
+      "changed": false
+    },
+    {
+      "name": "mode-xray",
+      "selector": ".mode-control button[data-value=\"xray\"]",
+      "key": "Enter",
+      "focused": true,
+      "before": false,
+      "after": true,
+      "changed": true
+    },
+    {
+      "name": "mode-section",
+      "selector": ".mode-control button[data-value=\"section\"]",
+      "key": "Enter",
+      "focused": true,
+      "before": false,
+      "after": true,
+      "changed": true
+    },
+    {
+      "name": "preset-isometric",
+      "selector": ".preset-row button[data-value=\"isometric\"]",
+      "key": "Enter",
+      "focused": true,
+      "before": true,
+      "after": true,
+      "changed": false
+    },
+    {
+      "name": "preset-front",
+      "selector": ".preset-row button[data-value=\"front\"]",
+      "key": "Enter",
+      "focused": true,
+      "before": false,
+      "after": true,
+      "changed": true
+    },
+    {
+      "name": "preset-side",
+      "selector": ".preset-row button[data-value=\"side\"]",
+      "key": "Enter",
+      "focused": true,
+      "before": false,
+      "after": true,
+      "changed": true
+    },
+    {
+      "name": "preset-top",
+      "selector": ".preset-row button[data-value=\"top\"]",
+      "key": "Enter",
+      "focused": true,
+      "before": false,
+      "after": true,
+      "changed": true
+    },
+    {
+      "name": "preset-crank",
+      "selector": ".preset-row button[data-value=\"crank\"]",
+      "key": "Enter",
+      "focused": true,
+      "before": false,
+      "after": true,
+      "changed": true
+    },
+    {
+      "name": "preset-combustion",
+      "selector": ".preset-row button[data-value=\"combustion\"]",
+      "key": "Enter",
+      "focused": true,
+      "before": false,
+      "after": true,
+      "changed": true
+    },
+    {
+      "name": "reset",
+      "selector": ".reset-camera",
+      "key": "Enter",
+      "focused": true,
+      "before": {
+        "m": [
+          "xray"
+        ],
+        "p": [
+          "combustion"
+        ]
+      },
+      "after": {
+        "m": [
+          "solid"
+        ],
+        "p": [
+          "isometric"
+        ]
+      },
+      "changed": true
+    },
+    {
+      "name": "toggle-labels",
+      "selector": "#toggle-labels",
+      "key": " ",
+      "focused": true,
+      "before": true,
+      "after": false,
+      "changed": true
+    },
+    {
+      "name": "toggle-flows",
+      "selector": "#toggle-flows",
+      "key": " ",
+      "focused": true,
+      "before": true,
+      "after": false,
+      "changed": true
+    },
+    {
+      "name": "toggle-explode",
+      "selector": "#toggle-explode",
+      "key": " ",
+      "focused": true,
+      "before": false,
+      "after": true,
+      "changed": true
+    }
+  ],
+  "drawers": [
+    {
+      "name": "left-drawer",
+      "selector": ".mobile-panel-toggle:nth-child(1)",
+      "key": "Enter",
+      "focused": true,
+      "before": "false",
+      "after": "true",
+      "changed": true
+    },
+    {
+      "name": "right-drawer",
+      "selector": ".mobile-panel-toggle:nth-child(2)",
+      "key": "Enter",
+      "focused": true,
+      "before": "false",
+      "after": "true",
+      "changed": true
+    }
+  ],
+  "tabFocus": [
+    {
+      "tag": "canvas",
+      "id": null,
+      "value": null,
+      "text": null,
+      "outlineStyle": "none",
+      "outlineWidth": "3px",
+      "outlineColor": "rgb(232, 237, 241)",
+      "boxShadow": "none",
+      "borderColor": "rgb(232, 237, 241)",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "value": null,
+      "text": "Ⅱ",
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "rgba(217, 177, 111, 0.27) 0px 0px 22px 0px",
+      "borderColor": "rgb(232, 193, 125)",
+      "rect": {
+        "x": 40,
+        "y": 128,
+        "width": 43,
+        "height": 43
+      }
+    },
+    {
+      "tag": "input",
+      "id": null,
+      "value": null,
+      "text": null,
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 29,
+        "y": 237,
+        "width": 222,
+        "height": 2
+      }
+    },
+    {
+      "tag": "input",
+      "id": null,
+      "value": null,
+      "text": null,
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 29,
+        "y": 294,
+        "width": 222,
+        "height": 2
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "value": "solid",
+      "text": "实体",
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgba(217, 177, 111, 0.6)",
+      "rect": {
+        "x": 29,
+        "y": 354,
+        "width": 71.328125,
+        "height": 34
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "value": "xray",
+      "text": "X-RAY",
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgba(191, 214, 226, 0.15)",
+      "rect": {
+        "x": 104.328125,
+        "y": 354,
+        "width": 71.328125,
+        "height": 34
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "value": "section",
+      "text": "剖切",
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgba(191, 214, 226, 0.15)",
+      "rect": {
+        "x": 179.65625,
+        "y": 354,
+        "width": 71.34375,
+        "height": 34
+      }
+    },
+    {
+      "tag": "input",
+      "id": "toggle-labels",
+      "value": null,
+      "text": null,
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 33,
+        "y": 411,
+        "width": 13,
+        "height": 13
+      }
+    },
+    {
+      "tag": "input",
+      "id": "toggle-flows",
+      "value": null,
+      "text": null,
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 33,
+        "y": 443,
+        "width": 13,
+        "height": 13
+      }
+    },
+    {
+      "tag": "input",
+      "id": "toggle-explode",
+      "value": null,
+      "text": null,
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 33,
+        "y": 475,
+        "width": 13,
+        "height": 13
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "value": "isometric",
+      "text": "<1> 轴测",
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgba(217, 177, 111, 0.5)",
+      "rect": {
+        "x": 383.296875,
+        "y": 671,
+        "width": 67,
+        "height": 34
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "value": "front",
+      "text": "<2> 前视",
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgba(191, 214, 226, 0.15)",
+      "rect": {
+        "x": 454.296875,
+        "y": 671,
+        "width": 67,
+        "height": 34
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "value": "side",
+      "text": "<3> 侧视",
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgba(191, 214, 226, 0.15)",
+      "rect": {
+        "x": 525.296875,
+        "y": 671,
+        "width": 67,
+        "height": 34
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "value": "top",
+      "text": "<4> 顶视",
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgba(191, 214, 226, 0.15)",
+      "rect": {
+        "x": 596.296875,
+        "y": 671,
+        "width": 67,
+        "height": 34
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "value": "crank",
+      "text": "<5> 曲柄连杆",
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgba(191, 214, 226, 0.15)",
+      "rect": {
+        "x": 667.296875,
+        "y": 671,
+        "width": 73.421875,
+        "height": 34
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "value": "combustion",
+      "text": "<6> 配气 / 燃烧",
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgba(191, 214, 226, 0.15)",
+      "rect": {
+        "x": 744.71875,
+        "y": 671,
+        "width": 80.984375,
+        "height": 34
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "value": null,
+      "text": "↺ 复位视角",
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgba(191, 214, 226, 0.15)",
+      "rect": {
+        "x": 829.703125,
+        "y": 671,
+        "width": 67,
+        "height": 34
+      }
+    },
+    {
+      "tag": "body",
+      "id": null,
+      "value": null,
+      "text": "气缸体BLOCK气缸盖CYLINDER HEAD油底壳OIL SUMP曲轴CRANKSHAFT活塞PISTON连杆CONNECTING ROD凸轮轴CAMSHAFT进气门INTAKE VALVE排气门EXHAUST VALVE喷油器INJECTOR燃烧室COMBUSTION CHAMBER共轨COMMON RAIL涡轮增压器TURBOCHARGER进气歧管INTAKE排气歧管EXHAUST\n      INLINE · 4DFOUR-STROKE DIESEL / 四冲程柴油机FPS120FIRING ORDER1 · 3 · 4 · 2动力控制POWERTRAINⅡENGINE RUNNING发动机运行中转速ENGINE SPEED1200 rpm负载ENGINE LOAD42%观察模式VIEW MODE实体X-RAY剖切零件标签PART LABELS系统流动FLUID PATHS装配分解EXPLODED VIEW实时工况LIVE TELEMETRYCRANK曲轴转角479.5°COOLANT冷却液88°COIL机油压力2.3 bar气缸循环CYLINDER CYCLE1进气 · INTAKECYLINDER 12压缩 · COMPRESSIONCYLINDER 23排气 · EXHAUSTCYLINDER 34做功 · POWERCYLINDER 4PART INSPECTOR零件信息\n  ⌖选择一个零件将鼠标悬停或点击发动机组件查看材料、工艺与实时运动状态<1> 轴测<2> 前视<3> 侧视<4> 顶视<5> 曲柄连杆<6> 配气 / 燃烧↺ 复位视角左键旋转右键平移滚轮缩放点击检查进气 / 冷却排气 / 燃烧润滑油燃油☰ 控制工况 ◫",
+      "outlineStyle": "none",
+      "outlineWidth": "3px",
+      "outlineColor": "rgb(232, 237, 241)",
+      "boxShadow": "none",
+      "borderColor": "rgb(232, 237, 241)",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720
+      }
+    }
+  ],
+  "inspectorKeyboard": {
+    "canvasTabIndex": 0,
+    "focusablePartControls": 0,
+    "hasPart": false,
+    "hasPartAfterCanvasKeys": false,
+    "keyboardReachable": false
+  }
+}

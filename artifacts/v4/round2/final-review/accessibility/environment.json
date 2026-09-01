@@ -1,0 +1,13 @@
+{
+  "servedUrl": "http://127.0.0.1:16444/",
+  "browserDebugPort": 16445,
+  "gitHeadAtReview": "eccde839811d6991b9583f3c4fd6c08918ec64c1",
+  "branch": "v4-remediation",
+  "sourceDiffHashAtReview": "b277378b0d032a23169fa02a54fe93e549a8874f",
+  "distIndexSha256": "56c765a985135ff2fbf170a425579c8719271aaceed43fb88d632da294081e68",
+  "edge": "152.0.4191.53",
+  "node": "v24.14.0",
+  "viewport": "1280x720",
+  "productionSourceModifiedByReviewer": false,
+  "fullNineStateAxeRerun": false
+}

@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "review": "V4 round-2 independent geometry and mechanical review",
+  "targetCommitAtExport": "eccde839811d6991b9583f3c4fd6c08918ec64c1",
+  "sourceModifiedByReviewer": false,
+  "releaseRecommendation": "no-go",
+  "severitySummary": {"P0": 0, "P1": 2, "P2": 1, "P3": 0},
+  "integrity": {
+    "dryRunPass": true,
+    "glbSha256": "6b6240fce0c650b6f5268edfca84bd39b3ce609f9b744da3077d1ca410aaf04e",
+    "manifestSha256": "dd764dc1bfc3fd14ae88d81c8cd46d8db57ebf1670b3efdedb2f5a577b3f4d0f",
+    "snapshotsSha256": "b8ec4cac0342119ccd95a81fe623d324cf289a80980ba82e756f75d40b40de72",
+    "inputSpecificationSha256": "4a56a431fa3d5484b99e4e543df413ec8a033958d2540f7bff5a93c77218c5b2",
+    "whitelistSha256": "0eb5ab7d6e298b5227102550c124326c114aad791eab9d65479fb833a6b5fce2",
+    "runtimeWhitelistExtensionsAccepted": false,
+    "surfaceReportPass": false,
+    "surfaceReportExitCode": 2,
+    "surfaceStatus": "completed",
+    "topologyStatus": "completed"
+  },
+  "coverage": {
+    "crankshaft": "44/44",
+    "timingSprocket": "19/19",
+    "timingChain": "1/1",
+    "accessoryBelt": "1/1",
+    "accessoryPulley": "1/1",
+    "camLobe": "16/16",
+    "piston": "32/32",
+    "connectingRod": "20/20",
+    "cylinderLiner": "4/4",
+    "primaryUnrelatedShells": "75/75"
+  },
+  "topology": {
+    "trimesh": {
+      "version": "4.8.3",
+      "triangleNodes": "507/507",
+      "closedWatertightNodes": "446/446",
+      "closedWatertightTriangles": "72808/72808",
+      "degenerateTriangles": 0,
+      "duplicateFaces": 0,
+      "windingErrorEdges": 0,
+      "invalidGeometricNormals": 0,
+      "inwardClosedNodes": 0,
+      "positionDuplicateRatio": 0.5037318222662339
+    },
+    "blender": {
+      "version": "5.2.1 LTS build 9e2066aef7ef",
+      "triangleNodes": "507/507",
+      "closedWatertightNodes": "446/446",
+      "closedWatertightTriangles": "72808/72808",
+      "degenerateTriangles": 0,
+      "duplicateFaces": 0,
+      "windingErrorEdges": 0,
+      "invalidGeometricNormals": 0,
+      "inwardClosedNodes": 0,
+      "positionDuplicateRatio": 0.5036043802850487
+    },
+    "camLobes": {"nodes": 16, "watertight": "16/16", "windingErrorEdges": 0, "deltaFromPhase1": -2304}
+  },
+  "scan": {
+    "rangeDegrees": [0, 720],
+    "stepDegrees": 1,
+    "samples": 721,
+    "proxyDepthComputed": false,
+    "pairs": [
+      {"id": "crank-subcomponents-vs-unrelated-shells", "checks": 2379300, "intersectionPairAngles": 448, "hitNodePairs": 8},
+      {"id": "crank-subcomponents-vs-liners", "checks": 126896, "intersectionPairAngles": 320, "hitNodePairs": 8},
+      {"id": "piston-subcomponents-vs-unrelated-shells", "checks": 1730400, "intersectionPairAngles": 0, "hitNodePairs": 0},
+      {"id": "rod-subcomponents-vs-unrelated-shells", "checks": 1081500, "intersectionPairAngles": 0, "hitNodePairs": 0},
+      {"id": "rod-subcomponents-vs-liners", "checks": 57680, "intersectionPairAngles": 0, "hitNodePairs": 0},
+      {"id": "timing-chain-vs-unrelated-shells", "checks": 54075, "intersectionPairAngles": 0, "hitNodePairs": 0},
+      {"id": "accessory-belt-vs-unrelated-shells", "checks": 54075, "intersectionPairAngles": 0, "hitNodePairs": 0}
+    ]
+  },
+  "resolved": [
+    {"family": "crank-web vs oil-pan", "round1PairAngles": 404, "round2PairAngles": 0},
+    {"family": "piston crown/bowl vs cylinder-head", "round1PairAngles": 426, "round2PairAngles": 0},
+    {"family": "rod vs unrelated shells", "round2PairAngles": 0},
+    {"family": "rod vs liners", "round2PairAngles": 0},
+    {"family": "timing chain vs unrelated shells", "round2PairAngles": 0},
+    {"family": "accessory belt vs unrelated shells", "round2PairAngles": 0}
+  ],
+  "findings": [
+    {
+      "id": "V4-R2-GEO-01",
+      "severity": "P1",
+      "pair": "eight crank web nodes vs four lower liner register nodes",
+      "classification": "confirmed exported triangle-surface intersection",
+      "pairAnglesPerNodePair": 56,
+      "totalPairAngles": 448,
+      "peakOverlapTrianglePairs": 38,
+      "acceptance": "All eight corresponding node pairs report zero intersection angles without whitelist changes."
+    },
+    {
+      "id": "V4-R2-GEO-02",
+      "severity": "P1",
+      "pair": "eight crank web nodes vs four open cylinder liners",
+      "classification": "confirmed exported triangle-surface intersection",
+      "pairAnglesPerNodePair": 40,
+      "totalPairAngles": 320,
+      "peakOverlapTrianglePairs": 9,
+      "acceptance": "All eight corresponding node pairs report zero intersection angles without whitelist changes."
+    },
+    {
+      "id": "V4-R2-GEO-03",
+      "severity": "P2",
+      "pair": "position-duplicate vertex metric",
+      "classification": "attribute-seam-limited metric, not safe weld count",
+      "acceptance": "Only full-attribute-identical vertices may be reindexed; topology and matched rendering must not regress."
+    }
+  ],
+  "browser": {
+    "renderer": "ANGLE Intel Arc Graphics Direct3D11",
+    "viewport": "1280x720",
+    "pausedCrankDegrees": 620.6,
+    "consoleErrors": 0,
+    "pageErrors": 0,
+    "screenshots": ["browser/round2-crank-section-1280x720.png", "browser/round2-valvetrain-xray-1280x720.png"]
+  },
+  "nextAction": "Replace the incorrect 2D annulus projection with a complete 3D crank-web swept-envelope constraint for liner bottom and register placement, then rerun the same frozen scan."
+}

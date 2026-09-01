@@ -1,0 +1,176 @@
+{
+  "schema": "inline4-v4-final-visual-performance-review-v1",
+  "generatedAtUtc": "2026-08-31T23:20:10.6160001Z",
+  "reviewer": "v4_visual_perf_baseline",
+  "independence": {
+    "participatedInV4Implementation": false,
+    "phase1Role": "V3 visual/performance baseline only",
+    "productSourceModifiedByThisReview": false
+  },
+  "candidate": {
+    "branch": "v4-remediation",
+    "headBeforeV4Commit": "eccde839811d6991b9583f3c4fd6c08918ec64c1",
+    "v3ModelCommit": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+    "state": "deliberate uncommitted V4 candidate source changes"
+  },
+  "actualMeasurements": {
+    "engineering": {
+      "typecheck": { "exitCode": 0, "passed": true },
+      "unitTests": { "exitCode": 0, "passed": true, "files": 4, "tests": 27 },
+      "productionBuild": {
+        "exitCode": 0,
+        "passed": true,
+        "vite": "7.3.6",
+        "modules": 21,
+        "javascriptBytes": 614182,
+        "javascriptGzipKb": 162.31,
+        "cssBytes": 13829,
+        "cssGzipKb": 3.91,
+        "advisory": "main JavaScript chunk exceeds 500 kB"
+      },
+      "diffCheckExitCode": 0
+    },
+    "positiveBrowserAcceptance": {
+      "exitCode": 0,
+      "passed": true,
+      "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "context": "WebGL2",
+      "averageFps": 120,
+      "p95FrameMs": 8.4,
+      "drawCallsPerFrame": 270.2333,
+      "applicationConsoleErrors": 0,
+      "pageExceptions": 0,
+      "browserLogErrors": 0,
+      "viewModesActivated": 3,
+      "cameraPresetsActivated": 6,
+      "togglesActivated": 3,
+      "partInspectorFields": 5,
+      "desktopOverflow": false,
+      "narrow390x844Overflow": false
+    },
+    "negativeBrowserFixture": {
+      "exitCode": 1,
+      "exitWasExpected": true,
+      "passed": false,
+      "detectedFailureCount": 6,
+      "syntheticPageExceptionDetected": true
+    },
+    "sustainedWebgl": {
+      "intelArc": {
+        "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "frames": 3600,
+        "durationMs": 30000.7,
+        "averageFps": 119.9972,
+        "p50FrameMs": 8.3,
+        "p95FrameMs": 8.4,
+        "p99FrameMs": 8.5,
+        "maxFrameMs": 16.7,
+        "drawCallsPerFrame": 268.0003,
+        "applicationConsoleErrors": 0,
+        "pageExceptions": 0,
+        "browserLogErrors": 0,
+        "contextLosses": 0,
+        "gate": { "minimumFps": 110, "maximumP95FrameMs": 10, "maximumDrawCallsPerFrame": 282 },
+        "passedGate": true
+      },
+      "swiftShader": {
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        "frames": 600,
+        "durationMs": 52585.4,
+        "averageFps": 11.41,
+        "p50FrameMs": 83.4,
+        "p95FrameMs": 100.1,
+        "p99FrameMs": 125,
+        "maxFrameMs": 133.4,
+        "drawCallsPerFrame": 267.9417,
+        "applicationConsoleErrors": 0,
+        "pageExceptions": 0,
+        "browserLogErrors": 0,
+        "contextLosses": 0,
+        "gate": { "minimumFps": 1.85, "maximumP95FrameMs": 916.7 },
+        "passedCompatibilityGate": true,
+        "boundary": "Software compatibility result only; not mixed or averaged with Intel Arc."
+      }
+    },
+    "fixedVisualComparison": {
+      "viewport": "1280x720@1",
+      "displayedCrankAngle": "000.0°",
+      "runState": "ENGINE PAUSED",
+      "v4SuccessfulFrames": 4,
+      "renderer": "Intel Arc D3D11 WebGL2",
+      "applicationEvents": 0,
+      "states": ["solid-isometric", "section-crank", "xray-combustion", "solid-isometric-exploded"],
+      "v3Evidence": "artifacts/v4/phase1/visual-performance/fixed-v3/",
+      "v4Evidence": "artifacts/v4/final-review/performance/fixed-v4-attempt-03/",
+      "comparisonMontage": "artifacts/v4/final-review/performance/comparison-v3-left-v4-right.png"
+    }
+  },
+  "reviewerJudgments": {
+    "visualRegression": false,
+    "explodedFramingDefectFixed": true,
+    "threeModeReadabilityPreserved": true,
+    "narrowLayoutUsable": true,
+    "spectorRerunRequired": false,
+    "spectorRationale": "No renderer/material pipeline file changed; V4 acceptance draws are 0.37 percent above the equivalent V3 smoke baseline and sustained draws are 0.38 percent above V3, far below the pre-registered five-percent trigger.",
+    "automatedReleaseRecommendation": "approve"
+  },
+  "severityCounts": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 2,
+    "P3": 2
+  },
+  "remainingFindings": [
+    {
+      "id": "V4-FINAL-PERF-01",
+      "severity": "P2",
+      "type": "inherited measured limitation",
+      "finding": "V3 mobile cold-cache LCP had a 3458 ms median and 5968.5 ms maximum; V4 did not target or re-run the full 5-run startup protocol.",
+      "releaseRationale": "Not a detected V4 regression; remains explicitly open and cannot be inferred fixed."
+    },
+    {
+      "id": "V4-FINAL-PERF-02",
+      "severity": "P2",
+      "type": "actual V4 measurement",
+      "finding": "SwiftShader achieved 11.41 FPS and p95 100.1 ms, which is functional but not fluid real-time rendering.",
+      "releaseRationale": "Compatibility-only path passed its frozen gate; ordinary hardware performance is assessed independently on Intel Arc."
+    },
+    {
+      "id": "V4-FINAL-PERF-03",
+      "severity": "P3",
+      "type": "actual build advisory",
+      "finding": "The 614.18 kB main JavaScript chunk remains above Vite's 500 kB advisory threshold.",
+      "releaseRationale": "Non-blocking; gzip is 162.31 kB and real hardware/startup gates available for future targeted work."
+    },
+    {
+      "id": "V4-FINAL-EVAL-01",
+      "severity": "P3",
+      "type": "tool limitation",
+      "finding": "Two Puppeteer fixed-frame attempts failed in the evaluator launch path; raw CDP attempt-03 succeeded with zero application events.",
+      "releaseRationale": "Failures are preserved and did not indicate an application defect."
+    }
+  ],
+  "notMeasuredOrPending": [
+    "V4 field INP p75",
+    "V4 full 5+5 cold-cache Lighthouse rerun",
+    "V4 Spector single-frame capture, not triggered by the frozen rule",
+    "NVDA with a real operator",
+    "real participant blind review"
+  ],
+  "evidenceHashes": {
+    "positiveAcceptance": "59f5d450f0586622b73c98a9a85eff322cb72bf3b4dd2812378b437ffff85d44",
+    "negativeFixture": "bdf2d7f2989d1bc0a64eabe199a9322a5d25077c22717b240d184c7c0968ffa7",
+    "intelArcSustained": "d02ba62c680f95660caa5c4ebaac521c90310d3834ce55802269eb42f828a90e",
+    "swiftShaderSustained": "b129fb870c1e379d8cc73b300b2b3a4fb54330a07a0147cd0dc3e16b944e3e8a",
+    "v3FixedState": "429fc350fd473e55112d8379fe7f85c7a57edb6743f3cbd835f742f7ebb747b5",
+    "v4FixedState": "1102ac58159099d1ad6e314a4967c030445257e35cd411ff5042d61779c66174",
+    "comparisonMontage": "7179d533031b44b8c0a05a112fe2740cf9e621267c87a8688d8eda8e7e364716"
+  },
+  "release": {
+    "P0": 0,
+    "P1": 0,
+    "unexplainedVisualOrPerformanceRegression": false,
+    "recommendation": "approve this independent visual/performance/test gate",
+    "boundary": "Global V4 release still requires separate geometry/mechanics and accessibility reviewers."
+  }
+}

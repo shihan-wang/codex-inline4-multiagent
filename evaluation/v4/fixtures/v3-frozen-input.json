@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "description": "Read-only V3 evidence bundle used to dry-run the V4 evaluator boundary before a remediated semantic export exists.",
+  "glb": "../../../artifacts/external-eval/geometry/export/semantic-engine.glb",
+  "manifest": "../../../artifacts/external-eval/geometry/export/semantic-engine.manifest.json",
+  "snapshots": "../../../artifacts/external-eval/mechanics/assembly-scan.json",
+  "whitelist": "../../config/collision-whitelist.json",
+  "expectedWhitelistSha256": "0eb5ab7d6e298b5227102550c124326c114aad791eab9d65479fb833a6b5fce2",
+  "proxyEvidence": "../../../artifacts/external-eval/mechanics/collision-scan.json",
+  "topologyBaseline": "../../../artifacts/v4/phase1/geometry-collision/blender/results.json",
+  "roleRules": {
+    "crankshaft": [
+      {"originalPartId": "crankshaft", "category": "dynamic-mechanism"}
+    ],
+    "timing-sprocket": [
+      {"originalPartId": "crankshaft", "sourcePathRegex": "/Group\\[18\\]/"}
+    ],
+    "timing-chain": [
+      {"sourcePathRegex": "(?i)timing chain"}
+    ],
+    "accessory-belt": [
+      {"sourcePathRegex": "(?i)accessory belt"}
+    ],
+    "accessory-pulley": [
+      {"semanticNameRegex": "^dynamic-mechanism__crankshaft__025$"}
+    ],
+    "cam-lobe": [
+      {"sourcePathRegex": "(?i)(intake|exhaust) direct-acting cam lobes"}
+    ],
+    "piston": [
+      {"originalPartIdRegex": "^piston-[1-4]$", "category": "dynamic-mechanism"}
+    ],
+    "connecting-rod": [
+      {"originalPartIdRegex": "^connecting-rod-[1-4]$", "category": "dynamic-mechanism"}
+    ],
+    "cylinder-liner": [
+      {"originalPartId": "engine-block", "closureExpectation": "intentionally-open"}
+    ],
+    "primary-unrelated-shells": [
+      {"semanticName": "structural-solid__engine-block__001"},
+      {"semanticName": "structural-solid__cylinder-head__001"},
+      {"semanticName": "structural-solid__oil-pan__001"}
+    ]
+  },
+  "requiredCoverage": {
+    "crankshaft": 44,
+    "timing-sprocket": 19,
+    "timing-chain": 1,
+    "accessory-belt": 1,
+    "accessory-pulley": 1,
+    "cam-lobe": 16,
+    "piston": 32,
+    "connecting-rod": 20,
+    "cylinder-liner": 4,
+    "primary-unrelated-shells": 3
+  },
+  "surfaceIntersectionPairs": [
+    {
+      "id": "crank-subcomponents-vs-unrelated-shells",
+      "movingRole": "crankshaft",
+      "targetRole": "primary-unrelated-shells",
+      "motion": "crank-x",
+      "coverageRoles": ["crankshaft", "timing-sprocket", "accessory-pulley"]
+    },
+    {
+      "id": "piston-subcomponents-vs-unrelated-shells",
+      "movingRole": "piston",
+      "targetRole": "primary-unrelated-shells",
+      "motion": "piston-by-part-id"
+    },
+    {
+      "id": "rod-subcomponents-vs-unrelated-shells",
+      "movingRole": "connecting-rod",
+      "targetRole": "primary-unrelated-shells",
+      "motion": "rod-by-part-id"
+    },
+    {
+      "id": "rod-subcomponents-vs-liners",
+      "movingRole": "connecting-rod",
+      "targetRole": "cylinder-liner",
+      "motion": "rod-by-part-id"
+    },
+    {
+      "id": "timing-chain-vs-unrelated-shells",
+      "movingRole": "timing-chain",
+      "targetRole": "primary-unrelated-shells",
+      "motion": "static"
+    },
+    {
+      "id": "accessory-belt-vs-unrelated-shells",
+      "movingRole": "accessory-belt",
+      "targetRole": "primary-unrelated-shells",
+      "motion": "static"
+    }
+  ]
+}

@@ -1,0 +1,599 @@
+{
+  "schema": "inline4-v4-fixed-visual-baseline-v1",
+  "startedAt": "2026-08-31T13:53:52.207Z",
+  "finishedAt": "2026-08-31T13:54:30.354Z",
+  "targetCommit": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+  "baseUrl": "http://127.0.0.1:16430/",
+  "deterministicInstrumentation": {
+    "viewport": "1280x720@1",
+    "syntheticRafHz": 60,
+    "freezeFrame": 361,
+    "expectedCrankAngleDeg": 0,
+    "note": "Evaluator-only rAF timestamp control; production source unmodified."
+  },
+  "browserVersion": {
+    "protocolVersion": "1.3",
+    "product": "Edg/152.0.4191.53",
+    "revision": "@4ee8983fdce2559a0ae8f8376934c5ed353035cd",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+    "jsVersion": "15.2.23.6"
+  },
+  "results": [
+    {
+      "name": "solid-isometric",
+      "mode": "solid",
+      "preset": "isometric",
+      "state": {
+        "title": "Inline-4 Diesel · 四冲程机械剖析",
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "devicePixelRatio": 1
+        },
+        "canvas": {
+          "width": 1280,
+          "height": 720,
+          "clientWidth": 1280,
+          "clientHeight": 720
+        },
+        "raf": {
+          "frame": 362,
+          "freezeAt": 361,
+          "frozen": true,
+          "syntheticTimeMs": 6016.666666666667
+        },
+        "activeModes": [
+          "solid"
+        ],
+        "activePresets": [
+          "isometric"
+        ],
+        "cameraPresetCount": 6,
+        "modeCount": 3,
+        "toggles": [
+          {
+            "id": "toggle-labels",
+            "checked": true
+          },
+          {
+            "id": "toggle-flows",
+            "checked": true
+          },
+          {
+            "id": "toggle-explode",
+            "checked": false
+          }
+        ],
+        "crankText": "000.0°",
+        "runText": "ENGINE PAUSED",
+        "playTitle": "运行 / Run (Space)",
+        "cylinderCards": [
+          "1做功 · POWERCYLINDER 1",
+          "2排气 · EXHAUSTCYLINDER 2",
+          "3压缩 · COMPRESSIONCYLINDER 3",
+          "4进气 · INTAKECYLINDER 4"
+        ],
+        "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "vendor": "Google Inc. (Intel)",
+        "contextType": "webgl2",
+        "labels": 0,
+        "inspectorFields": 0
+      },
+      "newConsoleEvents": []
+    },
+    {
+      "name": "solid-front",
+      "mode": "solid",
+      "preset": "front",
+      "state": {
+        "title": "Inline-4 Diesel · 四冲程机械剖析",
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "devicePixelRatio": 1
+        },
+        "canvas": {
+          "width": 1280,
+          "height": 720,
+          "clientWidth": 1280,
+          "clientHeight": 720
+        },
+        "raf": {
+          "frame": 362,
+          "freezeAt": 361,
+          "frozen": true,
+          "syntheticTimeMs": 6016.666666666667
+        },
+        "activeModes": [
+          "solid"
+        ],
+        "activePresets": [
+          "front"
+        ],
+        "cameraPresetCount": 6,
+        "modeCount": 3,
+        "toggles": [
+          {
+            "id": "toggle-labels",
+            "checked": true
+          },
+          {
+            "id": "toggle-flows",
+            "checked": true
+          },
+          {
+            "id": "toggle-explode",
+            "checked": false
+          }
+        ],
+        "crankText": "000.0°",
+        "runText": "ENGINE PAUSED",
+        "playTitle": "运行 / Run (Space)",
+        "cylinderCards": [
+          "1做功 · POWERCYLINDER 1",
+          "2排气 · EXHAUSTCYLINDER 2",
+          "3压缩 · COMPRESSIONCYLINDER 3",
+          "4进气 · INTAKECYLINDER 4"
+        ],
+        "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "vendor": "Google Inc. (Intel)",
+        "contextType": "webgl2",
+        "labels": 0,
+        "inspectorFields": 0
+      },
+      "newConsoleEvents": []
+    },
+    {
+      "name": "solid-side",
+      "mode": "solid",
+      "preset": "side",
+      "state": {
+        "title": "Inline-4 Diesel · 四冲程机械剖析",
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "devicePixelRatio": 1
+        },
+        "canvas": {
+          "width": 1280,
+          "height": 720,
+          "clientWidth": 1280,
+          "clientHeight": 720
+        },
+        "raf": {
+          "frame": 362,
+          "freezeAt": 361,
+          "frozen": true,
+          "syntheticTimeMs": 6016.666666666667
+        },
+        "activeModes": [
+          "solid"
+        ],
+        "activePresets": [
+          "side"
+        ],
+        "cameraPresetCount": 6,
+        "modeCount": 3,
+        "toggles": [
+          {
+            "id": "toggle-labels",
+            "checked": true
+          },
+          {
+            "id": "toggle-flows",
+            "checked": true
+          },
+          {
+            "id": "toggle-explode",
+            "checked": false
+          }
+        ],
+        "crankText": "000.0°",
+        "runText": "ENGINE PAUSED",
+        "playTitle": "运行 / Run (Space)",
+        "cylinderCards": [
+          "1做功 · POWERCYLINDER 1",
+          "2排气 · EXHAUSTCYLINDER 2",
+          "3压缩 · COMPRESSIONCYLINDER 3",
+          "4进气 · INTAKECYLINDER 4"
+        ],
+        "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "vendor": "Google Inc. (Intel)",
+        "contextType": "webgl2",
+        "labels": 0,
+        "inspectorFields": 0
+      },
+      "newConsoleEvents": []
+    },
+    {
+      "name": "solid-top",
+      "mode": "solid",
+      "preset": "top",
+      "state": {
+        "title": "Inline-4 Diesel · 四冲程机械剖析",
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "devicePixelRatio": 1
+        },
+        "canvas": {
+          "width": 1280,
+          "height": 720,
+          "clientWidth": 1280,
+          "clientHeight": 720
+        },
+        "raf": {
+          "frame": 362,
+          "freezeAt": 361,
+          "frozen": true,
+          "syntheticTimeMs": 6016.666666666667
+        },
+        "activeModes": [
+          "solid"
+        ],
+        "activePresets": [
+          "top"
+        ],
+        "cameraPresetCount": 6,
+        "modeCount": 3,
+        "toggles": [
+          {
+            "id": "toggle-labels",
+            "checked": true
+          },
+          {
+            "id": "toggle-flows",
+            "checked": true
+          },
+          {
+            "id": "toggle-explode",
+            "checked": false
+          }
+        ],
+        "crankText": "000.0°",
+        "runText": "ENGINE PAUSED",
+        "playTitle": "运行 / Run (Space)",
+        "cylinderCards": [
+          "1做功 · POWERCYLINDER 1",
+          "2排气 · EXHAUSTCYLINDER 2",
+          "3压缩 · COMPRESSIONCYLINDER 3",
+          "4进气 · INTAKECYLINDER 4"
+        ],
+        "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "vendor": "Google Inc. (Intel)",
+        "contextType": "webgl2",
+        "labels": 0,
+        "inspectorFields": 0
+      },
+      "newConsoleEvents": []
+    },
+    {
+      "name": "section-crank",
+      "mode": "section",
+      "preset": "crank",
+      "state": {
+        "title": "Inline-4 Diesel · 四冲程机械剖析",
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "devicePixelRatio": 1
+        },
+        "canvas": {
+          "width": 1280,
+          "height": 720,
+          "clientWidth": 1280,
+          "clientHeight": 720
+        },
+        "raf": {
+          "frame": 362,
+          "freezeAt": 361,
+          "frozen": true,
+          "syntheticTimeMs": 6016.666666666667
+        },
+        "activeModes": [
+          "section"
+        ],
+        "activePresets": [
+          "crank"
+        ],
+        "cameraPresetCount": 6,
+        "modeCount": 3,
+        "toggles": [
+          {
+            "id": "toggle-labels",
+            "checked": true
+          },
+          {
+            "id": "toggle-flows",
+            "checked": true
+          },
+          {
+            "id": "toggle-explode",
+            "checked": false
+          }
+        ],
+        "crankText": "000.0°",
+        "runText": "ENGINE PAUSED",
+        "playTitle": "运行 / Run (Space)",
+        "cylinderCards": [
+          "1做功 · POWERCYLINDER 1",
+          "2排气 · EXHAUSTCYLINDER 2",
+          "3压缩 · COMPRESSIONCYLINDER 3",
+          "4进气 · INTAKECYLINDER 4"
+        ],
+        "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "vendor": "Google Inc. (Intel)",
+        "contextType": "webgl2",
+        "labels": 0,
+        "inspectorFields": 0
+      },
+      "newConsoleEvents": []
+    },
+    {
+      "name": "xray-combustion",
+      "mode": "xray",
+      "preset": "combustion",
+      "state": {
+        "title": "Inline-4 Diesel · 四冲程机械剖析",
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "devicePixelRatio": 1
+        },
+        "canvas": {
+          "width": 1280,
+          "height": 720,
+          "clientWidth": 1280,
+          "clientHeight": 720
+        },
+        "raf": {
+          "frame": 362,
+          "freezeAt": 361,
+          "frozen": true,
+          "syntheticTimeMs": 6016.666666666667
+        },
+        "activeModes": [
+          "xray"
+        ],
+        "activePresets": [
+          "combustion"
+        ],
+        "cameraPresetCount": 6,
+        "modeCount": 3,
+        "toggles": [
+          {
+            "id": "toggle-labels",
+            "checked": true
+          },
+          {
+            "id": "toggle-flows",
+            "checked": true
+          },
+          {
+            "id": "toggle-explode",
+            "checked": false
+          }
+        ],
+        "crankText": "000.0°",
+        "runText": "ENGINE PAUSED",
+        "playTitle": "运行 / Run (Space)",
+        "cylinderCards": [
+          "1做功 · POWERCYLINDER 1",
+          "2排气 · EXHAUSTCYLINDER 2",
+          "3压缩 · COMPRESSIONCYLINDER 3",
+          "4进气 · INTAKECYLINDER 4"
+        ],
+        "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "vendor": "Google Inc. (Intel)",
+        "contextType": "webgl2",
+        "labels": 0,
+        "inspectorFields": 0
+      },
+      "newConsoleEvents": []
+    },
+    {
+      "name": "xray-isometric-flows-on",
+      "mode": "xray",
+      "preset": "isometric",
+      "state": {
+        "title": "Inline-4 Diesel · 四冲程机械剖析",
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "devicePixelRatio": 1
+        },
+        "canvas": {
+          "width": 1280,
+          "height": 720,
+          "clientWidth": 1280,
+          "clientHeight": 720
+        },
+        "raf": {
+          "frame": 362,
+          "freezeAt": 361,
+          "frozen": true,
+          "syntheticTimeMs": 6016.666666666667
+        },
+        "activeModes": [
+          "xray"
+        ],
+        "activePresets": [
+          "isometric"
+        ],
+        "cameraPresetCount": 6,
+        "modeCount": 3,
+        "toggles": [
+          {
+            "id": "toggle-labels",
+            "checked": true
+          },
+          {
+            "id": "toggle-flows",
+            "checked": true
+          },
+          {
+            "id": "toggle-explode",
+            "checked": false
+          }
+        ],
+        "crankText": "000.0°",
+        "runText": "ENGINE PAUSED",
+        "playTitle": "运行 / Run (Space)",
+        "cylinderCards": [
+          "1做功 · POWERCYLINDER 1",
+          "2排气 · EXHAUSTCYLINDER 2",
+          "3压缩 · COMPRESSIONCYLINDER 3",
+          "4进气 · INTAKECYLINDER 4"
+        ],
+        "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "vendor": "Google Inc. (Intel)",
+        "contextType": "webgl2",
+        "labels": 0,
+        "inspectorFields": 0
+      },
+      "newConsoleEvents": []
+    },
+    {
+      "name": "xray-isometric-flows-off",
+      "mode": "xray",
+      "preset": "isometric",
+      "toggleFlows": true,
+      "state": {
+        "title": "Inline-4 Diesel · 四冲程机械剖析",
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "devicePixelRatio": 1
+        },
+        "canvas": {
+          "width": 1280,
+          "height": 720,
+          "clientWidth": 1280,
+          "clientHeight": 720
+        },
+        "raf": {
+          "frame": 362,
+          "freezeAt": 361,
+          "frozen": true,
+          "syntheticTimeMs": 6016.666666666667
+        },
+        "activeModes": [
+          "xray"
+        ],
+        "activePresets": [
+          "isometric"
+        ],
+        "cameraPresetCount": 6,
+        "modeCount": 3,
+        "toggles": [
+          {
+            "id": "toggle-labels",
+            "checked": true
+          },
+          {
+            "id": "toggle-flows",
+            "checked": false
+          },
+          {
+            "id": "toggle-explode",
+            "checked": false
+          }
+        ],
+        "crankText": "000.0°",
+        "runText": "ENGINE PAUSED",
+        "playTitle": "运行 / Run (Space)",
+        "cylinderCards": [
+          "1做功 · POWERCYLINDER 1",
+          "2排气 · EXHAUSTCYLINDER 2",
+          "3压缩 · COMPRESSIONCYLINDER 3",
+          "4进气 · INTAKECYLINDER 4"
+        ],
+        "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "vendor": "Google Inc. (Intel)",
+        "contextType": "webgl2",
+        "labels": 0,
+        "inspectorFields": 0
+      },
+      "newConsoleEvents": []
+    },
+    {
+      "name": "solid-isometric-exploded",
+      "mode": "solid",
+      "preset": "isometric",
+      "toggleExplode": true,
+      "state": {
+        "title": "Inline-4 Diesel · 四冲程机械剖析",
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "devicePixelRatio": 1
+        },
+        "canvas": {
+          "width": 1280,
+          "height": 720,
+          "clientWidth": 1280,
+          "clientHeight": 720
+        },
+        "raf": {
+          "frame": 362,
+          "freezeAt": 361,
+          "frozen": true,
+          "syntheticTimeMs": 6016.666666666667
+        },
+        "activeModes": [
+          "solid"
+        ],
+        "activePresets": [
+          "isometric"
+        ],
+        "cameraPresetCount": 6,
+        "modeCount": 3,
+        "toggles": [
+          {
+            "id": "toggle-labels",
+            "checked": true
+          },
+          {
+            "id": "toggle-flows",
+            "checked": true
+          },
+          {
+            "id": "toggle-explode",
+            "checked": true
+          }
+        ],
+        "crankText": "000.0°",
+        "runText": "ENGINE PAUSED",
+        "playTitle": "运行 / Run (Space)",
+        "cylinderCards": [
+          "1做功 · POWERCYLINDER 1",
+          "2排气 · EXHAUSTCYLINDER 2",
+          "3压缩 · COMPRESSIONCYLINDER 3",
+          "4进气 · INTAKECYLINDER 4"
+        ],
+        "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "vendor": "Google Inc. (Intel)",
+        "contextType": "webgl2",
+        "labels": 0,
+        "inspectorFields": 0
+      },
+      "newConsoleEvents": []
+    }
+  ],
+  "diagnostics": {
+    "events": [],
+    "browserStderr": [
+      "[43124:9532:0831/215356.034:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:544] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set usagestats; result: 5",
+      "[43124:9532:0831/215356.034:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:587] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set urlstats; result: 5",
+      "[43124:40124:0831/215356.136:ERROR:chrome\\browser\\extensions\\external_registry_loader_win.cc:206] File C:/Users/27186/AppData/Roaming/ksobrowserex/edge/ngbkcglbmlglgldjfcnhaijeecaccgfi/kingsoft_extension_edge.crx for key Software\\Microsoft\\Edge\\Extensions\\ngbkcglbmlglgldjfcnhaijeecaccgfi does not exist or is not readable.",
+      "[43124:39240:0831/215356.310:ERROR:chrome\\browser\\ui\\edge_window_tab_manager\\api\\wtm_interface_impl.cc:461] Failed to open registry key",
+      "[43124:42728:0831/215356.396:ERROR:chrome\\browser\\importer\\edge_china_browsers\\edge_qqbrowser_importer_utils_win.cc:165] QQBrowser user data path not found.",
+      "[43124:39240:0831/215357.427:ERROR:chrome\\browser\\task_manager\\providers\\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a \"Renderer\" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/40528867.",
+      "[43124:42728:0831/215401.043:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:544] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set usagestats; result: 5",
+      "[43124:40848:0831/215401.143:ERROR:services\\device\\public\\cpp\\geolocation\\system_geolocation_source_win.cc:259] Failed to get location access status: 参数错误。 (0x80070057)",
+      "[43124:30904:0831/215402.938:ERROR:chrome\\browser\\edge_aadc\\user_age_utils_win.cc:163] couldn't get user2.",
+      "[43124:30904:0831/215402.938:ERROR:chrome\\browser\\edge_aadc\\user_age_utils_win.cc:310] couldn't get windows user age group.",
+      "[43124:30904:0831/215402.938:ERROR:chrome\\browser\\edge_aadc\\user_age_utils_win.cc:156] callback wasn't called."
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "token": "D1",
+  "configuration": {
+    "name": "desktop",
+    "width": 1280,
+    "height": 720,
+    "mobile": false
+  },
+  "startedAtUtc": "2026-08-31T08:05:31.691Z",
+  "endedAtUtc": "2026-08-31T08:07:09.829Z",
+  "durationMs": 98138,
+  "exitCode": 0,
+  "failure": null,
+  "command": "node run-web-vitals.mjs (D1)",
+  "gitHead": "38c00417812fa87ca76b520c17c978a14cbd8ad2",
+  "targetTagPeeled": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+  "url": "http://127.0.0.1:16310/",
+  "freshProfile": true,
+  "metricNote": "INP/Event Timing are scripted laboratory interactions, not field p75; Lighthouse TBT is not used",
+  "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+}

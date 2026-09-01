@@ -1,0 +1,14 @@
+{
+  "command": "BROWSER_NEGATIVE_FIXTURE=1 BROWSER_GPU_MODE=hardware npm run test:browser -- http://127.0.0.1:15413 artifacts/v3/final-review/qa/negative",
+  "exitCode": 1,
+  "expectedNonZero": true,
+  "failureCount": 6,
+  "failures": [
+    "desktop canvas missing",
+    "narrow layout overflows viewport",
+    "pause did not hold crank telemetry",
+    "keyboard 5 did not couple crank preset and section mode",
+    "orbit interaction produced no projected change",
+    "page exception captured"
+  ]
+}

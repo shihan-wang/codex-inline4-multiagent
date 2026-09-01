@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "D:\ComputePicture\codex-inline4-multiagent\artifacts\v4\phase1\geometry-collision\analyze_duplicate_seams.py", line 150, in <module>
+    main()
+  File "D:\ComputePicture\codex-inline4-multiagent\artifacts\v4\phase1\geometry-collision\analyze_duplicate_seams.py", line 101, in main
+    result = classify_mesh(mesh)
+             ^^^^^^^^^^^^^^^^^^^
+  File "D:\ComputePicture\codex-inline4-multiagent\artifacts\v4\phase1\geometry-collision\analyze_duplicate_seams.py", line 37, in classify_mesh
+    normals = np.asarray(mesh.vertex_normals) if len(mesh.vertex_normals) == len(vertices) else None
+                                                     ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PointCloud' object has no attribute 'vertex_normals'

@@ -1,0 +1,5 @@
+[2026-08-31T08:30:24.314Z] scene=solid-isometric attempt=attempt-02
+[2026-08-31T08:30:24.314Z] target=http://127.0.0.1:16330/ mode=solid preset=isometric
+[2026-08-31T08:30:24.314Z] injection=response rewrite immediately before production module
+[2026-08-31T08:30:25.196Z] FAILURE Error: Spector initialization failed: {"exportType":"undefined"}
+    at main (file:///D:/ComputePicture/codex-inline4-multiagent/evaluation/spector/run-spector-response-injection.mjs:233:42)

@@ -1,0 +1,278 @@
+{
+  "schema": "inline4-v4-round3-fixed-visual-v1",
+  "capturedAtUtc": "2026-09-01T04:40:11.104Z",
+  "baseUrl": "http://127.0.0.1:16541/",
+  "methodology": {
+    "desktopViewport": "1280x720@1",
+    "narrowViewport": "390x844@1",
+    "syntheticRafHz": 60,
+    "freezeFrame": 361,
+    "expectedDisplayedCrankAngle": "000.0°",
+    "matchingV3Evidence": "artifacts/v4/phase1/visual-performance/fixed-v3/",
+    "boundary": "Evaluator-only timestamp control; product source unmodified."
+  },
+  "results": [
+    {
+      "name": "solid-isometric",
+      "mode": "solid",
+      "preset": "isometric",
+      "width": 1280,
+      "height": 720,
+      "state": {
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "devicePixelRatio": 1
+        },
+        "canvas": {
+          "width": 1280,
+          "height": 720,
+          "clientWidth": 1280,
+          "clientHeight": 720
+        },
+        "raf": {
+          "frame": 362,
+          "freezeAt": 361,
+          "frozen": true,
+          "syntheticTimeMs": 6016.666666666667
+        },
+        "activeMode": "solid",
+        "activePreset": "isometric",
+        "crankText": "000.0°",
+        "runText": "ENGINE PAUSED",
+        "exploded": false,
+        "horizontalOverflow": false,
+        "verticalOverflow": false,
+        "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "contextType": "webgl2"
+      }
+    },
+    {
+      "name": "section-crank",
+      "mode": "section",
+      "preset": "crank",
+      "width": 1280,
+      "height": 720,
+      "state": {
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "devicePixelRatio": 1
+        },
+        "canvas": {
+          "width": 1280,
+          "height": 720,
+          "clientWidth": 1280,
+          "clientHeight": 720
+        },
+        "raf": {
+          "frame": 362,
+          "freezeAt": 361,
+          "frozen": true,
+          "syntheticTimeMs": 6016.666666666667
+        },
+        "activeMode": "section",
+        "activePreset": "crank",
+        "crankText": "000.0°",
+        "runText": "ENGINE PAUSED",
+        "exploded": false,
+        "horizontalOverflow": false,
+        "verticalOverflow": false,
+        "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "contextType": "webgl2"
+      }
+    },
+    {
+      "name": "xray-combustion",
+      "mode": "xray",
+      "preset": "combustion",
+      "width": 1280,
+      "height": 720,
+      "state": {
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "devicePixelRatio": 1
+        },
+        "canvas": {
+          "width": 1280,
+          "height": 720,
+          "clientWidth": 1280,
+          "clientHeight": 720
+        },
+        "raf": {
+          "frame": 362,
+          "freezeAt": 361,
+          "frozen": true,
+          "syntheticTimeMs": 6016.666666666667
+        },
+        "activeMode": "xray",
+        "activePreset": "combustion",
+        "crankText": "000.0°",
+        "runText": "ENGINE PAUSED",
+        "exploded": false,
+        "horizontalOverflow": false,
+        "verticalOverflow": false,
+        "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "contextType": "webgl2"
+      }
+    },
+    {
+      "name": "solid-isometric-exploded",
+      "mode": "solid",
+      "preset": "isometric",
+      "explode": true,
+      "width": 1280,
+      "height": 720,
+      "state": {
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "devicePixelRatio": 1
+        },
+        "canvas": {
+          "width": 1280,
+          "height": 720,
+          "clientWidth": 1280,
+          "clientHeight": 720
+        },
+        "raf": {
+          "frame": 362,
+          "freezeAt": 361,
+          "frozen": true,
+          "syntheticTimeMs": 6016.666666666667
+        },
+        "activeMode": "solid",
+        "activePreset": "isometric",
+        "crankText": "000.0°",
+        "runText": "ENGINE PAUSED",
+        "exploded": true,
+        "horizontalOverflow": false,
+        "verticalOverflow": false,
+        "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "contextType": "webgl2"
+      }
+    },
+    {
+      "name": "narrow-solid-isometric",
+      "mode": "solid",
+      "preset": "isometric",
+      "width": 390,
+      "height": 844,
+      "state": {
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "devicePixelRatio": 1
+        },
+        "canvas": {
+          "width": 390,
+          "height": 844,
+          "clientWidth": 390,
+          "clientHeight": 844
+        },
+        "raf": {
+          "frame": 362,
+          "freezeAt": 361,
+          "frozen": true,
+          "syntheticTimeMs": 6016.666666666667
+        },
+        "activeMode": "solid",
+        "activePreset": "isometric",
+        "crankText": "000.0°",
+        "runText": "ENGINE PAUSED",
+        "exploded": false,
+        "horizontalOverflow": false,
+        "verticalOverflow": false,
+        "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "contextType": "webgl2"
+      }
+    }
+  ],
+  "keyboardPartSelection": {
+    "reachedPartSelect": true,
+    "value": "engine-block",
+    "inspectorHasPart": true,
+    "inspectorFields": 5,
+    "inspectorTitle": "气缸体",
+    "focusTrail": [
+      {
+        "id": "",
+        "tag": "CANVAS",
+        "className": "engine-canvas",
+        "value": null
+      },
+      {
+        "id": "",
+        "tag": "BUTTON",
+        "className": "ui-button play-button is-active",
+        "value": ""
+      },
+      {
+        "id": "",
+        "tag": "INPUT",
+        "className": "",
+        "value": "1200"
+      },
+      {
+        "id": "",
+        "tag": "INPUT",
+        "className": "",
+        "value": "42"
+      },
+      {
+        "id": "",
+        "tag": "BUTTON",
+        "className": "ui-button is-active",
+        "value": ""
+      },
+      {
+        "id": "",
+        "tag": "BUTTON",
+        "className": "ui-button",
+        "value": ""
+      },
+      {
+        "id": "",
+        "tag": "BUTTON",
+        "className": "ui-button",
+        "value": ""
+      },
+      {
+        "id": "toggle-labels",
+        "tag": "INPUT",
+        "className": "",
+        "value": "on"
+      },
+      {
+        "id": "toggle-flows",
+        "tag": "INPUT",
+        "className": "",
+        "value": "on"
+      },
+      {
+        "id": "toggle-explode",
+        "tag": "INPUT",
+        "className": "",
+        "value": "on"
+      },
+      {
+        "id": "telemetry-panel",
+        "tag": "ASIDE",
+        "className": "panel panel-right",
+        "value": null
+      },
+      {
+        "id": "semantic-part-select",
+        "tag": "SELECT",
+        "className": "",
+        "value": ""
+      }
+    ]
+  },
+  "diagnostics": {
+    "events": [],
+    "errorEventCount": 0,
+    "browserStderr": "[44180:6392:0901/123950.209:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:544] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set usagestats; result: 5\r\n[44180:6392:0901/123950.209:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:587] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set urlstats; result: 5\r\n\r\nDevTools listening on ws://127.0.0.1:19544/devtools/browser/e09d15be-69d4-47cf-b686-f38424f70a2d\r\n[44180:46116:0901/123950.312:ERROR:chrome\\browser\\extensions\\external_registry_loader_win.cc:206] File C:/Users/27186/AppData/Roaming/ksobrowserex/edge/ngbkcglbmlglgldjfcnhaijeecaccgfi/kingsoft_extension_edge.crx for key Software\\Microsoft\\Edge\\Extensions\\ngbkcglbmlglgldjfcnhaijeecaccgfi does not exist or is not readable.\r\n[44180:37248:0901/123950.424:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:544] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set usagestats; result: 5\r\n[44180:17292:0901/123950.424:ERROR:chrome\\browser\\ui\\edge_window_tab_manager\\api\\wtm_interface_impl.cc:461] Failed to open registry key\r\n[44180:46232:0901/123950.492:ERROR:chrome\\browser\\importer\\edge_china_browsers\\edge_qqbrowser_importer_utils_win.cc:165] QQBrowser user data path not found.\r\n[44180:7384:0901/123955.175:ERROR:services\\device\\public\\cpp\\geolocation\\system_geolocation_source_win.cc:259] Failed to get location access status: 参数错误。 (0x80070057)\r\n[44180:8740:0901/123955.649:ERROR:chrome\\browser\\edge_aadc\\user_age_utils_win.cc:163] couldn't get user2.\r\n[44180:8740:0901/123955.649:ERROR:chrome\\browser\\edge_aadc\\user_age_utils_win.cc:310] couldn't get windows user age group.\r\n[44180:8740:0901/123955.649:ERROR:chrome\\browser\\edge_aadc\\user_age_utils_win.cc:156] callback wasn't called.\r\n"
+  }
+}

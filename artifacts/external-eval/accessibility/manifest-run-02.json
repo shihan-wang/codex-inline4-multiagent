@@ -1,0 +1,471 @@
+{
+  "runId": "run-02",
+  "generatedAt": "2026-08-31T03:02:17.991Z",
+  "files": [
+    {
+      "path": "artifacts\\external-eval\\accessibility\\accessibility-run-02-summary.json",
+      "bytes": 35010,
+      "sha256": "54d3aed9ae103e5cc6f202de808db21fc756c8c695b0b5e176fc04b9fd981b6c"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-exploded\\run-01\\ax-tree.json",
+      "bytes": 239368,
+      "sha256": "9c58e0ac6615eeb8561493543c997f76490a419512b2fcb46a773dc42635c416"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-exploded\\run-01\\axe-result.json",
+      "bytes": 372412,
+      "sha256": "0defc5df841107cb68999fe30db71c702d989316354541898b899b1719b469da"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-exploded\\run-01\\screenshot.png",
+      "bytes": 472155,
+      "sha256": "ade724c8808837aad02688e71cb256c02240ca6a235f46a8fc9a55d9224ce149"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-exploded\\run-01\\state-metadata.json",
+      "bytes": 6391,
+      "sha256": "a959c5f00e966d04f282f227bdd0864062802e21e720b37861ebc599deea3185"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-exploded\\run-02\\ax-tree.json",
+      "bytes": 239368,
+      "sha256": "7f0cc0cbec414350374444cb50e7c78ed24af44f2da41987c08b541db567a727"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-exploded\\run-02\\axe-result.json",
+      "bytes": 372324,
+      "sha256": "f2fe52cd619b286223907288af803e8e3795b3bfb8bf1be55e239a28ea036f25"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-exploded\\run-02\\screenshot.png",
+      "bytes": 472193,
+      "sha256": "122c512bd0924bc5924107b809635fdb69702adfe948e6d6da488cce8e20ed66"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-exploded\\run-02\\state-metadata.json",
+      "bytes": 6391,
+      "sha256": "e6bf60b6dd13fcd14b5c91ac885686190ef8ac8c7adc4768845296ab9184ff51"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-paused\\run-01\\ax-tree.json",
+      "bytes": 239360,
+      "sha256": "8138973183b99a59513e1f79adaf0f03cdd647c4e8e286cd45ff584cd9f5707b"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-paused\\run-01\\axe-result.json",
+      "bytes": 371679,
+      "sha256": "0af483cb6e4a5ad344f969d159bb6b736300a7ffc8ebd1c4b8b258198500396c"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-paused\\run-01\\screenshot.png",
+      "bytes": 451713,
+      "sha256": "df081bc3f2587d348b6ebb67ace1e4761f1a9810fbcf7627a43d967012fd28b3"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-paused\\run-01\\state-metadata.json",
+      "bytes": 6379,
+      "sha256": "1decafd370c84721fe153d0cf37992249e7b1c9aef133c3024cc69850d580da3"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-paused\\run-02\\ax-tree.json",
+      "bytes": 239360,
+      "sha256": "b33e04a13b4b204471fa55d808d72f1e1f06a3677e69469c9f677da67ef207d5"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-paused\\run-02\\axe-result.json",
+      "bytes": 371515,
+      "sha256": "c1a308b1c00278feb137011cf05d33a90f27d9fead4fd9fd8615e4b622306cac"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-paused\\run-02\\screenshot.png",
+      "bytes": 452664,
+      "sha256": "b2b34246b5eb54cf42d1018780cbb8cd3a4ef8dfc2950c8bef91ade09b5170c6"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-paused\\run-02\\state-metadata.json",
+      "bytes": 6379,
+      "sha256": "7d6f9a953af0c314376a31d8dadde0ee055797a9f3c7f387c930288773f2466b"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-section\\run-01\\ax-tree.json",
+      "bytes": 239369,
+      "sha256": "8e289f0a8ed51e98eac4c52d0d97772c72815b1bc857571aabbec9e68d46c00e"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-section\\run-01\\axe-result.json",
+      "bytes": 372180,
+      "sha256": "6532c2f1d789379c056e75971b8f72f65a4269044e3fbe5de9d328e78afdd983"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-section\\run-01\\screenshot.png",
+      "bytes": 466007,
+      "sha256": "82bdcbc8ad3f0ddf2c970b37c28c21821adcdf2742ba625754f568ac68c91f30"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-section\\run-01\\state-metadata.json",
+      "bytes": 6393,
+      "sha256": "e277aa5ad52000792b03402f7d96795ab0691aacff7ad6979d4244a728de748a"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-section\\run-02\\ax-tree.json",
+      "bytes": 239369,
+      "sha256": "05eadac0ea8ea49fcea1a688e7248572b77dcc941ac0018469eafd68c76f3b42"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-section\\run-02\\axe-result.json",
+      "bytes": 372364,
+      "sha256": "a8d48a70f872e292eeca0b4580d564deef1173b7f8ad5960ce8ee20e6833880f"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-section\\run-02\\screenshot.png",
+      "bytes": 466087,
+      "sha256": "57efcaf80d0c57059352dba51dfad727d8199d7154f25f955b8f37500c618870"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-section\\run-02\\state-metadata.json",
+      "bytes": 6393,
+      "sha256": "07a8b3e5cd8d60de55e3ebe8b30481710b3ecc5be6f28b2ff3ccc8ab80368ac5"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-selected\\run-01\\ax-tree.json",
+      "bytes": 260526,
+      "sha256": "60ee737c0d5d1f0dcd38bee53f57043428b32e4eeb6233d6acb5b937cc6357ed"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-selected\\run-01\\axe-result.json",
+      "bytes": 395985,
+      "sha256": "0fe8831b3c50bce4a1b632152898663062c031feac1c095c22f84d639e891ceb"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-selected\\run-01\\screenshot.png",
+      "bytes": 477848,
+      "sha256": "836c4e07bc3f4f091595f006df9cbe403f6cb960258a8113b2e4e0bc8385a7b7"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-selected\\run-01\\state-metadata.json",
+      "bytes": 6411,
+      "sha256": "70e7bff6c7e16714742a0471c18773fabd53a6d0595354e66dd93f0f9674025c"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-selected\\run-02\\ax-tree.json",
+      "bytes": 260526,
+      "sha256": "244aa6782778e48a732b9f25dd9eee2888bcc4318d4bf1cd9ff4648595c331d1"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-selected\\run-02\\axe-result.json",
+      "bytes": 395945,
+      "sha256": "7ac1c80910ad03462294f1f2d69d5b0ec295c50f6314563d331531d619871427"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-selected\\run-02\\screenshot.png",
+      "bytes": 476452,
+      "sha256": "53a6ec5d688bb6dd87aad8b8aa610db87648d1f0b627aaffe94c0d21295e5cdf"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-selected\\run-02\\state-metadata.json",
+      "bytes": 6411,
+      "sha256": "bff0a6efe5949a842ca5da304d8ba44400c1e7280346e2434f0b93d1f453552e"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-solid\\run-01\\ax-tree.json",
+      "bytes": 237804,
+      "sha256": "04fa2a985af7198bc11acfc2fc9c50c41e1f12386df23c3c3c8bfe526c9155b2"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-solid\\run-01\\axe-result.json",
+      "bytes": 372364,
+      "sha256": "71428fb6ff21823f737abd9f9a3ac64d98c9df2f67f2451c6ee9b1b9e7d28dc4"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-solid\\run-01\\screenshot.png",
+      "bytes": 456863,
+      "sha256": "b8beaea1f422f51fd04cdd9bd551d2e113ca5ea3cfb645f6c13528125504b3e8"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-solid\\run-01\\state-metadata.json",
+      "bytes": 6389,
+      "sha256": "f5410b4064e00d1f1ca2d80d1e58d63976d7a5d79dc375fc8db50ed6cc37b027"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-solid\\run-02\\ax-tree.json",
+      "bytes": 237804,
+      "sha256": "77ade0d829bf8b61a0c72f8360bf7057d6dd52c29290cc34547505531c83a3aa"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-solid\\run-02\\axe-result.json",
+      "bytes": 372360,
+      "sha256": "4aa8fbd3ab83fc9f9f4eb3b508f11083f585585dddb9190ff0264e08dedb3007"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-solid\\run-02\\screenshot.png",
+      "bytes": 457913,
+      "sha256": "e370d7acaebaa95af5027d75f1daf3dcece4ea6114314e230a90a589a7af9c08"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-solid\\run-02\\state-metadata.json",
+      "bytes": 6389,
+      "sha256": "5ff719869703cda643a6ad1da2968e88669e0b21ecc49fd7e44690931c2b22cc"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-xray\\run-01\\ax-tree.json",
+      "bytes": 238448,
+      "sha256": "45ac5b661fd2382c17055849ce7197b10741e25adf31853e11d51ddd010557e3"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-xray\\run-01\\axe-result.json",
+      "bytes": 372364,
+      "sha256": "56c5ffcac7a6c4c3c5056b7bea780885d0490ec2aad93c4c465166835dece071"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-xray\\run-01\\screenshot.png",
+      "bytes": 523941,
+      "sha256": "fc3d65426a14dc89d1496b9cc4ad3aa23685c981cfff1c76bf05b314fc2226a9"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-xray\\run-01\\state-metadata.json",
+      "bytes": 6387,
+      "sha256": "65b3df1dda2b8d65fa98f806ecf0fa3c9084cb9f15188692a6ad1d9a17387c0a"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-xray\\run-02\\ax-tree.json",
+      "bytes": 239369,
+      "sha256": "e9ba9d1828fc3d79b3f64864aad62a4fe5c320bad23121e63e844e538b662201"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-xray\\run-02\\axe-result.json",
+      "bytes": 372304,
+      "sha256": "7786e67d42fa2f68893ccb9de53c284b044f888d05847a399dff35ae84c99c73"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-xray\\run-02\\screenshot.png",
+      "bytes": 523491,
+      "sha256": "229ac8daea09f186100e74e97ffd7399226600c247d275da3960717cf4540d66"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\desktop-xray\\run-02\\state-metadata.json",
+      "bytes": 6387,
+      "sha256": "1b9a1a4d18dd3f161a37ff353ae7aa014de2039abc03d1b3eab1dca4fb0a7646"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\narrow-initial\\run-01\\ax-tree.json",
+      "bytes": 112648,
+      "sha256": "056515961932fbccf0f175e455f8ea23b52c709492ed81d8cd55225d3d6c1083"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\narrow-initial\\run-01\\axe-result.json",
+      "bytes": 223369,
+      "sha256": "450175aaa67a845c3f1ec0797f3054bf1f91b3a75610edf552b360c61c46b011"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\narrow-initial\\run-01\\screenshot.png",
+      "bytes": 223962,
+      "sha256": "0ad748485b40e22e2ad51f865f1da86bedc8598a94d01cc2b90563837ab93e32"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\narrow-initial\\run-01\\state-metadata.json",
+      "bytes": 4083,
+      "sha256": "ec422ca5cb0b6678de0cbc02ced2013de8902c18d6981db374e45de287ec8860"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\narrow-initial\\run-02\\ax-tree.json",
+      "bytes": 112648,
+      "sha256": "6cf53fa447ea1dfa7f9175a8ef06effec1e14b9a0759b684d67d59ae101eb6e9"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\narrow-initial\\run-02\\axe-result.json",
+      "bytes": 223369,
+      "sha256": "8a0e9aa677c1d2937ae7f1fc77218a6c72d8f72237bad6ece96b3cad52c3d350"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\narrow-initial\\run-02\\screenshot.png",
+      "bytes": 224047,
+      "sha256": "4b08c1e479b514f4ffa6b0242c77915885434f65d0149957ea0feb5d222e2c20"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\narrow-initial\\run-02\\state-metadata.json",
+      "bytes": 4083,
+      "sha256": "2547fbc786a3513d6a53145faeea5eff5e93aa22e561184dd269acfe645bd79e"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\narrow-left-drawer\\run-01\\ax-tree.json",
+      "bytes": 156838,
+      "sha256": "3c535f4cf290aeefe349538b1bdff6613c021f4ba7bdb287d2c4a38c9c04186e"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\narrow-left-drawer\\run-01\\axe-result.json",
+      "bytes": 292854,
+      "sha256": "b46657c56abdd00e36d1da6af3b1a0bf1adc8f12bb3bfb9d60a6d39eecdd5ef0"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\narrow-left-drawer\\run-01\\screenshot.png",
+      "bytes": 191473,
+      "sha256": "6b9f403455c465c8ebbed38139ecff17519aca238705916db898c281a7d12fde"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\narrow-left-drawer\\run-01\\state-metadata.json",
+      "bytes": 7114,
+      "sha256": "2e794baa26511ee7130816eee3268b9e1ca89cf4ce04601378835ec98aaec81c"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\narrow-left-drawer\\run-02\\ax-tree.json",
+      "bytes": 156838,
+      "sha256": "ecadec6518eb355d1408cd8c941d57fd92c52d52618c229ff3ba8d1f550cbcaf"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\narrow-left-drawer\\run-02\\axe-result.json",
+      "bytes": 292902,
+      "sha256": "8590cda6c21d4453a1f605cfec5d477be3761e7886622a72b36f4bc950bbc0a9"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\narrow-left-drawer\\run-02\\screenshot.png",
+      "bytes": 191406,
+      "sha256": "9b48815cc5bf299289bddee1a3796cbda926ea86f7560974e6c5d9f4c4ec4edf"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\narrow-left-drawer\\run-02\\state-metadata.json",
+      "bytes": 7114,
+      "sha256": "9c4270a166d8325dbef87cd75e1099084623fd282259bcc6e0f1e8863c2727b9"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\narrow-right-drawer\\run-01\\ax-tree.json",
+      "bytes": 177063,
+      "sha256": "b427b120db2088de14495a5cd3dd7119aa5454d1e736c2605805a9b979f18f05"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\narrow-right-drawer\\run-01\\axe-result.json",
+      "bytes": 299426,
+      "sha256": "0a785da6c0ca8bde4c1beb56aeffda48ab1e5eb978651a6470b1994044b84d1e"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\narrow-right-drawer\\run-01\\screenshot.png",
+      "bytes": 212641,
+      "sha256": "cfd8ee8dc7e076de0216e511d94ff837f74f6dbe88fbd7d2c05604ea0561e131"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\narrow-right-drawer\\run-01\\state-metadata.json",
+      "bytes": 4087,
+      "sha256": "799d81970e993dda72e10cf00ac14a875ac74682c0c1386b2137b67cae4e0ea3"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\narrow-right-drawer\\run-02\\ax-tree.json",
+      "bytes": 177063,
+      "sha256": "e275cb70180bbec2b8dadac5bcf86fcc0026404aac3522ce944886c5a5032b3c"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\narrow-right-drawer\\run-02\\axe-result.json",
+      "bytes": 299446,
+      "sha256": "901a262f34b48b0f22f2fd121e45c27b902f7431b2975fc8ea04d0c9355e1bb5"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\narrow-right-drawer\\run-02\\screenshot.png",
+      "bytes": 212175,
+      "sha256": "4d74c3bb751d1c92ffbc3e6a20ad62d8587dc8d16f46a9855539650a9d3732bb"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\axe\\narrow-right-drawer\\run-02\\state-metadata.json",
+      "bytes": 4087,
+      "sha256": "2b103e25bd3d9430336b99f5f0188bfeb1057ba2efc4def31046395bd175c879"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\manual\\run-01\\contrast-samples.json",
+      "bytes": 6738,
+      "sha256": "e5d4f7d47a92e5854a60e83b60ab36c64f2752118db44e8b930045961d89df35"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\manual\\run-01\\keyboard-focus.json",
+      "bytes": 18240,
+      "sha256": "d4de659308c260f66041258d4ed29192fc987b48695722b6becd2d452234f87a"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\manual\\run-01\\keyboard-focus.png",
+      "bytes": 453881,
+      "sha256": "a03ab546435e625bd832dbeca8aace1d5c936ccc3cafba6935441f04fb3c3bdf"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\manual\\run-01\\reflow-320-initial.png",
+      "bytes": 173785,
+      "sha256": "78cfe8a5b1877e0f7ec31840422610e7eb72ff73c89bbf5a1f3f5e32db336813"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\manual\\run-01\\reflow-320-left.png",
+      "bytes": 147372,
+      "sha256": "90ae3b021809a2ae3fac1b9ce10d0074e0407bff18c6c17fc4182e112c9f0fe0"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\manual\\run-01\\reflow-320-right.png",
+      "bytes": 164380,
+      "sha256": "e0b00003db18976af5fdb4d5cd473d4b2ee66a4c47ec638f55b1e2ba590dac4c"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\manual\\run-01\\resize-reflow.json",
+      "bytes": 6045,
+      "sha256": "c7159a9beab1e50df51b828d16bc0b0fff8b72bced8be9e7f2190f15d41fca91"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\manual\\run-01\\text-resize-200.png",
+      "bytes": 521308,
+      "sha256": "85c30c9ddf3cb68f3926725ba6f0bd51ffaba6cbf3e0251f9e32c7f3e546c6e5"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\manual\\run-01\\zoom-equivalent-200-initial.png",
+      "bytes": 273597,
+      "sha256": "4c7b87e27b875d8981de03477f727618aa771a8348d8067b8f05a3a7e2e5f0b0"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\manual\\run-01\\zoom-equivalent-200-left.png",
+      "bytes": 256910,
+      "sha256": "f519dc2f64759f0834b3a63546b47a647bbf6217ba9242a1d0dd36f74e73f87c"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\manual\\run-02\\contrast-samples.json",
+      "bytes": 6738,
+      "sha256": "595addec8e7f110d6a3e7f2f97ad9ef18c5cf755456b8cb8473b50dfa3edf81a"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\manual\\run-02\\keyboard-focus.json",
+      "bytes": 18240,
+      "sha256": "8dfd556c0a08029ee0ff9820917cb46f2c2b09256e5f15e9198e9388caf28fa5"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\manual\\run-02\\keyboard-focus.png",
+      "bytes": 453970,
+      "sha256": "ae89a59df1720cd62a5253a85e4994fa8c3a3fd7f42bdcbc6cc7ae853502941e"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\manual\\run-02\\reflow-320-initial.png",
+      "bytes": 173722,
+      "sha256": "dfae42b7d327aef99374467af0408f4185668150d56bce3bad78d2d61f0e35c2"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\manual\\run-02\\reflow-320-left.png",
+      "bytes": 147384,
+      "sha256": "43df2d08824518a76e161f70c8a2682284bb747c554d9bd2bd853d95b8d1fe22"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\manual\\run-02\\reflow-320-right.png",
+      "bytes": 164356,
+      "sha256": "58ff282d272d8a3feeae1872c9c26bff2ac0108998ec31ef43562f74fcebff2a"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\manual\\run-02\\resize-reflow.json",
+      "bytes": 6045,
+      "sha256": "5feca37ef0b94a66fde126b48b00c034cf87744ddce23ad88d75b13f5f33a41c"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\manual\\run-02\\text-resize-200.png",
+      "bytes": 521308,
+      "sha256": "b45e634fe5b361bc13097bf334f8305f1a6c5e19b7dec983cac74a86d3c02438"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\manual\\run-02\\zoom-equivalent-200-initial.png",
+      "bytes": 273859,
+      "sha256": "bd851938362d8686c972059c2931e26ac811ca4009f20c8aaf9cddf0bc75cd67"
+    },
+    {
+      "path": "artifacts\\external-eval\\accessibility\\manual\\run-02\\zoom-equivalent-200-left.png",
+      "bytes": 257048,
+      "sha256": "265a93514e10b7bd63a54273f4762810df34f4b32876a1e01ed4eb5374959f49"
+    }
+  ]
+}

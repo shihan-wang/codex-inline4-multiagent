@@ -1,0 +1,49 @@
+{
+  "audit": "V3 independent final mechanical and kinematics review",
+  "headBaseline": "12472172925ec3108d096f2402a48e3f7939931b",
+  "workingTree": "uncommitted V3 implementation under independent read-only review",
+  "scale": {
+    "mechanical": 25,
+    "geometry": 25,
+    "visual": 20,
+    "interaction": 10,
+    "performance": 10,
+    "testEvidence": 10,
+    "total": 100
+  },
+  "v2": {
+    "mechanical": 20,
+    "geometry": 19,
+    "visual": 16,
+    "interaction": 8,
+    "performance": 6,
+    "testEvidence": 7,
+    "total": 76
+  },
+  "v3": {
+    "mechanical": { "score": 24, "max": 25, "confidence": 0.98 },
+    "geometry": { "score": 23, "max": 25, "confidence": 0.94 },
+    "visual": { "score": 18, "max": 20, "confidence": 0.88 },
+    "interaction": { "score": 9, "max": 10, "confidence": 0.94 },
+    "performance": { "score": 8, "max": 10, "confidence": 0.86 },
+    "testEvidence": { "score": 9, "max": 10, "confidence": 0.98 },
+    "total": { "score": 91, "max": 100, "confidence": 0.93 }
+  },
+  "delta": {
+    "mechanical": 4,
+    "geometry": 4,
+    "visual": 2,
+    "interaction": 1,
+    "performance": 2,
+    "testEvidence": 2,
+    "total": 15
+  },
+  "remainingIssues": { "P0": 0, "P1": 0, "P2": 0, "P3": 3 },
+  "phase1P2Disposition": {
+    "M-01-valvetrain-closure": "fixed",
+    "M-02-flow-topology-and-gating": "fixed-with-P3-scope-limit",
+    "M-03-load-sensitive-fuel": "fixed"
+  },
+  "obviousFeasibleHighYieldItemsRemain": false,
+  "releaseRecommendation": "pass"
+}

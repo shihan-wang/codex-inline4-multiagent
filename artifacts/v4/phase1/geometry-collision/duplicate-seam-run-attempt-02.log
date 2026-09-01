@@ -1,0 +1,16 @@
+{
+  "rawVertices": 100712,
+  "uniquePositions": 49166,
+  "duplicateVertices": 51546,
+  "duplicateGroupCount": 18916,
+  "attributeRequiredDuplicates": 34670,
+  "exactAttributeRedundancy": 16876,
+  "attributeRequiredShareOfDuplicates": 0.6726031117836495,
+  "exactRedundancyShareOfDuplicates": 0.32739688821635043,
+  "seamGroupCounts": {
+    "normal-and-uv": 10688,
+    "no-observed-attribute-difference": 260,
+    "uv-only": 4796,
+    "normal-only": 3172
+  }
+}

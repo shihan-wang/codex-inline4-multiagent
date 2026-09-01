@@ -1,0 +1,15 @@
+[2026-08-31T13:42:xxZ] Read-only recovery: branch v4-remediation; HEAD eccde839811d6991b9583f3c4fd6c08918ec64c1.
+[2026-08-31T13:42:xxZ] Integrity: v3-model-final peeled to 7e5ea916a115dcef1bf3ba467a31b78c6206c612; git diff V3 -- src empty; git diff -- src empty.
+[2026-08-31T13:43:xxZ] Existing external evidence inspected. No Lighthouse, Web Vitals, sustained WebGL or Spector rerun performed.
+[2026-08-31T13:52:xxZ] COMMAND: npm run preview -- --port 16430 --strictPort
+[2026-08-31T13:52:xxZ] RESULT: preview available at http://127.0.0.1:16430/; exit not requested until audit capture completed.
+[2026-08-31T13:53:52Z] COMMAND: node --input-type=module -e <deterministic read-only CDP capture harness>
+[2026-08-31T13:54:30Z] RESULT: exit 0; 9 fixed 1280x720 PNGs and fixed-state-results.json; displayed crank 000.0 degrees in every state; Intel Arc D3D11 WebGL2; zero application console events.
+[2026-08-31T13:55:xxZ] COMMAND: BROWSER_GPU_MODE=hardware npm run test:browser -- http://127.0.0.1:16430 artifacts/v4/phase1/visual-performance/live-acceptance
+[2026-08-31T13:56:24Z] RESULT: exit 0; acceptance passed; desktop and narrow screenshots saved; 3 modes, 6 presets, 3 toggles, pause, pointer camera controls and part selection confirmed; app console/page exception count 0.
+[2026-08-31T13:58:xxZ] COMMAND: ffmpeg representative montage and flows-on/off SSIM.
+[2026-08-31T13:58:xxZ] RESULT: exit 0; representative-montage.png; static flows comparison SSIM 0.993911.
+[2026-08-31T14:03:xxZ] TOOL VERSIONS: Edge 152.0.4191.53; Node 24.14.0; npm 11.9.0; Vite 7.3.6; ffmpeg N-122677-ga5007428e8-20260208.
+[2026-08-31T14:04:xxZ] SOURCE INTEGRITY RECHECK: no src diff created by this audit.
+
+Browser stderr contained Edge host-environment registry/update/geolocation diagnostics. They are preserved in the raw JSON and are not application console errors. Runtime.consoleAPICalled, Runtime.exceptionThrown and Log.entryAdded contained no application error.

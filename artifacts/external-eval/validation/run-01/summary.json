@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "generatedAtUtc": "2026-08-31T13:05:48.062Z",
+  "fixedTargetCommit": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+  "evaluatorHead": "38c00417812fa87ca76b520c17c978a14cbd8ad2",
+  "targetTagPeeledAtStart": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+  "sourceDiffAtStart": "",
+  "sourceDiffAtEnd": "",
+  "versions": {
+    "node": "v24.14.0",
+    "npm": {
+      "commandLine": "npm.cmd --version",
+      "exitCode": null,
+      "stdout": "",
+      "stderr": ""
+    },
+    "typescript": {
+      "commandLine": "npx.cmd --no-install tsc --version",
+      "exitCode": null,
+      "stdout": "",
+      "stderr": ""
+    },
+    "vitest": {
+      "commandLine": "npx.cmd --no-install vitest --version",
+      "exitCode": null,
+      "stdout": "",
+      "stderr": ""
+    },
+    "vite": {
+      "commandLine": "npx.cmd --no-install vite --version",
+      "exitCode": null,
+      "stdout": "",
+      "stderr": ""
+    }
+  },
+  "validations": [
+    {
+      "id": "typecheck",
+      "commandLine": "npm.cmd run typecheck",
+      "startedAtUtc": "2026-08-31T13:05:47.848Z",
+      "finishedAtUtc": "2026-08-31T13:05:47.849Z",
+      "durationMs": 1,
+      "exitCode": null,
+      "signal": null,
+      "log": "artifacts/external-eval/validation/run-01/typecheck.log"
+    },
+    {
+      "id": "unit-tests",
+      "commandLine": "npm.cmd test",
+      "startedAtUtc": "2026-08-31T13:05:47.849Z",
+      "finishedAtUtc": "2026-08-31T13:05:47.849Z",
+      "durationMs": 0,
+      "exitCode": null,
+      "signal": null,
+      "log": "artifacts/external-eval/validation/run-01/unit-tests.log"
+    },
+    {
+      "id": "production-build",
+      "commandLine": "npm.cmd run build",
+      "startedAtUtc": "2026-08-31T13:05:47.850Z",
+      "finishedAtUtc": "2026-08-31T13:05:47.850Z",
+      "durationMs": 0,
+      "exitCode": null,
+      "signal": null,
+      "log": "artifacts/external-eval/validation/run-01/production-build.log"
+    }
+  ],
+  "allPassed": false
+}

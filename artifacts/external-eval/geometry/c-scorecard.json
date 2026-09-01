@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "protocolVersion": "1.0",
+  "protocolSection": "C",
+  "targetCommit": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+  "evaluationBranchHead": "38c00417812fa87ca76b520c17c978a14cbd8ad2",
+  "score": {
+    "earned": 24,
+    "possible": 35,
+    "components": {
+      "semanticCoverage": {
+        "earned": 5,
+        "possible": 5,
+        "basis": "474/474 rendered triangle nodes classified; 489/489 semantic node names unique; 34 pickable root part IDs retained; GLB SHA-256 matches export manifest"
+      },
+      "closedSolidWatertightness": {
+        "earned": 10,
+        "possible": 10,
+        "basis": "Trimesh and Blender each report 413/413 closureExpectation=closed nodes watertight; 62968/62968 closed triangles by triangle weighting"
+      },
+      "meshHygiene": {
+        "earned": 2,
+        "possible": 5,
+        "subscores": {
+          "degenerateTriangles": {
+            "earned": 2,
+            "possible": 2,
+            "basis": "0 in both tools"
+          },
+          "duplicateFacesAndVertices": {
+            "earned": 0,
+            "possible": 1,
+            "basis": "0 duplicate faces, but unwelded duplicate-vertex ratio is 51.1816% in Trimesh and 51.1680% in Blender, above the frozen 0.1% limit"
+          },
+          "normalsAndWinding": {
+            "earned": 0,
+            "possible": 2,
+            "basis": "Both tools independently find 2304 non-contiguous/winding-error edges across 16 cam-lobe nodes"
+          }
+        }
+      },
+      "crossToolConsistency": {
+        "earned": 2,
+        "possible": 2,
+        "basis": "413/413 closed-node watertight judgments agree (100%)"
+      },
+      "nonWhitelistCollision": {
+        "earned": 0,
+        "possible": 8,
+        "basis": "721/721 crank-angle samples contain at least one measured non-whitelist collision; 7561 pair-samples collide; maximum measured penetration 107.0 mm, exceeding the frozen zero-point threshold"
+      },
+      "mechanicalConstraints": {
+        "earned": 5,
+        "possible": 5,
+        "subscores": {
+          "sliderCrankClosure": {
+            "earned": 1,
+            "possible": 1,
+            "basis": "maximum residual 5.684341886080802e-14 mm"
+          },
+          "pairedThrows": {
+            "earned": 1,
+            "possible": 1,
+            "basis": "maximum 1/4 and 2/3 pairing error 0 mm"
+          },
+          "firingAndStrokes": {
+            "earned": 1,
+            "possible": 1,
+            "basis": "0 firing-order errors and 0 stroke errors over 721 samples; boundary order 1-3-4-2"
+          },
+          "camAndValveContinuity": {
+            "earned": 1,
+            "possible": 1,
+            "basis": "maximum cam ratio error 0; maximum adjacent valve-lift-fraction step 0.01310251682435809"
+          },
+          "clearances": {
+            "earned": 1,
+            "possible": 1,
+            "basis": "minimum cam-tappet gap 0.4999989544573591 mm and piston-head gap 5.5 mm; both non-negative"
+          }
+        }
+      }
+    }
+  },
+  "measured": {
+    "semantic": {
+      "totalRenderables": 489,
+      "triangleRenderables": 474,
+      "classifiedTriangleRenderables": 474,
+      "classifiedTrianglePercent": 100,
+      "uniqueSemanticNames": 489,
+      "pickableRootPartIdCount": 34,
+      "closureExpectationCounts": {
+        "closed": 413,
+        "intentionallyOpen": 38,
+        "notApplicable": 38
+      }
+    },
+    "trimesh": {
+      "version": "4.8.3",
+      "closedWatertightNodes": 413,
+      "closedNodes": 413,
+      "closedWatertightPercent": 100,
+      "closedTriangleWeightedWatertightPercent": 100,
+      "degenerateTriangles": 0,
+      "duplicateFaces": 0,
+      "duplicateVertices": 51546,
+      "rawVertices": 100712,
+      "duplicateVertexRatio": 0.5118158709984908,
+      "windingErrorEdges": 2304
+    },
+    "blender": {
+      "version": "5.2.1 LTS",
+      "closedWatertightNodes": 413,
+      "closedNodes": 413,
+      "closedWatertightPercent": 100,
+      "closedTriangleWeightedWatertightPercent": 100,
+      "degenerateTriangles": 0,
+      "duplicateFaces": 0,
+      "duplicateVertices": 51518,
+      "rawVertices": 100684,
+      "duplicateVertexRatio": 0.5116801080608637,
+      "windingErrorEdges": 2304
+    },
+    "collisionScan": {
+      "startDegrees": 0,
+      "endDegrees": 720,
+      "stepDegrees": 1,
+      "samples": 721,
+      "collisionAngleCount": 721,
+      "collisionPairSampleCount": 7561,
+      "maximumMeasuredPenetrationMm": 107,
+      "maximumRodLinerPenetrationMm": 21.413884243624974,
+      "whitelistSha256": "0eb5ab7d6e298b5227102550c124326c114aad791eab9d65479fb833a6b5fce2",
+      "aabbOnlyBroadPhase": true,
+      "closedShellNarrowPhase": "triangle closest point and oriented closest-face pseudonormal",
+      "openLinerNarrowPhase": "analytic radial clearance derived from exported triangle bounds"
+    },
+    "mechanics": {
+      "samples": 721,
+      "firingAtBoundary": [1, 3, 4, 2],
+      "firingOrderErrors": 0,
+      "strokeErrors": 0,
+      "maxClosureErrorMm": 5.684341886080802e-14,
+      "maxPairingErrorMm": 0,
+      "maxCamRatioError": 0,
+      "maximumValveLiftStep": 0.01310251682435809,
+      "minimumCamTappetGapMm": 0.4999989544573591,
+      "minimumPistonHeadGapMm": 5.5,
+      "minimumValvePistonGapMm": 4.87720614306204,
+      "minimumOpposingValveRadialGapMm": 44,
+      "minimumNonmatchingCamTappetGapMm": 12
+    }
+  },
+  "failures": [
+    {
+      "id": "C-MESH-DUPLICATE-VERTICES",
+      "protocolImpact": "mesh hygiene duplicate-face/vertex subscore 0/1",
+      "evidence": "Both independent tools measure approximately 51.17-51.18% unwelded duplicate vertices, far above 0.1%."
+    },
+    {
+      "id": "C-CAM-WINDING",
+      "protocolImpact": "mesh hygiene normals/winding subscore 0/2",
+      "evidence": "Both tools find 2304 winding-error edges: 144 on each of 16 cam-lobe semantic nodes."
+    },
+    {
+      "id": "C-NONWHITELIST-COLLISION",
+      "protocolImpact": "non-whitelist collision subscore 0/8",
+      "evidence": "All 721 angles collide with the closed primary block visual; maximum sampled penetration 107.0 mm. Four connecting rods additionally exceed the exported open-liner radius in 268 angles each, maximum 21.413884 mm."
+    }
+  ],
+  "unmeasured": [
+    "Counterweight versus other-journal moving components at crankshaft-subcomponent semantic granularity",
+    "Timing/accessory drive versus unrelated shell as an independently swept subcomponent triangle test"
+  ],
+  "evidenceHashes": {
+    "semanticGlbSha256": "8848aa63e50afc7154b92f8140a3d36dcb39b42e7f5b222b863a149abaeec43a",
+    "semanticManifestSha256": "0b8cb455c6f029105c81a5ce31525fdfb1cfea7bfd379f4d6c47e81cf5375b1a",
+    "trimeshResultsSha256": "a606606518b1042397e40760bee8daa85e27dcf60547ae6e16fe5bea8258a46c",
+    "blenderResultsSha256": "504c94d38fcee4d181ab2cfc3390908ec8ca1cc2c10980c62066af81ca28df96",
+    "assemblyScanSha256": "5fb3def6a45e0b9365dc8e93ae458da166b7e69aa92f017f9e584ea084e9aed4",
+    "collisionScanSha256": "e69dce1858d17da305058dbf8c5dc28a4169506120dbbebea9c968d7353a9e93"
+  }
+}

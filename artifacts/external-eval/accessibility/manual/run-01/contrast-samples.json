@@ -1,0 +1,242 @@
+{
+  "capturedAt": "2026-08-31T02:58:43.479Z",
+  "methodology": "Computed-color approximation for representative DOM text; axe color-contrast remains authoritative for automated scoring. Gradients and WebGL pixels require human visual inspection.",
+  "desktop": [
+    {
+      "selector": ".brand",
+      "found": true,
+      "text": "INLINE · 4DFOUR-STROKE DIESEL / 四冲程柴油机",
+      "color": "rgb(232, 237, 241)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "contrastRatioApprox": 16.735018317411534,
+      "note": null
+    },
+    {
+      "selector": ".panel-title strong",
+      "found": true,
+      "text": "动力控制",
+      "color": "rgb(232, 237, 241)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontSize": "13px",
+      "fontWeight": "600",
+      "contrastRatioApprox": 16.735018317411534,
+      "note": null
+    },
+    {
+      "selector": ".top-metric strong",
+      "found": true,
+      "text": "120",
+      "color": "rgb(220, 228, 231)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "contrastRatioApprox": 15.30658570579202,
+      "note": null
+    },
+    {
+      "selector": ".mode-control button.is-active",
+      "found": true,
+      "text": "实体",
+      "color": "rgb(240, 212, 159)",
+      "backgroundColor": "rgba(217, 177, 111, 0.12)",
+      "backgroundImage": "none",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "contrastRatioApprox": 11.471903188380999,
+      "note": null
+    },
+    {
+      "selector": ".preset-row button.is-active",
+      "found": true,
+      "text": "<1> 轴测",
+      "color": "rgb(230, 202, 152)",
+      "backgroundColor": "rgba(217, 177, 111, 0.1)",
+      "backgroundImage": "none",
+      "fontSize": "9px",
+      "fontWeight": "500",
+      "contrastRatioApprox": 10.552839301529936,
+      "note": null
+    },
+    {
+      "selector": ".part-label",
+      "found": false
+    },
+    {
+      "selector": ".engine-label",
+      "found": false
+    },
+    {
+      "selector": ".mobile-panel-toggle",
+      "found": true,
+      "text": "☰ 控制",
+      "color": "rgb(232, 237, 241)",
+      "backgroundColor": "rgba(255, 255, 255, 0.035)",
+      "backgroundImage": "none",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "contrastRatioApprox": 15.738264118633426,
+      "note": null
+    },
+    {
+      "selector": ".cylinder-card strong",
+      "found": true,
+      "text": "压缩 · COMPRESSION",
+      "color": "rgb(211, 218, 222)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontSize": "9px",
+      "fontWeight": "700",
+      "contrastRatioApprox": 13.952688678516902,
+      "note": null
+    },
+    {
+      "selector": ".interaction-hint",
+      "found": true,
+      "text": "左键旋转右键平移滚轮缩放点击检查",
+      "color": "rgb(94, 107, 114)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontSize": "8px",
+      "fontWeight": "400",
+      "contrastRatioApprox": 3.5902964263527317,
+      "note": null
+    },
+    {
+      "selector": ".inspector dd",
+      "found": false
+    }
+  ],
+  "narrow": [
+    {
+      "selector": ".brand",
+      "found": true,
+      "text": "INLINE · 4DFOUR-STROKE DIESEL / 四冲程柴油机",
+      "color": "rgb(232, 237, 241)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "contrastRatioApprox": 16.735018317411534,
+      "note": null
+    },
+    {
+      "selector": ".panel-title strong",
+      "found": true,
+      "text": "动力控制",
+      "color": "rgb(232, 237, 241)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontSize": "13px",
+      "fontWeight": "600",
+      "contrastRatioApprox": 16.735018317411534,
+      "note": null
+    },
+    {
+      "selector": ".top-metric strong",
+      "found": true,
+      "text": "120",
+      "color": "rgb(220, 228, 231)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontSize": "11px",
+      "fontWeight": "600",
+      "contrastRatioApprox": 15.30658570579202,
+      "note": null
+    },
+    {
+      "selector": ".mode-control button.is-active",
+      "found": true,
+      "text": "实体",
+      "color": "rgb(240, 212, 159)",
+      "backgroundColor": "rgba(217, 177, 111, 0.12)",
+      "backgroundImage": "none",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "contrastRatioApprox": 11.471903188380999,
+      "note": null
+    },
+    {
+      "selector": ".preset-row button.is-active",
+      "found": true,
+      "text": "<1> 轴测",
+      "color": "rgb(230, 202, 152)",
+      "backgroundColor": "rgba(217, 177, 111, 0.1)",
+      "backgroundImage": "none",
+      "fontSize": "8px",
+      "fontWeight": "500",
+      "contrastRatioApprox": 10.552839301529936,
+      "note": null
+    },
+    {
+      "selector": ".part-label",
+      "found": false
+    },
+    {
+      "selector": ".engine-label",
+      "found": false
+    },
+    {
+      "selector": ".mobile-panel-toggle",
+      "found": true,
+      "text": "☰ 控制",
+      "color": "rgb(184, 199, 205)",
+      "backgroundColor": "rgba(8, 15, 19, 0.88)",
+      "backgroundImage": "none",
+      "fontSize": "10px",
+      "fontWeight": "500",
+      "contrastRatioApprox": 11.142215092701043,
+      "note": null
+    },
+    {
+      "selector": ".cylinder-card strong",
+      "found": true,
+      "text": "压缩 · COMPRESSION",
+      "color": "rgb(211, 218, 222)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontSize": "9px",
+      "fontWeight": "700",
+      "contrastRatioApprox": 13.952688678516902,
+      "note": null
+    },
+    {
+      "selector": ".interaction-hint",
+      "found": true,
+      "text": "左键旋转右键平移滚轮缩放点击检查",
+      "color": "rgb(94, 107, 114)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontSize": "8px",
+      "fontWeight": "400",
+      "contrastRatioApprox": 3.5902964263527317,
+      "note": null
+    },
+    {
+      "selector": ".inspector dd",
+      "found": false
+    }
+  ],
+  "focus": {
+    "tag": "button",
+    "id": null,
+    "classes": "ui-button",
+    "text": "X-RAY",
+    "dataValue": "xray",
+    "outlineStyle": "none",
+    "outlineWidth": "3px",
+    "outlineColor": "rgb(118, 131, 138)",
+    "boxShadow": "none",
+    "borderColor": "rgba(191, 214, 226, 0.15)",
+    "rect": {
+      "x": 104.328125,
+      "y": 354,
+      "width": 71.328125,
+      "height": 34
+    }
+  }
+}

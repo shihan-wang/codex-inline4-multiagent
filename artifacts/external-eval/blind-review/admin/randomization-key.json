@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "seed": 20260831,
+  "warning": "ADMIN ONLY — do not provide this file to participants.",
+  "mapping": {
+    "MODEL-R": {
+      "version": "v2",
+      "commit": "12472172925ec3108d096f2402a48e3f7939931b"
+    },
+    "MODEL-K": {
+      "version": "v3",
+      "commit": "7e5ea916a115dcef1bf3ba467a31b78c6206c612"
+    }
+  },
+  "assignments": [
+    {
+      "participantId": "P01",
+      "first": "MODEL-R",
+      "second": "MODEL-K"
+    },
+    {
+      "participantId": "P02",
+      "first": "MODEL-K",
+      "second": "MODEL-R"
+    },
+    {
+      "participantId": "P03",
+      "first": "MODEL-R",
+      "second": "MODEL-K"
+    },
+    {
+      "participantId": "P04",
+      "first": "MODEL-K",
+      "second": "MODEL-R"
+    },
+    {
+      "participantId": "P05",
+      "first": "MODEL-R",
+      "second": "MODEL-K"
+    },
+    {
+      "participantId": "P06",
+      "first": "MODEL-K",
+      "second": "MODEL-R"
+    },
+    {
+      "participantId": "P07",
+      "first": "MODEL-R",
+      "second": "MODEL-K"
+    },
+    {
+      "participantId": "P08",
+      "first": "MODEL-K",
+      "second": "MODEL-R"
+    },
+    {
+      "participantId": "P09",
+      "first": "MODEL-R",
+      "second": "MODEL-K"
+    },
+    {
+      "participantId": "P10",
+      "first": "MODEL-K",
+      "second": "MODEL-R"
+    },
+    {
+      "participantId": "P11",
+      "first": "MODEL-R",
+      "second": "MODEL-K"
+    },
+    {
+      "participantId": "P12",
+      "first": "MODEL-K",
+      "second": "MODEL-R"
+    }
+  ],
+  "copiedFiles": [
+    {
+      "code": "MODEL-R",
+      "kind": "image",
+      "relativePath": "materials/MODEL-R/images/view-01-isometric.png",
+      "sha256": "18b3dd2c298b7d40bfac9c0584acd5677ecdc9d169709ce587497f0d0e60be35"
+    },
+    {
+      "code": "MODEL-R",
+      "kind": "image",
+      "relativePath": "materials/MODEL-R/images/view-02-front.png",
+      "sha256": "c78d006ec65130c30e9101348d8c2c8e5c4a075d29c10e793c63635bd227d96e"
+    },
+    {
+      "code": "MODEL-R",
+      "kind": "image",
+      "relativePath": "materials/MODEL-R/images/view-03-side.png",
+      "sha256": "062ec064fc4b611be4171d2ede52dad162363073e342b5af30df4270e8531c3a"
+    },
+    {
+      "code": "MODEL-R",
+      "kind": "image",
+      "relativePath": "materials/MODEL-R/images/view-04-top.png",
+      "sha256": "f284b9a83297148725189e532526853bc0c1e17b5fa5a89492d75f698c1011e8"
+    },
+    {
+      "code": "MODEL-R",
+      "kind": "image",
+      "relativePath": "materials/MODEL-R/images/view-05-crank.png",
+      "sha256": "d4a752a86958fabae107ccd767d2ca4b1cc48b6cc7169d8d2f734c24f62018a9"
+    },
+    {
+      "code": "MODEL-R",
+      "kind": "image",
+      "relativePath": "materials/MODEL-R/images/view-06-combustion.png",
+      "sha256": "0f037a0a76049484bc4683f042baf5837c4eaac3b1d911c829955a79d90110a3"
+    },
+    {
+      "code": "MODEL-R",
+      "kind": "app",
+      "relativePath": "materials/MODEL-R/app/assets/index-Cs4Vhrp2.js",
+      "sha256": "a171243b214f0550ac9f4c01eabac994d8aec144f587aa103500754fb5379a17"
+    },
+    {
+      "code": "MODEL-R",
+      "kind": "app",
+      "relativePath": "materials/MODEL-R/app/assets/index-Cw4I45Jc.css",
+      "sha256": "6c8100585879de577d6c1aa5e3329584ba6bf20ffbb27005bf1a76190449da5d"
+    },
+    {
+      "code": "MODEL-R",
+      "kind": "app",
+      "relativePath": "materials/MODEL-R/app/index.html",
+      "sha256": "03ef2e3d78cd1fd523f4198969d8e15a499d4635a87f5c3912e64e3b3c1d15c7"
+    },
+    {
+      "code": "MODEL-K",
+      "kind": "image",
+      "relativePath": "materials/MODEL-K/images/view-01-isometric.png",
+      "sha256": "78ec99f4ee9d9060a4e39b4391e323ca3f1b8c003494aad01e35f9f9c5633e9c"
+    },
+    {
+      "code": "MODEL-K",
+      "kind": "image",
+      "relativePath": "materials/MODEL-K/images/view-02-front.png",
+      "sha256": "132570a07975b147d05814b9c4c6cf7a629f8842b7fa0ebc098c3357e6fa8fa6"
+    },
+    {
+      "code": "MODEL-K",
+      "kind": "image",
+      "relativePath": "materials/MODEL-K/images/view-03-side.png",
+      "sha256": "9b4a0be1eb97fdff0e27fb22f9a95d1ef34266273c45d508658843cbc8a615bc"
+    },
+    {
+      "code": "MODEL-K",
+      "kind": "image",
+      "relativePath": "materials/MODEL-K/images/view-04-top.png",
+      "sha256": "01f76d0b44d06dec2477b7912005c39075febaab3a598b105a3cefe6a4bb0769"
+    },
+    {
+      "code": "MODEL-K",
+      "kind": "image",
+      "relativePath": "materials/MODEL-K/images/view-05-crank.png",
+      "sha256": "8dcaefe4d206676f60448c4ceb8e9523c387630349e8408c8e2a42f4a4381bed"
+    },
+    {
+      "code": "MODEL-K",
+      "kind": "image",
+      "relativePath": "materials/MODEL-K/images/view-06-combustion.png",
+      "sha256": "3a122b4ac26aa92ac4398527019ba55144e8e171982a69baf2b89b7865183a12"
+    },
+    {
+      "code": "MODEL-K",
+      "kind": "app",
+      "relativePath": "materials/MODEL-K/app/assets/index-COQYoR4A.css",
+      "sha256": "a78b53cc28fad0d9839f1fdeb710b49ee718bc5a172634f151558e0cc8bfda81"
+    },
+    {
+      "code": "MODEL-K",
+      "kind": "app",
+      "relativePath": "materials/MODEL-K/app/assets/index-DxpAzD-7.js",
+      "sha256": "5f9a7ffb8dc2b6d4199282b515410e457fcd1320460787c4e9cefe704a32f73a"
+    },
+    {
+      "code": "MODEL-K",
+      "kind": "app",
+      "relativePath": "materials/MODEL-K/app/index.html",
+      "sha256": "40258549c455c72d217e37b2cc4108f5fb0d7891373dae7e47efdf227d5c6d1c"
+    }
+  ]
+}

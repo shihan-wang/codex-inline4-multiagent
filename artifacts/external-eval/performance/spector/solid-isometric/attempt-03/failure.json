@@ -1,0 +1,9 @@
+{
+  "scene": "solid-isometric",
+  "attempt": "attempt-03",
+  "status": "not-measured",
+  "startedAt": "2026-08-31T08:31:44.104Z",
+  "finishedAt": "2026-08-31T08:32:14.274Z",
+  "error": "Error: Timed out waiting for production canvas and Spector initialization\n    at main (file:///D:/ComputePicture/codex-inline4-multiagent/evaluation/spector/run-spector-response-injection.mjs:231:33)",
+  "note": "Real Spector/Edge failure evidence retained; no synthetic capture substituted."
+}

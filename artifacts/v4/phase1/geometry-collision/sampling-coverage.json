@@ -1,0 +1,470 @@
+{
+  "generatedAt": "2026-08-31T14:05:43.097123+00:00",
+  "targetCommit": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+  "method": "Exact replay of frozen deterministic_surface_samples coordinate selection, then exact coordinate attribution to semantic crankshaft nodes.",
+  "summary": {
+    "semanticCrankshaftNodes": 44,
+    "coveredSemanticNodes": 18,
+    "uncoveredSemanticNodes": 26,
+    "selectedSamples": 48,
+    "ambiguousSamples": 0,
+    "roleCoverage": {
+      "main-journal-or-cheek": {
+        "nodes": 10,
+        "coveredNodes": 6,
+        "sampleAssignments": 8
+      },
+      "crankpin": {
+        "nodes": 4,
+        "coveredNodes": 1,
+        "sampleAssignments": 1
+      },
+      "counterweight-web": {
+        "nodes": 8,
+        "coveredNodes": 8,
+        "sampleAssignments": 31
+      },
+      "nose": {
+        "nodes": 1,
+        "coveredNodes": 1,
+        "sampleAssignments": 2
+      },
+      "damper": {
+        "nodes": 1,
+        "coveredNodes": 1,
+        "sampleAssignments": 5
+      },
+      "accessory-crank-pulley": {
+        "nodes": 1,
+        "coveredNodes": 1,
+        "sampleAssignments": 1
+      },
+      "timing-crank-sprocket": {
+        "nodes": 19,
+        "coveredNodes": 0,
+        "sampleAssignments": 0
+      }
+    }
+  },
+  "ambiguousSamples": [],
+  "nodes": [
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__001",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Mesh[0]",
+      "role": "main-journal-or-cheek",
+      "uniqueVertexCount": 66,
+      "sampleIndices": [],
+      "covered": false
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__002",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Mesh[1]",
+      "role": "main-journal-or-cheek",
+      "uniqueVertexCount": 58,
+      "sampleIndices": [
+        44
+      ],
+      "covered": true
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__003",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Mesh[2]",
+      "role": "main-journal-or-cheek",
+      "uniqueVertexCount": 66,
+      "sampleIndices": [
+        38
+      ],
+      "covered": true
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__004",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Mesh[3]",
+      "role": "main-journal-or-cheek",
+      "uniqueVertexCount": 58,
+      "sampleIndices": [],
+      "covered": false
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__005",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Mesh[4]",
+      "role": "main-journal-or-cheek",
+      "uniqueVertexCount": 66,
+      "sampleIndices": [
+        33,
+        34
+      ],
+      "covered": true
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__006",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Mesh[5]",
+      "role": "main-journal-or-cheek",
+      "uniqueVertexCount": 58,
+      "sampleIndices": [],
+      "covered": false
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__007",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Mesh[6]",
+      "role": "main-journal-or-cheek",
+      "uniqueVertexCount": 66,
+      "sampleIndices": [],
+      "covered": false
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__008",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Mesh[7]",
+      "role": "main-journal-or-cheek",
+      "uniqueVertexCount": 58,
+      "sampleIndices": [
+        31
+      ],
+      "covered": true
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__009",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Mesh[8]",
+      "role": "main-journal-or-cheek",
+      "uniqueVertexCount": 66,
+      "sampleIndices": [
+        1,
+        6
+      ],
+      "covered": true
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__010",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Mesh[9]",
+      "role": "main-journal-or-cheek",
+      "uniqueVertexCount": 58,
+      "sampleIndices": [
+        39
+      ],
+      "covered": true
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__011",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[10]/Mesh[0]",
+      "role": "crankpin",
+      "uniqueVertexCount": 66,
+      "sampleIndices": [],
+      "covered": false
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__012",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[10]/Mesh[1]",
+      "role": "counterweight-web",
+      "uniqueVertexCount": 228,
+      "sampleIndices": [
+        2,
+        9,
+        11,
+        20,
+        35,
+        36
+      ],
+      "covered": true
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__013",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[10]/Mesh[2]",
+      "role": "counterweight-web",
+      "uniqueVertexCount": 228,
+      "sampleIndices": [
+        22,
+        30,
+        32,
+        45
+      ],
+      "covered": true
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__014",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[11]/Mesh[0]",
+      "role": "crankpin",
+      "uniqueVertexCount": 66,
+      "sampleIndices": [],
+      "covered": false
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__015",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[11]/Mesh[1]",
+      "role": "counterweight-web",
+      "uniqueVertexCount": 228,
+      "sampleIndices": [
+        3,
+        7,
+        14,
+        29
+      ],
+      "covered": true
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__016",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[11]/Mesh[2]",
+      "role": "counterweight-web",
+      "uniqueVertexCount": 228,
+      "sampleIndices": [
+        12,
+        26,
+        40
+      ],
+      "covered": true
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__017",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[12]/Mesh[0]",
+      "role": "crankpin",
+      "uniqueVertexCount": 66,
+      "sampleIndices": [
+        37
+      ],
+      "covered": true
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__018",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[12]/Mesh[1]",
+      "role": "counterweight-web",
+      "uniqueVertexCount": 228,
+      "sampleIndices": [
+        16,
+        23,
+        47
+      ],
+      "covered": true
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__019",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[12]/Mesh[2]",
+      "role": "counterweight-web",
+      "uniqueVertexCount": 228,
+      "sampleIndices": [
+        8,
+        18,
+        43
+      ],
+      "covered": true
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__020",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[13]/Mesh[0]",
+      "role": "crankpin",
+      "uniqueVertexCount": 66,
+      "sampleIndices": [],
+      "covered": false
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__021",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[13]/Mesh[1]",
+      "role": "counterweight-web",
+      "uniqueVertexCount": 228,
+      "sampleIndices": [
+        10,
+        17,
+        41,
+        46
+      ],
+      "covered": true
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__022",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[13]/Mesh[2]",
+      "role": "counterweight-web",
+      "uniqueVertexCount": 228,
+      "sampleIndices": [
+        15,
+        19,
+        27,
+        28
+      ],
+      "covered": true
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__023",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Mesh[14]",
+      "role": "nose",
+      "uniqueVertexCount": 58,
+      "sampleIndices": [
+        21,
+        42
+      ],
+      "covered": true
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__024",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Mesh[15]",
+      "role": "damper",
+      "uniqueVertexCount": 82,
+      "sampleIndices": [
+        4,
+        5,
+        13,
+        24,
+        25
+      ],
+      "covered": true
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__025",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Mesh[17]",
+      "role": "accessory-crank-pulley",
+      "uniqueVertexCount": 74,
+      "sampleIndices": [
+        0
+      ],
+      "covered": true
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__026",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[18]/Mesh[0]",
+      "role": "timing-crank-sprocket",
+      "uniqueVertexCount": 74,
+      "sampleIndices": [],
+      "covered": false
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__027__instance-001",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[18]/Mesh[1]",
+      "role": "timing-crank-sprocket",
+      "uniqueVertexCount": 8,
+      "sampleIndices": [],
+      "covered": false
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__028__instance-002",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[18]/Mesh[1]",
+      "role": "timing-crank-sprocket",
+      "uniqueVertexCount": 8,
+      "sampleIndices": [],
+      "covered": false
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__029__instance-003",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[18]/Mesh[1]",
+      "role": "timing-crank-sprocket",
+      "uniqueVertexCount": 8,
+      "sampleIndices": [],
+      "covered": false
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__030__instance-004",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[18]/Mesh[1]",
+      "role": "timing-crank-sprocket",
+      "uniqueVertexCount": 8,
+      "sampleIndices": [],
+      "covered": false
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__031__instance-005",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[18]/Mesh[1]",
+      "role": "timing-crank-sprocket",
+      "uniqueVertexCount": 8,
+      "sampleIndices": [],
+      "covered": false
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__032__instance-006",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[18]/Mesh[1]",
+      "role": "timing-crank-sprocket",
+      "uniqueVertexCount": 8,
+      "sampleIndices": [],
+      "covered": false
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__033__instance-007",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[18]/Mesh[1]",
+      "role": "timing-crank-sprocket",
+      "uniqueVertexCount": 8,
+      "sampleIndices": [],
+      "covered": false
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__034__instance-008",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[18]/Mesh[1]",
+      "role": "timing-crank-sprocket",
+      "uniqueVertexCount": 8,
+      "sampleIndices": [],
+      "covered": false
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__035__instance-009",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[18]/Mesh[1]",
+      "role": "timing-crank-sprocket",
+      "uniqueVertexCount": 8,
+      "sampleIndices": [],
+      "covered": false
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__036__instance-010",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[18]/Mesh[1]",
+      "role": "timing-crank-sprocket",
+      "uniqueVertexCount": 8,
+      "sampleIndices": [],
+      "covered": false
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__037__instance-011",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[18]/Mesh[1]",
+      "role": "timing-crank-sprocket",
+      "uniqueVertexCount": 8,
+      "sampleIndices": [],
+      "covered": false
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__038__instance-012",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[18]/Mesh[1]",
+      "role": "timing-crank-sprocket",
+      "uniqueVertexCount": 8,
+      "sampleIndices": [],
+      "covered": false
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__039__instance-013",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[18]/Mesh[1]",
+      "role": "timing-crank-sprocket",
+      "uniqueVertexCount": 8,
+      "sampleIndices": [],
+      "covered": false
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__040__instance-014",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[18]/Mesh[1]",
+      "role": "timing-crank-sprocket",
+      "uniqueVertexCount": 8,
+      "sampleIndices": [],
+      "covered": false
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__041__instance-015",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[18]/Mesh[1]",
+      "role": "timing-crank-sprocket",
+      "uniqueVertexCount": 8,
+      "sampleIndices": [],
+      "covered": false
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__042__instance-016",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[18]/Mesh[1]",
+      "role": "timing-crank-sprocket",
+      "uniqueVertexCount": 8,
+      "sampleIndices": [],
+      "covered": false
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__043__instance-017",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[18]/Mesh[1]",
+      "role": "timing-crank-sprocket",
+      "uniqueVertexCount": 8,
+      "sampleIndices": [],
+      "covered": false
+    },
+    {
+      "semanticName": "dynamic-mechanism__crankshaft__044__instance-018",
+      "sourcePath": "procedural-inline-four-diesel[0]/crankshaft[7]/Group[18]/Mesh[1]",
+      "role": "timing-crank-sprocket",
+      "uniqueVertexCount": 8,
+      "sampleIndices": [],
+      "covered": false
+    }
+  ]
+}

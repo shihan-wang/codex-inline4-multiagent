@@ -1,0 +1,312 @@
+{
+  "textResize200": {
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "devicePixelRatio": 1
+    },
+    "document": {
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "clientHeight": 720,
+      "scrollHeight": 720
+    },
+    "horizontalDocumentOverflow": false,
+    "verticalDocumentOverflow": false,
+    "reachable": {
+      "play": 1,
+      "modes": 3,
+      "presets": 7,
+      "toggles": 3,
+      "reset": 1,
+      "mobileDrawers": 0
+    },
+    "clippedText": [
+      {
+        "tag": "strong",
+        "classes": null,
+        "text": "INLINE · 4D",
+        "client": [
+          362,
+          46
+        ],
+        "scroll": [
+          362,
+          56
+        ]
+      }
+    ],
+    "activeDrawers": [
+      "false",
+      "false"
+    ]
+  },
+  "zoomEquivalent200Initial": {
+    "viewport": {
+      "width": 640,
+      "height": 720,
+      "devicePixelRatio": 1
+    },
+    "document": {
+      "clientWidth": 640,
+      "scrollWidth": 640,
+      "clientHeight": 720,
+      "scrollHeight": 720
+    },
+    "horizontalDocumentOverflow": false,
+    "verticalDocumentOverflow": false,
+    "reachable": {
+      "play": 0,
+      "modes": 0,
+      "presets": 7,
+      "toggles": 0,
+      "reset": 1,
+      "mobileDrawers": 2
+    },
+    "clippedText": [
+      {
+        "tag": "strong",
+        "classes": null,
+        "text": "INLINE · 4D",
+        "client": [
+          149,
+          20
+        ],
+        "scroll": [
+          149,
+          24
+        ]
+      }
+    ],
+    "activeDrawers": [
+      "false",
+      "false"
+    ]
+  },
+  "zoomEquivalent200Left": {
+    "viewport": {
+      "width": 640,
+      "height": 720,
+      "devicePixelRatio": 1
+    },
+    "document": {
+      "clientWidth": 640,
+      "scrollWidth": 640,
+      "clientHeight": 720,
+      "scrollHeight": 720
+    },
+    "horizontalDocumentOverflow": false,
+    "verticalDocumentOverflow": false,
+    "reachable": {
+      "play": 1,
+      "modes": 3,
+      "presets": 7,
+      "toggles": 3,
+      "reset": 1,
+      "mobileDrawers": 2
+    },
+    "clippedText": [
+      {
+        "tag": "strong",
+        "classes": null,
+        "text": "INLINE · 4D",
+        "client": [
+          149,
+          20
+        ],
+        "scroll": [
+          149,
+          24
+        ]
+      },
+      {
+        "tag": "label",
+        "classes": "slider-group",
+        "text": "转速ENGINE SPEED1200 rpm",
+        "client": [
+          280,
+          44
+        ],
+        "scroll": [
+          280,
+          48
+        ]
+      },
+      {
+        "tag": "label",
+        "classes": "slider-group",
+        "text": "负载ENGINE LOAD42%",
+        "client": [
+          280,
+          44
+        ],
+        "scroll": [
+          280,
+          48
+        ]
+      }
+    ],
+    "activeDrawers": [
+      "true",
+      "false"
+    ]
+  },
+  "reflow320Initial": {
+    "viewport": {
+      "width": 320,
+      "height": 720,
+      "devicePixelRatio": 1
+    },
+    "document": {
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "clientHeight": 720,
+      "scrollHeight": 720
+    },
+    "horizontalDocumentOverflow": false,
+    "verticalDocumentOverflow": false,
+    "reachable": {
+      "play": 0,
+      "modes": 0,
+      "presets": 7,
+      "toggles": 0,
+      "reset": 1,
+      "mobileDrawers": 2
+    },
+    "clippedText": [
+      {
+        "tag": "strong",
+        "classes": null,
+        "text": "INLINE · 4D",
+        "client": [
+          145,
+          40
+        ],
+        "scroll": [
+          145,
+          44
+        ]
+      }
+    ],
+    "activeDrawers": [
+      "false",
+      "false"
+    ]
+  },
+  "reflow320Left": {
+    "viewport": {
+      "width": 320,
+      "height": 720,
+      "devicePixelRatio": 1
+    },
+    "document": {
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "clientHeight": 720,
+      "scrollHeight": 720
+    },
+    "horizontalDocumentOverflow": false,
+    "verticalDocumentOverflow": false,
+    "reachable": {
+      "play": 1,
+      "modes": 3,
+      "presets": 7,
+      "toggles": 3,
+      "reset": 1,
+      "mobileDrawers": 2
+    },
+    "clippedText": [
+      {
+        "tag": "strong",
+        "classes": null,
+        "text": "INLINE · 4D",
+        "client": [
+          145,
+          40
+        ],
+        "scroll": [
+          145,
+          44
+        ]
+      },
+      {
+        "tag": "label",
+        "classes": "slider-group",
+        "text": "转速ENGINE SPEED1200 rpm",
+        "client": [
+          226,
+          44
+        ],
+        "scroll": [
+          226,
+          48
+        ]
+      },
+      {
+        "tag": "label",
+        "classes": "slider-group",
+        "text": "负载ENGINE LOAD42%",
+        "client": [
+          226,
+          44
+        ],
+        "scroll": [
+          226,
+          48
+        ]
+      }
+    ],
+    "activeDrawers": [
+      "true",
+      "false"
+    ]
+  },
+  "reflow320Right": {
+    "viewport": {
+      "width": 320,
+      "height": 720,
+      "devicePixelRatio": 1
+    },
+    "document": {
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "clientHeight": 720,
+      "scrollHeight": 720
+    },
+    "horizontalDocumentOverflow": false,
+    "verticalDocumentOverflow": false,
+    "reachable": {
+      "play": 0,
+      "modes": 0,
+      "presets": 7,
+      "toggles": 0,
+      "reset": 1,
+      "mobileDrawers": 2
+    },
+    "clippedText": [
+      {
+        "tag": "strong",
+        "classes": null,
+        "text": "INLINE · 4D",
+        "client": [
+          145,
+          40
+        ],
+        "scroll": [
+          145,
+          44
+        ]
+      }
+    ],
+    "activeDrawers": [
+      "false",
+      "true"
+    ]
+  },
+  "methodology": {
+    "textResize200": "Runtime-only doubling of computed font sizes on semantic text elements; product source is unchanged.",
+    "zoomEquivalent200": "640 CSS px viewport, equivalent to a 1280 px viewport at 200% browser zoom for responsive-layout evaluation.",
+    "reflow400": "320 CSS px viewport used for the protocol 400%/320 CSS px reflow condition."
+  },
+  "capturedAt": "2026-08-31T13:49:13.371Z"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "inline4-external-performance-evaluation",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "lighthouse": "^12.8.2",
+    "spectorjs": "^0.9.30",
+    "web-vitals": "^5.1.0"
+  }
+}

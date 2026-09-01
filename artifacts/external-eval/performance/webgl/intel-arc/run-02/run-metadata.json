@@ -1,0 +1,14 @@
+{
+  "token": "intel-arc-run-02",
+  "startedAtUtc": "2026-08-31T08:21:48.124Z",
+  "endedAtUtc": "2026-08-31T08:22:50.848Z",
+  "durationMs": 62724,
+  "command": "node run-webgl.mjs (intel-arc-run-02)",
+  "exitCode": 0,
+  "failure": null,
+  "gitHead": "38c00417812fa87ca76b520c17c978a14cbd8ad2",
+  "targetTagPeeled": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+  "url": "http://127.0.0.1:16310/",
+  "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "valid": true
+}

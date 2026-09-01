@@ -1,0 +1,241 @@
+{
+  "runId": "run-01",
+  "generatedAt": "2026-08-31T13:51:03.229Z",
+  "files": [
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\accessibility-run-01-summary.json",
+      "bytes": 35010,
+      "sha256": "d9e10e68765ceeae80a82593e53cd30c083892e6b0dc409f7c61b524ba39c68d"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\desktop-exploded\\run-01\\ax-tree.json",
+      "bytes": 239368,
+      "sha256": "5f484521d45f868f3d7a94b5d80631ed5f16b02b7e56098e70d4d170e6d8ba93"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\desktop-exploded\\run-01\\axe-result.json",
+      "bytes": 372168,
+      "sha256": "a797551158bae4a1a630f4a31f23847d31eb14a290ffcffe2e8eba393ceec1a8"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\desktop-exploded\\run-01\\screenshot.png",
+      "bytes": 471862,
+      "sha256": "fba639a1f11ea8b40e41f9c341c3a22dfe2e787219af90dae1ebf8a8a1f6c60d"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\desktop-exploded\\run-01\\state-metadata.json",
+      "bytes": 6391,
+      "sha256": "00d67e72e0142860217d3b253055252dd509b8d81df9b0cbbe16956e472b43a5"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\desktop-paused\\run-01\\ax-tree.json",
+      "bytes": 239360,
+      "sha256": "2b9e5c01be48d9543b4ea98c05acb0675320ce257c1a7e921491dd368233363a"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\desktop-paused\\run-01\\axe-result.json",
+      "bytes": 371699,
+      "sha256": "617ea2aae4c51af89cdaf3871de27b6b1fc83b2f29451851eb002c333de63f20"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\desktop-paused\\run-01\\screenshot.png",
+      "bytes": 452699,
+      "sha256": "7efee958f6cb1cb7e9c7cf24d8498a6f83be8a7f5a25343418f02b24ac724c61"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\desktop-paused\\run-01\\state-metadata.json",
+      "bytes": 6379,
+      "sha256": "7b91d0f101832e3f35d9fc380e9ec1b5d460d6d963244e9b6609c7aa02a34ca1"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\desktop-section\\run-01\\ax-tree.json",
+      "bytes": 239369,
+      "sha256": "c27c37c6b81030bf715a28cfb64cef336aa705322478202f8133ebf5e85c3b0b"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\desktop-section\\run-01\\axe-result.json",
+      "bytes": 372412,
+      "sha256": "1b74621658fe824a26b633025d71e14566613e5e9bf070ce2f4dc4e12df73776"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\desktop-section\\run-01\\screenshot.png",
+      "bytes": 466776,
+      "sha256": "734fad663b1b27460fbe18dcbd27fdab25cbfd96f9fedb7f6ae854f6507f40e9"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\desktop-section\\run-01\\state-metadata.json",
+      "bytes": 6393,
+      "sha256": "a034202671fbd7347ad7c220eab371b55a7e4f10b42bcc1c0efc653ba08e1331"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\desktop-selected\\run-01\\ax-tree.json",
+      "bytes": 260526,
+      "sha256": "1a59bf424b86708532bb70767643fc0699289ab1ca53b1ed6cd96d3cabd7dc60"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\desktop-selected\\run-01\\axe-result.json",
+      "bytes": 395987,
+      "sha256": "88d4fc275887cfbf801da09ed087e931a1bf805f6691a4d6f18dc61d4a5ff41b"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\desktop-selected\\run-01\\screenshot.png",
+      "bytes": 477693,
+      "sha256": "f79d8ff20f69f51fdcdaa558303356fc3f6adf84ad85a4f36286ef241b48bbb2"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\desktop-selected\\run-01\\state-metadata.json",
+      "bytes": 6411,
+      "sha256": "2c01e61f487ae6faef8c3311051c2e8ec5a3166be8355ce00be3569380bb847d"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\desktop-solid\\run-01\\ax-tree.json",
+      "bytes": 237806,
+      "sha256": "c083a2afab491c3fba8662422929a12260f2b48d6725eb99f0ffdcb6cd5582ee"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\desktop-solid\\run-01\\axe-result.json",
+      "bytes": 372364,
+      "sha256": "9449770e85928e7bb50f0f18cf7c5bee9f9689b74f3dc9fd755096dc62202b41"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\desktop-solid\\run-01\\screenshot.png",
+      "bytes": 456395,
+      "sha256": "b8c728dcbd83f8b184326c288c38862ddaadd5a5065acf8552200673af4d66b1"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\desktop-solid\\run-01\\state-metadata.json",
+      "bytes": 6389,
+      "sha256": "b910b0478d4082f0601cb6774f54c48ebda32e39ac7dbe40989a5a36823508bb"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\desktop-xray\\run-01\\ax-tree.json",
+      "bytes": 238432,
+      "sha256": "977be97ca655f8753fbe325cf5ace5b625d425bb7658decc47f40d00d3df8204"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\desktop-xray\\run-01\\axe-result.json",
+      "bytes": 372392,
+      "sha256": "4cd1835d3257504d7c50f27447933ffcef915e476d1943e71cb6c2948949a054"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\desktop-xray\\run-01\\screenshot.png",
+      "bytes": 523919,
+      "sha256": "bfaf3504ca14fef06a262143b9457cddf2e943c1d892894cd8c3b4207adc93e9"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\desktop-xray\\run-01\\state-metadata.json",
+      "bytes": 6387,
+      "sha256": "1e5373b5f01aefb284c002a53be0d44083f88b751995360d14ba549f8d432d05"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\narrow-initial\\run-01\\ax-tree.json",
+      "bytes": 112648,
+      "sha256": "0441ea3cbe8ab0fc2caf4445a312ffac496d42823feae844b832633510aaedb7"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\narrow-initial\\run-01\\axe-result.json",
+      "bytes": 223369,
+      "sha256": "7e3b05cf300d0df95e804569ff540d6dfcc72431462ccc1abfe10ec467a2d5ec"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\narrow-initial\\run-01\\screenshot.png",
+      "bytes": 224169,
+      "sha256": "e36dab98b5992ac597418153913a6d92fad242179712cd6dcd358bb507c457da"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\narrow-initial\\run-01\\state-metadata.json",
+      "bytes": 4083,
+      "sha256": "fc18a8eaa9c2756bd216711aab48994cf8acdf05bd7be4a8c7441c67385784f2"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\narrow-left-drawer\\run-01\\ax-tree.json",
+      "bytes": 156838,
+      "sha256": "b4cfc2d34f4ca2ca432a401643735497ddd4292bdfd5fcadab66ccd1e867ce39"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\narrow-left-drawer\\run-01\\axe-result.json",
+      "bytes": 292854,
+      "sha256": "6222dc4774224212fbf94ece0e001f4d73d1a90828ec14faf7aa213eba795cf7"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\narrow-left-drawer\\run-01\\screenshot.png",
+      "bytes": 191358,
+      "sha256": "019f2372f0e70f98f6d65534aa4b0b285b0ddf74ed888c79ae0aaf0db42b4677"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\narrow-left-drawer\\run-01\\state-metadata.json",
+      "bytes": 7114,
+      "sha256": "d41f501b36d126be0b1cf7ee6347a52e151ebbe03fcd71f1d60338f5273739a2"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\narrow-right-drawer\\run-01\\ax-tree.json",
+      "bytes": 177063,
+      "sha256": "b59d4c9334236cf1cff8e44ad9e7693b34efaf8bbd187a1eddfcec1d096e9642"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\narrow-right-drawer\\run-01\\axe-result.json",
+      "bytes": 299426,
+      "sha256": "198ff8060de7bb23ac7fd0a80a6bc993230e910c5afcb21100e2421beb7f47bd"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\narrow-right-drawer\\run-01\\screenshot.png",
+      "bytes": 212245,
+      "sha256": "082b1e2803047c4fe41521cd19481adbc3af651e1fa74251e7b0a9a66b2baa33"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\axe\\narrow-right-drawer\\run-01\\state-metadata.json",
+      "bytes": 4087,
+      "sha256": "a7175f08ea32e22d174bb452d5b3f3110378cbf205c4ec7f18fd31913c6aa081"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\manual\\run-01\\contrast-samples.json",
+      "bytes": 6738,
+      "sha256": "5ab39248910e0a74a7e0d44283bdf910092a9c4b631f2b9a08c4115846474e09"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\manual\\run-01\\keyboard-focus.json",
+      "bytes": 18240,
+      "sha256": "fef44975605b073ff16a1a04ecd06ec291e97fac3ef4f0dd5012f7841c70a27d"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\manual\\run-01\\keyboard-focus.png",
+      "bytes": 454009,
+      "sha256": "3fccaa2702c4ea25c3a4a8e3c2ed5799d99830660da03ca03ddb1bfd26747a9f"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\manual\\run-01\\reflow-320-initial.png",
+      "bytes": 173548,
+      "sha256": "44afd6972e68311358e747bd1974af2e980dc5dd86392bc230c2b31725cb1c8d"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\manual\\run-01\\reflow-320-left.png",
+      "bytes": 147415,
+      "sha256": "a371d539bae400a06b165f9d0327e2bc8aeb9e4b1b92851b457f36ef86053eab"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\manual\\run-01\\reflow-320-right.png",
+      "bytes": 164339,
+      "sha256": "59c8132208bdd311a60307fe493f1ee390f8e4a8859c1b89706cf34c44b73e50"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\manual\\run-01\\resize-reflow.json",
+      "bytes": 6045,
+      "sha256": "b2dcda47203d62f1b0a8288940a2e7d46bbde8a00ca61c3376b97543b2154d7f"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\manual\\run-01\\text-resize-200.png",
+      "bytes": 521364,
+      "sha256": "1b69d2646dbf4a0220f54e8c0de0bbc696b9d46a130f97b4dd67ae6245d96fb8"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\manual\\run-01\\zoom-equivalent-200-initial.png",
+      "bytes": 273842,
+      "sha256": "5f1b6232f3a6546167ae6c77dd1796a5868ad280b461357a7d319e827894a5b9"
+    },
+    {
+      "path": "artifacts\\v4\\phase1\\accessibility\\reproduction\\accessibility\\manual\\run-01\\zoom-equivalent-200-left.png",
+      "bytes": 257200,
+      "sha256": "090d386caaab9cd3a361f2e5fdcbdfe0ee13be64914d71d4b2fd502d0e06a0b0"
+    }
+  ]
+}

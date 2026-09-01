@@ -1,0 +1,9 @@
+{
+  "scene": "section-crank",
+  "attempt": "attempt-01",
+  "status": "not-measured",
+  "startedAt": "2026-08-31T08:24:17.701Z",
+  "finishedAt": "2026-08-31T08:24:47.775Z",
+  "error": "Error: Timed out waiting for production canvas and Spector initialization\n    at main (file:///D:/ComputePicture/codex-inline4-multiagent/evaluation/spector/run-spector.mjs:265:28)",
+  "note": "Real Spector/Edge failure evidence retained; no synthetic capture substituted."
+}

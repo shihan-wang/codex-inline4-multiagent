@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "targetCommit": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+  "targetTag": "v3-model-final",
+  "randomSeed": 20260831,
+  "scoreWeights": {
+    "performance": 25,
+    "accessibility": 20,
+    "geometryAndMechanics": 35,
+    "humanBlindReview": 20
+  },
+  "runs": {
+    "lighthouseDesktop": 5,
+    "lighthouseMobile": 5,
+    "webVitalsDesktop": 5,
+    "webVitalsMobile": 5,
+    "webglIntelArc": 3,
+    "webglSwiftShader": 3,
+    "mechanicalAnglesInclusive": [0, 720],
+    "mechanicalStepDegrees": 1
+  },
+  "lighthouseOrder": ["D1", "M1", "M2", "D2", "D3", "M3", "M4", "D4", "D5", "M5"],
+  "coreWebVitalsGood": {
+    "lcpMs": 2500,
+    "inpMs": 200,
+    "cls": 0.1
+  },
+  "sceneReady": {
+    "desktopFullScoreMs": 2500,
+    "mobileFullScoreMs": 4000
+  },
+  "webgl": {
+    "warmupSeconds": 5,
+    "minimumFrames": 600,
+    "minimumDurationSeconds": 30,
+    "hardwareP95FullScoreMs": 16.7,
+    "swiftshaderP95FullScoreMs": 150
+  },
+  "humanReview": {
+    "minimumValidParticipants": 8,
+    "recommendedParticipants": 12,
+    "visualScaleMinimum": 1,
+    "visualScaleMaximum": 7,
+    "susFullScoreThreshold": 85
+  },
+  "missingDataPolicy": "Do not publish or rescale the 100-point total when blind human review or NVDA data is missing."
+}

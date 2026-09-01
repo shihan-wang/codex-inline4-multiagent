@@ -1,0 +1,29 @@
+command: cmd.exe /d /s /c npm run build
+startedAtUtc: 2026-08-31T13:08:17.003Z
+finishedAtUtc: 2026-08-31T13:08:24.765Z
+durationMs: 7762
+exitCode: 0
+signal: 
+
+--- stdout ---
+
+> codex-inline4-multiagent@1.0.0 build
+> tsc --noEmit && vite build
+
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 21 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.91 kB │ gzip:   0.59 kB
+dist/assets/index-COQYoR4A.css   11.98 kB │ gzip:   3.47 kB
+dist/assets/index-DxpAzD-7.js   608.48 kB │ gzip: 160.64 kB
+✓ built in 4.21s
+
+--- stderr ---
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+

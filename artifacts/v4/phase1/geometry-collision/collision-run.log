@@ -1,0 +1,7 @@
+{
+  "sampleCount": 721,
+  "collisionAngleCount": 721,
+  "collisionPairSampleCount": 7561,
+  "maximumMeasuredPenetrationMm": 107.0,
+  "nonWhitelistCollisionScoreOutOf8": 0
+}

@@ -1,0 +1,201 @@
+{
+  "runId": "run-01",
+  "generatedAt": "2026-08-31T19:02:22.035Z",
+  "files": [
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\accessibility-run-01-summary.json",
+      "bytes": 21622,
+      "sha256": "58b4342ad8ca4a8fab7e955e82d94d4d1b460d7dad3f072e759769b99d0b2a11"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\desktop-exploded\\run-01\\ax-tree.json",
+      "bytes": 279206,
+      "sha256": "1a2c8d00d0a9d191391ed03e531abe1fe92bd6d2fcb912675f71289d5202ee0e"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\desktop-exploded\\run-01\\axe-result.json",
+      "bytes": 470102,
+      "sha256": "022f767e375e8fa7ae60c1fb0090794a49847359e6a32a3f723ae018c658ec10"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\desktop-exploded\\run-01\\screenshot.png",
+      "bytes": 460649,
+      "sha256": "09331d226c470c5283374e03d99bc40355c55c9492b46acc995090d5917b9f1b"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\desktop-exploded\\run-01\\state-metadata.json",
+      "bytes": 8664,
+      "sha256": "b42d511e38c15761f9a2f3abac65353fc1e9b1ad0b32890be9ab0dd29dc0cce9"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\desktop-paused\\run-01\\ax-tree.json",
+      "bytes": 279199,
+      "sha256": "50a3839b03970fe31b7e67a2e575c4f512808bfd534677cf604b78dc35e5ba8b"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\desktop-paused\\run-01\\axe-result.json",
+      "bytes": 469289,
+      "sha256": "bc56cba63b4f5adf3ab6a8a5b1872a0649fc52dd0cd9c2833219c259ca881b18"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\desktop-paused\\run-01\\screenshot.png",
+      "bytes": 466697,
+      "sha256": "d3ad68641ef57aa298ef5d6f5626f09efe07d979902a522df5eacfb0bdadd9b5"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\desktop-paused\\run-01\\state-metadata.json",
+      "bytes": 8655,
+      "sha256": "3f0f7bedc300e21f65670e72ddeb800ff6104e821a374346a575b006b8fbdecf"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\desktop-section\\run-01\\ax-tree.json",
+      "bytes": 279207,
+      "sha256": "656394babc8bc565c1707610d7c37925f59d317315619e11bf71006e16b4d679"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\desktop-section\\run-01\\axe-result.json",
+      "bytes": 470062,
+      "sha256": "3af75d8df2f20d059e7cfdbd281c901405b4a74882bb2fab5a21f1543009ea07"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\desktop-section\\run-01\\screenshot.png",
+      "bytes": 469674,
+      "sha256": "ce980b3185337b3d8c428fb0e12974a33de309fe31b6da297f87dc523733b647"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\desktop-section\\run-01\\state-metadata.json",
+      "bytes": 8666,
+      "sha256": "08aca5475c578fcc7866974428e8256fa636bbfb2fe83da60bcb5396974518e8"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\desktop-selected\\run-01\\ax-tree.json",
+      "bytes": 300383,
+      "sha256": "541072f00b3ce0cc9f3f34cf655360b7b3f4e4c2c2ad235ff50797bad99d28a6"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\desktop-selected\\run-01\\axe-result.json",
+      "bytes": 489931,
+      "sha256": "0debe6c539de8e39b4051541d840bf4d8a626f40b21ae60eea5833685e324358"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\desktop-selected\\run-01\\screenshot.png",
+      "bytes": 473167,
+      "sha256": "7a517bb2966d816e399e5a8b68e5968acda41445cc663f8522c8fd26a56e23c8"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\desktop-selected\\run-01\\state-metadata.json",
+      "bytes": 8684,
+      "sha256": "af251726e41204743e964bdf06aec3a2419de2d45e8f684e2e227e830214ea37"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\desktop-solid\\run-01\\ax-tree.json",
+      "bytes": 277510,
+      "sha256": "cd780e7b02372f8d9791e6f95408e37a6a16e57af71204f6e9bc33b7f330baa0"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\desktop-solid\\run-01\\axe-result.json",
+      "bytes": 470062,
+      "sha256": "537f5a72f46e6186356586683b9cef2b882b09d9b2b2fe99b9e1b04516175223"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\desktop-solid\\run-01\\screenshot.png",
+      "bytes": 468947,
+      "sha256": "45bdcab44cfddee04a9c65a51882459f5aada132a76495dff1b8d01e3d366a0d"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\desktop-solid\\run-01\\state-metadata.json",
+      "bytes": 8662,
+      "sha256": "3de8f9eb4ab6297039322df037e54e20af778f885d07d6e49f89e7937c5d0c32"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\desktop-xray\\run-01\\ax-tree.json",
+      "bytes": 278496,
+      "sha256": "837ecbde8ff60896835eddfdacfeed0d49bb7133d5506d3013c2d388e3e490ed"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\desktop-xray\\run-01\\axe-result.json",
+      "bytes": 470110,
+      "sha256": "a556d855cfc91b4d25d30a2908042fc280684306150412289ed72252ec062eb4"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\desktop-xray\\run-01\\screenshot.png",
+      "bytes": 544074,
+      "sha256": "25c5518077d2d59fc285e069da0b124e7af68d65d126a8a9ef88f5de01defd7e"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\desktop-xray\\run-01\\state-metadata.json",
+      "bytes": 8660,
+      "sha256": "e5ad6a57e01b73e6cd8c8c6d92d26f9f066dc18117aeb1ee781de1b33494c9a3"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\narrow-initial\\run-01\\ax-tree.json",
+      "bytes": 133758,
+      "sha256": "5c3f73dd6c1820fd9ad0839756539b7afbd3bd6741e781c11ae4663828912302"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\narrow-initial\\run-01\\axe-result.json",
+      "bytes": 259518,
+      "sha256": "cd85091b48f212bec7dd36e70f426a4f37c3dedefa98af653c817329a1c6d3c6"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\narrow-initial\\run-01\\screenshot.png",
+      "bytes": 230894,
+      "sha256": "5c1fe7dea93955474d8b807475868a6d13f69b12c565face7aff436aa73a2f45"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\narrow-initial\\run-01\\state-metadata.json",
+      "bytes": 4767,
+      "sha256": "949a6d3d17d96440ee506b3cf409c6094a5c199f9d56f5df48b6e9824f21ea9c"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\narrow-left-drawer\\run-01\\ax-tree.json",
+      "bytes": 178001,
+      "sha256": "672578a6429b682891446316159c5f835e4fb4ea95757dec7360339a27e95fa6"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\narrow-left-drawer\\run-01\\axe-result.json",
+      "bytes": 353516,
+      "sha256": "7f5a398078deffa2404320cd085fbeb7875ab039d5114ecf376867824fe24c56"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\narrow-left-drawer\\run-01\\screenshot.png",
+      "bytes": 191916,
+      "sha256": "64e14e65c1a7076eba5d1bb63931f8ee6a6792a794e56bba2c128613f88b7049"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\narrow-left-drawer\\run-01\\state-metadata.json",
+      "bytes": 8133,
+      "sha256": "f7e84f8ad4159351f14adc3075cada83b1121352fd4a0ba9a33ff2cf31dd8e2c"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\narrow-right-drawer\\run-01\\ax-tree.json",
+      "bytes": 216848,
+      "sha256": "eb516f65b2dc5b2d4637cf129fa3c7f5929b75f8cd84255b2dc7e9d4b8a8192a"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\narrow-right-drawer\\run-01\\axe-result.json",
+      "bytes": 372748,
+      "sha256": "a0ae2056069ac2f2a73a86108259b92b6d4d77386c7be157e1574fa61f3803f2"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\narrow-right-drawer\\run-01\\screenshot.png",
+      "bytes": 211938,
+      "sha256": "1c2833d096911c307936e7af7219225cca9014aed17ff5b948ef76396ad8a7d9"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\axe\\narrow-right-drawer\\run-01\\state-metadata.json",
+      "bytes": 6025,
+      "sha256": "0813599eaaf61432d0145219f45cb0cbbf3fdf661b2780d8af032df2fceaf09c"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\manual\\run-01\\keyboard-focus.json",
+      "bytes": 18836,
+      "sha256": "fcb0bb3f2e92b9ab9c11789f8b15c492b175394f16e972f877a6e14fdcdde547"
+    },
+    {
+      "path": "artifacts\\v4\\final-review\\accessibility\\axe-reproduction\\accessibility\\manual\\run-01\\keyboard-focus.png",
+      "bytes": 464397,
+      "sha256": "fbe177fa31ea9bcc53e21b333a54e649a880dc9dfdf3f91579e0a5ab2b68d278"
+    }
+  ]
+}

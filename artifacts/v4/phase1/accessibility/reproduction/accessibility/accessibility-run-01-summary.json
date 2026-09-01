@@ -1,0 +1,1418 @@
+{
+  "runId": "run-01",
+  "runStartedAt": "2026-08-31T13:48:44.586Z",
+  "runFinishedAt": "2026-08-31T13:51:03.157Z",
+  "exitCode": 0,
+  "baseUrl": "http://127.0.0.1:16420",
+  "aggregate": {
+    "validStates": 9,
+    "invalidStates": 0,
+    "violationRuleIds": [
+      "landmark-unique",
+      "scrollable-region-focusable"
+    ],
+    "criticalRuleIds": [],
+    "seriousRuleIds": [
+      "scrollable-region-focusable"
+    ],
+    "colorContrast": [
+      {
+        "state": "desktop-solid",
+        "nodes": 0
+      },
+      {
+        "state": "desktop-xray",
+        "nodes": 0
+      },
+      {
+        "state": "desktop-section",
+        "nodes": 0
+      },
+      {
+        "state": "desktop-selected",
+        "nodes": 0
+      },
+      {
+        "state": "desktop-paused",
+        "nodes": 0
+      },
+      {
+        "state": "desktop-exploded",
+        "nodes": 0
+      },
+      {
+        "state": "narrow-initial",
+        "nodes": 0
+      },
+      {
+        "state": "narrow-left-drawer",
+        "nodes": 0
+      },
+      {
+        "state": "narrow-right-drawer",
+        "nodes": 0
+      }
+    ]
+  },
+  "keyboard": {
+    "capturedAt": "2026-08-31T13:49:08.051Z",
+    "tabOrder": [
+      {
+        "tag": "canvas",
+        "id": null,
+        "classes": "engine-canvas",
+        "text": null,
+        "dataValue": null,
+        "outlineStyle": "none",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(232, 237, 241)",
+        "boxShadow": "none",
+        "borderColor": "rgb(232, 237, 241)",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720
+        }
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "classes": "ui-button play-button is-active",
+        "text": "Ⅱ",
+        "dataValue": null,
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "rgba(217, 177, 111, 0.27) 0px 0px 22px 0px",
+        "borderColor": "rgb(232, 193, 125)",
+        "rect": {
+          "x": 40,
+          "y": 128,
+          "width": 43,
+          "height": 43
+        }
+      },
+      {
+        "tag": "input",
+        "id": null,
+        "classes": null,
+        "text": null,
+        "dataValue": null,
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "borderColor": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 29,
+          "y": 237,
+          "width": 222,
+          "height": 2
+        }
+      },
+      {
+        "tag": "input",
+        "id": null,
+        "classes": null,
+        "text": null,
+        "dataValue": null,
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "borderColor": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 29,
+          "y": 294,
+          "width": 222,
+          "height": 2
+        }
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "classes": "ui-button is-active",
+        "text": "实体",
+        "dataValue": "solid",
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "borderColor": "rgba(217, 177, 111, 0.6)",
+        "rect": {
+          "x": 29,
+          "y": 354,
+          "width": 71.328125,
+          "height": 34
+        }
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "classes": "ui-button",
+        "text": "X-RAY",
+        "dataValue": "xray",
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "borderColor": "rgba(191, 214, 226, 0.15)",
+        "rect": {
+          "x": 104.328125,
+          "y": 354,
+          "width": 71.328125,
+          "height": 34
+        }
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "classes": "ui-button",
+        "text": "剖切",
+        "dataValue": "section",
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "borderColor": "rgba(191, 214, 226, 0.15)",
+        "rect": {
+          "x": 179.65625,
+          "y": 354,
+          "width": 71.34375,
+          "height": 34
+        }
+      },
+      {
+        "tag": "input",
+        "id": "toggle-labels",
+        "classes": null,
+        "text": null,
+        "dataValue": null,
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "borderColor": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 33,
+          "y": 411,
+          "width": 13,
+          "height": 13
+        }
+      },
+      {
+        "tag": "input",
+        "id": "toggle-flows",
+        "classes": null,
+        "text": null,
+        "dataValue": null,
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "borderColor": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 33,
+          "y": 443,
+          "width": 13,
+          "height": 13
+        }
+      },
+      {
+        "tag": "input",
+        "id": "toggle-explode",
+        "classes": null,
+        "text": null,
+        "dataValue": null,
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "borderColor": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 33,
+          "y": 475,
+          "width": 13,
+          "height": 13
+        }
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "classes": "ui-button is-active",
+        "text": "<1> 轴测",
+        "dataValue": "isometric",
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "borderColor": "rgba(217, 177, 111, 0.5)",
+        "rect": {
+          "x": 383.296875,
+          "y": 671,
+          "width": 67,
+          "height": 34
+        }
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "classes": "ui-button",
+        "text": "<2> 前视",
+        "dataValue": "front",
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "borderColor": "rgba(191, 214, 226, 0.15)",
+        "rect": {
+          "x": 454.296875,
+          "y": 671,
+          "width": 67,
+          "height": 34
+        }
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "classes": "ui-button",
+        "text": "<3> 侧视",
+        "dataValue": "side",
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "borderColor": "rgba(191, 214, 226, 0.15)",
+        "rect": {
+          "x": 525.296875,
+          "y": 671,
+          "width": 67,
+          "height": 34
+        }
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "classes": "ui-button",
+        "text": "<4> 顶视",
+        "dataValue": "top",
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "borderColor": "rgba(191, 214, 226, 0.15)",
+        "rect": {
+          "x": 596.296875,
+          "y": 671,
+          "width": 67,
+          "height": 34
+        }
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "classes": "ui-button",
+        "text": "<5> 曲柄连杆",
+        "dataValue": "crank",
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "borderColor": "rgba(191, 214, 226, 0.15)",
+        "rect": {
+          "x": 667.296875,
+          "y": 671,
+          "width": 73.421875,
+          "height": 34
+        }
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "classes": "ui-button",
+        "text": "<6> 配气 / 燃烧",
+        "dataValue": "combustion",
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "borderColor": "rgba(191, 214, 226, 0.15)",
+        "rect": {
+          "x": 744.71875,
+          "y": 671,
+          "width": 80.984375,
+          "height": 34
+        }
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "classes": "ui-button reset-camera",
+        "text": "↺ 复位视角",
+        "dataValue": null,
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "borderColor": "rgba(191, 214, 226, 0.15)",
+        "rect": {
+          "x": 829.703125,
+          "y": 671,
+          "width": 67,
+          "height": 34
+        }
+      },
+      {
+        "tag": "body",
+        "id": null,
+        "classes": null,
+        "text": "气缸体BLOCK气缸盖CYLINDER HEAD油底壳OIL SUMP曲轴CRANKSHAFT活塞PISTON连杆CONNECTING ROD凸轮轴CAMSHAFT进气门INTAKE VALVE排气门EXHAUST VALVE喷油器INJE",
+        "dataValue": null,
+        "outlineStyle": "none",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(232, 237, 241)",
+        "boxShadow": "none",
+        "borderColor": "rgb(232, 237, 241)",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720
+        }
+      },
+      {
+        "tag": "canvas",
+        "id": null,
+        "classes": "engine-canvas",
+        "text": null,
+        "dataValue": null,
+        "outlineStyle": "none",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(232, 237, 241)",
+        "boxShadow": "none",
+        "borderColor": "rgb(232, 237, 241)",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720
+        }
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "classes": "ui-button play-button is-active",
+        "text": "Ⅱ",
+        "dataValue": null,
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "rgba(217, 177, 111, 0.27) 0px 0px 22px 0px",
+        "borderColor": "rgb(232, 193, 125)",
+        "rect": {
+          "x": 40,
+          "y": 128,
+          "width": 43,
+          "height": 43
+        }
+      },
+      {
+        "tag": "input",
+        "id": null,
+        "classes": null,
+        "text": null,
+        "dataValue": null,
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "borderColor": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 29,
+          "y": 237,
+          "width": 222,
+          "height": 2
+        }
+      },
+      {
+        "tag": "input",
+        "id": null,
+        "classes": null,
+        "text": null,
+        "dataValue": null,
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "borderColor": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 29,
+          "y": 294,
+          "width": 222,
+          "height": 2
+        }
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "classes": "ui-button is-active",
+        "text": "实体",
+        "dataValue": "solid",
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "borderColor": "rgba(217, 177, 111, 0.6)",
+        "rect": {
+          "x": 29,
+          "y": 354,
+          "width": 71.328125,
+          "height": 34
+        }
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "classes": "ui-button",
+        "text": "X-RAY",
+        "dataValue": "xray",
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "borderColor": "rgba(191, 214, 226, 0.15)",
+        "rect": {
+          "x": 104.328125,
+          "y": 354,
+          "width": 71.328125,
+          "height": 34
+        }
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "classes": "ui-button",
+        "text": "剖切",
+        "dataValue": "section",
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "borderColor": "rgba(191, 214, 226, 0.15)",
+        "rect": {
+          "x": 179.65625,
+          "y": 354,
+          "width": 71.34375,
+          "height": 34
+        }
+      },
+      {
+        "tag": "input",
+        "id": "toggle-labels",
+        "classes": null,
+        "text": null,
+        "dataValue": null,
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "borderColor": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 33,
+          "y": 411,
+          "width": 13,
+          "height": 13
+        }
+      },
+      {
+        "tag": "input",
+        "id": "toggle-flows",
+        "classes": null,
+        "text": null,
+        "dataValue": null,
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "borderColor": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 33,
+          "y": 443,
+          "width": 13,
+          "height": 13
+        }
+      },
+      {
+        "tag": "input",
+        "id": "toggle-explode",
+        "classes": null,
+        "text": null,
+        "dataValue": null,
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "borderColor": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 33,
+          "y": 475,
+          "width": 13,
+          "height": 13
+        }
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "classes": "ui-button is-active",
+        "text": "<1> 轴测",
+        "dataValue": "isometric",
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "borderColor": "rgba(217, 177, 111, 0.5)",
+        "rect": {
+          "x": 383.296875,
+          "y": 671,
+          "width": 67,
+          "height": 34
+        }
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "classes": "ui-button",
+        "text": "<2> 前视",
+        "dataValue": "front",
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "borderColor": "rgba(191, 214, 226, 0.15)",
+        "rect": {
+          "x": 454.296875,
+          "y": 671,
+          "width": 67,
+          "height": 34
+        }
+      }
+    ],
+    "tests": [
+      {
+        "name": "pause",
+        "selector": ".play-button",
+        "key": " ",
+        "focused": true,
+        "before": {
+          "label": null,
+          "pressed": null
+        },
+        "after": {
+          "label": null,
+          "pressed": null
+        },
+        "changed": false
+      },
+      {
+        "name": "mode-solid",
+        "selector": ".mode-control button[data-value=\"solid\"]",
+        "key": "Enter",
+        "focused": true,
+        "before": {
+          "active": true,
+          "pressed": null
+        },
+        "after": {
+          "active": true,
+          "pressed": null
+        },
+        "changed": false
+      },
+      {
+        "name": "mode-xray",
+        "selector": ".mode-control button[data-value=\"xray\"]",
+        "key": "Enter",
+        "focused": true,
+        "before": {
+          "active": false,
+          "pressed": null
+        },
+        "after": {
+          "active": false,
+          "pressed": null
+        },
+        "changed": false
+      },
+      {
+        "name": "mode-section",
+        "selector": ".mode-control button[data-value=\"section\"]",
+        "key": "Enter",
+        "focused": true,
+        "before": {
+          "active": false,
+          "pressed": null
+        },
+        "after": {
+          "active": false,
+          "pressed": null
+        },
+        "changed": false
+      },
+      {
+        "name": "preset-isometric",
+        "selector": ".preset-row button[data-value=\"isometric\"]",
+        "key": "Enter",
+        "focused": true,
+        "before": {
+          "active": true,
+          "pressed": null
+        },
+        "after": {
+          "active": true,
+          "pressed": null
+        },
+        "changed": false
+      },
+      {
+        "name": "preset-front",
+        "selector": ".preset-row button[data-value=\"front\"]",
+        "key": "Enter",
+        "focused": true,
+        "before": {
+          "active": false,
+          "pressed": null
+        },
+        "after": {
+          "active": false,
+          "pressed": null
+        },
+        "changed": false
+      },
+      {
+        "name": "preset-side",
+        "selector": ".preset-row button[data-value=\"side\"]",
+        "key": "Enter",
+        "focused": true,
+        "before": {
+          "active": false,
+          "pressed": null
+        },
+        "after": {
+          "active": false,
+          "pressed": null
+        },
+        "changed": false
+      },
+      {
+        "name": "preset-top",
+        "selector": ".preset-row button[data-value=\"top\"]",
+        "key": "Enter",
+        "focused": true,
+        "before": {
+          "active": false,
+          "pressed": null
+        },
+        "after": {
+          "active": false,
+          "pressed": null
+        },
+        "changed": false
+      },
+      {
+        "name": "preset-crank",
+        "selector": ".preset-row button[data-value=\"crank\"]",
+        "key": "Enter",
+        "focused": true,
+        "before": {
+          "active": false,
+          "pressed": null
+        },
+        "after": {
+          "active": false,
+          "pressed": null
+        },
+        "changed": false
+      },
+      {
+        "name": "preset-combustion",
+        "selector": ".preset-row button[data-value=\"combustion\"]",
+        "key": "Enter",
+        "focused": true,
+        "before": {
+          "active": false,
+          "pressed": null
+        },
+        "after": {
+          "active": false,
+          "pressed": null
+        },
+        "changed": false
+      },
+      {
+        "name": "reset",
+        "selector": ".reset-camera",
+        "key": "Enter",
+        "focused": true,
+        "before": {
+          "modes": [
+            "solid"
+          ],
+          "presets": [
+            "isometric"
+          ]
+        },
+        "after": {
+          "modes": [
+            "solid"
+          ],
+          "presets": [
+            "isometric"
+          ]
+        },
+        "changed": false
+      },
+      {
+        "name": "toggle-labels",
+        "selector": "#toggle-labels",
+        "key": " ",
+        "focused": true,
+        "before": {
+          "checked": true
+        },
+        "after": {
+          "checked": false
+        },
+        "changed": true
+      },
+      {
+        "name": "toggle-flows",
+        "selector": "#toggle-flows",
+        "key": " ",
+        "focused": true,
+        "before": {
+          "checked": true
+        },
+        "after": {
+          "checked": false
+        },
+        "changed": true
+      },
+      {
+        "name": "toggle-explode",
+        "selector": "#toggle-explode",
+        "key": " ",
+        "focused": true,
+        "before": {
+          "checked": false
+        },
+        "after": {
+          "checked": true
+        },
+        "changed": true
+      }
+    ],
+    "focusSample": {
+      "tag": "button",
+      "id": null,
+      "classes": "ui-button",
+      "text": "X-RAY",
+      "dataValue": "xray",
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgba(191, 214, 226, 0.15)",
+      "rect": {
+        "x": 104.328125,
+        "y": 354,
+        "width": 71.328125,
+        "height": 34
+      }
+    },
+    "canvasKeyboard": {
+      "canvasTabIndex": "0",
+      "canvasTabIndexProperty": 0,
+      "focusablePartCount": 0,
+      "inspectorInitiallyHasPart": false,
+      "inspectorAfterCanvasEnter": false,
+      "partInspectorKeyboardReachable": false
+    },
+    "drawerTests": [
+      {
+        "name": "left-drawer",
+        "selector": ".mobile-panel-toggle:nth-child(1)",
+        "focused": true,
+        "before": "false",
+        "after": "false",
+        "changed": false
+      },
+      {
+        "name": "right-drawer",
+        "selector": ".mobile-panel-toggle:nth-child(2)",
+        "focused": true,
+        "before": "false",
+        "after": "false",
+        "changed": false
+      }
+    ]
+  },
+  "contrast": {
+    "capturedAt": "2026-08-31T13:49:09.773Z",
+    "methodology": "Computed-color approximation for representative DOM text; axe color-contrast remains authoritative for automated scoring. Gradients and WebGL pixels require human visual inspection.",
+    "desktop": [
+      {
+        "selector": ".brand",
+        "found": true,
+        "text": "INLINE · 4DFOUR-STROKE DIESEL / 四冲程柴油机",
+        "color": "rgb(232, 237, 241)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "contrastRatioApprox": 16.735018317411534,
+        "note": null
+      },
+      {
+        "selector": ".panel-title strong",
+        "found": true,
+        "text": "动力控制",
+        "color": "rgb(232, 237, 241)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontSize": "13px",
+        "fontWeight": "600",
+        "contrastRatioApprox": 16.735018317411534,
+        "note": null
+      },
+      {
+        "selector": ".top-metric strong",
+        "found": true,
+        "text": "120",
+        "color": "rgb(220, 228, 231)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "contrastRatioApprox": 15.30658570579202,
+        "note": null
+      },
+      {
+        "selector": ".mode-control button.is-active",
+        "found": true,
+        "text": "实体",
+        "color": "rgb(240, 212, 159)",
+        "backgroundColor": "rgba(217, 177, 111, 0.12)",
+        "backgroundImage": "none",
+        "fontSize": "10px",
+        "fontWeight": "400",
+        "contrastRatioApprox": 11.471903188380999,
+        "note": null
+      },
+      {
+        "selector": ".preset-row button.is-active",
+        "found": true,
+        "text": "<1> 轴测",
+        "color": "rgb(230, 202, 152)",
+        "backgroundColor": "rgba(217, 177, 111, 0.1)",
+        "backgroundImage": "none",
+        "fontSize": "9px",
+        "fontWeight": "500",
+        "contrastRatioApprox": 10.552839301529936,
+        "note": null
+      },
+      {
+        "selector": ".part-label",
+        "found": false
+      },
+      {
+        "selector": ".engine-label",
+        "found": false
+      },
+      {
+        "selector": ".mobile-panel-toggle",
+        "found": true,
+        "text": "☰ 控制",
+        "color": "rgb(232, 237, 241)",
+        "backgroundColor": "rgba(255, 255, 255, 0.035)",
+        "backgroundImage": "none",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "contrastRatioApprox": 15.738264118633426,
+        "note": null
+      },
+      {
+        "selector": ".cylinder-card strong",
+        "found": true,
+        "text": "压缩 · COMPRESSION",
+        "color": "rgb(211, 218, 222)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontSize": "9px",
+        "fontWeight": "700",
+        "contrastRatioApprox": 13.952688678516902,
+        "note": null
+      },
+      {
+        "selector": ".interaction-hint",
+        "found": true,
+        "text": "左键旋转右键平移滚轮缩放点击检查",
+        "color": "rgb(94, 107, 114)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontSize": "8px",
+        "fontWeight": "400",
+        "contrastRatioApprox": 3.5902964263527317,
+        "note": null
+      },
+      {
+        "selector": ".inspector dd",
+        "found": false
+      }
+    ],
+    "narrow": [
+      {
+        "selector": ".brand",
+        "found": true,
+        "text": "INLINE · 4DFOUR-STROKE DIESEL / 四冲程柴油机",
+        "color": "rgb(232, 237, 241)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "contrastRatioApprox": 16.735018317411534,
+        "note": null
+      },
+      {
+        "selector": ".panel-title strong",
+        "found": true,
+        "text": "动力控制",
+        "color": "rgb(232, 237, 241)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontSize": "13px",
+        "fontWeight": "600",
+        "contrastRatioApprox": 16.735018317411534,
+        "note": null
+      },
+      {
+        "selector": ".top-metric strong",
+        "found": true,
+        "text": "120",
+        "color": "rgb(220, 228, 231)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontSize": "11px",
+        "fontWeight": "600",
+        "contrastRatioApprox": 15.30658570579202,
+        "note": null
+      },
+      {
+        "selector": ".mode-control button.is-active",
+        "found": true,
+        "text": "实体",
+        "color": "rgb(240, 212, 159)",
+        "backgroundColor": "rgba(217, 177, 111, 0.12)",
+        "backgroundImage": "none",
+        "fontSize": "10px",
+        "fontWeight": "400",
+        "contrastRatioApprox": 11.471903188380999,
+        "note": null
+      },
+      {
+        "selector": ".preset-row button.is-active",
+        "found": true,
+        "text": "<1> 轴测",
+        "color": "rgb(230, 202, 152)",
+        "backgroundColor": "rgba(217, 177, 111, 0.1)",
+        "backgroundImage": "none",
+        "fontSize": "8px",
+        "fontWeight": "500",
+        "contrastRatioApprox": 10.552839301529936,
+        "note": null
+      },
+      {
+        "selector": ".part-label",
+        "found": false
+      },
+      {
+        "selector": ".engine-label",
+        "found": false
+      },
+      {
+        "selector": ".mobile-panel-toggle",
+        "found": true,
+        "text": "☰ 控制",
+        "color": "rgb(184, 199, 205)",
+        "backgroundColor": "rgba(8, 15, 19, 0.88)",
+        "backgroundImage": "none",
+        "fontSize": "10px",
+        "fontWeight": "500",
+        "contrastRatioApprox": 11.142215092701043,
+        "note": null
+      },
+      {
+        "selector": ".cylinder-card strong",
+        "found": true,
+        "text": "压缩 · COMPRESSION",
+        "color": "rgb(211, 218, 222)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontSize": "9px",
+        "fontWeight": "700",
+        "contrastRatioApprox": 13.952688678516902,
+        "note": null
+      },
+      {
+        "selector": ".interaction-hint",
+        "found": true,
+        "text": "左键旋转右键平移滚轮缩放点击检查",
+        "color": "rgb(94, 107, 114)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontSize": "8px",
+        "fontWeight": "400",
+        "contrastRatioApprox": 3.5902964263527317,
+        "note": null
+      },
+      {
+        "selector": ".inspector dd",
+        "found": false
+      }
+    ],
+    "focus": {
+      "tag": "button",
+      "id": null,
+      "classes": "ui-button",
+      "text": "X-RAY",
+      "dataValue": "xray",
+      "outlineStyle": "none",
+      "outlineWidth": "3px",
+      "outlineColor": "rgb(118, 131, 138)",
+      "boxShadow": "none",
+      "borderColor": "rgba(191, 214, 226, 0.15)",
+      "rect": {
+        "x": 104.328125,
+        "y": 354,
+        "width": 71.328125,
+        "height": 34
+      }
+    }
+  },
+  "reflow": {
+    "textResize200": {
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "document": {
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "clientHeight": 720,
+        "scrollHeight": 720
+      },
+      "horizontalDocumentOverflow": false,
+      "verticalDocumentOverflow": false,
+      "reachable": {
+        "play": 1,
+        "modes": 3,
+        "presets": 7,
+        "toggles": 3,
+        "reset": 1,
+        "mobileDrawers": 0
+      },
+      "clippedText": [
+        {
+          "tag": "strong",
+          "classes": null,
+          "text": "INLINE · 4D",
+          "client": [
+            362,
+            46
+          ],
+          "scroll": [
+            362,
+            56
+          ]
+        }
+      ],
+      "activeDrawers": [
+        "false",
+        "false"
+      ]
+    },
+    "zoomEquivalent200Initial": {
+      "viewport": {
+        "width": 640,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "document": {
+        "clientWidth": 640,
+        "scrollWidth": 640,
+        "clientHeight": 720,
+        "scrollHeight": 720
+      },
+      "horizontalDocumentOverflow": false,
+      "verticalDocumentOverflow": false,
+      "reachable": {
+        "play": 0,
+        "modes": 0,
+        "presets": 7,
+        "toggles": 0,
+        "reset": 1,
+        "mobileDrawers": 2
+      },
+      "clippedText": [
+        {
+          "tag": "strong",
+          "classes": null,
+          "text": "INLINE · 4D",
+          "client": [
+            149,
+            20
+          ],
+          "scroll": [
+            149,
+            24
+          ]
+        }
+      ],
+      "activeDrawers": [
+        "false",
+        "false"
+      ]
+    },
+    "zoomEquivalent200Left": {
+      "viewport": {
+        "width": 640,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "document": {
+        "clientWidth": 640,
+        "scrollWidth": 640,
+        "clientHeight": 720,
+        "scrollHeight": 720
+      },
+      "horizontalDocumentOverflow": false,
+      "verticalDocumentOverflow": false,
+      "reachable": {
+        "play": 1,
+        "modes": 3,
+        "presets": 7,
+        "toggles": 3,
+        "reset": 1,
+        "mobileDrawers": 2
+      },
+      "clippedText": [
+        {
+          "tag": "strong",
+          "classes": null,
+          "text": "INLINE · 4D",
+          "client": [
+            149,
+            20
+          ],
+          "scroll": [
+            149,
+            24
+          ]
+        },
+        {
+          "tag": "label",
+          "classes": "slider-group",
+          "text": "转速ENGINE SPEED1200 rpm",
+          "client": [
+            280,
+            44
+          ],
+          "scroll": [
+            280,
+            48
+          ]
+        },
+        {
+          "tag": "label",
+          "classes": "slider-group",
+          "text": "负载ENGINE LOAD42%",
+          "client": [
+            280,
+            44
+          ],
+          "scroll": [
+            280,
+            48
+          ]
+        }
+      ],
+      "activeDrawers": [
+        "true",
+        "false"
+      ]
+    },
+    "reflow320Initial": {
+      "viewport": {
+        "width": 320,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "document": {
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "clientHeight": 720,
+        "scrollHeight": 720
+      },
+      "horizontalDocumentOverflow": false,
+      "verticalDocumentOverflow": false,
+      "reachable": {
+        "play": 0,
+        "modes": 0,
+        "presets": 7,
+        "toggles": 0,
+        "reset": 1,
+        "mobileDrawers": 2
+      },
+      "clippedText": [
+        {
+          "tag": "strong",
+          "classes": null,
+          "text": "INLINE · 4D",
+          "client": [
+            145,
+            40
+          ],
+          "scroll": [
+            145,
+            44
+          ]
+        }
+      ],
+      "activeDrawers": [
+        "false",
+        "false"
+      ]
+    },
+    "reflow320Left": {
+      "viewport": {
+        "width": 320,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "document": {
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "clientHeight": 720,
+        "scrollHeight": 720
+      },
+      "horizontalDocumentOverflow": false,
+      "verticalDocumentOverflow": false,
+      "reachable": {
+        "play": 1,
+        "modes": 3,
+        "presets": 7,
+        "toggles": 3,
+        "reset": 1,
+        "mobileDrawers": 2
+      },
+      "clippedText": [
+        {
+          "tag": "strong",
+          "classes": null,
+          "text": "INLINE · 4D",
+          "client": [
+            145,
+            40
+          ],
+          "scroll": [
+            145,
+            44
+          ]
+        },
+        {
+          "tag": "label",
+          "classes": "slider-group",
+          "text": "转速ENGINE SPEED1200 rpm",
+          "client": [
+            226,
+            44
+          ],
+          "scroll": [
+            226,
+            48
+          ]
+        },
+        {
+          "tag": "label",
+          "classes": "slider-group",
+          "text": "负载ENGINE LOAD42%",
+          "client": [
+            226,
+            44
+          ],
+          "scroll": [
+            226,
+            48
+          ]
+        }
+      ],
+      "activeDrawers": [
+        "true",
+        "false"
+      ]
+    },
+    "reflow320Right": {
+      "viewport": {
+        "width": 320,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "document": {
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "clientHeight": 720,
+        "scrollHeight": 720
+      },
+      "horizontalDocumentOverflow": false,
+      "verticalDocumentOverflow": false,
+      "reachable": {
+        "play": 0,
+        "modes": 0,
+        "presets": 7,
+        "toggles": 0,
+        "reset": 1,
+        "mobileDrawers": 2
+      },
+      "clippedText": [
+        {
+          "tag": "strong",
+          "classes": null,
+          "text": "INLINE · 4D",
+          "client": [
+            145,
+            40
+          ],
+          "scroll": [
+            145,
+            44
+          ]
+        }
+      ],
+      "activeDrawers": [
+        "false",
+        "true"
+      ]
+    },
+    "methodology": {
+      "textResize200": "Runtime-only doubling of computed font sizes on semantic text elements; product source is unchanged.",
+      "zoomEquivalent200": "640 CSS px viewport, equivalent to a 1280 px viewport at 200% browser zoom for responsive-layout evaluation.",
+      "reflow400": "320 CSS px viewport used for the protocol 400%/320 CSS px reflow condition."
+    },
+    "capturedAt": "2026-08-31T13:49:13.371Z"
+  },
+  "nvda": {
+    "status": "pending",
+    "reason": "No real NVDA operator participated; no result or score was fabricated."
+  }
+}

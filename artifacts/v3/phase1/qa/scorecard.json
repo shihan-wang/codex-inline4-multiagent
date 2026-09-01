@@ -1,0 +1,124 @@
+{
+  "schema": "inline4-v3-quality-scorecard-v1",
+  "baseline": {
+    "name": "v2-baseline",
+    "commit": "12472172925ec3108d096f2402a48e3f7939931b"
+  },
+  "scoringStandard": {
+    "total": 100,
+    "categories": {
+      "mechanical": 25,
+      "geometry": 25,
+      "visual": 20,
+      "interaction": 10,
+      "performance": 10,
+      "testEvidence": 10
+    }
+  },
+  "score": {
+    "total": 82,
+    "mechanical": {
+      "score": 22,
+      "maximum": 25,
+      "confidence": 0.86,
+      "evidence": [
+        "17/17 formal tests passed; 16 directly cover kinematics and phasing",
+        "runtime stroke telemetry remained coherent at independently sampled crank angles",
+        "cranktrain and valvetrain production screenshots show the intended motion chains"
+      ],
+      "deductions": [
+        "No browser-level assertion couples visible valve displacement to the corresponding cam-lobe pose",
+        "Fluid and combustion behavior is illustrative rather than thermodynamic"
+      ]
+    },
+    "geometry": {
+      "score": 21,
+      "maximum": 25,
+      "confidence": 0.94,
+      "evidence": [
+        "446 objects, 366 meshes, 82,596 triangles and 34 pickable roots",
+        "Major castings, cranktrain, valvetrain, fuel, induction, exhaust and turbo systems are present",
+        "All inspected geometry remains procedural and source-editable"
+      ],
+      "deductions": [
+        "349 unique geometries for 366 meshes and zero InstancedMesh usage",
+        "Section clipping exposes uncapped/open cut faces rather than engineered section surfaces"
+      ]
+    },
+    "visual": {
+      "score": 16,
+      "maximum": 20,
+      "confidence": 0.96,
+      "evidence": [
+        "Actual solid, X-Ray, section, cranktrain, valvetrain and six camera screenshots inspected",
+        "Materials, lighting, selective labels and desktop composition are consistently legible",
+        "Hardware render completed without console or page errors"
+      ],
+      "deductions": [
+        "390x844 layout leaves almost no unobstructed model viewport",
+        "Section mode lacks caps/hatching and has visually abrupt clipped boundaries",
+        "X-Ray remains dense in the crankcase and rear accessory regions"
+      ]
+    },
+    "interaction": {
+      "score": 7,
+      "maximum": 10,
+      "confidence": 0.98,
+      "evidence": [
+        "Pause, resume, sliders, modes, pointer orbit/zoom/pan, toggles and part picking passed",
+        "All six camera buttons produced distinct preset-specific label sets",
+        "Inspector returned five metadata fields for a picked part"
+      ],
+      "deductions": [
+        "Reset returns the camera but leaves the previous preset highlighted",
+        "Keyboard presets do not update highlighted preset; keys 5/6 omit button-only section/X-Ray coupling",
+        "Narrow layout hides camera presets 5 and 6 and obscures direct model manipulation"
+      ]
+    },
+    "performance": {
+      "score": 8,
+      "maximum": 10,
+      "confidence": 0.91,
+      "evidence": [
+        "Intel Arc D3D11: 120 FPS, p95 8.4 ms, 377.11 draw calls/frame",
+        "SwiftShader: 3.76 FPS, p95 566.7 ms, 376.60 draw calls/frame; treated only as software-rendering evidence",
+        "3.11 MB geometry buffers, 82,596 triangles, 8.30 MB hardware-run JS heap",
+        "Only six meshes cast shadows"
+      ],
+      "deductions": [
+        "377 draw calls/frame remains high for this triangle count",
+        "Repeated procedural primitives are not instanced or geometry-shared",
+        "Single 595.54 kB minified JS chunk still triggers the build warning"
+      ]
+    },
+    "testEvidence": {
+      "score": 8,
+      "maximum": 10,
+      "confidence": 0.98,
+      "evidence": [
+        "Typecheck, 17 formal tests and production build passed",
+        "Positive browser acceptance passed on SwiftShader and Intel Arc D3D11",
+        "Negative fixture produced ten failures and exit code 1",
+        "Diagnostics, layout, pointer interactions and draw-call collection are asserted"
+      ],
+      "deductions": [
+        "Acceptance checks camera buttons only at click time and misses reset/keyboard state divergence",
+        "No regression budget for draw calls, heap growth or bundle size",
+        "No UI unit tests, scene lifecycle tests or exhaustive pickable-part coverage"
+      ]
+    }
+  },
+  "overallConfidence": 0.94,
+  "severityCounts": {
+    "P0": 0,
+    "P1": 2,
+    "P2": 3,
+    "P3": 2
+  },
+  "highYieldItemsExist": true,
+  "highestReturnCandidates": [
+    "Synchronize reset and keyboard camera actions with preset/mode UI state",
+    "Make narrow-screen panels collapsible and retain access to presets 5/6",
+    "Extend browser acceptance with reset and keyboard semantic assertions"
+  ]
+}

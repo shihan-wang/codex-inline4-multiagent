@@ -1,0 +1,803 @@
+{
+  "capturedAt": "2026-08-31T13:49:08.051Z",
+  "tabOrder": [
+    {
+      "tag": "canvas",
+      "id": null,
+      "classes": "engine-canvas",
+      "text": null,
+      "dataValue": null,
+      "outlineStyle": "none",
+      "outlineWidth": "3px",
+      "outlineColor": "rgb(232, 237, 241)",
+      "boxShadow": "none",
+      "borderColor": "rgb(232, 237, 241)",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "ui-button play-button is-active",
+      "text": "Ⅱ",
+      "dataValue": null,
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "rgba(217, 177, 111, 0.27) 0px 0px 22px 0px",
+      "borderColor": "rgb(232, 193, 125)",
+      "rect": {
+        "x": 40,
+        "y": 128,
+        "width": 43,
+        "height": 43
+      }
+    },
+    {
+      "tag": "input",
+      "id": null,
+      "classes": null,
+      "text": null,
+      "dataValue": null,
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 29,
+        "y": 237,
+        "width": 222,
+        "height": 2
+      }
+    },
+    {
+      "tag": "input",
+      "id": null,
+      "classes": null,
+      "text": null,
+      "dataValue": null,
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 29,
+        "y": 294,
+        "width": 222,
+        "height": 2
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "ui-button is-active",
+      "text": "实体",
+      "dataValue": "solid",
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgba(217, 177, 111, 0.6)",
+      "rect": {
+        "x": 29,
+        "y": 354,
+        "width": 71.328125,
+        "height": 34
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "ui-button",
+      "text": "X-RAY",
+      "dataValue": "xray",
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgba(191, 214, 226, 0.15)",
+      "rect": {
+        "x": 104.328125,
+        "y": 354,
+        "width": 71.328125,
+        "height": 34
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "ui-button",
+      "text": "剖切",
+      "dataValue": "section",
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgba(191, 214, 226, 0.15)",
+      "rect": {
+        "x": 179.65625,
+        "y": 354,
+        "width": 71.34375,
+        "height": 34
+      }
+    },
+    {
+      "tag": "input",
+      "id": "toggle-labels",
+      "classes": null,
+      "text": null,
+      "dataValue": null,
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 33,
+        "y": 411,
+        "width": 13,
+        "height": 13
+      }
+    },
+    {
+      "tag": "input",
+      "id": "toggle-flows",
+      "classes": null,
+      "text": null,
+      "dataValue": null,
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 33,
+        "y": 443,
+        "width": 13,
+        "height": 13
+      }
+    },
+    {
+      "tag": "input",
+      "id": "toggle-explode",
+      "classes": null,
+      "text": null,
+      "dataValue": null,
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 33,
+        "y": 475,
+        "width": 13,
+        "height": 13
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "ui-button is-active",
+      "text": "<1> 轴测",
+      "dataValue": "isometric",
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgba(217, 177, 111, 0.5)",
+      "rect": {
+        "x": 383.296875,
+        "y": 671,
+        "width": 67,
+        "height": 34
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "ui-button",
+      "text": "<2> 前视",
+      "dataValue": "front",
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgba(191, 214, 226, 0.15)",
+      "rect": {
+        "x": 454.296875,
+        "y": 671,
+        "width": 67,
+        "height": 34
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "ui-button",
+      "text": "<3> 侧视",
+      "dataValue": "side",
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgba(191, 214, 226, 0.15)",
+      "rect": {
+        "x": 525.296875,
+        "y": 671,
+        "width": 67,
+        "height": 34
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "ui-button",
+      "text": "<4> 顶视",
+      "dataValue": "top",
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgba(191, 214, 226, 0.15)",
+      "rect": {
+        "x": 596.296875,
+        "y": 671,
+        "width": 67,
+        "height": 34
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "ui-button",
+      "text": "<5> 曲柄连杆",
+      "dataValue": "crank",
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgba(191, 214, 226, 0.15)",
+      "rect": {
+        "x": 667.296875,
+        "y": 671,
+        "width": 73.421875,
+        "height": 34
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "ui-button",
+      "text": "<6> 配气 / 燃烧",
+      "dataValue": "combustion",
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgba(191, 214, 226, 0.15)",
+      "rect": {
+        "x": 744.71875,
+        "y": 671,
+        "width": 80.984375,
+        "height": 34
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "ui-button reset-camera",
+      "text": "↺ 复位视角",
+      "dataValue": null,
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgba(191, 214, 226, 0.15)",
+      "rect": {
+        "x": 829.703125,
+        "y": 671,
+        "width": 67,
+        "height": 34
+      }
+    },
+    {
+      "tag": "body",
+      "id": null,
+      "classes": null,
+      "text": "气缸体BLOCK气缸盖CYLINDER HEAD油底壳OIL SUMP曲轴CRANKSHAFT活塞PISTON连杆CONNECTING ROD凸轮轴CAMSHAFT进气门INTAKE VALVE排气门EXHAUST VALVE喷油器INJE",
+      "dataValue": null,
+      "outlineStyle": "none",
+      "outlineWidth": "3px",
+      "outlineColor": "rgb(232, 237, 241)",
+      "boxShadow": "none",
+      "borderColor": "rgb(232, 237, 241)",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "tag": "canvas",
+      "id": null,
+      "classes": "engine-canvas",
+      "text": null,
+      "dataValue": null,
+      "outlineStyle": "none",
+      "outlineWidth": "3px",
+      "outlineColor": "rgb(232, 237, 241)",
+      "boxShadow": "none",
+      "borderColor": "rgb(232, 237, 241)",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "ui-button play-button is-active",
+      "text": "Ⅱ",
+      "dataValue": null,
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "rgba(217, 177, 111, 0.27) 0px 0px 22px 0px",
+      "borderColor": "rgb(232, 193, 125)",
+      "rect": {
+        "x": 40,
+        "y": 128,
+        "width": 43,
+        "height": 43
+      }
+    },
+    {
+      "tag": "input",
+      "id": null,
+      "classes": null,
+      "text": null,
+      "dataValue": null,
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 29,
+        "y": 237,
+        "width": 222,
+        "height": 2
+      }
+    },
+    {
+      "tag": "input",
+      "id": null,
+      "classes": null,
+      "text": null,
+      "dataValue": null,
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 29,
+        "y": 294,
+        "width": 222,
+        "height": 2
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "ui-button is-active",
+      "text": "实体",
+      "dataValue": "solid",
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgba(217, 177, 111, 0.6)",
+      "rect": {
+        "x": 29,
+        "y": 354,
+        "width": 71.328125,
+        "height": 34
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "ui-button",
+      "text": "X-RAY",
+      "dataValue": "xray",
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgba(191, 214, 226, 0.15)",
+      "rect": {
+        "x": 104.328125,
+        "y": 354,
+        "width": 71.328125,
+        "height": 34
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "ui-button",
+      "text": "剖切",
+      "dataValue": "section",
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgba(191, 214, 226, 0.15)",
+      "rect": {
+        "x": 179.65625,
+        "y": 354,
+        "width": 71.34375,
+        "height": 34
+      }
+    },
+    {
+      "tag": "input",
+      "id": "toggle-labels",
+      "classes": null,
+      "text": null,
+      "dataValue": null,
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 33,
+        "y": 411,
+        "width": 13,
+        "height": 13
+      }
+    },
+    {
+      "tag": "input",
+      "id": "toggle-flows",
+      "classes": null,
+      "text": null,
+      "dataValue": null,
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 33,
+        "y": 443,
+        "width": 13,
+        "height": 13
+      }
+    },
+    {
+      "tag": "input",
+      "id": "toggle-explode",
+      "classes": null,
+      "text": null,
+      "dataValue": null,
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 33,
+        "y": 475,
+        "width": 13,
+        "height": 13
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "ui-button is-active",
+      "text": "<1> 轴测",
+      "dataValue": "isometric",
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgba(217, 177, 111, 0.5)",
+      "rect": {
+        "x": 383.296875,
+        "y": 671,
+        "width": 67,
+        "height": 34
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "ui-button",
+      "text": "<2> 前视",
+      "dataValue": "front",
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)",
+      "boxShadow": "none",
+      "borderColor": "rgba(191, 214, 226, 0.15)",
+      "rect": {
+        "x": 454.296875,
+        "y": 671,
+        "width": 67,
+        "height": 34
+      }
+    }
+  ],
+  "tests": [
+    {
+      "name": "pause",
+      "selector": ".play-button",
+      "key": " ",
+      "focused": true,
+      "before": {
+        "label": null,
+        "pressed": null
+      },
+      "after": {
+        "label": null,
+        "pressed": null
+      },
+      "changed": false
+    },
+    {
+      "name": "mode-solid",
+      "selector": ".mode-control button[data-value=\"solid\"]",
+      "key": "Enter",
+      "focused": true,
+      "before": {
+        "active": true,
+        "pressed": null
+      },
+      "after": {
+        "active": true,
+        "pressed": null
+      },
+      "changed": false
+    },
+    {
+      "name": "mode-xray",
+      "selector": ".mode-control button[data-value=\"xray\"]",
+      "key": "Enter",
+      "focused": true,
+      "before": {
+        "active": false,
+        "pressed": null
+      },
+      "after": {
+        "active": false,
+        "pressed": null
+      },
+      "changed": false
+    },
+    {
+      "name": "mode-section",
+      "selector": ".mode-control button[data-value=\"section\"]",
+      "key": "Enter",
+      "focused": true,
+      "before": {
+        "active": false,
+        "pressed": null
+      },
+      "after": {
+        "active": false,
+        "pressed": null
+      },
+      "changed": false
+    },
+    {
+      "name": "preset-isometric",
+      "selector": ".preset-row button[data-value=\"isometric\"]",
+      "key": "Enter",
+      "focused": true,
+      "before": {
+        "active": true,
+        "pressed": null
+      },
+      "after": {
+        "active": true,
+        "pressed": null
+      },
+      "changed": false
+    },
+    {
+      "name": "preset-front",
+      "selector": ".preset-row button[data-value=\"front\"]",
+      "key": "Enter",
+      "focused": true,
+      "before": {
+        "active": false,
+        "pressed": null
+      },
+      "after": {
+        "active": false,
+        "pressed": null
+      },
+      "changed": false
+    },
+    {
+      "name": "preset-side",
+      "selector": ".preset-row button[data-value=\"side\"]",
+      "key": "Enter",
+      "focused": true,
+      "before": {
+        "active": false,
+        "pressed": null
+      },
+      "after": {
+        "active": false,
+        "pressed": null
+      },
+      "changed": false
+    },
+    {
+      "name": "preset-top",
+      "selector": ".preset-row button[data-value=\"top\"]",
+      "key": "Enter",
+      "focused": true,
+      "before": {
+        "active": false,
+        "pressed": null
+      },
+      "after": {
+        "active": false,
+        "pressed": null
+      },
+      "changed": false
+    },
+    {
+      "name": "preset-crank",
+      "selector": ".preset-row button[data-value=\"crank\"]",
+      "key": "Enter",
+      "focused": true,
+      "before": {
+        "active": false,
+        "pressed": null
+      },
+      "after": {
+        "active": false,
+        "pressed": null
+      },
+      "changed": false
+    },
+    {
+      "name": "preset-combustion",
+      "selector": ".preset-row button[data-value=\"combustion\"]",
+      "key": "Enter",
+      "focused": true,
+      "before": {
+        "active": false,
+        "pressed": null
+      },
+      "after": {
+        "active": false,
+        "pressed": null
+      },
+      "changed": false
+    },
+    {
+      "name": "reset",
+      "selector": ".reset-camera",
+      "key": "Enter",
+      "focused": true,
+      "before": {
+        "modes": [
+          "solid"
+        ],
+        "presets": [
+          "isometric"
+        ]
+      },
+      "after": {
+        "modes": [
+          "solid"
+        ],
+        "presets": [
+          "isometric"
+        ]
+      },
+      "changed": false
+    },
+    {
+      "name": "toggle-labels",
+      "selector": "#toggle-labels",
+      "key": " ",
+      "focused": true,
+      "before": {
+        "checked": true
+      },
+      "after": {
+        "checked": false
+      },
+      "changed": true
+    },
+    {
+      "name": "toggle-flows",
+      "selector": "#toggle-flows",
+      "key": " ",
+      "focused": true,
+      "before": {
+        "checked": true
+      },
+      "after": {
+        "checked": false
+      },
+      "changed": true
+    },
+    {
+      "name": "toggle-explode",
+      "selector": "#toggle-explode",
+      "key": " ",
+      "focused": true,
+      "before": {
+        "checked": false
+      },
+      "after": {
+        "checked": true
+      },
+      "changed": true
+    }
+  ],
+  "focusSample": {
+    "tag": "button",
+    "id": null,
+    "classes": "ui-button",
+    "text": "X-RAY",
+    "dataValue": "xray",
+    "outlineStyle": "auto",
+    "outlineWidth": "1px",
+    "outlineColor": "rgb(16, 16, 16)",
+    "boxShadow": "none",
+    "borderColor": "rgba(191, 214, 226, 0.15)",
+    "rect": {
+      "x": 104.328125,
+      "y": 354,
+      "width": 71.328125,
+      "height": 34
+    }
+  },
+  "canvasKeyboard": {
+    "canvasTabIndex": "0",
+    "canvasTabIndexProperty": 0,
+    "focusablePartCount": 0,
+    "inspectorInitiallyHasPart": false,
+    "inspectorAfterCanvasEnter": false,
+    "partInspectorKeyboardReachable": false
+  },
+  "drawerTests": [
+    {
+      "name": "left-drawer",
+      "selector": ".mobile-panel-toggle:nth-child(1)",
+      "focused": true,
+      "before": "false",
+      "after": "false",
+      "changed": false
+    },
+    {
+      "name": "right-drawer",
+      "selector": ".mobile-panel-toggle:nth-child(2)",
+      "focused": true,
+      "before": "false",
+      "after": "false",
+      "changed": false
+    }
+  ]
+}

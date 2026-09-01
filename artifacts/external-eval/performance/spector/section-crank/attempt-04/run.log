@@ -1,0 +1,7 @@
+[2026-08-31T08:35:55.569Z] scene=section-crank attempt=attempt-04
+[2026-08-31T08:35:55.569Z] target=http://127.0.0.1:16330/ mode=section preset=crank
+[2026-08-31T08:35:55.569Z] injection=response rewrite immediately before production module
+[2026-08-31T08:36:00.779Z] state verified context=webgl2 renderer=ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)
+[2026-08-31T08:36:00.970Z] representative screenshot saved
+[2026-08-31T08:36:00.972Z] Spector capture requested {"canvasFound":true,"status":"capturing"}
+[2026-08-31T08:36:13.596Z] original Spector capture saved bytes=100541712 commands=1446 draws=267

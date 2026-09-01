@@ -1,0 +1,17 @@
+command: npm.cmd run build
+startedAtUtc: 2026-08-31T13:05:47.850Z
+finishedAtUtc: 2026-08-31T13:05:47.850Z
+durationMs: 0
+exitCode: null
+signal: 
+
+--- stdout ---
+
+--- stderr ---
+
+--- spawn error ---
+Error: spawnSync npm.cmd EINVAL
+    at Object.spawnSync (node:internal/child_process:1119:20)
+    at spawnSync (node:child_process:911:24)
+    at run (file:///D:/ComputePicture/codex-inline4-multiagent/evaluation/run-engineering-validation.mjs:18:18)
+    at file:///D:/ComputePicture/codex-inline4-multiagent/evaluation/run-engineering-validation.mjs:64:37

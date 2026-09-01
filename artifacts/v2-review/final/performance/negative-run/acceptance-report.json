@@ -1,0 +1,309 @@
+{
+  "testedAt": "2026-08-30T06:22:53.932Z",
+  "baseUrl": "http://127.0.0.1:14305",
+  "requestedGpuMode": "swiftshader",
+  "desktop": {
+    "viewport": "1280x720",
+    "url": "http://127.0.0.1:14305/",
+    "title": "Acceptance negative fixture",
+    "bodyTextLength": 55,
+    "canvas": {
+      "width": 1280,
+      "height": 720,
+      "clientWidth": 1280,
+      "clientHeight": 720
+    },
+    "webgl": {
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+    },
+    "controls": {
+      "total": 15,
+      "buttons": 10,
+      "ranges": 2,
+      "checkboxes": 3
+    },
+    "layout": {
+      "topbar": {
+        "x": 8,
+        "y": 8,
+        "width": 1264,
+        "height": 0,
+        "right": 1272,
+        "bottom": 8,
+        "clipped": false
+      },
+      "leftPanel": {
+        "x": 8,
+        "y": 8,
+        "width": 1264,
+        "height": 0,
+        "right": 1272,
+        "bottom": 8,
+        "clipped": false
+      },
+      "rightPanel": {
+        "x": 8,
+        "y": 8,
+        "width": 1264,
+        "height": 0,
+        "right": 1272,
+        "bottom": 8,
+        "clipped": false
+      },
+      "dock": {
+        "x": 8,
+        "y": 8,
+        "width": 1264,
+        "height": 0,
+        "right": 1272,
+        "bottom": 8,
+        "clipped": false
+      },
+      "dashboard": {
+        "x": 8,
+        "y": 8,
+        "width": 1264,
+        "height": 173,
+        "right": 1272,
+        "bottom": 181,
+        "clipped": false
+      },
+      "horizontalOverflow": true,
+      "verticalOverflow": true
+    },
+    "values": [
+      "000°"
+    ],
+    "strokes": [],
+    "runningLabel": "ENGINE RUNNING"
+  },
+  "narrow": {
+    "viewport": "390x844",
+    "url": "http://127.0.0.1:14305/",
+    "title": "Acceptance negative fixture",
+    "bodyTextLength": 55,
+    "canvas": {
+      "width": 1280,
+      "height": 720,
+      "clientWidth": 1280,
+      "clientHeight": 720
+    },
+    "webgl": {
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+    },
+    "controls": {
+      "total": 15,
+      "buttons": 10,
+      "ranges": 2,
+      "checkboxes": 3
+    },
+    "layout": {
+      "topbar": {
+        "x": 8,
+        "y": 8,
+        "width": 374,
+        "height": 0,
+        "right": 382,
+        "bottom": 8,
+        "clipped": false
+      },
+      "leftPanel": {
+        "x": 8,
+        "y": 8,
+        "width": 374,
+        "height": 0,
+        "right": 382,
+        "bottom": 8,
+        "clipped": false
+      },
+      "rightPanel": {
+        "x": 8,
+        "y": 8,
+        "width": 374,
+        "height": 0,
+        "right": 382,
+        "bottom": 8,
+        "clipped": false
+      },
+      "dock": {
+        "x": 8,
+        "y": 8,
+        "width": 374,
+        "height": 0,
+        "right": 382,
+        "bottom": 8,
+        "clipped": false
+      },
+      "dashboard": {
+        "x": 8,
+        "y": 8,
+        "width": 374,
+        "height": 197,
+        "right": 382,
+        "bottom": 205,
+        "clipped": false
+      },
+      "horizontalOverflow": true,
+      "verticalOverflow": true
+    },
+    "values": [
+      "000°"
+    ],
+    "strokes": [],
+    "runningLabel": "ENGINE RUNNING"
+  },
+  "frameTiming": {
+    "durationMs": 1000.1000000007452,
+    "frames": 120,
+    "averageFps": 119.98800119987996,
+    "p95FrameMs": 8.400000000000091,
+    "maxFrameMs": 8.5,
+    "drawCalls": {
+      "drawArrays": 0,
+      "drawElements": 0,
+      "drawArraysInstanced": 0,
+      "drawElementsInstanced": 0
+    },
+    "drawCallsPerFrame": 0
+  },
+  "interactions": {
+    "pause": {
+      "beforePause": "000°",
+      "crank": "000°",
+      "label": "ENGINE PAUSED",
+      "title": "",
+      "pausedAgain": "000°",
+      "held": true
+    },
+    "sliders": [
+      "1200 rpm",
+      "42%"
+    ],
+    "modes": {
+      "solid": {
+        "found": true,
+        "active": true
+      },
+      "xray": {
+        "found": true,
+        "active": true
+      },
+      "section": {
+        "found": true,
+        "active": true
+      }
+    },
+    "cameras": [
+      {
+        "value": "isometric",
+        "active": true
+      },
+      {
+        "value": "front",
+        "active": true
+      },
+      {
+        "value": "side",
+        "active": true
+      },
+      {
+        "value": "top",
+        "active": true
+      },
+      {
+        "value": "crank",
+        "active": true
+      },
+      {
+        "value": "combustion",
+        "active": true
+      }
+    ],
+    "toggles": [
+      {
+        "id": "toggle-labels",
+        "before": true,
+        "after": false
+      },
+      {
+        "id": "toggle-flows",
+        "before": true,
+        "after": false
+      },
+      {
+        "id": "toggle-explode",
+        "before": false,
+        "after": true
+      }
+    ]
+  },
+  "pointerInteractions": {
+    "rotateChanged": false,
+    "zoomChanged": false,
+    "panChanged": false,
+    "selection": null
+  },
+  "diagnostics": {
+    "consoleMessages": [
+      {
+        "type": "debug",
+        "text": "[vite] connecting..."
+      },
+      {
+        "type": "debug",
+        "text": "[vite] connected."
+      },
+      {
+        "type": "debug",
+        "text": "[vite] connecting..."
+      },
+      {
+        "type": "debug",
+        "text": "[vite] connected."
+      }
+    ],
+    "pageExceptions": [],
+    "logEntries": [
+      {
+        "level": "error",
+        "source": "network",
+        "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      }
+    ],
+    "browserStderr": [
+      "[36240:39708:0830/142239.230:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:544] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set usagestats; result: 5\r\n",
+      "[36240:39708:0830/142239.231:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:587] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set urlstats; result: 5\r\n",
+      "[36240:38328:0830/142239.388:ERROR:chrome\\browser\\extensions\\external_registry_loader_win.cc:206] File C:/Users/27186/AppData/Roaming/ksobrowserex/edge/ngbkcglbmlglgldjfcnhaijeecaccgfi/kingsoft_extension_edge.crx for key Software\\Microsoft\\Edge\\Extensions\\ngbkcglbmlglgldjfcnhaijeecaccgfi does not exist or is not readable.\r\n",
+      "[36240:38512:0830/142239.582:ERROR:chrome\\browser\\ui\\edge_window_tab_manager\\api\\wtm_interface_impl.cc:461] Failed to open registry key\r\n",
+      "[36240:39708:0830/142239.583:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:544] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set usagestats; result: 5\r\n",
+      "[36240:38328:0830/142239.689:ERROR:chrome\\browser\\importer\\edge_china_browsers\\edge_qqbrowser_importer_utils_win.cc:165] QQBrowser user data path not found.\r\n",
+      "[36240:4384:0830/142241.784:ERROR:services\\device\\public\\cpp\\geolocation\\system_geolocation_source_win.cc:259] Failed to get location access status: 参数错误。 (0x80070057)\r\n",
+      "[36240:9332:0830/142242.172:ERROR:chrome\\browser\\edge_aadc\\user_age_utils_win.cc:163] couldn't get user2.\r\n",
+      "[36240:9332:0830/142242.172:ERROR:chrome\\browser\\edge_aadc\\user_age_utils_win.cc:310] couldn't get windows user age group.\r\n[36240:9332:0830/142242.172:ERROR:chrome\\browser\\edge_aadc\\user_age_utils_win.cc:156] callback wasn't called.\r\n"
+    ]
+  },
+  "performanceMetrics": {
+    "Documents": 1,
+    "Nodes": 92,
+    "LayoutCount": 1,
+    "RecalcStyleCount": 1,
+    "JSHeapUsedSize": 1001860
+  },
+  "acceptance": {
+    "passed": false,
+    "failures": [
+      "desktop layout overflows viewport",
+      "narrow layout overflows viewport",
+      "RPM slider did not update",
+      "load slider did not update",
+      "orbit interaction produced no projected change",
+      "zoom interaction produced no projected change",
+      "pan interaction produced no projected change",
+      "part selection/inspector did not expose full metadata",
+      "animation/draw measurement incomplete",
+      "browser log error captured"
+    ]
+  }
+}

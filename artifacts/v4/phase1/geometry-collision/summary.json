@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "audit": "V4 phase-1 geometry and collision read-only review",
+  "targetCommit": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+  "sourceModified": false,
+  "releaseRecommendation": "no-go-until-p1-remediation",
+  "severitySummary": {
+    "P0": 0,
+    "P1": 3,
+    "P2": 2,
+    "P3": 0
+  },
+  "classificationLegend": {
+    "1": "outer shell intentionally encloses an internal part; containment alone is not surface penetration",
+    "2": "reasonable designed contact or clearance",
+    "3": "AABB, sparse sampling, parent-name granularity, or solid-volume semantics limits the scanner result",
+    "4": "Blender BVH confirms exported surface triangles intersect"
+  },
+  "reproduction": {
+    "trimesh": {
+      "version": "4.8.3",
+      "exitCode": 0,
+      "triangleNodes": 474,
+      "expectedClosedWatertight": "413/413",
+      "degenerateTriangles": 0,
+      "duplicateFaces": 0,
+      "windingErrorEdges": 2304
+    },
+    "blender": {
+      "version": "5.2.1 LTS",
+      "exitCode": 0,
+      "triangleNodes": 474,
+      "expectedClosedWatertight": "413/413",
+      "degenerateTriangles": 0,
+      "duplicateFaces": 0,
+      "windingErrorEdges": 2304
+    },
+    "frozenCollisionScanner": {
+      "exitCode": 0,
+      "sampleCount": 721,
+      "anglesWithAnyReportedPair": 721,
+      "pairAngleSamples": 7561,
+      "maximumReportedProxyMm": 107.0,
+      "maximumIsValidPenetrationDepth": false
+    }
+  },
+  "topology": {
+    "camLobes": {
+      "affectedNodes": 16,
+      "windingErrorEdgesPerNode": 144,
+      "totalWindingErrorEdges": 2304,
+      "geometryHashes": [
+        "b2c9a957c324294e890f1bc02344fa46c92a48fc6bb639909fa0a8f33af3bb6b",
+        "90f8d666c80a7978123d5788db927c6b8cf986f6f92603bf7ddbe830b19047fe"
+      ],
+      "rootCause": "Both cap loops use the same directed boundary edge as the adjacent side face. Front cap and rear cap index order must be reversed independently.",
+      "acceptance": "Both Blender and Trimesh report totalWindingErrorEdges=0 while degenerateTriangles=0, duplicateFaces=0 and every expected-closed node remains watertight."
+    },
+    "duplicateVertices": {
+      "trimesh": "51546/100712 (51.181587%)",
+      "blender": "51518/100684 (51.168011%)",
+      "attributeProbe": {
+        "duplicateVertices": 51546,
+        "attributeRequiredForNormalOrUvSeams": 34670,
+        "attributeRequiredShare": 0.6726031117836495,
+        "exactSamePositionNormalUvRedundancy": 16876,
+        "exactRedundancyShareOfDuplicates": 0.32739688821635043,
+        "exactRedundancyShareOfAllRawVertices": 0.16756692350464691,
+        "duplicateGroups": 18916,
+        "normalAndUvGroups": 10688,
+        "uvOnlyGroups": 4796,
+        "normalOnlyGroups": 3172,
+        "noObservedAttributeDifferenceGroups": 260
+      },
+      "decision": "Do not weld the full 51% by position. At most, index vertices identical across the full exported attribute tuple; preserve normal/UV seams, material primitives, hard edges and object hierarchy.",
+      "acceptance": "exact full-attribute redundancy is zero or materially lower, rendering comparison is unchanged, and topology/watertightness metrics do not regress."
+    }
+  },
+  "collisionPairs": [
+    {
+      "pair": "piston-1 vs engine-block-primary-shell",
+      "frozenScanner": {"reportedAngles": 721, "proxyMm": 107.0, "witnessAngleDeg": 38},
+      "blenderNarrowPhase": {"surfaceIntersectionAngles": 123, "ranges": [[0, 30], [330, 390], [690, 720]], "peakAngleDeg": 0, "peakTrianglePairs": 40},
+      "frozenPositiveWithoutSurfaceIntersection": 598,
+      "classification": [1, 3, 4],
+      "reason": "The all-angle signed-volume claim mixes expected enclosure with a real crossing of the unbored block top closure."
+    },
+    {
+      "pair": "piston-2 vs engine-block-primary-shell",
+      "frozenScanner": {"reportedAngles": 721, "proxyMm": 107.0, "witnessAngleDeg": 0},
+      "blenderNarrowPhase": {"surfaceIntersectionAngles": 159, "ranges": [[0, 39], [321, 399], [681, 720]], "peakAngleDeg": 0, "peakTrianglePairs": 42},
+      "frozenPositiveWithoutSurfaceIntersection": 562,
+      "classification": [1, 3, 4],
+      "reason": "The all-angle signed-volume claim mixes expected enclosure with a real crossing of the unbored block top closure."
+    },
+    {
+      "pair": "piston-3 vs engine-block-primary-shell",
+      "frozenScanner": {"reportedAngles": 721, "proxyMm": 107.0, "witnessAngleDeg": 0},
+      "blenderNarrowPhase": {"surfaceIntersectionAngles": 159, "ranges": [[0, 39], [321, 399], [681, 720]], "peakAngleDeg": 0, "peakTrianglePairs": 42},
+      "frozenPositiveWithoutSurfaceIntersection": 562,
+      "classification": [1, 3, 4],
+      "reason": "The all-angle signed-volume claim mixes expected enclosure with a real crossing of the unbored block top closure."
+    },
+    {
+      "pair": "piston-4 vs engine-block-primary-shell",
+      "frozenScanner": {"reportedAngles": 721, "proxyMm": 107.0, "witnessAngleDeg": 38},
+      "blenderNarrowPhase": {"surfaceIntersectionAngles": 63, "ranges": [[0, 15], [345, 375], [705, 720]], "peakAngleDeg": 0, "peakTrianglePairs": 40},
+      "frozenPositiveWithoutSurfaceIntersection": 658,
+      "classification": [1, 3, 4],
+      "reason": "The all-angle signed-volume claim mixes expected enclosure with a real crossing of the unbored block top closure."
+    },
+    {
+      "pair": "connecting-rod-1 vs engine-block-primary-shell",
+      "frozenScanner": {"reportedAngles": 721, "proxyMm": 107.0, "witnessAngleDeg": 180},
+      "blenderNarrowPhase": {"surfaceIntersectionAngles": 458, "ranges": [[66, 294], [426, 654]], "peakAngleDeg": 180, "peakTrianglePairs": 112},
+      "frozenPositiveWithoutSurfaceIntersection": 263,
+      "classification": [1, 3, 4],
+      "reason": "Containment overstates the angle count, but the closed block/crankcase bottom surface genuinely intersects the rod."
+    },
+    {
+      "pair": "connecting-rod-2 vs engine-block-primary-shell",
+      "frozenScanner": {"reportedAngles": 721, "proxyMm": 107.0, "witnessAngleDeg": 0},
+      "blenderNarrowPhase": {"surfaceIntersectionAngles": 459, "ranges": [[0, 114], [246, 474], [606, 720]], "peakAngleDeg": 0, "peakTrianglePairs": 108},
+      "frozenPositiveWithoutSurfaceIntersection": 262,
+      "classification": [1, 3, 4],
+      "reason": "Containment overstates the angle count, but the closed block/crankcase bottom surface genuinely intersects the rod."
+    },
+    {
+      "pair": "connecting-rod-3 vs engine-block-primary-shell",
+      "frozenScanner": {"reportedAngles": 721, "proxyMm": 107.0, "witnessAngleDeg": 0},
+      "blenderNarrowPhase": {"surfaceIntersectionAngles": 459, "ranges": [[0, 114], [246, 474], [606, 720]], "peakAngleDeg": 13, "peakTrianglePairs": 110},
+      "frozenPositiveWithoutSurfaceIntersection": 262,
+      "classification": [1, 3, 4],
+      "reason": "Containment overstates the angle count, but the closed block/crankcase bottom surface genuinely intersects the rod."
+    },
+    {
+      "pair": "connecting-rod-4 vs engine-block-primary-shell",
+      "frozenScanner": {"reportedAngles": 721, "proxyMm": 107.0, "witnessAngleDeg": 180},
+      "blenderNarrowPhase": {"surfaceIntersectionAngles": 458, "ranges": [[66, 294], [426, 654]], "peakAngleDeg": 180, "peakTrianglePairs": 112},
+      "frozenPositiveWithoutSurfaceIntersection": 263,
+      "classification": [1, 3, 4],
+      "reason": "Containment overstates the angle count, but the closed block/crankcase bottom surface genuinely intersects the rod."
+    },
+    {
+      "pair": "crankshaft vs engine-block-primary-shell",
+      "frozenScanner": {"reportedAngles": 721, "proxyMm": 101.41210175, "witnessAngleDeg": 0},
+      "blenderNarrowPhase": {"surfaceIntersectionAngles": 721, "ranges": [[0, 720]], "peakAngleDeg": 85, "peakTrianglePairs": 744},
+      "frozenPositiveWithoutSurfaceIntersection": 0,
+      "classification": [3, 4],
+      "reason": "Actual surface intersection persists at every angle. Parent-level naming and 48 samples cannot identify which crank subpart is responsible."
+    },
+    {
+      "pair": "connecting-rod-1 vs cylinder-liner-1",
+      "frozenScanner": {"reportedAngles": 268, "radialExcessProxyMm": 21.413884243624963, "witnessAngleDeg": 663},
+      "blenderNarrowPhase": {"surfaceIntersectionAngles": 272, "ranges": [[11, 78], [282, 349], [371, 438], [642, 709]], "peakAngleDeg": 31, "peakTrianglePairs": 38},
+      "classification": [3, 4],
+      "reason": "The 21.413884 mm value is radial excess, not physical penetration depth; full-triangle BVH nevertheless confirms real surface intersection."
+    },
+    {
+      "pair": "connecting-rod-2 vs cylinder-liner-2",
+      "frozenScanner": {"reportedAngles": 268, "radialExcessProxyMm": 21.413884243624974, "witnessAngleDeg": 483},
+      "blenderNarrowPhase": {"surfaceIntersectionAngles": 272, "ranges": [[102, 169], [191, 258], [462, 529], [551, 618]], "peakAngleDeg": 149, "peakTrianglePairs": 38},
+      "classification": [3, 4],
+      "reason": "The 21.413884 mm value is radial excess, not physical penetration depth; full-triangle BVH nevertheless confirms real surface intersection."
+    },
+    {
+      "pair": "connecting-rod-3 vs cylinder-liner-3",
+      "frozenScanner": {"reportedAngles": 268, "radialExcessProxyMm": 21.413884243624974, "witnessAngleDeg": 483},
+      "blenderNarrowPhase": {"surfaceIntersectionAngles": 272, "ranges": [[102, 169], [191, 258], [462, 529], [551, 618]], "peakAngleDeg": 143, "peakTrianglePairs": 38},
+      "classification": [3, 4],
+      "reason": "The 21.413884 mm value is radial excess, not physical penetration depth; full-triangle BVH nevertheless confirms real surface intersection."
+    },
+    {
+      "pair": "connecting-rod-4 vs cylinder-liner-4",
+      "frozenScanner": {"reportedAngles": 268, "radialExcessProxyMm": 21.413884243624963, "witnessAngleDeg": 663},
+      "blenderNarrowPhase": {"surfaceIntersectionAngles": 272, "ranges": [[11, 78], [282, 349], [371, 438], [642, 709]], "peakAngleDeg": 329, "peakTrianglePairs": 38},
+      "classification": [3, 4],
+      "reason": "The 21.413884 mm value is radial excess, not physical penetration depth; full-triangle BVH nevertheless confirms real surface intersection."
+    }
+  ],
+  "collisionRootCause": {
+    "whyAnyCollisionAtAll721Angles": "The sparse frozen scanner reports internal containment for all block pairs, but the independent surface test also confirms crankshaft/block triangle intersection at all 721 angles. Therefore the assembly-wide 721/721 failure is not removable as a false positive.",
+    "why107MmIsNotDepth": "It is the greatest nearest-outer-triangle distance among a few sampled points classified inside the outer closed block surface. It is not an overlap depth between two closed material volumes.",
+    "why21413884MmIsNotDepth": "It is radial excess beyond the liner centerline radius for sampled rod vertices inside the liner axial span. It neither follows the liner surface normal nor computes a material-volume overlap.",
+    "confirmedDefect": "The block is a closed exterior ExtrudeGeometry without four bores or a crankcase void, and each liner is an unrelieved open cylinder. Blender surface triangles confirm resulting intersections."
+  },
+  "samplingCoverage": {
+    "crankshaftSemanticNodes": 44,
+    "nodesReachedBy48AggregateSamples": 18,
+    "unreachedNodes": 26,
+    "roles": {
+      "mainJournalOrCheek": "6/10 nodes reached",
+      "crankpin": "1/4 nodes reached",
+      "counterweightWeb": "8/8 nodes reached but only parent-level pair reported",
+      "nose": "1/1",
+      "damper": "1/1",
+      "accessoryCrankPulley": "1/1",
+      "timingCrankSprocket": "0/19"
+    },
+    "timingAndAccessoryGap": "The timing chain is exported under camshaft and the accessory belt under cooling-system, neither of which is in the frozen dynamic-parts scan. The timing crank sprocket's 19 nodes receive zero aggregate sample points. Unrelated-shell clearance is therefore unmeasured, not passed.",
+    "acceptance": "Scan every crank semantic node or explicit role, report the responsible subpart, cover 44/44 crank nodes including 19/19 sprocket nodes, and include timing chain/accessory belt/pulley versus unrelated shells."
+  },
+  "findings": [
+    {
+      "id": "V4-GEO-01",
+      "severity": "P1",
+      "title": "Block, crankcase and liners have confirmed moving-surface intersections",
+      "qualityImpact": "The visible motion can be mechanically legible while the exported solid geometry remains physically contradictory.",
+      "expectedBenefit": "Restores defensible non-interference for the core motion chain and removes the largest external-evaluation weakness.",
+      "implementationCost": "high",
+      "risk": "Changing block/liner topology may reduce the silhouette, watertightness, section readability or frame rate.",
+      "acceptance": "721-angle Blender triangle scan reports zero unclassified moving-part/block and rod/liner surface intersections; no new whitelist entries are used."
+    },
+    {
+      "id": "V4-GEO-02",
+      "severity": "P1",
+      "title": "Sixteen cam lobes have reversed cap boundary winding",
+      "qualityImpact": "Normals and face orientation are internally inconsistent even though the meshes remain closed.",
+      "expectedBenefit": "Zeroes a deterministic cross-tool topology defect with a two-index-order correction.",
+      "implementationCost": "low",
+      "risk": "A wrong one-sided correction can invert a cap or total signed volume.",
+      "acceptance": "Both tools report 0 winding errors, 0 invalid normals and 16/16 lobes remain watertight with positive volume."
+    },
+    {
+      "id": "V4-GEO-03",
+      "severity": "P1",
+      "title": "Frozen collision sampling cannot attribute or cover crank/timing subparts",
+      "qualityImpact": "Counterweight, journal, sprocket, chain and belt clearance cannot be independently defended.",
+      "expectedBenefit": "Turns an aggregate alarm into actionable part-level mechanical evidence and closes explicit coverage gaps.",
+      "implementationCost": "medium",
+      "risk": "A broader scan can be slower and can expose more true issues; that is evidence, not a reason to suppress it.",
+      "acceptance": "All semantic crank/timing/accessory roles are enumerated and unrelated-shell pairs are checked over their motion cycles."
+    },
+    {
+      "id": "V4-GEO-04",
+      "severity": "P2",
+      "title": "Only one third of coincident vertices are exact observed-attribute redundancy",
+      "qualityImpact": "The original 51% headline overstates safe optimization; blind welding would damage hard edges and UV seams.",
+      "expectedBenefit": "A full-attribute indexing pass can remove up to 16,876 vertices (16.76% of raw) without intentionally changing appearance.",
+      "implementationCost": "medium",
+      "risk": "Ignoring tangents, colors, skinning or future attributes can still alter rendering.",
+      "acceptance": "Full-attribute redundancy falls without changing normal/UV seams, material primitives, topology metrics or matched screenshots."
+    },
+    {
+      "id": "V4-GEO-05",
+      "severity": "P2",
+      "title": "Frozen penetration magnitudes are proxy distances, not physical depths",
+      "qualityImpact": "Calling 107 mm or 21.413884 mm penetration depth would overstate what was measured.",
+      "expectedBenefit": "Reports become technically defensible while retaining the real collision failures.",
+      "implementationCost": "low",
+      "risk": "None if raw values remain preserved and relabeled.",
+      "acceptance": "Reports label both metrics as proxies and pair them with triangle-overlap angle ranges; no proxy is presented as physical overlap depth."
+    }
+  ],
+  "explicitNonImplementations": [
+    "Do not whitelist block, liner, timing or accessory intersections to improve the score.",
+    "Do not position-weld all 51% coincident vertices; 67.26% of the duplicate count is required by observed normal or UV seams.",
+    "Do not chase the 28-vertex Blender/Trimesh importer-count difference: both tools agree on every scored topology conclusion.",
+    "Do not shrink or hide rods, pistons, crankshaft, block or liners to avoid intersections; derive any liner relief or cavity from the 720-degree swept envelope and an explicit clearance.",
+    "Do not treat timing/accessory pairs as passed until coverage exists."
+  ],
+  "scoreOpinion": {
+    "externalGeometryMechanicsBaselineOutOf35": 24,
+    "phase1AdjustedScoreOutOf35": 24,
+    "reason": "Classification corrects the interpretation of proxy depths but independent triangle overlap still supports a zero collision subscore.",
+    "finalV4Score": "not-applicable-before-remediation-and-retest"
+  }
+}

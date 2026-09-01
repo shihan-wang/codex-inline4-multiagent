@@ -1,0 +1,39 @@
+{
+  "objects": 446,
+  "meshes": 366,
+  "points": 3,
+  "instancedMeshes": 0,
+  "uniqueGeometries": 349,
+  "uniqueMaterials": 39,
+  "vertices": 83613,
+  "triangles": 82596,
+  "geometryBytes": 3113432,
+  "castShadow": 6,
+  "receiveShadow": 345,
+  "transparentMaterials": 25,
+  "pickableRoots": 34,
+  "geometryTypes": {
+    "ExtrudeGeometry": 41,
+    "CylinderGeometry": 129,
+    "BoxGeometry": 69,
+    "BufferGeometry": 4,
+    "TorusGeometry": 48,
+    "SphereGeometry": 21,
+    "ConeGeometry": 4,
+    "TubeGeometry": 33
+  },
+  "materialTypes": {
+    "MeshStandardMaterial": 18,
+    "MeshPhysicalMaterial": 5,
+    "MeshBasicMaterial": 13,
+    "PointsMaterial": 3
+  },
+  "roles": {
+    "unspecified": 350,
+    "shell": 3,
+    "mechanism": 79,
+    "detail": 6,
+    "hot": 2,
+    "fluid": 6
+  }
+}

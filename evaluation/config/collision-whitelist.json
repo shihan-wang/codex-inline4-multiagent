@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "frozenWithProtocol": true,
+  "description": "Only intended fits and contacts listed here may be excluded from the 0-720 degree collision failure count.",
+  "allowedContacts": [
+    {"a": "piston:*", "b": "piston-ring:same-cylinder", "reason": "ring seated in piston groove"},
+    {"a": "piston:*", "b": "wrist-pin:same-cylinder", "reason": "press/floating pin fit"},
+    {"a": "wrist-pin:*", "b": "connecting-rod-small-end:same-cylinder", "reason": "bearing fit"},
+    {"a": "connecting-rod-big-end:*", "b": "crankpin:same-cylinder", "reason": "journal bearing fit"},
+    {"a": "crankshaft-subcomponent:*", "b": "crankshaft-subcomponent:*", "reason": "single assembled crankshaft"},
+    {"a": "valve-stem:*", "b": "valve-guide:same-valve", "reason": "guided sliding fit"},
+    {"a": "valve-spring:*", "b": "retainer-or-tappet:same-valve", "reason": "spring end seating"},
+    {"a": "cam-lobe:*", "b": "flat-tappet:same-valve", "reason": "designed support clearance/contact"},
+    {"a": "timing-sprocket:*", "b": "timing-chain", "reason": "meshing drive"},
+    {"a": "accessory-pulley:*", "b": "accessory-belt", "reason": "belt wrap contact"},
+    {"a": "fastener-or-rib:*", "b": "parent-shell", "reason": "attached construction detail"},
+    {"a": "cylinder-liner:*", "b": "engine-block", "reason": "liner installed in block"}
+  ],
+  "explicitlyNotWhitelisted": [
+    "piston crown versus cylinder head",
+    "connecting rod versus block or liner",
+    "valve face versus piston crown",
+    "opposing valves",
+    "cam lobe versus non-matching tappet",
+    "crank counterweight versus block, sump, piston or connecting rod from another journal",
+    "timing or accessory drive versus unrelated shell geometry"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "targetCommit": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+  "resumePolicy": "No successful measurement was rerun after quota recovery; this file records the preserved pre-interruption executions.",
+  "tools": {
+    "trimesh": "4.8.3",
+    "trimeshPython": "3.12.12",
+    "topologyNumpy": "2.5.2",
+    "collisionNumpy": "2.4.2",
+    "blender": "5.2.1 LTS",
+    "blenderBuildHash": "9e2066aef7ef",
+    "blenderPython": "3.13.13"
+  },
+  "runs": [
+    {
+      "id": "trimesh-topology",
+      "command": "python artifacts/v4/phase1/geometry-collision/repro_trimesh.py",
+      "exitCode": 0,
+      "logicalValidity": "valid",
+      "output": "trimesh/results.json",
+      "log": "trimesh-run.log"
+    },
+    {
+      "id": "blender-topology",
+      "command": "blender.exe --background --python evaluation/geometry/blender_check.py -- artifacts/external-eval/geometry/export/semantic-engine.glb artifacts/external-eval/geometry/export/semantic-engine.manifest.json artifacts/v4/phase1/geometry-collision/blender/results.json",
+      "exitCode": 0,
+      "logicalValidity": "valid",
+      "output": "blender/results.json",
+      "log": "blender-run.log"
+    },
+    {
+      "id": "frozen-721-collision",
+      "command": "python artifacts/v4/phase1/geometry-collision/repro_collision.py",
+      "exitCode": 0,
+      "logicalValidity": "valid-as-frozen-scanner-output-not-as-collision-truth",
+      "output": "collision/collision-scan.json",
+      "log": "collision-run.log"
+    },
+    {
+      "id": "duplicate-seam-attempt-01",
+      "command": "python artifacts/v4/phase1/geometry-collision/analyze_duplicate_seams.py",
+      "exitCode": 1,
+      "logicalValidity": "invalid-preserved",
+      "failure": "PointCloud has no vertex_normals; the probe initially failed to skip non-triangle primitives.",
+      "log": "duplicate-seam-run-attempt-01-failed.log"
+    },
+    {
+      "id": "duplicate-seam-attempt-02",
+      "command": "python artifacts/v4/phase1/geometry-collision/analyze_duplicate_seams.py",
+      "exitCode": 0,
+      "logicalValidity": "valid",
+      "output": "duplicate-seam-analysis.json",
+      "log": "duplicate-seam-run-attempt-02.log"
+    },
+    {
+      "id": "sampling-coverage-attempt-01",
+      "command": "python artifacts/v4/phase1/geometry-collision/analyze_sampling_coverage.py",
+      "exitCode": 0,
+      "logicalValidity": "invalid-preserved",
+      "failure": "Role classifier evaluated the generic Mesh leaf before nested crank throw/sprocket groups.",
+      "output": "sampling-coverage-attempt-01-classifier-bug.json",
+      "log": "sampling-coverage-run-attempt-01-classifier-bug.log"
+    },
+    {
+      "id": "sampling-coverage-attempt-02",
+      "command": "python artifacts/v4/phase1/geometry-collision/analyze_sampling_coverage.py",
+      "exitCode": 0,
+      "logicalValidity": "valid",
+      "output": "sampling-coverage.json",
+      "log": "sampling-coverage-run-attempt-02.log"
+    },
+    {
+      "id": "blender-narrow-phase-attempt-01",
+      "command": "blender.exe --background --python artifacts/v4/phase1/geometry-collision/blender_narrow_phase.py",
+      "exitCode": 0,
+      "logicalValidity": "invalid-preserved",
+      "failure": "Dynamic transforms were applied as glTF Y-up coordinates after Blender had converted the scene to Z-up.",
+      "output": "blender-narrow-phase-attempt-01-axis-bug.json",
+      "log": "blender-narrow-phase-run-attempt-01-axis-bug.log"
+    },
+    {
+      "id": "blender-narrow-phase-attempt-02",
+      "command": "blender.exe --background --python artifacts/v4/phase1/geometry-collision/blender_narrow_phase.py",
+      "exitCode": 0,
+      "logicalValidity": "valid-but-superseded",
+      "note": "Corrected axis mapping and scanned all liner angles, but checked the block only at eight representative angles.",
+      "output": "blender-narrow-phase-attempt-02-representative-only.json",
+      "log": "blender-narrow-phase-run-attempt-02-representative-only.log"
+    },
+    {
+      "id": "blender-narrow-phase-attempt-03",
+      "command": "blender.exe --background --python artifacts/v4/phase1/geometry-collision/blender_narrow_phase.py",
+      "exitCode": 0,
+      "logicalValidity": "valid-final",
+      "note": "Correct glTF Y-up to Blender Z-up mapping; full 721-angle surface scan for block pairs and liner pairs.",
+      "output": "blender-narrow-phase.json",
+      "log": "blender-narrow-phase-run-attempt-03.log"
+    }
+  ]
+}

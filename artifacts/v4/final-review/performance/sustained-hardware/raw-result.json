@@ -1,0 +1,100 @@
+{
+  "schema": "inline4-v4-final-sustained-webgl-v1",
+  "metadata": {
+    "startedAtUtc": "2026-08-31T23:09:32.093Z",
+    "endedAtUtc": "2026-08-31T23:10:09.832Z",
+    "durationMs": 37739,
+    "command": "node artifacts/v4/final-review/performance/run-sustained-webgl.mjs hardware 16445 http://127.0.0.1:16442/",
+    "exitCode": 0,
+    "failure": null,
+    "gitHead": "eccde839811d6991b9583f3c4fd6c08918ec64c1",
+    "v4SourceUncommittedAtMeasurement": true,
+    "baseUrl": "http://127.0.0.1:16442/"
+  },
+  "result": {
+    "requestedGpuMode": "hardware",
+    "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "viewport": "1280x720@1",
+    "warmupMs": 5000,
+    "minimumDurationMs": 30000,
+    "minimumFrames": 600,
+    "sample": {
+      "frames": 3600,
+      "durationMs": 30000.699999994038,
+      "averageFps": 119.99720006535566,
+      "p50FrameMs": 8.300000000001091,
+      "p95FrameMs": 8.400000000001455,
+      "p99FrameMs": 8.5,
+      "maxFrameMs": 16.69999999999891,
+      "drawCalls": {
+        "drawArrays": 147600,
+        "drawElements": 738001,
+        "drawArraysInstanced": 18000,
+        "drawElementsInstanced": 61200,
+        "contextLost": 0,
+        "contextRestored": 0
+      },
+      "drawCallsPerFrame": 268.0002777777778
+    },
+    "heapBefore": {
+      "usedSize": 8370200,
+      "totalSize": 21495808,
+      "embedderHeapUsedSize": 2958568,
+      "backingStorageSize": 3215734
+    },
+    "heapAfter": {
+      "usedSize": 10093744,
+      "totalSize": 23592960,
+      "embedderHeapUsedSize": 6096568,
+      "backingStorageSize": 3215734
+    },
+    "performanceMetrics": {
+      "Timestamp": 173158.97821,
+      "AudioHandlers": 0,
+      "AudioWorkletProcessors": 0,
+      "Documents": 1,
+      "Frames": 1,
+      "JSEventListeners": 35,
+      "LayoutObjects": 885,
+      "MediaKeySessions": 0,
+      "MediaKeys": 0,
+      "Nodes": 1017,
+      "Resources": 0,
+      "ContextLifecycleStateObservers": 4,
+      "V8PerContextDatas": 1,
+      "WorkerGlobalScopes": 0,
+      "UACSSResources": 0,
+      "RTCPeerConnections": 0,
+      "ResourceFetchers": 1,
+      "AdSubframes": 0,
+      "DetachedScriptStates": 0,
+      "ArrayBufferContents": 975,
+      "LayoutCount": 4194,
+      "RecalcStyleCount": 5054,
+      "LayoutDuration": 0.797182,
+      "RecalcStyleDuration": 0.75024,
+      "DevToolsCommandDuration": 0.271266,
+      "ScriptDuration": 13.68383,
+      "V8CompileDuration": 0,
+      "TaskDuration": 18.417052,
+      "TaskOtherDuration": 2.914534,
+      "ThreadTime": 15.359801,
+      "ProcessTime": 20.650906,
+      "JSHeapUsedSize": 10093744,
+      "JSHeapTotalSize": 23592960,
+      "FirstMeaningfulPaint": 173123.947042,
+      "DomContentLoaded": 173123.053854,
+      "NavigationStart": 173122.714055
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageExceptions": [],
+      "logEntries": [],
+      "applicationConsoleErrors": 0,
+      "browserLogErrors": 0,
+      "contextLost": 0,
+      "contextRestored": 0,
+      "browserStderr": "[21032:29740:0901/070932.524:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:544] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set usagestats; result: 5\r\n[21032:29740:0901/070932.524:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:587] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set urlstats; result: 5\r\n[21032:19864:0901/070932.647:ERROR:chrome\\browser\\extensions\\external_registry_loader_win.cc:206] File C:/Users/27186/AppData/Roaming/ksobrowserex/edge/ngbkcglbmlglgldjfcnhaijeecaccgfi/kingsoft_extension_edge.crx for key Software\\Microsoft\\Edge\\Extensions\\ngbkcglbmlglgldjfcnhaijeecaccgfi does not exist or is not readable.\r\n\r\nDevTools listening on ws://127.0.0.1:16445/devtools/browser/8ba6c835-28c9-41f4-9b8b-430d73e4ef33\r\n[21032:29740:0901/070932.791:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:544] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set usagestats; result: 5\r\n[21032:10896:0901/070932.792:ERROR:chrome\\browser\\ui\\edge_window_tab_manager\\api\\wtm_interface_impl.cc:461] Failed to open registry key\r\n[21032:39952:0901/070932.880:ERROR:chrome\\browser\\importer\\edge_china_browsers\\edge_qqbrowser_importer_utils_win.cc:165] QQBrowser user data path not found.\r\n[21032:39332:0901/070935.002:ERROR:services\\device\\public\\cpp\\geolocation\\system_geolocation_source_win.cc:259] Failed to get location access status: 参数错误。 (0x80070057)\r\n[21032:13696:0901/070935.808:ERROR:chrome\\browser\\edge_aadc\\user_age_utils_win.cc:163] couldn't get user2.\r\n[21032:13696:0901/070935.808:ERROR:chrome\\browser\\edge_aadc\\user_age_utils_win.cc:310] couldn't get windows user age group.\r\n[21032:13696:0901/070935.808:ERROR:chrome\\browser\\edge_aadc\\user_age_utils_win.cc:156] callback wasn't called.\r\n"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "schema": "inline4-v4-round3-visual-performance-review-v1",
+  "reviewer": "v4_round3_perf_reviewer",
+  "independence": {
+    "participatedInImplementation": false,
+    "productSourceModified": false,
+    "evidenceBoundary": "artifacts/v4/round3/final-review/performance/"
+  },
+  "candidate": {
+    "branch": "v4-remediation",
+    "baseHead": "eccde839811d6991b9583f3c4fd6c08918ec64c1",
+    "sourceDiffGitObject": "9661b3da8a93dd07d7f8a480798408770de1efa9",
+    "productionJavascriptBytes": 615939,
+    "productionCssBytes": 13829
+  },
+  "sustainedWebgl": {
+    "intelArc": {
+      "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "frames": 3601,
+      "durationMs": 30000.700000005963,
+      "averageFps": 120.03053262088166,
+      "p95FrameMs": 8.400000000001455,
+      "drawCallsPerFrame": 269,
+      "applicationAndPageAndLogErrors": 0,
+      "contextLosses": 0,
+      "gate": { "minimumFps": 110, "maximumP95FrameMs": 10, "maximumDrawCallsPerFrame": 282 },
+      "passed": true
+    },
+    "swiftShader": {
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "frames": 600,
+      "durationMs": 49661.500000017884,
+      "averageFps": 12.081793743640121,
+      "p95FrameMs": 91.59999999999945,
+      "drawCallsPerFrame": 269.00666666666666,
+      "applicationAndPageAndLogErrors": 0,
+      "contextLosses": 0,
+      "compatibilityPassed": true,
+      "boundary": "Compatibility only; never mixed with Intel Arc and not described as fluid."
+    }
+  },
+  "browserAcceptance": {
+    "runs": 1,
+    "passed": true,
+    "renderer": "Intel Arc D3D11 WebGL2",
+    "desktop": "1280x720",
+    "narrow": "390x844",
+    "viewModes": 3,
+    "cameraPresets": 6,
+    "toggles": 3,
+    "pause": true,
+    "orbitZoomPan": true,
+    "pointerPartInspectorFields": 5,
+    "keyboardPartSelectorReached": true,
+    "keyboardPartInspectorFields": 5,
+    "errors": 0
+  },
+  "fixedVisuals": {
+    "desktopScenes": 4,
+    "narrowScenes": 1,
+    "desktopViewport": "1280x720@1",
+    "narrowViewport": "390x844@1",
+    "crankAngle": "000.0°",
+    "paused": true,
+    "errorEvents": 0,
+    "visualRegressionFound": false
+  },
+  "spector": {
+    "rerun": false,
+    "triggered": false,
+    "rationale": "No material/renderer/shader pipeline change; sustained draws +0.373% and acceptance draws +0.376%, below the frozen 5% trigger."
+  },
+  "severityCounts": { "P0": 0, "P1": 0, "P2": 2, "P3": 1 },
+  "releaseRecommendation": "GO",
+  "remainingBoundaries": [
+    "SwiftShader is compatible but not fluid.",
+    "Full V4 5+5 cold-cache Lighthouse was not triggered or rerun.",
+    "NVDA and real-person blind review remain human-pending."
+  ],
+  "serverAndBrowserCleanup": {
+    "previewPid": 22012,
+    "previewStopped": true,
+    "newReviewerEdgeProcessesRemaining": 0
+  }
+}

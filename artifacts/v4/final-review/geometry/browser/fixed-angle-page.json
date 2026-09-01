@@ -1,0 +1,33 @@
+{
+  "capturedAt": "2026-08-31T23:11:26.382Z",
+  "baseUrl": "http://127.0.0.1:16510/",
+  "fixedTelemetry": {
+    "gauges": [
+      "CRANK曲轴转角300.9°",
+      "COOLANT冷却液88°C",
+      "OIL机油压力2.4 bar"
+    ],
+    "runState": "ENGINE PAUSED发动机已暂停"
+  },
+  "diagnostics": {
+    "title": "Inline-4 Diesel · 四冲程机械剖析",
+    "url": "http://127.0.0.1:16510/",
+    "canvas": {
+      "width": 1280,
+      "height": 720,
+      "clientWidth": 1280,
+      "clientHeight": 720
+    },
+    "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "activeMode": "xray",
+    "activePreset": "combustion",
+    "runState": "ENGINE PAUSED发动机已暂停",
+    "gauges": [
+      "CRANK曲轴转角539.9°",
+      "COOLANT冷却液88°C",
+      "OIL机油压力2.3 bar"
+    ]
+  },
+  "consoleErrors": [],
+  "pageErrors": []
+}

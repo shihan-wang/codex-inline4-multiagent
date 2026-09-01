@@ -1,0 +1,62 @@
+[
+  {
+    "path": "console-and-errors.json",
+    "bytes": 72,
+    "sha256": "b051500ee6668cb108a3190f1359c84fb7f30e6e1e3828e91b61845e1bff1633"
+  },
+  {
+    "path": "contrast-and-initial-state.png",
+    "bytes": 474411,
+    "sha256": "d8fd7a7e3c475b255c4d2bce8ac90b07cb837572756e59324fede4e3b20b74a6"
+  },
+  {
+    "path": "environment.json",
+    "bytes": 486,
+    "sha256": "f1c49736969c95c1d5162e53370440600b7d2ea359ba7c7777e0788ac9bfc06d"
+  },
+  {
+    "path": "generic-connecting-rod-selected.png",
+    "bytes": 491152,
+    "sha256": "a9d1a09ff7afd48c7a7e37c32b946ac5ff2ef9052c15dabdf073542c5b8f0fac"
+  },
+  {
+    "path": "generic-piston-selected.png",
+    "bytes": 434124,
+    "sha256": "3e89be1b382c71e85d0b2e9a8f1b619eaa5754b223d1967362d6cdd59864f6d9"
+  },
+  {
+    "path": "generic-selection-before.png",
+    "bytes": 487447,
+    "sha256": "a1268e2189e6f7b7f8919a87943e7050c916e7adcd2a81a507ac664e30bf06cb"
+  },
+  {
+    "path": "paused-state.png",
+    "bytes": 473215,
+    "sha256": "c7642cf1c04ad810b3a46664b3ca650fc27c5f93a667ab01415f1b9a1ebc15dd"
+  },
+  {
+    "path": "results.json",
+    "bytes": 2697,
+    "sha256": "abf29090fc52718c7b38158a0f3f76f7828282f68e55f3a8c4a13cb03a74b275"
+  },
+  {
+    "path": "review-report.md",
+    "bytes": 5167,
+    "sha256": "af869b7e889b24b569d8e5e87908ebca78e2ef23be7abdbf8f29c6ffd8484945"
+  },
+  {
+    "path": "round2-accessibility-recheck.mjs",
+    "bytes": 8954,
+    "sha256": "0247d368d6f6b0a1278ae2710e0d65684587045b5b2703a45eb262e5bf3f7356"
+  },
+  {
+    "path": "run.log",
+    "bytes": 109,
+    "sha256": "8dd925f990b87f23b49df8584e0ec893bde29232e225c536922984be334ba51f"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 1072,
+    "sha256": "038d032029c6820104fed223f8ff4e9a4fe8515daf25739fa4efa642e0d07006"
+  }
+]

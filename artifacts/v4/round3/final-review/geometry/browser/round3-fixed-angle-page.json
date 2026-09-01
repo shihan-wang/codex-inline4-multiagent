@@ -1,0 +1,36 @@
+{
+  "capturedAt": "2026-09-01T04:19:22.482Z",
+  "baseUrl": "http://127.0.0.1:16531/",
+  "fixedState": "The app was paused once; both captures retain the same crank angle.",
+  "states": {
+    "crankSection": {
+      "activeMode": "section",
+      "activePreset": "crank",
+      "crankAngle": "CRANK曲轴转角598.3°"
+    },
+    "valvetrainXray": {
+      "activeMode": "xray",
+      "activePreset": "combustion",
+      "crankAngle": "CRANK曲轴转角598.3°"
+    }
+  },
+  "diagnostics": {
+    "title": "Inline-4 Diesel · 四冲程机械剖析",
+    "url": "http://127.0.0.1:16531/",
+    "canvas": {
+      "width": 1280,
+      "height": 720,
+      "clientWidth": 1280,
+      "clientHeight": 720
+    },
+    "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "runState": "ENGINE PAUSED发动机已暂停",
+    "gauges": [
+      "CRANK曲轴转角598.3°",
+      "COOLANT冷却液88°C",
+      "OIL机油压力2.3 bar"
+    ]
+  },
+  "consoleErrors": [],
+  "pageErrors": []
+}

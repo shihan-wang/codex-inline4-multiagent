@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "audit": {
+    "name": "V3 independent final procedural geometry and visual revalidation",
+    "auditedWorkingTreeBase": "12472172925ec3108d096f2402a48e3f7939931b",
+    "v1BaselinePeeled": "5518627ae0430add55b31cd8a4c3e8fb5ab02db3",
+    "v2BaselinePeeled": "12472172925ec3108d096f2402a48e3f7939931b",
+    "independentReviewerParticipatedInImplementation": false,
+    "sourceModifiedByReviewer": false,
+    "recoveryReusedExistingEvidence": true,
+    "fullBrowserSuiteRepeatedAfterRecovery": false
+  },
+  "decision": {
+    "releaseRecommended": true,
+    "p0": 0,
+    "p1": 0,
+    "p2": 2,
+    "p3": 2,
+    "obviousHighYieldLowCostIssuesRemain": false,
+    "reason": "All phase-1 P1 issues and six of eight P2 issues are closed or downgraded. Remaining P2 items require broad high-risk rendering or geometry work."
+  },
+  "environment": {
+    "baseUrl": "http://127.0.0.1:15412",
+    "browser": "Microsoft Edge",
+    "desktopViewport": "1280x720",
+    "narrowViewport": "390x844",
+    "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "rendererClass": "hardware",
+    "testedAt": "2026-08-30T15:38:20.301Z"
+  },
+  "comparison": {
+    "v2Total": 74.0,
+    "v3Total": 88.0,
+    "delta": 14.0,
+    "sameSizeDesktopEvidence": true,
+    "sameSizeNarrowEvidence": true
+  },
+  "scores": {
+    "mechanical": {
+      "v2": 20.0,
+      "v3": 22.5,
+      "max": 25,
+      "confidence": 0.87,
+      "evidence": [
+        "browser/camera-front-1280x720.png",
+        "browser/camera-crank-1280x720.png",
+        "browser/camera-combustion-1280x720.png",
+        "src/scene/assembly.ts:624-741"
+      ]
+    },
+    "geometry": {
+      "v2": 18.0,
+      "v3": 20.5,
+      "max": 25,
+      "confidence": 0.94,
+      "evidence": [
+        "browser/desktop-solid.png",
+        "browser/desktop-xray.png",
+        "browser/camera-side-1280x720.png",
+        "browser/desktop-exploded.png"
+      ]
+    },
+    "visual": {
+      "v2": 14.0,
+      "v3": 17.0,
+      "max": 20,
+      "confidence": 0.95,
+      "evidence": [
+        "browser/camera-top-1280x720.png",
+        "browser/camera-front-1280x720.png",
+        "browser/flows-on-xray.png",
+        "browser/flows-off-xray.png",
+        "browser/desktop-selected.png"
+      ]
+    },
+    "interaction": {
+      "v2": 7.5,
+      "v3": 9.5,
+      "max": 10,
+      "confidence": 0.98,
+      "evidence": [
+        "browser/acceptance-report.json",
+        "browser/narrow-390x844.png",
+        "browser/narrow-left-open.png",
+        "browser/narrow-right-open.png"
+      ]
+    },
+    "performance": {
+      "v2": 6.5,
+      "v3": 9.0,
+      "max": 10,
+      "confidence": 0.96,
+      "evidence": [
+        "browser/acceptance-report.json",
+        "artifacts/v3/round1/final/hardware-immediate/acceptance-report.json",
+        "artifacts/v3/round1/final/swiftshader-immediate/acceptance-report.json"
+      ]
+    },
+    "testEvidence": {
+      "v2": 8.0,
+      "v3": 9.5,
+      "max": 10,
+      "confidence": 0.95,
+      "evidence": [
+        "vitest.config.ts",
+        "browser/acceptance-report.json",
+        "artifacts/v3/round1/final/negative-fixture/acceptance-report.json"
+      ]
+    },
+    "total": {
+      "v2": 74.0,
+      "v3": 88.0,
+      "max": 100,
+      "delta": 14.0,
+      "overallConfidence": 0.94
+    }
+  },
+  "browserAcceptance": {
+    "passed": true,
+    "failures": [],
+    "consoleMessages": 0,
+    "pageExceptions": 0,
+    "applicationLogErrors": 0,
+    "modesVerified": ["solid", "xray", "section"],
+    "camerasVerified": ["isometric", "front", "side", "top", "crank", "combustion"],
+    "pointerInteractions": {
+      "rotate": true,
+      "zoom": true,
+      "pan": true,
+      "partSelection": true
+    },
+    "togglesVerified": ["labels", "flows", "explode"],
+    "narrowDrawers": {
+      "initialVisiblePanelWidth": 0,
+      "leftOpenVisibleWidth": 310,
+      "rightOpenVisibleWidth": 310,
+      "allSixPresetsReachable": true,
+      "horizontalOverflow": false,
+      "verticalOverflow": false
+    }
+  },
+  "performance": {
+    "independentHardwareRun": {
+      "renderer": "Intel Arc D3D11",
+      "averageFps": 117.07317073170732,
+      "p95FrameMs": 8.4,
+      "maxFrameMs": 24.9,
+      "drawCallsPerFrame": 269.21666666666664
+    },
+    "finalHardwareEvidence": {
+      "renderer": "Intel Arc D3D11",
+      "averageFps": 120.0,
+      "p95FrameMs": 8.4,
+      "maxFrameMs": 8.5,
+      "drawCallsPerFrame": 269.233333333333
+    },
+    "finalSoftwareEvidence": {
+      "renderer": "Vulkan SwiftShader",
+      "averageFps": 12.1109361753663,
+      "p95FrameMs": 91.7,
+      "maxFrameMs": 100.1,
+      "drawCallsPerFrame": 269.241666666667,
+      "representsOrdinaryHardware": false
+    },
+    "v2DrawCallsPerFrameApprox": 377.0,
+    "drawCallReductionPercentApprox": 28.6,
+    "mainJsBytes": 608477,
+    "viteChunkWarning": true
+  },
+  "phase1Adjudication": [
+    {"id": "V3-VIS-01", "phase1Severity": "P1", "decision": "closed", "finalSeverity": null, "evidence": "narrow drawers leave zero visible panel width initially and all six presets remain reachable"},
+    {"id": "V3-VIS-02", "phase1Severity": "P1", "decision": "closed", "finalSeverity": null, "evidence": "flow on/off screenshots now have a clear visible difference with branched paths"},
+    {"id": "V3-VIS-03", "phase1Severity": "P2", "decision": "closed", "finalSeverity": null, "evidence": "front view and source show a continuous crank-to-water-pump belt and timing drive"},
+    {"id": "V3-VIS-04", "phase1Severity": "P2", "decision": "retained", "finalSeverity": "P2", "evidence": "block and head remain dominated by rounded-box primary masses"},
+    {"id": "V3-VIS-05", "phase1Severity": "P2", "decision": "closed", "finalSeverity": null, "evidence": "top camera now fits the major systems between desktop panels"},
+    {"id": "V3-VIS-06", "phase1Severity": "P2", "decision": "closed", "finalSeverity": null, "evidence": "selection uses fitted mesh edges and inspector scroll affordance is present"},
+    {"id": "V3-VIS-07", "phase1Severity": "P2", "decision": "retained", "finalSeverity": "P2", "evidence": "section mode still uses clipping planes without cut caps"},
+    {"id": "V3-VIS-08", "phase1Severity": "P2", "decision": "closed", "finalSeverity": null, "evidence": "fan, pulley, sump and crank silhouettes separate from the background"},
+    {"id": "V3-VIS-09", "phase1Severity": "P2", "decision": "downgraded", "finalSeverity": "P3", "evidence": "draw calls fell about 28.6%, instancing is active and hardware reaches 117-120 fps"},
+    {"id": "V3-VIS-10", "phase1Severity": "P2", "decision": "closed", "finalSeverity": null, "evidence": "test discovery is scoped, browser semantics expanded, exploded screenshot exists and negative fixtures reject six failure classes"},
+    {"id": "V3-VIS-11", "phase1Severity": "P3", "decision": "retained", "finalSeverity": "P3", "evidence": "labels remain locally dense in narrow and section views"}
+  ],
+  "remainingIssues": [
+    {
+      "id": "V3-FINAL-VIS-01",
+      "severity": "P2",
+      "title": "Section mode lacks engineering cut caps or hatch material",
+      "evidence": ["browser/desktop-section.png", "browser/camera-crank-1280x720.png", "src/scene/materials.ts:228-230"],
+      "impact": "Clipped shells read as open or hollow and material cut faces cannot be distinguished from cavities.",
+      "expectedGain": "high",
+      "implementationCost": "high",
+      "risk": "high: stencil or multi-pass caps interact with transparency, shadows, selection and draw calls",
+      "acceptance": "Block, head and sump have consistent cut-face treatment without floating fragments; cranktrain remains readable and all modes/performance are revalidated.",
+      "releaseBlocking": false
+    },
+    {
+      "id": "V3-FINAL-VIS-02",
+      "severity": "P2",
+      "title": "Exterior casting silhouette remains dominated by regular rounded-box masses",
+      "evidence": ["browser/camera-side-1280x720.png", "browser/camera-isometric-1280x720.png", "src/scene/assembly.ts:121", "src/scene/assembly.ts:154"],
+      "impact": "Rich internals contrast with generic large exterior planes, limiting close-up realism.",
+      "expectedGain": "medium-high",
+      "implementationCost": "medium-high",
+      "risk": "medium-high: intersections, clipping fragments, unjustified styling and extra draw calls",
+      "acceptance": "Side and isometric silhouettes gain mechanically justified bosses, flanges and casting reliefs without obscuring internals or regressing performance and picking.",
+      "releaseBlocking": false
+    },
+    {
+      "id": "V3-FINAL-VIS-03",
+      "severity": "P3",
+      "title": "Labels remain locally dense on narrow and section views",
+      "evidence": ["browser/narrow-390x844.png", "browser/desktop-section.png"],
+      "impact": "Minor visual noise on small screens and around clipped ancillary parts.",
+      "expectedGain": "medium-low",
+      "implementationCost": "medium",
+      "risk": "medium: collision avoidance can jitter or hide teaching-critical labels",
+      "acceptance": "No label overlap at six settled presets and 390x844; clipped parts lose labels; slight camera motion produces no visible jitter.",
+      "releaseBlocking": false
+    },
+    {
+      "id": "V3-FINAL-VIS-04",
+      "severity": "P3",
+      "title": "Bundle and draw-call headroom remain",
+      "evidence": ["dist/assets/index-DxpAzD-7.js", "browser/acceptance-report.json"],
+      "impact": "Current visible performance is excellent on hardware; residual risk is initial load and much weaker devices.",
+      "expectedGain": "medium",
+      "implementationCost": "medium-high",
+      "risk": "medium: further merging or instancing can break picking, outlines and material modes",
+      "acceptance": "Main chunk is split below the warning threshold or justified; draw calls fall further with all visual modes and interactions unchanged.",
+      "releaseBlocking": false
+    }
+  ],
+  "remainingOpportunity": {
+    "highYieldLowCost": [],
+    "highYieldHighCost": ["engineering section caps", "procedural exterior casting redesign"],
+    "polish": ["label density", "bundle splitting", "further draw-call reduction"]
+  }
+}

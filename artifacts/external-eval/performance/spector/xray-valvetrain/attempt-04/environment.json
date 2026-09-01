@@ -1,0 +1,62 @@
+{
+  "scene": "xray-valvetrain",
+  "attempt": "attempt-04",
+  "capturedAt": "2026-08-31T08:36:31.037Z",
+  "baseUrl": "http://127.0.0.1:16330/",
+  "viewport": {
+    "width": 1280,
+    "height": 720,
+    "deviceScaleFactor": 1
+  },
+  "gitHead": {
+    "command": [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "exitCode": 0,
+    "stdout": "38c00417812fa87ca76b520c17c978a14cbd8ad2",
+    "stderr": ""
+  },
+  "fixedTag": {
+    "command": [
+      "git",
+      "rev-parse",
+      "v3-model-final^{}"
+    ],
+    "exitCode": 0,
+    "stdout": "7e5ea916a115dcef1bf3ba467a31b78c6206c612",
+    "stderr": ""
+  },
+  "srcDiffStart": {
+    "command": [
+      "git",
+      "diff",
+      "--exit-code",
+      "v3-model-final",
+      "--",
+      "src"
+    ],
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "browserVersion": {
+    "protocolVersion": "1.3",
+    "product": "Edg/152.0.4191.53",
+    "revision": "@4ee8983fdce2559a0ae8f8376934c5ed353035cd",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+    "jsVersion": "15.2.23.6"
+  },
+  "os": {
+    "platform": "win32",
+    "release": "10.0.26200",
+    "arch": "x64",
+    "version": "Windows 11 Home China"
+  },
+  "cpu": "Intel(R) Core(TM) Ultra 9 185H",
+  "node": "v24.14.0",
+  "spectorjs": "0.9.30",
+  "injectionMethod": "CDP Fetch response rewrite immediately before production module; no repository production file modified",
+  "edgeStderrAtCapture": "[31384:45620:0831/163531.025:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:544] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set usagestats; result: 5\r\n[31384:45620:0831/163531.025:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:587] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set urlstats; result: 5\r\n\r\nDevTools listening on ws://127.0.0.1:16331/devtools/browser/74cae891-c39c-4bbb-998c-39e2a433fe0b\r\n[31384:36040:0831/163531.145:ERROR:chrome\\browser\\extensions\\external_registry_loader_win.cc:206] File C:/Users/27186/AppData/Roaming/ksobrowserex/edge/ngbkcglbmlglgldjfcnhaijeecaccgfi/kingsoft_extension_edge.crx for key Software\\Microsoft\\Edge\\Extensions\\ngbkcglbmlglgldjfcnhaijeecaccgfi does not exist or is not readable.\r\n[31384:36040:0831/163531.300:ERROR:chrome\\installer\\util\\google_update_settings_win.cc:544] Failed opening key Software\\Microsoft\\EdgeUpdate\\ClientStateMedium\\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} to set usagestats; result: 5\r\n[31384:39968:0831/163531.301:ERROR:chrome\\browser\\ui\\edge_window_tab_manager\\api\\wtm_interface_impl.cc:461] Failed to open registry key\r\n[31384:28956:0831/163531.389:ERROR:chrome\\browser\\importer\\edge_china_browsers\\edge_qqbrowser_importer_utils_win.cc:165] QQBrowser user data path not found.\r\n[31384:21352:0831/163533.644:ERROR:services\\device\\public\\cpp\\geolocation\\system_geolocation_source_win.cc:259] Failed to get location access status: 参数错误。 (0x80070057)\r\n[31384:30552:0831/163534.176:ERROR:chrome\\browser\\edge_aadc\\user_age_utils_win.cc:163] couldn't get user2.\r\n[31384:30552:0831/163534.176:ERROR:chrome\\browser\\edge_aadc\\user_age_utils_win.cc:310] couldn't get windows user age group.\r\n[31384:30552:0831/163534.176:ERROR:chrome\\browser\\edge_aadc\\user_age_utils_win.cc:156] callback wasn't called.\r\n"
+}
